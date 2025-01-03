@@ -1,0 +1,22 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    background-color: #111111;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #D8D8D8;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btitle {
+    font-size: 30px;
+}
