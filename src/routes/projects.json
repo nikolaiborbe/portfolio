@@ -4,7 +4,7 @@
       "title": "Test",
       "description":
         "This is a newspaper UI website designed to give you the authentic feel of reading a traditional newspaper. Explore news stories in a classic layout, blending modern web design with old-world charm.",
-      "image": "projects/p1.png",
+      "image": "projects/DailyCrime.png",
       "tags": ["React", "Svelte", "Tailwind"],
       "link": "https://github.com/nikolaiborbe",
       "github": "https://github.com/nikolaiborbe"
