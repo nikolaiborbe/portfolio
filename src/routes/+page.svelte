@@ -9,21 +9,34 @@
 	let projects: Array<Project> = Object.values(Projects).flat();
 </script>
 
-<div class="flex flex-col gap-5 md:text-xl">
+<div class="flex flex-col gap-4 md:text-xl">
 	<UserCard />
-	<WakaTime />
-	<GithubContributions />
 	<div class="flex flex-col gap-1">
 		<div class="title">About me</div>
 		<div class="size-lg">
-			Hey, I'm Niko, a full-stack developer with OCD. I love building things that people genuinely
-			use and love, not just for showcases (like the typical engineer).
+			Hey, I’m Nikolai, a full-stack developer from Norway. I do my best to understand the world
+			around me. Right now, I’m working on my bachelor’s degree in physics while programming rocket
+			engines at <a
+				href="https://www.propulse.no/"
+				target="_blank"
+				class="transition-all hover:font-bold">Propulse</a
+			>.
 		</div>
 	</div>
 	<div>
-		<div class="title">Projects</div>
+		<div class="title pb-4">Projects</div>
 		{#each projects as project}
 			<ProjectCard {...project} />
 		{/each}
+	</div>
+	<WakaTime />
+	<GithubContributions />
+	<hr class="mt-4 border-[#3F3F46]" />
+	<div class="color-[#535353] my-4 flex justify-center text-lg">
+		Website design greatly inspired by ‎ <a
+			href="https://x.com/damnGruz"
+			target="_blank"
+			class="hover:cursor-poitner transition-all hover:font-medium">Gruz.</a
+		>
 	</div>
 </div>

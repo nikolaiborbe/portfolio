@@ -1,12 +1,11 @@
 <script lang="ts">
-	import '../app.css';
+	import CurrentlyWorking from '$lib/components/CurrentlyWorking.svelte';
+import '../app.css';
 	let { children } = $props();
 </script>
 
 <div class="w-full h-full">
-	<div class="p-4 font-medium">
-		Currently working
-	</div>
+	<CurrentlyWorking />
 	<div class="flex justify-center">
 		<div class="w-full max-w-full px-4 md:max-w-[780px] ">
 			{@render children()}

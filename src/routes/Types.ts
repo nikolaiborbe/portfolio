@@ -4,5 +4,6 @@ export interface Project {
   image: string,
   tags: Array<string>,
   link: string,
-  github: string
+  github: string,
+  live: boolean
 }

@@ -1,18 +1,35 @@
 <script lang="ts">
-	import { color } from 'd3';
-  import { onMount } from 'svelte';
+	import { onMount } from 'svelte';
 
-  let contributions: any[] = [];
-  const username = 'nikolaiborbe';
+	let weeks: any = $state();
+	const username = 'nikolaiborbe';
+	let months: Array<string> = $state([
+		'Jan',
+		'Feb',
+		'Mar',
+		'Apr',
+		'May',
+		'Jun',
+		'Jul',
+		'Aug',
+		'Sep',
+		'Oct',
+		'Nov',
+		'Des'
+	]);
 
-  onMount(async () => {
-    const response = await fetch('https://api.github.com/graphql', {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${import.meta.env.VITE_GITHUB_KEY}`,
-      },
-      body: JSON.stringify({
-        query: `
+	function rotateArray(arr: Array<string>, n: number) {
+		return arr.slice(n).concat(arr.slice(0, n));
+	}
+
+	onMount(async () => {
+		const response = await fetch('https://api.github.com/graphql', {
+			method: 'POST',
+			headers: {
+				Authorization: `Bearer ${import.meta.env.VITE_GITHUB_KEY}`
+			},
+			body: JSON.stringify({
+				query: `
           query {
             user(login: "${username}") {
               contributionsCollection {
@@ -28,37 +45,68 @@
               }
             }
           }
-        `,
-      }),
-    });
-    
-    let bg_color = "#313133"
-    const data = await response.json();
-    contributions = data.data.user.contributionsCollection.contributionCalendar.weeks.flatMap(
-      (week: any) => week.contributionDays
-    );
-    contributions = contributions.map((c) => ({
-      ...c,
-      color: c.color === "#ebedf0" ? bg_color : c.color
-    }));
-  });
+        `
+			})
+		});
 
+		let bg_color = '#313133';
+		const data = await response.json();
+		weeks = data.data.user.contributionsCollection.contributionCalendar.weeks;
+		weeks = weeks.map((week: any) => ({
+			...week,
+			contributionDays: week.contributionDays.map((day: any) => ({
+				...day,
+				color: day.color === '#ebedf0' ? bg_color : day.color
+			}))
+		}));
+		let start_month_index = Number(weeks[0].contributionDays[0].date.split('-')[1]);
+		months = rotateArray(months, start_month_index - 1);
+	});
+
+	// let start_month: number = weeks.contributionDays[0].date.split('-')[1];
+	// console.log(start_month)
 </script>
 
 <main>
-  <h1>GitHub Contributions for {username}</h1>
-  <div class="flex flex-wrap border p-2 rounded-lg border-[#3F3F46] bg-[#212123]">
-    {#each contributions as { date, contributionCount, color }}
-      <div style="background-color: {color}" class="day" title="{date}: {contributionCount} contributions"></div>
-    {/each}
-  </div>
+	<h1 class="title pb-4">Github contributions</h1>
+	<div class="graph flex overflow-auto rounded-lg border border-[#3F3F46] bg-[#212123] p-4">
+		<div class="flex flex-col justify-between pb-3 pr-2 pt-7 text-xs">
+			<p>Mon</p>
+			<p>Wed</p>
+			<p>Fri</p>
+		</div>
+		<div>
+			<div class="flex justify-between text-xs">
+				{#each months as month}
+					<p>{month}</p>
+				{/each}
+			</div>
+			<div class="graph overflow flex">
+				{#each weeks as week}
+					<div class="">
+						{#each week.contributionDays as { date, count, color }}
+							<div
+								style="background-color: {color}"
+								class="day"
+								title="{date}: {count} contributions"
+							></div>
+						{/each}
+					</div>
+				{/each}
+			</div>
+		</div>
+	</div>
 </main>
 
 <style>
-  .day {
-    width: 14px;
-    height: 14px;
-    margin: 1.5px;
-    border-radius: 3px;
-  }
+	.graph {
+		image-rendering: pixelated;
+	}
+	.day {
+		width: 10px;
+		height: 10px;
+		border-radius: 2px;
+		box-sizing: border-box;
+		margin: 2px;
+	}
 </style>
