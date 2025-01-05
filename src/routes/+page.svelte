@@ -3,12 +3,16 @@
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 	import type { Project } from './Types';
 	import Projects from './projects.json';
+	import WakaTime from '$lib/components/WakaTime.svelte';
+	import GithubContributions from '$lib/components/GithubContributions.svelte';
 
 	let projects: Array<Project> = Object.values(Projects).flat();
 </script>
 
 <div class="flex flex-col gap-5 md:text-xl">
 	<UserCard />
+	<WakaTime />
+	<GithubContributions />
 	<div class="flex flex-col gap-1">
 		<div class="title">About me</div>
 		<div class="size-lg">

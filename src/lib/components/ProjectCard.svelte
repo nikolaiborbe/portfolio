@@ -2,7 +2,7 @@
 	let { title, description, image, tags, link, github } = $props();
 </script>
 
-<div class="flex flex-col md:flex-row rounded-md border border-[#3F3F46] p-2">
+<div class="flex flex-col md:flex-row rounded-lg border bg-[#212123] border-[#3F3F46] p-2">
 	<div class="picture">
     <img src={image} alt="Daily crimes" class="rounded-md " />
 	</div>
