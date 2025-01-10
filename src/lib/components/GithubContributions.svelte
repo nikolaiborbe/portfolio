@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
+	let data_load = $state(false);
 	let weeks: any = $state();
 	const username = 'nikolaiborbe';
 	let months: Array<string> = $state([
@@ -48,7 +49,6 @@
         `
 			})
 		});
-
 		let bg_color = '#313133';
 		const data = await response.json();
 		weeks = data.data.user.contributionsCollection.contributionCalendar.weeks;
@@ -61,6 +61,7 @@
 		}));
 		let start_month_index = Number(weeks[weeks.length-1].contributionDays[0].date.split('-')[1]);
 		months = rotateArray(months, start_month_index);
+		data_load = true;
 	});
 
 	// let start_month: number = weeks.contributionDays[0].date.split('-')[1];
@@ -69,34 +70,39 @@
 
 <main>
 	<h1 class="title pb-4">Github contributions</h1>
-	<div class="graph flex overflow-auto rounded-lg border border-[#3F3F46] bg-[#212123] p-4">
-		<div class="flex flex-col justify-between pb-3 pr-2 pt-7 text-xs">
-			<p>Mon</p>
-			<p>Wed</p>
-			<p>Fri</p>
+	{#if !data_load}
+		<div class="rounded-lg border border-[#3F3F46] bg-[#212123] p-4 h-36 animate-pulse">
 		</div>
-		<div>
-			<div class="flex justify-between text-xs">
-				{#each months as month}
-					<p>{month}</p>
-				{/each}
+	{:else}
+		<div class="graph flex overflow-auto rounded-lg border border-[#3F3F46] bg-[#212123] p-4">
+			<div class="flex flex-col justify-between pb-3 pr-2 pt-7 text-xs">
+				<p>Mon</p>
+				<p>Wed</p>
+				<p>Fri</p>
 			</div>
-			<div class="graph overflow flex">
-				{#each weeks as week}
-					<div class="">
-						{#each week.contributionDays as { date, count, color }}
-							<div
-								style="background-color: {color}"
-								class="day"
-								title="{date}: {count} contributions"
-							>
-							</div>
-						{/each}
-					</div>
-				{/each}
+			<div>
+				<div class="flex justify-between text-xs">
+					{#each months as month}
+						<p>{month}</p>
+					{/each}
+				</div>
+				<div class="graph overflow flex">
+					{#each weeks as week}
+						<div class="">
+							{#each week.contributionDays as { date, count, color }}
+								<div
+									style="background-color: {color}"
+									class="day"
+									title="{date}: {count} contributions"
+								>
+								</div>
+							{/each}
+						</div>
+					{/each}
+				</div>
 			</div>
 		</div>
-	</div>
+	{/if}
 </main>
 
 <style>
