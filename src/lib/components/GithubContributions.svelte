@@ -87,6 +87,20 @@
 					{/each}
 				</div>
 				<div class="graph overflow flex">
+<!-- 					TODO: Try get this working:
+					(better rendering) -->
+<!-- 				<div class="graph overflow flex">
+					{#each weeks as week}
+						<div class="">
+							<svg height="111" width="719">
+								<g width="686">
+									{#each week.contributionDays as { date, count, color }}
+										<rect style="fill: white;" x={week} y={count}></rect>
+									{/each}
+								</g>
+							</svg>
+						</div>
+					{/each} -->
 					{#each weeks as week}
 						<div class="">
 							{#each week.contributionDays as { date, count, color }}
