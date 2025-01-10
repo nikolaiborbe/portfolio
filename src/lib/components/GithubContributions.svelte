@@ -59,8 +59,8 @@
 				color: day.color === '#ebedf0' ? bg_color : day.color
 			}))
 		}));
-		let start_month_index = Number(weeks[0].contributionDays[0].date.split('-')[1]);
-		months = rotateArray(months, start_month_index - 1);
+		let start_month_index = Number(weeks[weeks.length-1].contributionDays[0].date.split('-')[1]);
+		months = rotateArray(months, start_month_index);
 	});
 
 	// let start_month: number = weeks.contributionDays[0].date.split('-')[1];
@@ -89,7 +89,8 @@
 								style="background-color: {color}"
 								class="day"
 								title="{date}: {count} contributions"
-							></div>
+							>
+							</div>
 						{/each}
 					</div>
 				{/each}
