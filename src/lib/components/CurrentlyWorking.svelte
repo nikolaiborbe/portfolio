@@ -2,30 +2,27 @@
 	import WorkingIcon from '$lib/icons/WorkingIcon.svelte';
 	import { onMount } from 'svelte';
 	let live = $state(false);
+	let wakatime_data = $state();
 
 	const date = new Date();
 	const time = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 	console.log(time);
-	const url = `https://wakatime.com/api/v1/users/current/durations?date=${time}`;
+	const url = `https://wakatime.com/api/v1/users/current/heartbeats`;
 
-	// TODO: DOCS
-	// https://stackoverflow.com/questions/70472978/sveltekit-proxy-api-to-avoid-cors
-	async function checkIfLive() {
-		const response = await fetch(url, {
-			method: "GET",
-			headers: {
-				"Authorization": `Bearer ${import.meta.env.VITE_WAKATIME_KEY}`,
-				'Content-Type': 'application/json',
-			}
-		});
-		const data = await response.json();
-		console.log(data);
+	async function getUserStatus() {
+		const response = await fetch("/api/wakatime");
+		if (!response.ok) {
+			console.error("Failed to fetch wakatime data", await response.text())
+			return false;
+		}
+		wakatime_data = await response.json();
+		return true;
 	}
 
 	onMount(() => {
-		checkIfLive();
+		getUserStatus();
 		setInterval(() => {
-			checkIfLive();
+			getUserStatus();
 		}, 100000);
 	});
 </script>

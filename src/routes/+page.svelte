@@ -5,6 +5,7 @@
 	import Projects from './projects.json';
 	import WakaTime from '$lib/components/WakaTime.svelte';
 	import GithubContributions from '$lib/components/GithubContributions.svelte';
+	import WakatimeTable from '$lib/components/WakatimeTable.svelte';
 
 	let projects: Array<Project> = Object.values(Projects).flat();
 </script>
@@ -30,7 +31,7 @@
 		{/each}
 	</div>
 	<WakaTime />
-	<GithubContributions />
+	<WakatimeTable />
 	<hr class="mt-4 border-[#3F3F46]" />
 	<div class="color-[#535353] my-4 flex justify-center text-lg">
 		Website design greatly inspired by ‎ <a
