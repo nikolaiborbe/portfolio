@@ -7,7 +7,7 @@
 	import WakatimeTable from '$lib/components/WakatimeTable.svelte';
 	import Skills from '$lib/components/Skills.svelte';
 
-	let projects: Array<Project> = Object.values(Projects).flat();
+	let projects: any = Object.values(Projects).flat();
 </script>
 
 <div class="flex flex-col gap-4 md:text-xl">

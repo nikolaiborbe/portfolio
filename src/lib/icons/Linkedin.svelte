@@ -1,12 +1,14 @@
 <script lang="ts">
+  import SvelteTooltip from 'svelte-tooltip';
 </script>
 
+<SvelteTooltip tip="Linkedin">
 <a
 	href="https://www.linkedin.com/in/nikolai-borbe-347aa11a3/"
 	target="_blank"
 	aria-label="Linkedin"
 >
-  <div class="hover:cursor-pointer rounded-lg bg-black border border-[#3F3F46] w-[40px] h-[40px] flex justify-center items-center p-1">
+  <div class="hover:cursor-pointer rounded-lg bg-black border border-[#3F3F46] w-[40px] h-[40px] flex justify-center items-center p-1 hover:bg-[#252527] transition-all">
 		<svg
 			fill="white"
 			height="22px"
@@ -40,3 +42,5 @@
 		</svg>
 	</div>
 </a>
+
+</SvelteTooltip>

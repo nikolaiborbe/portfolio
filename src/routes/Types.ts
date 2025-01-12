@@ -3,7 +3,7 @@ export interface Project {
   description: string,
   image: string,
   tags: Array<string>,
-  link: string,
+  link?: string,
   github: string,
   live: boolean
 }
