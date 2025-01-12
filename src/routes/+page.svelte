@@ -4,31 +4,33 @@
 	import type { Project } from './Types';
 	import Projects from './projects.json';
 	import WakaTime from '$lib/components/WakaTime.svelte';
-	import GithubContributions from '$lib/components/GithubContributions.svelte';
 	import WakatimeTable from '$lib/components/WakatimeTable.svelte';
+	import Skills from '$lib/components/Skills.svelte';
 
 	let projects: Array<Project> = Object.values(Projects).flat();
 </script>
 
 <div class="flex flex-col gap-4 md:text-xl">
 	<UserCard />
-	<div class="flex flex-col gap-1">
+	<div class="flex flex-col gap-3">
 		<div class="title">About me</div>
 		<div class="size-lg">
-			Hey, I’m Nikolai, a full-stack developer from Norway. I do my best to understand the world
-			around me. Right now, I’m working on my bachelor’s degree in physics while programming rocket
-			engines at <a
-				href="https://www.propulse.no/"
-				target="_blank"
-				class="transition-all hover:font-bold">Propulse</a
-			>.
+			Hi, I’m Nikolai, a full-stack developer from Norway. I’m passionate about understanding the
+			world around me. Currently, I’m pursuing a bachelor’s degree in physics while programming in
+			my free time.
 		</div>
 	</div>
 	<div>
+		<div class="title pb-4">Skills</div>
+		<Skills />
+	</div>
+	<div>
 		<div class="title pb-4">Projects</div>
-		{#each projects as project}
-			<ProjectCard {...project} />
-		{/each}
+		<div class="flex flex-col gap-4">
+			{#each projects as project}
+				<ProjectCard {...project} />
+			{/each}
+		</div>
 	</div>
 	<WakaTime />
 	<WakatimeTable />

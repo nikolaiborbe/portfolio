@@ -12,21 +12,23 @@
 	class="flex flex-col gap-3 rounded-lg border border-[#3F3F46] bg-[#212123] p-2 transition-all hover:cursor-pointer hover:bg-[#252527] md:flex-row"
 >
 	<div class="picture max-h-52 justify-self-center overflow-hidden rounded-md">
-		<img src={image} alt="Daily crimes" class="h-full w-full object-cover" />
+		<img src={image} alt="Daily crimes" class="h-full md:w-[600px] object-cover" />
 	</div>
-	<div class="content pl-1">
-		<div class="flex items-center justify-between pb-1">
-			<div class="flex items-center gap-4">
-				<div class="text-3xl font-bold">{title}</div>
-				<Status {live} />
+	<div class="content flex flex-col justify-between  pl-1">
+		<div>
+			<div class="pt-1 flex justify-between items-center ">
+				<div class="flex items-center gap-4">
+					<div class="text-2xl font-bold">{title}</div>
+					<Status {live} />
+				</div>
+				<div class=" flex align-center gap-1">
+					<Preview {preview} />
+					<LinkIcon {link} />
+					<GithubOutline {github} />
+				</div>
 			</div>
-			<div>
-				<Preview {preview} />
-				<LinkIcon {link} />
-				<GithubOutline {github} />
-			</div>
+			<div class="text-base">{description}</div>
 		</div>
-		<div>{description}</div>
 		<div class="flex justify-end gap-2 pt-4">
 			{#each tags as tag}
 				<div class="bg-[#222226] border border-[#403F45] rounded-md px-2 text-sm">{tag}</div>

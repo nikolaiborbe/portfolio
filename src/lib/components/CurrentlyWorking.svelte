@@ -6,7 +6,6 @@
 
 	const date = new Date();
 	const time = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
-	console.log(time);
 	const url = `https://wakatime.com/api/v1/users/current/heartbeats`;
 
 	async function getUserStatus() {
@@ -19,12 +18,12 @@
 		return true;
 	}
 
-	onMount(() => {
+/* 	onMount(() => {
 		getUserStatus();
 		setInterval(() => {
 			getUserStatus();
 		}, 100000);
-	});
+	}); */
 </script>
 
 <div class="p-4">
@@ -39,7 +38,6 @@
 		<div class="flex gap-2">
 			<div class="font-medium text-[#ff0000]">Offline</div>
 			<WorkingIcon color={'#ff0000'} />
-			<div>This is a test</div>
 		</div>
 	{/if}
 </div>

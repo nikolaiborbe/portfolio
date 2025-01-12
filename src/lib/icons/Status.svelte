@@ -10,7 +10,7 @@
 				<circle cx="5" cy="5" r="4" fill={color} />
 			</svg>
 		</div>
-		<p class="text-green-300 pl-1 font-semibold">Live</p>
+		<p class="text-green-300 pl-1 self-center font-normal">Live</p>
 	</div>
 {:else}
 	<div class="notlive flex justify-around px-2">
@@ -19,7 +19,7 @@
 				<circle cx="5" cy="5" r="4" fill={color} />
 			</svg>
 		</div>
-			<p class="text-red-500 pl-1 font-semibold ">Building</p>
+			<p class="text-red-500 pl-1 self-center font-normal ">Building</p>
 	</div>
 {/if}
 
