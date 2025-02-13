@@ -2,35 +2,6 @@
   "summary": {
     "data": [
       {
-        "grand_total": {
-          "hours": 3,
-          "minutes": 42,
-          "total_seconds": 13327.083798,
-          "digital": "3:42",
-          "decimal": "3.70",
-          "text": "3 hrs 42 mins"
-        },
-        "range": {
-          "start": "2025-02-12T23:00:00Z",
-          "end": "2025-02-13T22:59:59Z",
-          "date": "2025-02-13",
-          "text": "Thu Feb 13th 2025",
-          "timezone": "Europe/Oslo"
-        },
-        "projects": [
-          {
-            "name": "portfolio",
-            "total_seconds": 13327.083798,
-            "color": null,
-            "digital": "3:42:07",
-            "decimal": "3.70",
-            "text": "3 hrs 42 mins",
-            "hours": 3,
-            "minutes": 42,
-            "seconds": 7,
-            "percent": 100
-          }
-        ],
         "languages": [
           {
             "name": "Svelte",
@@ -163,6 +134,53 @@
             "minutes": 0,
             "seconds": 21,
             "percent": 0.16
+          }
+        ],
+        "grand_total": {
+          "hours": 3,
+          "minutes": 42,
+          "total_seconds": 13327.083798,
+          "digital": "3:42",
+          "decimal": "3.70",
+          "text": "3 hrs 42 mins"
+        },
+        "editors": [
+          {
+            "name": "VS Code",
+            "total_seconds": 13327.083798,
+            "digital": "3:42:07",
+            "decimal": "3.70",
+            "text": "3 hrs 42 mins",
+            "hours": 3,
+            "minutes": 42,
+            "seconds": 7,
+            "percent": 100
+          }
+        ],
+        "operating_systems": [
+          {
+            "name": "Mac",
+            "total_seconds": 13327.083798,
+            "digital": "3:42:07",
+            "decimal": "3.70",
+            "text": "3 hrs 42 mins",
+            "hours": 3,
+            "minutes": 42,
+            "seconds": 7,
+            "percent": 100
+          }
+        ],
+        "categories": [
+          {
+            "name": "Coding",
+            "total_seconds": 13327.083798,
+            "digital": "3:42:07",
+            "decimal": "3.70",
+            "text": "3 hrs 42 mins",
+            "hours": 3,
+            "minutes": 42,
+            "seconds": 7,
+            "percent": 100
           }
         ],
         "dependencies": [
@@ -566,10 +584,11 @@
             "percent": 100
           }
         ],
-        "editors": [
+        "projects": [
           {
-            "name": "VS Code",
+            "name": "portfolio",
             "total_seconds": 13327.083798,
+            "color": null,
             "digital": "3:42:07",
             "decimal": "3.70",
             "text": "3 hrs 42 mins",
@@ -579,32 +598,13 @@
             "percent": 100
           }
         ],
-        "operating_systems": [
-          {
-            "name": "Mac",
-            "total_seconds": 13327.083798,
-            "digital": "3:42:07",
-            "decimal": "3.70",
-            "text": "3 hrs 42 mins",
-            "hours": 3,
-            "minutes": 42,
-            "seconds": 7,
-            "percent": 100
-          }
-        ],
-        "categories": [
-          {
-            "name": "Coding",
-            "total_seconds": 13327.083798,
-            "digital": "3:42:07",
-            "decimal": "3.70",
-            "text": "3 hrs 42 mins",
-            "hours": 3,
-            "minutes": 42,
-            "seconds": 7,
-            "percent": 100
-          }
-        ]
+        "range": {
+          "start": "2025-02-12T23:00:00Z",
+          "end": "2025-02-13T22:59:59Z",
+          "date": "2025-02-13",
+          "text": "Thu Feb 13th 2025",
+          "timezone": "Europe/Oslo"
+        }
       }
     ],
     "start": "2025-02-12T23:00:00Z",
