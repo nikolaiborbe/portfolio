@@ -2,61 +2,69 @@
 	import WorkingIcon from '$lib/icons/WorkingIcon.svelte';
 	import { onDestroy, onMount } from 'svelte';
 
-	let currently_programming = $state(false);
-	let current_project = $state();
-	let session_start: null | number = $state(null);
-	let elapsed_time = 0;
-	let codingTimeToday = 0;
+	let currently_programming: boolean = false;
+	let current_project: string = '';
+	let session_start: number | null = null;
+	let elapsed_time: number = 0;
+	let codingTimeToday: number = 0;
+	let topProject: { name: string; total_seconds: number } | null = null;
+	let error: string | null = null;
+
+	const github_username = 'nikolaiborbe';
 
 	function formatTime(seconds: number) {
 		const hours = Math.floor(seconds / 3600);
 		const minutes = Math.floor((seconds % 3600) / 60);
 		const secs = Math.floor(seconds % 60);
-		return `${hours}h ${minutes}m ${secs}s`;
+		return `${hours}h ${minutes}m`;
 	}
-
-	const date = new Date();
-	//const url = `https://wakatime.com/api/v1/users/current/heartbeats`;
-
-	const github_username = 'nikolaiborbe';
-
-	let topProject;
-	let error: string | null = null;
 
 	async function fetchWakaTimeData() {
 		try {
-			const res = await fetch("/wakatime.json");
+			const res = await fetch('/wakatime.json');
 			if (!res.ok) throw new Error('Error fetching WakaTime data');
 
-			console.log("res ok");
 			const data = await res.json();
+			console.log(data);
 
-			// Example JSON structure assumption:
-			// {
-			//   "data": {
-			//     "days": [
-			//       { "date": "2025-02-12", "total_seconds": 3600, ... },
-			//       { "date": "2025-02-13", "total_seconds": 1800, ... }
-			//     ],
-			//     "projects": [
-			//       { "name": "my-project", "total_seconds": 2345, ... },
-			//       { "name": "another-project", "total_seconds": 1234, ... }
-			//     ]
-			//   }
-			// }
+			// Extract today's summary data.
+			const today = new Date().toISOString().slice(0, 10); // "YYYY-MM-DD"
+			const todayData = data.summary.data.find(
+				(day: { range: { date: string } }) => day.range.date === today
+			);
+			codingTimeToday = todayData ? todayData.grand_total.total_seconds : 0;
 
-			// Get today's coding time from the "days" array:
-			const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
-			const todayData = data.data.days.find((day: { date: string }) => day.date === today);
-			codingTimeToday = todayData ? todayData.total_seconds : 0;
-
-			// Determine the top project by total_seconds:
-			if (data.data.projects && data.data.projects.length > 0) {
-				topProject = data.data.projects.reduce(
-					(max: { total_seconds: number }, project: { total_seconds: number }) =>
+			// Determine the top project for today.
+			if (todayData && todayData.projects && todayData.projects.length > 0) {
+				topProject = todayData.projects.reduce(
+					(max: { total_seconds: number }, project: { total_seconds: number; name: string }) =>
 						project.total_seconds > max.total_seconds ? project : max,
-					data.data.projects[0]
+					todayData.projects[0]
 				);
+			} else {
+				topProject = null;
+			}
+
+			// Check heartbeat data for current activity.
+			// If a heartbeat exists, check that its timestamp is within the last 2 minutes.
+			if (data.heartbeat && data.heartbeat.data && data.heartbeat.data.length > 0) {
+				const heartbeat = data.heartbeat.data[0];
+				const currentTimestamp = Date.now() / 1000; // current time in seconds
+				if (currentTimestamp - heartbeat.timestamp < 120) {
+					currently_programming = true;
+					current_project = heartbeat.entity || '';
+					if (!session_start) {
+						session_start = Date.now();
+					}
+				} else {
+					currently_programming = false;
+					session_start = null;
+					elapsed_time = 0;
+				}
+			} else {
+				currently_programming = false;
+				session_start = null;
+				elapsed_time = 0;
 			}
 		} catch (err) {
 			if (err instanceof Error) {
@@ -67,7 +75,7 @@
 		}
 	}
 
-	let updateInterval: NodeJS.Timeout;
+	let updateInterval: ReturnType<typeof setInterval>;
 
 	onMount(() => {
 		fetchWakaTimeData();
@@ -80,21 +88,21 @@
 </script>
 
 <div class="p-4">
-	{#if currently_programming}
-		<a
-			href={`https://github.com/${github_username}/${current_project}`}
-			target="_blank"
-			class="flex items-center gap-2"
-		>
-			<div class="flex text-[#32cd32]">
-				<div class="pr-2 font-medium">Live</div>
-				<WorkingIcon color={'#32cd32'} />
+	{#if !error}
+			<a
+				href={`https://github.com/${github_username}/${topProject?.name}`}
+				target="_blank"
+				class="flex items-center gap-2"
+			>
+				<div class="flex text-[#32cd32]">
+					<div class="pr-2 font-medium">Current session: {topProject ? formatTime(topProject.total_seconds) : 'N/A'}</div>
+					<WorkingIcon color="#32cd32" />
+				</div>
+			</a>
+		{:else}
+			<div class="flex gap-2">
+				<div class="font-medium text-[#ff0000]">Offline</div>
+				<WorkingIcon color="#ff0000" />
 			</div>
-		</a>
-	{:else}
-		<div class="flex gap-2">
-			<div class="font-medium text-[#ff0000]">Offline</div>
-			<WorkingIcon color={'#ff0000'} />
-		</div>
 	{/if}
 </div>

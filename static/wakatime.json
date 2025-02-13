@@ -1,0 +1,585 @@
+{
+  "summary": {
+    "data": [
+      {
+        "grand_total": {
+          "hours": 2,
+          "minutes": 59,
+          "total_seconds": 10795.856119,
+          "digital": "2:59",
+          "decimal": "2.98",
+          "text": "2 hrs 59 mins"
+        },
+        "range": {
+          "start": "2025-02-12T23:00:00Z",
+          "end": "2025-02-13T22:59:59Z",
+          "date": "2025-02-13",
+          "text": "Thu Feb 13th 2025",
+          "timezone": "Europe/Oslo"
+        },
+        "projects": [
+          {
+            "name": "portfolio",
+            "total_seconds": 10795.856119,
+            "color": null,
+            "digital": "2:59:55",
+            "decimal": "2.98",
+            "text": "2 hrs 59 mins",
+            "hours": 2,
+            "minutes": 59,
+            "seconds": 55,
+            "percent": 100
+          }
+        ],
+        "languages": [
+          {
+            "name": "Svelte",
+            "total_seconds": 3841.94478,
+            "digital": "1:04:01",
+            "decimal": "1.07",
+            "text": "1 hr 4 mins",
+            "hours": 1,
+            "minutes": 4,
+            "seconds": 1,
+            "percent": 35.59
+          },
+          {
+            "name": "JavaScript",
+            "total_seconds": 1488.339359,
+            "digital": "0:24:48",
+            "decimal": "0.40",
+            "text": "24 mins",
+            "hours": 0,
+            "minutes": 24,
+            "seconds": 48,
+            "percent": 13.79
+          },
+          {
+            "name": "TOML",
+            "total_seconds": 1078.091033,
+            "digital": "0:17:58",
+            "decimal": "0.28",
+            "text": "17 mins",
+            "hours": 0,
+            "minutes": 17,
+            "seconds": 58,
+            "percent": 9.99
+          },
+          {
+            "name": "Markdown",
+            "total_seconds": 997.659952,
+            "digital": "0:16:37",
+            "decimal": "0.27",
+            "text": "16 mins",
+            "hours": 0,
+            "minutes": 16,
+            "seconds": 37,
+            "percent": 9.24
+          },
+          {
+            "name": "JSON",
+            "total_seconds": 951.47289,
+            "digital": "0:15:51",
+            "decimal": "0.25",
+            "text": "15 mins",
+            "hours": 0,
+            "minutes": 15,
+            "seconds": 51,
+            "percent": 8.81
+          },
+          {
+            "name": "Bash",
+            "total_seconds": 661.77688,
+            "digital": "0:11:01",
+            "decimal": "0.18",
+            "text": "11 mins",
+            "hours": 0,
+            "minutes": 11,
+            "seconds": 1,
+            "percent": 6.13
+          },
+          {
+            "name": "TypeScript",
+            "total_seconds": 551.812154,
+            "digital": "0:09:11",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 11,
+            "percent": 5.11
+          },
+          {
+            "name": "Other",
+            "total_seconds": 369.396681,
+            "digital": "0:06:09",
+            "decimal": "0.10",
+            "text": "6 mins",
+            "hours": 0,
+            "minutes": 6,
+            "seconds": 9,
+            "percent": 3.42
+          },
+          {
+            "name": "HTML",
+            "total_seconds": 346.556616,
+            "digital": "0:05:46",
+            "decimal": "0.08",
+            "text": "5 mins",
+            "hours": 0,
+            "minutes": 5,
+            "seconds": 46,
+            "percent": 3.21
+          },
+          {
+            "name": "TSConfig",
+            "total_seconds": 308.200791,
+            "digital": "0:05:08",
+            "decimal": "0.08",
+            "text": "5 mins",
+            "hours": 0,
+            "minutes": 5,
+            "seconds": 8,
+            "percent": 2.85
+          },
+          {
+            "name": "YAML",
+            "total_seconds": 178.715319,
+            "digital": "0:02:58",
+            "decimal": "0.03",
+            "text": "2 mins",
+            "hours": 0,
+            "minutes": 2,
+            "seconds": 58,
+            "percent": 1.66
+          },
+          {
+            "name": "Git Config",
+            "total_seconds": 21.889664,
+            "digital": "0:00:21",
+            "decimal": "0.00",
+            "text": "21 secs",
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 21,
+            "percent": 0.2
+          }
+        ],
+        "dependencies": [
+          {
+            "name": "vite-plugin-svelte",
+            "total_seconds": 1109.825582,
+            "digital": "0:18:29",
+            "decimal": "0.30",
+            "text": "18 mins",
+            "hours": 0,
+            "minutes": 18,
+            "seconds": 29,
+            "percent": 7.35
+          },
+          {
+            "name": "adapter-netlify",
+            "total_seconds": 1099.722789,
+            "digital": "0:18:19",
+            "decimal": "0.30",
+            "text": "18 mins",
+            "hours": 0,
+            "minutes": 18,
+            "seconds": 19,
+            "percent": 7.28
+          },
+          {
+            "name": "@iconify/svelte",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "@sveltejs/kit",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "@types/d3",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "svelte-tooltip",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "@types/node",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "npm",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "prettier-plugin-tailwindcss",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "prettier-plugin-svelte",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "carbon-icons-svelte",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "prettier",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "svelte-check",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "axios",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "@sveltejs/vite-plugin-svelte",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "svelte",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "typescript",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "tailwindcss",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "vite",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "autoprefixer",
+            "total_seconds": 588.914113,
+            "digital": "0:09:48",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 48,
+            "percent": 3.9
+          },
+          {
+            "name": "@sveltejs/adapter-netlify",
+            "total_seconds": 583.846316,
+            "digital": "0:09:43",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 43,
+            "percent": 3.87
+          },
+          {
+            "name": "kit",
+            "total_seconds": 543.827257,
+            "digital": "0:09:03",
+            "decimal": "0.15",
+            "text": "9 mins",
+            "hours": 0,
+            "minutes": 9,
+            "seconds": 3,
+            "percent": 3.6
+          },
+          {
+            "name": "@sveltejs/adapter-auto",
+            "total_seconds": 526.458179,
+            "digital": "0:08:46",
+            "decimal": "0.13",
+            "text": "8 mins",
+            "hours": 0,
+            "minutes": 8,
+            "seconds": 46,
+            "percent": 3.49
+          },
+          {
+            "name": "node-fetch",
+            "total_seconds": 155.688905,
+            "digital": "0:02:35",
+            "decimal": "0.03",
+            "text": "2 mins",
+            "hours": 0,
+            "minutes": 2,
+            "seconds": 35,
+            "percent": 1.03
+          },
+          {
+            "name": "path",
+            "total_seconds": 153.674392,
+            "digital": "0:02:33",
+            "decimal": "0.03",
+            "text": "2 mins",
+            "hours": 0,
+            "minutes": 2,
+            "seconds": 33,
+            "percent": 1.02
+          },
+          {
+            "name": "fs",
+            "total_seconds": 153.674392,
+            "digital": "0:02:33",
+            "decimal": "0.03",
+            "text": "2 mins",
+            "hours": 0,
+            "minutes": 2,
+            "seconds": 33,
+            "percent": 1.02
+          },
+          {
+            "name": "buffer",
+            "total_seconds": 153.674392,
+            "digital": "0:02:33",
+            "decimal": "0.03",
+            "text": "2 mins",
+            "hours": 0,
+            "minutes": 2,
+            "seconds": 33,
+            "percent": 1.02
+          },
+          {
+            "name": "adapter-auto",
+            "total_seconds": 13.977254,
+            "digital": "0:00:13",
+            "decimal": "0.00",
+            "text": "13 secs",
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 13,
+            "percent": 0.09
+          },
+          {
+            "name": "adapter-static",
+            "total_seconds": 2.334039,
+            "digital": "0:00:02",
+            "decimal": "0.00",
+            "text": "2 secs",
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 2,
+            "percent": 0.02
+          },
+          {
+            "name": "adapter-netlifyt",
+            "total_seconds": 2.234831,
+            "digital": "0:00:02",
+            "decimal": "0.00",
+            "text": "2 secs",
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 2,
+            "percent": 0.01
+          },
+          {
+            "name": "base-64",
+            "total_seconds": 2.014513,
+            "digital": "0:00:02",
+            "decimal": "0.00",
+            "text": "2 secs",
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 2,
+            "percent": 0.01
+          }
+        ],
+        "machines": [
+          {
+            "name": "Nikolais-Mac-mini.local",
+            "total_seconds": 10795.856119,
+            "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
+            "digital": "2:59:55",
+            "decimal": "2.98",
+            "text": "2 hrs 59 mins",
+            "hours": 2,
+            "minutes": 59,
+            "seconds": 55,
+            "percent": 100
+          }
+        ],
+        "editors": [
+          {
+            "name": "VS Code",
+            "total_seconds": 10795.856119,
+            "digital": "2:59:55",
+            "decimal": "2.98",
+            "text": "2 hrs 59 mins",
+            "hours": 2,
+            "minutes": 59,
+            "seconds": 55,
+            "percent": 100
+          }
+        ],
+        "operating_systems": [
+          {
+            "name": "Mac",
+            "total_seconds": 10795.856119,
+            "digital": "2:59:55",
+            "decimal": "2.98",
+            "text": "2 hrs 59 mins",
+            "hours": 2,
+            "minutes": 59,
+            "seconds": 55,
+            "percent": 100
+          }
+        ],
+        "categories": [
+          {
+            "name": "Coding",
+            "total_seconds": 10795.856119,
+            "digital": "2:59:55",
+            "decimal": "2.98",
+            "text": "2 hrs 59 mins",
+            "hours": 2,
+            "minutes": 59,
+            "seconds": 55,
+            "percent": 100
+          }
+        ]
+      }
+    ],
+    "start": "2025-02-12T23:00:00Z",
+    "end": "2025-02-13T22:59:59Z",
+    "cumulative_total": {
+      "seconds": 10795.856119,
+      "text": "2 hrs 59 mins",
+      "digital": "2:59",
+      "decimal": "2.98"
+    },
+    "daily_average": {
+      "holidays": 0,
+      "days_minus_holidays": 1,
+      "days_including_holidays": 1,
+      "seconds": 10426,
+      "seconds_including_other_language": 10796,
+      "text": "2 hrs 53 mins",
+      "text_including_other_language": "2 hrs 59 mins"
+    }
+  },
+  "heartbeat": null
+}

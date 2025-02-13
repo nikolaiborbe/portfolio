@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
-const fetch = require('node-fetch');
-const base64 = require('base-64');
+import fs from 'fs';
+import path from 'path';
+import fetch from 'node-fetch';
+import { Buffer } from 'buffer';
 
 async function updateWakaTimeData() {
   const apiKey = process.env.WAKATIME_API_KEY;
@@ -10,29 +10,58 @@ async function updateWakaTimeData() {
     process.exit(1);
   }
 
-  // Using the heartbeats endpoint as an example.
-  // Adjust the URL if you need different data.
-  const url = 'https://wakatime.com/api/v1/users/current/heartbeats';
-  const authHeader = 'Basic ' + base64.encode(apiKey + ':');
+  // Today's date in YYYY-MM-DD format
+  const today = new Date().toISOString().slice(0, 10);
+  const summaryUrl = `https://wakatime.com/api/v1/users/current/summaries?start=${today}&end=${today}`;
+  const heartbeatUrl = 'https://wakatime.com/api/v1/users/current/heartbeats?per_page=1';
+
+  const authHeader = 'Basic ' + Buffer.from(apiKey + ':').toString('base64');
+  const commonHeaders = {
+    'Authorization': authHeader,
+    'User-Agent': 'WakaTime Update Script/1.0'
+  };
 
   try {
-    const response = await fetch(url, {
-      headers: {
-        'Authorization': authHeader
-      }
+    // Fetch summary data (daily totals, project aggregates, etc.)
+    console.log("Fetching summary data from:", summaryUrl);
+    const summaryResponse = await fetch(summaryUrl, {
+      headers: commonHeaders
     });
-
-    if (!response.ok) {
-      console.error(`Error fetching data: ${response.status} ${response.statusText}`);
+    if (!summaryResponse.ok) {
+      console.error(`Error fetching summary data: ${summaryResponse.status} ${summaryResponse.statusText}`);
       process.exit(1);
     }
+    const summaryData = await summaryResponse.json();
+    console.log("Summary data fetched:", summaryData);
 
-    const data = await response.json();
+    // Attempt to fetch heartbeat data for current project info
+    let heartbeatData = null;
+    try {
+      console.log("Fetching heartbeat data from:", heartbeatUrl);
+      const heartbeatResponse = await fetch(heartbeatUrl, {
+        headers: commonHeaders
+      });
+      if (heartbeatResponse.ok) {
+        heartbeatData = await heartbeatResponse.json();
+        console.log("Heartbeat data fetched:", heartbeatData);
+      } else {
+        // If heartbeat fetch fails (e.g., 400 BAD REQUEST), log a warning.
+        console.warn(`Warning: Error fetching heartbeat data: ${heartbeatResponse.status} ${heartbeatResponse.statusText}`);
+      }
+    } catch (err) {
+      console.error("Error fetching heartbeat data:", err);
+    }
 
-    // Optionally process the data here (e.g., calculate today’s coding time, top project, etc.)
-    // For now, we simply write the entire JSON response.
-    const outputPath = path.join(__dirname, '..', 'static', 'wakatime.json');
-    fs.writeFileSync(outputPath, JSON.stringify(data, null, 2));
+    // Combine summary and heartbeat data
+    const combinedData = {
+      summary: summaryData,
+      heartbeat: heartbeatData
+    };
+
+    // Write the combined data to static/wakatime.json
+    const outputPath = path.join(process.cwd(), 'static', 'wakatime.json');
+    console.log("Writing combined data to:", outputPath);
+    fs.writeFileSync(outputPath, JSON.stringify(combinedData, null, 2));
     console.log("WakaTime data updated successfully.");
   } catch (error) {
     console.error("Error updating WakaTime data:", error);
