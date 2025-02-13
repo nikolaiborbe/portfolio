@@ -3,7 +3,6 @@
   import BuyCoffee from "$lib/icons/BuyCoffee.svelte";
 	import GitHub from "$lib/icons/GitHub.svelte";
 	import LeetCode from "$lib/icons/LeetCode.svelte";
-	import Age from '$lib/objects/Age.svelte';
 </script>
 <div class="flex items-center ">
   <img src="pp.png" class="w-32 h-32 md:w-40 md:h-40 rounded-lg" alt="" />

@@ -1,6 +1,5 @@
 <script lang="ts">
 	import WorkingIcon from '$lib/icons/WorkingIcon.svelte';
-	import { onMount } from 'svelte';
 	let live = $state(false);
 	let wakatime_data = $state();
 
