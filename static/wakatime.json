@@ -4,11 +4,11 @@
       {
         "grand_total": {
           "hours": 3,
-          "minutes": 27,
-          "total_seconds": 12435.680602,
-          "digital": "3:27",
-          "decimal": "3.45",
-          "text": "3 hrs 27 mins"
+          "minutes": 42,
+          "total_seconds": 13327.083798,
+          "digital": "3:42",
+          "decimal": "3.70",
+          "text": "3 hrs 42 mins"
         },
         "range": {
           "start": "2025-02-12T23:00:00Z",
@@ -20,28 +20,28 @@
         "projects": [
           {
             "name": "portfolio",
-            "total_seconds": 12435.680602,
+            "total_seconds": 13327.083798,
             "color": null,
-            "digital": "3:27:15",
-            "decimal": "3.45",
-            "text": "3 hrs 27 mins",
+            "digital": "3:42:07",
+            "decimal": "3.70",
+            "text": "3 hrs 42 mins",
             "hours": 3,
-            "minutes": 27,
-            "seconds": 15,
+            "minutes": 42,
+            "seconds": 7,
             "percent": 100
           }
         ],
         "languages": [
           {
             "name": "Svelte",
-            "total_seconds": 4856.659729,
-            "digital": "1:20:56",
-            "decimal": "1.33",
-            "text": "1 hr 20 mins",
+            "total_seconds": 5525.458704,
+            "digital": "1:32:05",
+            "decimal": "1.53",
+            "text": "1 hr 32 mins",
             "hours": 1,
-            "minutes": 20,
-            "seconds": 56,
-            "percent": 39.05
+            "minutes": 32,
+            "seconds": 5,
+            "percent": 41.46
           },
           {
             "name": "JavaScript",
@@ -52,7 +52,18 @@
             "hours": 0,
             "minutes": 25,
             "seconds": 52,
-            "percent": 12.49
+            "percent": 11.65
+          },
+          {
+            "name": "JSON",
+            "total_seconds": 1250.899481,
+            "digital": "0:20:50",
+            "decimal": "0.33",
+            "text": "20 mins",
+            "hours": 0,
+            "minutes": 20,
+            "seconds": 50,
+            "percent": 9.39
           },
           {
             "name": "TOML",
@@ -63,29 +74,18 @@
             "hours": 0,
             "minutes": 17,
             "seconds": 58,
-            "percent": 8.67
+            "percent": 8.09
           },
           {
-            "name": "JSON",
-            "total_seconds": 1059.90506,
-            "digital": "0:17:39",
+            "name": "Markdown",
+            "total_seconds": 1029.269752,
+            "digital": "0:17:09",
             "decimal": "0.28",
             "text": "17 mins",
             "hours": 0,
             "minutes": 17,
-            "seconds": 39,
-            "percent": 8.52
-          },
-          {
-            "name": "Markdown",
-            "total_seconds": 997.659952,
-            "digital": "0:16:37",
-            "decimal": "0.27",
-            "text": "16 mins",
-            "hours": 0,
-            "minutes": 16,
-            "seconds": 37,
-            "percent": 8.02
+            "seconds": 9,
+            "percent": 7.72
           },
           {
             "name": "Bash",
@@ -96,7 +96,7 @@
             "hours": 0,
             "minutes": 14,
             "seconds": 19,
-            "percent": 6.91
+            "percent": 6.45
           },
           {
             "name": "TypeScript",
@@ -107,7 +107,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 11,
-            "percent": 4.44
+            "percent": 4.14
           },
           {
             "name": "YAML",
@@ -118,7 +118,7 @@
             "hours": 0,
             "minutes": 7,
             "seconds": 13,
-            "percent": 3.49
+            "percent": 3.25
           },
           {
             "name": "Other",
@@ -129,7 +129,7 @@
             "hours": 0,
             "minutes": 6,
             "seconds": 9,
-            "percent": 2.97
+            "percent": 2.77
           },
           {
             "name": "HTML",
@@ -140,7 +140,7 @@
             "hours": 0,
             "minutes": 5,
             "seconds": 46,
-            "percent": 2.79
+            "percent": 2.6
           },
           {
             "name": "TSConfig",
@@ -151,7 +151,7 @@
             "hours": 0,
             "minutes": 5,
             "seconds": 8,
-            "percent": 2.48
+            "percent": 2.31
           },
           {
             "name": "Git Config",
@@ -162,7 +162,7 @@
             "hours": 0,
             "minutes": 0,
             "seconds": 21,
-            "percent": 0.18
+            "percent": 0.16
           }
         ],
         "dependencies": [
@@ -175,7 +175,7 @@
             "hours": 0,
             "minutes": 18,
             "seconds": 29,
-            "percent": 7.03
+            "percent": 6.7
           },
           {
             "name": "adapter-netlify",
@@ -186,7 +186,7 @@
             "hours": 0,
             "minutes": 18,
             "seconds": 19,
-            "percent": 6.96
+            "percent": 6.64
           },
           {
             "name": "@iconify/svelte",
@@ -197,7 +197,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "@sveltejs/kit",
@@ -208,7 +208,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "@types/d3",
@@ -219,7 +219,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "svelte-tooltip",
@@ -230,7 +230,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "@types/node",
@@ -241,7 +241,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "npm",
@@ -252,7 +252,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "prettier-plugin-tailwindcss",
@@ -263,7 +263,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "prettier-plugin-svelte",
@@ -274,7 +274,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "carbon-icons-svelte",
@@ -285,7 +285,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "prettier",
@@ -296,7 +296,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "svelte-check",
@@ -307,7 +307,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "axios",
@@ -318,7 +318,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "@sveltejs/vite-plugin-svelte",
@@ -329,7 +329,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "svelte",
@@ -340,7 +340,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "typescript",
@@ -351,7 +351,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "tailwindcss",
@@ -362,7 +362,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "vite",
@@ -373,7 +373,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "autoprefixer",
@@ -384,7 +384,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 48,
-            "percent": 3.73
+            "percent": 3.56
           },
           {
             "name": "@sveltejs/adapter-netlify",
@@ -395,7 +395,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 43,
-            "percent": 3.7
+            "percent": 3.53
           },
           {
             "name": "kit",
@@ -406,7 +406,7 @@
             "hours": 0,
             "minutes": 9,
             "seconds": 3,
-            "percent": 3.44
+            "percent": 3.28
           },
           {
             "name": "@sveltejs/adapter-auto",
@@ -417,7 +417,51 @@
             "hours": 0,
             "minutes": 8,
             "seconds": 46,
-            "percent": 3.33
+            "percent": 3.18
+          },
+          {
+            "name": "cumulative_total",
+            "total_seconds": 299.426591,
+            "digital": "0:04:59",
+            "decimal": "0.07",
+            "text": "4 mins",
+            "hours": 0,
+            "minutes": 4,
+            "seconds": 59,
+            "percent": 1.81
+          },
+          {
+            "name": "start",
+            "total_seconds": 299.426591,
+            "digital": "0:04:59",
+            "decimal": "0.07",
+            "text": "4 mins",
+            "hours": 0,
+            "minutes": 4,
+            "seconds": 59,
+            "percent": 1.81
+          },
+          {
+            "name": "end",
+            "total_seconds": 299.426591,
+            "digital": "0:04:59",
+            "decimal": "0.07",
+            "text": "4 mins",
+            "hours": 0,
+            "minutes": 4,
+            "seconds": 59,
+            "percent": 1.81
+          },
+          {
+            "name": "daily_average",
+            "total_seconds": 299.426591,
+            "digital": "0:04:59",
+            "decimal": "0.07",
+            "text": "4 mins",
+            "hours": 0,
+            "minutes": 4,
+            "seconds": 59,
+            "percent": 1.81
           },
           {
             "name": "node-fetch",
@@ -428,7 +472,7 @@
             "hours": 0,
             "minutes": 3,
             "seconds": 40,
-            "percent": 1.39
+            "percent": 1.33
           },
           {
             "name": "path",
@@ -439,7 +483,7 @@
             "hours": 0,
             "minutes": 3,
             "seconds": 38,
-            "percent": 1.38
+            "percent": 1.32
           },
           {
             "name": "fs",
@@ -450,7 +494,7 @@
             "hours": 0,
             "minutes": 3,
             "seconds": 38,
-            "percent": 1.38
+            "percent": 1.32
           },
           {
             "name": "buffer",
@@ -461,51 +505,7 @@
             "hours": 0,
             "minutes": 3,
             "seconds": 38,
-            "percent": 1.38
-          },
-          {
-            "name": "cumulative_total",
-            "total_seconds": 108.43217,
-            "digital": "0:01:48",
-            "decimal": "0.02",
-            "text": "1 min",
-            "hours": 0,
-            "minutes": 1,
-            "seconds": 48,
-            "percent": 0.69
-          },
-          {
-            "name": "start",
-            "total_seconds": 108.43217,
-            "digital": "0:01:48",
-            "decimal": "0.02",
-            "text": "1 min",
-            "hours": 0,
-            "minutes": 1,
-            "seconds": 48,
-            "percent": 0.69
-          },
-          {
-            "name": "end",
-            "total_seconds": 108.43217,
-            "digital": "0:01:48",
-            "decimal": "0.02",
-            "text": "1 min",
-            "hours": 0,
-            "minutes": 1,
-            "seconds": 48,
-            "percent": 0.69
-          },
-          {
-            "name": "daily_average",
-            "total_seconds": 108.43217,
-            "digital": "0:01:48",
-            "decimal": "0.02",
-            "text": "1 min",
-            "hours": 0,
-            "minutes": 1,
-            "seconds": 48,
-            "percent": 0.69
+            "percent": 1.32
           },
           {
             "name": "adapter-auto",
@@ -516,7 +516,7 @@
             "hours": 0,
             "minutes": 0,
             "seconds": 13,
-            "percent": 0.09
+            "percent": 0.08
           },
           {
             "name": "adapter-static",
@@ -555,53 +555,53 @@
         "machines": [
           {
             "name": "Nikolais-Mac-mini.local",
-            "total_seconds": 12435.680602,
+            "total_seconds": 13327.083798,
             "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-            "digital": "3:27:15",
-            "decimal": "3.45",
-            "text": "3 hrs 27 mins",
+            "digital": "3:42:07",
+            "decimal": "3.70",
+            "text": "3 hrs 42 mins",
             "hours": 3,
-            "minutes": 27,
-            "seconds": 15,
+            "minutes": 42,
+            "seconds": 7,
             "percent": 100
           }
         ],
         "editors": [
           {
             "name": "VS Code",
-            "total_seconds": 12435.680602,
-            "digital": "3:27:15",
-            "decimal": "3.45",
-            "text": "3 hrs 27 mins",
+            "total_seconds": 13327.083798,
+            "digital": "3:42:07",
+            "decimal": "3.70",
+            "text": "3 hrs 42 mins",
             "hours": 3,
-            "minutes": 27,
-            "seconds": 15,
+            "minutes": 42,
+            "seconds": 7,
             "percent": 100
           }
         ],
         "operating_systems": [
           {
             "name": "Mac",
-            "total_seconds": 12435.680602,
-            "digital": "3:27:15",
-            "decimal": "3.45",
-            "text": "3 hrs 27 mins",
+            "total_seconds": 13327.083798,
+            "digital": "3:42:07",
+            "decimal": "3.70",
+            "text": "3 hrs 42 mins",
             "hours": 3,
-            "minutes": 27,
-            "seconds": 15,
+            "minutes": 42,
+            "seconds": 7,
             "percent": 100
           }
         ],
         "categories": [
           {
             "name": "Coding",
-            "total_seconds": 12435.680602,
-            "digital": "3:27:15",
-            "decimal": "3.45",
-            "text": "3 hrs 27 mins",
+            "total_seconds": 13327.083798,
+            "digital": "3:42:07",
+            "decimal": "3.70",
+            "text": "3 hrs 42 mins",
             "hours": 3,
-            "minutes": 27,
-            "seconds": 15,
+            "minutes": 42,
+            "seconds": 7,
             "percent": 100
           }
         ]
@@ -610,19 +610,19 @@
     "start": "2025-02-12T23:00:00Z",
     "end": "2025-02-13T22:59:59Z",
     "cumulative_total": {
-      "seconds": 12435.680602,
-      "text": "3 hrs 27 mins",
-      "digital": "3:27",
-      "decimal": "3.45"
+      "seconds": 13327.083798,
+      "text": "3 hrs 42 mins",
+      "digital": "3:42",
+      "decimal": "3.70"
     },
     "daily_average": {
       "holidays": 0,
       "days_minus_holidays": 1,
       "days_including_holidays": 1,
-      "seconds": 12066,
-      "seconds_including_other_language": 12436,
-      "text": "3 hrs 21 mins",
-      "text_including_other_language": "3 hrs 27 mins"
+      "seconds": 12958,
+      "seconds_including_other_language": 13327,
+      "text": "3 hrs 35 mins",
+      "text_including_other_language": "3 hrs 42 mins"
     }
   },
   "heartbeat": null
