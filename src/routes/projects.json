@@ -3,7 +3,7 @@
 		{
       "title": "Propulse",
       "description":
-        "Propulse is a student-driven initiative that aims to send a liquid filled rocket to space. Currently I'm working of the software for the engine.",
+        "Propulse is a student-driven initiative that aims to send a liquid filled rocket to space. Currently I'm working on the software for the engine.",
       "image": "projects/propulse.jpg",
       "tags": ["C", "Embedded Systems"],
       "link": "https://www.propulse.no/",
