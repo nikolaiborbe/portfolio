@@ -87,7 +87,7 @@
 	});
 </script>
 
-<div class="p-4">
+<div class="p-4 flex justify-end md:justify-start">
 	{#if !error}
 			<a
 				href={`https://github.com/${github_username}/${topProject?.name}`}
@@ -95,7 +95,7 @@
 				class="flex items-center gap-2"
 			>
 				<div class="flex text-[#32cd32]">
-					<div class="pr-2 font-medium">Current session: {topProject ? formatTime(topProject.total_seconds) : 'N/A'}</div>
+					<div class="pr-2 font-medium">Current programming session: {topProject ? formatTime(topProject.total_seconds) : 'N/A'}</div>
 					<WorkingIcon color="#32cd32" />
 				</div>
 			</a>
