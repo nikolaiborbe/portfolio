@@ -52,7 +52,6 @@
 
 			// Determine the top project by total_seconds:
 			if (data.data.projects && data.data.projects.length > 0) {
-				console.log(1);
 				topProject = data.data.projects.reduce(
 					(max: { total_seconds: number }, project: { total_seconds: number }) =>
 						project.total_seconds > max.total_seconds ? project : max,
@@ -61,12 +60,10 @@
 			}
 		} catch (err) {
 			if (err instanceof Error) {
-				console.log(1);
 				error = err.message;
 			} else {
 				error = 'An unknown error occurred';
 			}
-			console.error(err);
 		}
 	}
 

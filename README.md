@@ -1,5 +1,4 @@
 ![dancing](https://media.tenor.com/Cpr_CZD-gDEAAAAj/rat-dance-viral.gif)
-hi
 
 ## TODO
 - [ ] Currently working should link to projects
