@@ -12,7 +12,7 @@
 </script>
 
 <div
-	class="flex flex-col gap-3 rounded-lg border border-[#3F3F46] bg-[#212123] p-2 transition-all hover:cursor-pointer hover:bg-[#252527] md:flex-row"
+	class="flex flex-col gap-3 rounded-lg border border-[#3F3F46] bg-[#212123] p-2 transition-all hover:bg-[#252527] md:flex-row"
 >
 	<div class="h-48 md:w-56 overflow-hidden rounded-md flex-none">
 		<img src={image} alt={title} class="h-full w-full object-cover" />
