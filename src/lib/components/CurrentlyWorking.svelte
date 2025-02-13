@@ -15,7 +15,7 @@
 	function formatTime(seconds: number) {
 		const hours = Math.floor(seconds / 3600);
 		const minutes = Math.floor((seconds % 3600) / 60);
-		const secs = Math.floor(seconds % 60);
+		// const secs = Math.floor(seconds % 60);
 		return `${hours}h ${minutes}m`;
 	}
 
@@ -48,6 +48,7 @@
 			// If a heartbeat exists, check that its timestamp is within the last 2 minutes.
 			if (data.heartbeat && data.heartbeat.data && data.heartbeat.data.length > 0) {
 				const heartbeat = data.heartbeat.data[0];
+				console.log(heartbeat);
 				const currentTimestamp = Date.now() / 1000; // current time in seconds
 				if (currentTimestamp - heartbeat.timestamp < 120) {
 					currently_programming = true;
@@ -86,22 +87,26 @@
 	});
 </script>
 
-<div class="p-4 flex justify-end md:justify-start">
-	{#if currently_programming}
-			<a
-				href={`https://github.com/${github_username}/${topProject?.name}`}
-				target="_blank"
-				class="flex items-center gap-2"
-			>
-				<div class="flex text-[#32cd32]">
-					<div class="pr-2 font-medium">Coding: {topProject ? formatTime(codingTimeToday) : 'N/A'}</div>
-					<WorkingIcon color="#32cd32" />
+<div class="flex justify-end p-4 md:justify-start">
+	<!-- Very bad implementation, but will atleast update time spent that day
+	 and should also reset every night.-->
+	{#if !error}
+		<a
+			href={`https://github.com/${github_username}/${topProject?.name}`}
+			target="_blank"
+			class="flex items-center gap-2"
+		>
+			<div class="flex text-[#32cd32]">
+				<div class="pr-2 font-medium">
+					Coding: {topProject ? formatTime(codingTimeToday) : 'N/A'}
 				</div>
-			</a>
-		{:else}
-			<div class="flex gap-2">
-				<div class="font-medium text-[#ff0000]">Offline</div>
-				<WorkingIcon color="#ff0000" />
+				<WorkingIcon color="#32cd32" />
 			</div>
+		</a>
+	{:else}
+		<div class="flex gap-2">
+			<div class="font-medium text-[#ff0000]">Offline</div>
+			<WorkingIcon color="#ff0000" />
+		</div>
 	{/if}
 </div>
