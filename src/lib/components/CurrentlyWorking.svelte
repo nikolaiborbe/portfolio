@@ -25,7 +25,6 @@
 			if (!res.ok) throw new Error('Error fetching WakaTime data');
 
 			const data = await res.json();
-			console.log(data);
 
 			// Extract today's summary data.
 			const today = new Date().toISOString().slice(0, 10); // "YYYY-MM-DD"
@@ -88,14 +87,14 @@
 </script>
 
 <div class="p-4 flex justify-end md:justify-start">
-	{#if !error}
+	{#if currently_programming}
 			<a
 				href={`https://github.com/${github_username}/${topProject?.name}`}
 				target="_blank"
 				class="flex items-center gap-2"
 			>
 				<div class="flex text-[#32cd32]">
-					<div class="pr-2 font-medium">Coding: {topProject ? formatTime(topProject.total_seconds) : 'N/A'}</div>
+					<div class="pr-2 font-medium">Coding: {topProject ? formatTime(codingTimeToday) : 'N/A'}</div>
 					<WorkingIcon color="#32cd32" />
 				</div>
 			</a>
