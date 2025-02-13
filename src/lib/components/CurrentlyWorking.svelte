@@ -20,14 +20,12 @@
 
 	const github_username = 'nikolaiborbe';
 
-	const publicJSONUrl = 'https://wakatime.com/share/@nikolaiborbe/yourhash.json';
-
 	let topProject;
 	let error: string | null = null;
 
 	async function fetchWakaTimeData() {
 		try {
-			const res = await fetch(publicJSONUrl);
+			const res = await fetch("/wakatime.json");
 			if (!res.ok) throw new Error('Error fetching WakaTime data');
 
 			console.log("res ok");
