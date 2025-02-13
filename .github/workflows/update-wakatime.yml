@@ -3,7 +3,7 @@ name: Update WakaTime Data
 on:
   schedule:
     - cron: '*/15 * * * *'  # Runs every 15 minutes
-  workflow_dispatch:        # Allows you to manually trigger the workflow
+  workflow_dispatch:        # Allows manual triggering
 
 jobs:
   update:
@@ -16,9 +16,20 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'  # or use a version that supports your setup
+          node-version: '18'
 
       - name: Install Dependencies
         run: npm install
 
-      - name: Update Wakpm run bu..n
+      - name: Run update_wakatime.js
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: node scripts/update_wakatime.js
+
+      - name: Commit Updated Data
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: GitHub Actions
+          author_email: actions@github.com
+          add: 'static/wakatime.json'
+          message: 'Update WakaTime data [skip ci]'
