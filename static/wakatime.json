@@ -4,11 +4,11 @@
       {
         "grand_total": {
           "hours": 0,
-          "minutes": 0,
-          "total_seconds": 0,
-          "digital": "0:00",
-          "decimal": "0.00",
-          "text": "0 secs"
+          "minutes": 11,
+          "total_seconds": 665.689995,
+          "digital": "0:11",
+          "decimal": "0.18",
+          "text": "11 mins"
         },
         "range": {
           "start": "2025-02-13T23:00:00Z",
@@ -17,31 +17,172 @@
           "text": "Fri Feb 14th 2025",
           "timezone": "Europe/Oslo"
         },
-        "projects": [],
-        "languages": [],
-        "dependencies": [],
-        "machines": [],
-        "editors": [],
-        "operating_systems": [],
-        "categories": []
+        "projects": [
+          {
+            "name": "portfolio",
+            "total_seconds": 665.689995,
+            "color": null,
+            "digital": "0:11:05",
+            "decimal": "0.18",
+            "text": "11 mins",
+            "hours": 0,
+            "minutes": 11,
+            "seconds": 5,
+            "percent": 100
+          }
+        ],
+        "languages": [
+          {
+            "name": "Svelte",
+            "total_seconds": 612.896356,
+            "digital": "0:10:12",
+            "decimal": "0.17",
+            "text": "10 mins",
+            "hours": 0,
+            "minutes": 10,
+            "seconds": 12,
+            "percent": 92.07
+          },
+          {
+            "name": "JavaScript",
+            "total_seconds": 45.256976,
+            "digital": "0:00:45",
+            "decimal": "0.00",
+            "text": "45 secs",
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 45,
+            "percent": 6.8
+          },
+          {
+            "name": "Git Config",
+            "total_seconds": 7.536663,
+            "digital": "0:00:07",
+            "decimal": "0.00",
+            "text": "7 secs",
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 7,
+            "percent": 1.13
+          }
+        ],
+        "dependencies": [
+          {
+            "name": "node-fetch",
+            "total_seconds": 45.256976,
+            "digital": "0:00:45",
+            "decimal": "0.00",
+            "text": "45 secs",
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 45,
+            "percent": 25
+          },
+          {
+            "name": "path",
+            "total_seconds": 45.256976,
+            "digital": "0:00:45",
+            "decimal": "0.00",
+            "text": "45 secs",
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 45,
+            "percent": 25
+          },
+          {
+            "name": "fs",
+            "total_seconds": 45.256976,
+            "digital": "0:00:45",
+            "decimal": "0.00",
+            "text": "45 secs",
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 45,
+            "percent": 25
+          },
+          {
+            "name": "buffer",
+            "total_seconds": 45.256976,
+            "digital": "0:00:45",
+            "decimal": "0.00",
+            "text": "45 secs",
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 45,
+            "percent": 25
+          }
+        ],
+        "machines": [
+          {
+            "name": "Nikolais-Mac-mini.local",
+            "total_seconds": 665.689995,
+            "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
+            "digital": "0:11:05",
+            "decimal": "0.18",
+            "text": "11 mins",
+            "hours": 0,
+            "minutes": 11,
+            "seconds": 5,
+            "percent": 100
+          }
+        ],
+        "editors": [
+          {
+            "name": "VS Code",
+            "total_seconds": 665.689995,
+            "digital": "0:11:05",
+            "decimal": "0.18",
+            "text": "11 mins",
+            "hours": 0,
+            "minutes": 11,
+            "seconds": 5,
+            "percent": 100
+          }
+        ],
+        "operating_systems": [
+          {
+            "name": "Mac",
+            "total_seconds": 665.689995,
+            "digital": "0:11:05",
+            "decimal": "0.18",
+            "text": "11 mins",
+            "hours": 0,
+            "minutes": 11,
+            "seconds": 5,
+            "percent": 100
+          }
+        ],
+        "categories": [
+          {
+            "name": "Coding",
+            "total_seconds": 665.689995,
+            "digital": "0:11:05",
+            "decimal": "0.18",
+            "text": "11 mins",
+            "hours": 0,
+            "minutes": 11,
+            "seconds": 5,
+            "percent": 100
+          }
+        ]
       }
     ],
     "start": "2025-02-13T23:00:00Z",
     "end": "2025-02-14T22:59:59Z",
     "cumulative_total": {
-      "seconds": 0,
-      "text": "0 secs",
-      "digital": "0:00",
-      "decimal": "0.00"
+      "seconds": 665.689995,
+      "text": "11 mins",
+      "digital": "0:11",
+      "decimal": "0.18"
     },
     "daily_average": {
-      "holidays": 1,
-      "days_minus_holidays": 0,
+      "holidays": 0,
+      "days_minus_holidays": 1,
       "days_including_holidays": 1,
-      "seconds": 0,
-      "seconds_including_other_language": 0,
-      "text": "0 secs",
-      "text_including_other_language": "0 secs"
+      "seconds": 666,
+      "seconds_including_other_language": 666,
+      "text": "11 mins",
+      "text_including_other_language": "11 mins"
     }
   },
   "heartbeat": null
