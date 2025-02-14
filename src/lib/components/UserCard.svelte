@@ -12,7 +12,7 @@
   {/if}
   <img src="pp.png" onload={() => loading = false} class="w-32 h-32 md:w-40 md:h-40 rounded-lg" alt="" />
   <div class="pl-4 flex flex-col gap-1 md:gap-2 ">
-    <h1 class="font-bold text-3xl md:text-4xl"><span class="hidden md:inline">Nikolai Grytvik Borbe</span><span class="md:hidden">Nikolai G. Borbe</span></h1>
+    <h1 class="font-bold text-2xl md:text-4xl"><span class="hidden md:inline">Nikolai Grytvik Borbe</span><span class="md:hidden">Nikolai G. Borbe</span></h1>
     <h2 class="md:text-xl">Average programming enjoyer</h2>
     <div class="flex flex-wrap gap-2 pt-1">
       <GitHub />
