@@ -4,7 +4,7 @@
 
 <SvelteTooltip tip="Linkedin">
 <a
-	href="https://www.linkedin.com/in/nikolai-borbe-347aa11a3/"
+	href="https://www.linkedin.com/in/nikolai-grytvik-borbe-347aa11a3/"
 	target="_blank"
 	aria-label="Linkedin"
 >
