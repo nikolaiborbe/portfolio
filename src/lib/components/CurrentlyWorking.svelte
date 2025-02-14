@@ -13,6 +13,7 @@
 	const github_username = 'nikolaiborbe';
 
 	function formatTime(seconds: number) {
+		if (seconds < 60) return `0`;
 		const hours = Math.floor(seconds / 3600);
 		const minutes = Math.floor((seconds % 3600) / 60);
 		// const secs = Math.floor(seconds % 60);
@@ -43,6 +44,7 @@
 			} else {
 				topProject = null;
 			}
+
 
 			// Check heartbeat data for current activity.
 			// If a heartbeat exists, check that its timestamp is within the last 2 minutes.
@@ -90,7 +92,7 @@
 <div class="flex justify-end p-4 md:justify-start">
 	<!-- Very bad implementation, but will atleast update time spent that day
 	 and should also reset every night.-->
-	{#if !error}
+	{#if topProject}
 		<a
 			href={`https://github.com/${github_username}/${topProject?.name}`}
 			target="_blank"
