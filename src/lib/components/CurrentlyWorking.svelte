@@ -16,6 +16,7 @@
 		if (seconds < 60) return `0`;
 		const hours = Math.floor(seconds / 3600);
 		const minutes = Math.floor((seconds % 3600) / 60);
+		if (hours === 0) return `${minutes}m`;
 		// const secs = Math.floor(seconds % 60);
 		return `${hours}h ${minutes}m`;
 	}
