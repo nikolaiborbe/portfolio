@@ -99,7 +99,13 @@
 			target="_blank"
 			class="flex items-center gap-2"
 		>
-			<div class="flex text-[#32cd32]">
+			<div class="md:hidden flex text-[#32cd32]">
+				<WorkingIcon color="#32cd32" />
+				<div class="pl-2 font-medium">
+					Coding: {topProject ? formatTime(codingTimeToday) : 'N/A'}
+				</div>
+			</div>
+			<div class="hidden md:flex text-[#32cd32]">
 				<div class="pr-2 font-medium">
 					Coding: {topProject ? formatTime(codingTimeToday) : 'N/A'}
 				</div>
