@@ -16,46 +16,58 @@
 		if (seconds < 60) return `0`;
 		const hours = Math.floor(seconds / 3600);
 		const minutes = Math.floor((seconds % 3600) / 60);
-		if (hours === 0) return `${minutes}m`;
-		// const secs = Math.floor(seconds % 60);
-		return `${hours}h ${minutes}m`;
+		return hours === 0 ? `${minutes}m` : `${hours}h ${minutes}m`;
 	}
 
 	async function fetchWakaTimeData() {
 		try {
-			const res = await fetch('/wakatime.json');
-			if (!res.ok) throw new Error('Error fetching WakaTime data');
+			const res_heatbeats = await fetch('/wakatime_heartbeats.json');
+			const res_summaries = await fetch('/wakatime_summaries.json');
+			if (!res_heatbeats.ok) throw new Error('Error fetching WakaTime heartbeats data');
+			if (!res_summaries.ok) throw new Error('Error fetching WakaTime summaries data');
 
 			const data = await res.json();
-
-			// Extract today's summary data.
 			const today = new Date().toISOString().slice(0, 10); // "YYYY-MM-DD"
-			const todayData = data.summary.data.find(
-				(day: { range: { date: string } }) => day.range.date === today
-			);
-			codingTimeToday = todayData ? todayData.grand_total.total_seconds : 0;
 
-			// Determine the top project for today.
-			if (todayData && todayData.projects && todayData.projects.length > 0) {
-				topProject = todayData.projects.reduce(
-					(max: { total_seconds: number }, project: { total_seconds: number; name: string }) =>
-						project.total_seconds > max.total_seconds ? project : max,
-					todayData.projects[0]
+			// First, try to extract summary data for today.
+			if (data.summary && data.summary.data) {
+				console.log(1)
+				const todayData = data.summary.data.find(
+					(day: { range: { date: string } }) => day.range.date === today
 				);
+				codingTimeToday = todayData ? todayData.grand_total.total_seconds : 0;
+
+				if (todayData && todayData.projects && todayData.projects.length > 0) {
+					topProject = todayData.projects.reduce(
+						(
+							max: { total_seconds: number; name: string },
+							project: { total_seconds: number; name: string }
+						) => (project.total_seconds > max.total_seconds ? project : max),
+						todayData.projects[0]
+					);
+				} else {
+					topProject = null;
+				}
+			} else if (data.heartbeat && data.heartbeat.data && data.heartbeat.data.length > 0) {
+				// Fallback: if summary data is missing, use the first heartbeat's project.
+				const fallbackHeartbeat = data.heartbeat.data[0];
+				topProject = { name: fallbackHeartbeat.project, total_seconds: 0 };
+				codingTimeToday = 0;
 			} else {
 				topProject = null;
+				codingTimeToday = 0;
 			}
 
-
 			// Check heartbeat data for current activity.
-			// If a heartbeat exists, check that its timestamp is within the last 2 minutes.
 			if (data.heartbeat && data.heartbeat.data && data.heartbeat.data.length > 0) {
-				const heartbeat = data.heartbeat.data[0];
-				console.log(heartbeat);
+				// Use the last heartbeat (most recent)
+				const lastHeartbeat = data.heartbeat.data[data.heartbeat.data.length - 1];
 				const currentTimestamp = Date.now() / 1000; // current time in seconds
-				if (currentTimestamp - heartbeat.timestamp < 120) {
+
+				// Consider active if the last heartbeat is recent (within 2 minutes) and was a write action.
+				if (currentTimestamp - lastHeartbeat.time < 120 && lastHeartbeat.is_write) {
 					currently_programming = true;
-					current_project = heartbeat.entity || '';
+					current_project = lastHeartbeat.entity || '';
 					if (!session_start) {
 						session_start = Date.now();
 					}
@@ -91,11 +103,9 @@
 </script>
 
 <div class="flex justify-end p-4 md:justify-start">
-	<!-- Very bad implementation, but will atleast update time spent that day
-	 and should also reset every night.-->
 	{#if topProject}
 		<a
-			href={`https://github.com/${github_username}/${topProject?.name}`}
+			href={`https://github.com/${github_username}/${topProject.name}`}
 			target="_blank"
 			class="flex items-center gap-2"
 		>
