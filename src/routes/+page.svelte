@@ -6,8 +6,12 @@
 	import WakaTime from '$lib/components/WakaTime.svelte';
 	import WakatimeTable from '$lib/components/WakatimeTable.svelte';
 	import Skills from '$lib/components/Skills.svelte';
+	import Age from '$lib/objects/Age.svelte';
 
-	let projects: any = Object.values(Projects).flat();
+	let age: number = new Date().getTime() - new Date("2002-02-23T21:53:30").getTime(); // i'm convinced 30 sek makes the probability
+	age = (age / 1000 / 60 / 60 / 24 / 365.25); 															// of it being exact the best
+	console.log(age);
+	let projects: any = Object.values(Projects).flat();									
 </script>
 
 <div class="flex flex-col gap-4 md:text-xl">
@@ -15,7 +19,7 @@
 	<div class="flex flex-col gap-3">
 		<div class="title">About me</div>
 		<div class="size-lg">
-			Hi, my name is Nikolai, I’m a <span>age</span> year old, full-stack developer from Norway. I’m passionate about understanding the
+			Hi, my name is Nikolai, I’m a <Age /> year old, full-stack developer from Norway. I’m passionate about understanding the
 			world around me. Currently, I’m pursuing a bachelor’s degree in physics while programming in
 			my free time.
 		</div>
