@@ -30,10 +30,10 @@ jobs:
       - name: Create static folder if missing
         run: mkdir -p static
 
-      - name: Run check_heartbeat.js
+      - name: Run summary.js
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-        run: node scripts/check_heartbeat.js
+        run: node scripts/summary.js
 
       - name: Run currently_active.js
         env:
