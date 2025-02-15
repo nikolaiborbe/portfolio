@@ -19,12 +19,12 @@
 	</div>
 	<div class="content flex flex-col justify-between pl-1">
 		<div>
-			<div class="pt-1 flex justify-between items-center ">
+			<div class="flex justify-between items-center ">
 				<div class="flex items-center gap-4">
-					<div class="text-2xl font-bold">{title}</div>
+					<div class="text-2xl font-medium">{title}</div>
 					<Status {live} />
 				</div>
-				<div class=" flex align-center gap-1">
+				<div class="pt-1 md:pt-0 flex gap-1 self-start">
 					{#if preview} 
 						<Preview {preview} />
 					{/if}
@@ -36,7 +36,7 @@
 					{/if}
 				</div>
 			</div>
-			<div class="text-lg">{description}</div>
+			<div class="text-md">{description}</div>
 		</div>
 		<div class="flex justify-end gap-2 pt-4">
 			{#each tags as tag}

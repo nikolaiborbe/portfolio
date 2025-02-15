@@ -35,7 +35,7 @@
 	<WakaTime />
 	<WakatimeTable />
 	<hr class="mt-4 border-[#3F3F46]" />
-	<div class="color-[#535353] my-4 flex justify-center text-lg">
+	<div class="color-[#535353] mt-1 mb-6 flex justify-center text-lg">
 		Website design greatly inspired by ‎ <a
 			href="https://x.com/damnGruz"
 			target="_blank"

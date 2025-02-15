@@ -49,5 +49,8 @@ jobs:
             static/coded_today.json
             static/heartbeat.json
           message: 'Update WakaTime data [skip ci]'
-          commit_author: 'github-actions[bot]'
-          commit_author_email: 'github-actions@users.noreply.github.com'
+          author_name: 'github-actions[bot]'
+          author_email: 'github-actions@users.noreply.github.com'
+          # Optionally, you can also set the committer details:
+          committer_name: 'github-actions[bot]'
+          committer_email: 'github-actions@users.noreply.github.com'
