@@ -45,6 +45,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          add: 'static/coded_today.json'
-          add: "static/heartbeat.json"
+          add: |
+            static/coded_today.json
+            static/heartbeat.json
           message: 'Update WakaTime data [skip ci]'
+          commit_author: 'github-actions[bot]'
+          commit_author_email: 'github-actions@users.noreply.github.com'
