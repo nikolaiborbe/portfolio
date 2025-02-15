@@ -30,15 +30,21 @@ jobs:
       - name: Create static folder if missing
         run: mkdir -p static
 
-      - name: Run update_wakatime.js
+      - name: Run check_heartbeat.js
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-        run: node scripts/update_wakatime.js
+        run: node scripts/check_heartbeat.js
+
+      - name: Run currently_active.js
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: node scripts/currently_active.js
 
       - name: Commit Updated Data
         uses: EndBug/add-and-commit@v9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          add: 'static/wakatime.json'
+          add: 'static/coded_today.json'
+          add: "static/heartbeat.json"
           message: 'Update WakaTime data [skip ci]'
