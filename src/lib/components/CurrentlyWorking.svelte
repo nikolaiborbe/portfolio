@@ -69,12 +69,12 @@
 		<div class="md:hidden flex text-[#32cd32]">
 			<WorkingIcon color="#32cd32" />
 			<div class="pl-2 font-medium">
-				Coding: {current_project ? formatTime(codingTimeToday) : 'N/A'}
+				Today: {current_project ? formatTime(codingTimeToday) : 'N/A'}
 			</div>
 		</div>
 		<div class="hidden md:flex text-[#32cd32]">
 			<div class="pr-2 font-medium">
-				Coding: {current_project ? formatTime(codingTimeToday) : 'N/A'}
+				Today: {current_project ? formatTime(codingTimeToday) : 'N/A'}
 			</div>
 			<WorkingIcon color="#32cd32" />
 		</div>
@@ -84,7 +84,7 @@
 <div class="flex justify-end p-4 md:justify-start">
 	<!-- Very bad implementation, but will atleast update time spent that day
 	 and should also reset every night.-->
-	{#if currently_programming}
+	{#if current_project}
 		{@render snippet1()}
 	{:else}
 		<div class="flex gap-2">
