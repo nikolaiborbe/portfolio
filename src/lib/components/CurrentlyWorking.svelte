@@ -42,8 +42,6 @@
 	onMount(async () => {
 		fetchHeartbeat();
 		fetchCodingTime();
-		const res = await fetch(`https://github.com/${github_username}/${current_project}`, { method: "HEAD"});
-		valid = res.ok;
 		updateInterval = setInterval(fetchHeartbeat, 60000);
 		updateInterval = setInterval(fetchCodingTime, 60000);
 	});
@@ -74,26 +72,11 @@
 	</a>
 {/snippet}
 
-{#snippet snippet2()}
-	<div class="md:hidden flex text-[#32cd32]">
-		<WorkingIcon color="#32cd32" />
-		<div class="pl-2 font-medium">
-			Coding: {current_project ? formatTime(codingTimeToday) : 'N/A'}
-		</div>
-	</div>
-	<div class="hidden md:flex text-[#32cd32]">
-		<div class="pr-2 font-medium">
-			Coding: {current_project ? formatTime(codingTimeToday) : 'N/A'}
-		</div>
-		<WorkingIcon color="#32cd32" />
-	</div>
-{/snippet}
-
 <div class="flex justify-end p-4 md:justify-start">
 	<!-- Very bad implementation, but will atleast update time spent that day
 	 and should also reset every night.-->
 	{#if currently_programming}
-		{@render (valid ? snippet1 : snippet2)()}
+		{@render snippet1()}
 	{:else}
 		<div class="flex gap-2">
 			<div class="font-medium text-[#ff0000]">Offline</div>
