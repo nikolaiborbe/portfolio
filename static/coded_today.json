@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 8,
-        "minutes": 51,
-        "total_seconds": 31910.969884,
-        "digital": "8:51",
-        "decimal": "8.85",
-        "text": "8 hrs 51 mins"
+        "minutes": 54,
+        "total_seconds": 32070.670419,
+        "digital": "8:54",
+        "decimal": "8.90",
+        "text": "8 hrs 54 mins"
       },
       "range": {
         "start": "2025-02-14T23:00:00Z",
@@ -19,15 +19,15 @@
       "projects": [
         {
           "name": "portfolio",
-          "total_seconds": 15885.580759,
+          "total_seconds": 16045.281294,
           "color": null,
-          "digital": "4:24:45",
-          "decimal": "4.40",
-          "text": "4 hrs 24 mins",
+          "digital": "4:27:25",
+          "decimal": "4.45",
+          "text": "4 hrs 27 mins",
           "hours": 4,
-          "minutes": 24,
-          "seconds": 45,
-          "percent": 49.78
+          "minutes": 27,
+          "seconds": 25,
+          "percent": 50.03
         },
         {
           "name": "engine-software-2025-v0",
@@ -39,7 +39,7 @@
           "hours": 3,
           "minutes": 43,
           "seconds": 0,
-          "percent": 41.93
+          "percent": 41.72
         },
         {
           "name": "engine-software-2025-thermocouple-driver-max31856",
@@ -51,7 +51,7 @@
           "hours": 0,
           "minutes": 44,
           "seconds": 5,
-          "percent": 8.29
+          "percent": 8.25
         }
       ],
       "languages": [
@@ -64,18 +64,18 @@
           "hours": 4,
           "minutes": 16,
           "seconds": 37,
-          "percent": 48.25
+          "percent": 48.01
         },
         {
           "name": "Svelte",
-          "total_seconds": 8168.945375,
-          "digital": "2:16:08",
-          "decimal": "2.27",
-          "text": "2 hrs 16 mins",
+          "total_seconds": 8328.64591,
+          "digital": "2:18:48",
+          "decimal": "2.30",
+          "text": "2 hrs 18 mins",
           "hours": 2,
-          "minutes": 16,
-          "seconds": 8,
-          "percent": 25.6
+          "minutes": 18,
+          "seconds": 48,
+          "percent": 25.97
         },
         {
           "name": "JavaScript",
@@ -86,7 +86,7 @@
           "hours": 1,
           "minutes": 13,
           "seconds": 53,
-          "percent": 13.89
+          "percent": 13.83
         },
         {
           "name": "JSON",
@@ -97,7 +97,7 @@
           "hours": 0,
           "minutes": 41,
           "seconds": 57,
-          "percent": 7.89
+          "percent": 7.85
         },
         {
           "name": "YAML",
@@ -108,7 +108,7 @@
           "hours": 0,
           "minutes": 18,
           "seconds": 43,
-          "percent": 3.52
+          "percent": 3.5
         },
         {
           "name": "CMake",
@@ -1237,6 +1237,18 @@
       ],
       "machines": [
         {
+          "name": "Nikolais-Mac-mini.local",
+          "total_seconds": 16045.281294,
+          "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
+          "digital": "4:27:25",
+          "decimal": "4.45",
+          "text": "4 hrs 27 mins",
+          "hours": 4,
+          "minutes": 27,
+          "seconds": 25,
+          "percent": 50.03
+        },
+        {
           "name": "ngb",
           "total_seconds": 16025.389125,
           "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2",
@@ -1246,35 +1258,34 @@
           "hours": 4,
           "minutes": 27,
           "seconds": 5,
-          "percent": 50.22
-        },
-        {
-          "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 15885.580759,
-          "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "4:24:45",
-          "decimal": "4.40",
-          "text": "4 hrs 24 mins",
-          "hours": 4,
-          "minutes": 24,
-          "seconds": 45,
-          "percent": 49.78
+          "percent": 49.97
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 31910.969884,
-          "digital": "8:51:50",
-          "decimal": "8.85",
-          "text": "8 hrs 51 mins",
+          "total_seconds": 32070.670419,
+          "digital": "8:54:30",
+          "decimal": "8.90",
+          "text": "8 hrs 54 mins",
           "hours": 8,
-          "minutes": 51,
-          "seconds": 50,
+          "minutes": 54,
+          "seconds": 30,
           "percent": 100
         }
       ],
       "operating_systems": [
+        {
+          "name": "Mac",
+          "total_seconds": 16045.281294,
+          "digital": "4:27:25",
+          "decimal": "4.45",
+          "text": "4 hrs 27 mins",
+          "hours": 4,
+          "minutes": 27,
+          "seconds": 25,
+          "percent": 50.03
+        },
         {
           "name": "Windows",
           "total_seconds": 16025.389125,
@@ -1284,31 +1295,20 @@
           "hours": 4,
           "minutes": 27,
           "seconds": 5,
-          "percent": 50.22
-        },
-        {
-          "name": "Mac",
-          "total_seconds": 15885.580759,
-          "digital": "4:24:45",
-          "decimal": "4.40",
-          "text": "4 hrs 24 mins",
-          "hours": 4,
-          "minutes": 24,
-          "seconds": 45,
-          "percent": 49.78
+          "percent": 49.97
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 29663.843954,
-          "digital": "8:14:23",
-          "decimal": "8.23",
-          "text": "8 hrs 14 mins",
+          "total_seconds": 29823.544489,
+          "digital": "8:17:03",
+          "decimal": "8.28",
+          "text": "8 hrs 17 mins",
           "hours": 8,
-          "minutes": 14,
-          "seconds": 23,
-          "percent": 92.96
+          "minutes": 17,
+          "seconds": 3,
+          "percent": 92.99
         },
         {
           "name": "Debugging",
@@ -1319,7 +1319,7 @@
           "hours": 0,
           "minutes": 26,
           "seconds": 53,
-          "percent": 5.06
+          "percent": 5.03
         },
         {
           "name": "Building",
@@ -1330,7 +1330,7 @@
           "hours": 0,
           "minutes": 10,
           "seconds": 33,
-          "percent": 1.99
+          "percent": 1.98
         }
       ]
     }
@@ -1338,18 +1338,18 @@
   "start": "2025-02-14T23:00:00Z",
   "end": "2025-02-15T22:59:59Z",
   "cumulative_total": {
-    "seconds": 31910.969884,
-    "text": "8 hrs 51 mins",
-    "digital": "8:51",
-    "decimal": "8.85"
+    "seconds": 32070.670419,
+    "text": "8 hrs 54 mins",
+    "digital": "8:54",
+    "decimal": "8.90"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 31851,
-    "seconds_including_other_language": 31911,
-    "text": "8 hrs 50 mins",
-    "text_including_other_language": "8 hrs 51 mins"
+    "seconds": 32011,
+    "seconds_including_other_language": 32071,
+    "text": "8 hrs 53 mins",
+    "text_including_other_language": "8 hrs 54 mins"
   }
 }
