@@ -1,31 +1,128 @@
 [
   {
+<<<<<<< HEAD
     "id": "90840712-2304-4610-b941-f566014d8fac",
     "entity": "/Users/nikolaiborbe/Documents/Programming/portfolio/src/lib/components/CurrentlyWorking.svelte",
     "type": "file",
     "time": 1739644026.66948,
+=======
+    "id": "985ddf06-8c70-4382-8b07-d60103672068",
+    "entity": "/Users/nikolaiborbe/Documents/Programming/portfolio/scripts/currently_active.js",
+    "type": "file",
+    "time": 1739643629.372522,
+>>>>>>> 82438c880d1c7cfcdbab02a70871c7054ccfe7d9
     "project": "portfolio",
     "project_root_count": 6,
     "branch": "main",
-    "language": "Svelte",
-    "dependencies": [],
+    "language": "JavaScript",
+    "dependencies": [
+      "fs",
+      "path",
+      "buffer",
+      "node-fetch"
+    ],
     "line_additions": null,
     "line_deletions": null,
-    "lines": 97,
-    "lineno": 34,
-    "cursorpos": 2,
-    "is_write": true,
+<<<<<<< HEAD
+=======
+    "lines": 57,
+    "lineno": 47,
+    "cursorpos": 5,
+    "is_write": false,
     "category": "coding",
-    "created_at": "2025-02-15T18:28:20Z",
+    "created_at": "2025-02-15T18:20:29Z",
     "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
     "user_agent_id": "2fd88277-dcc0-4839-ae80-dff98040c4d4",
     "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
   },
   {
+    "id": "6050cbed-4513-4a03-9ad9-da13fd496c12",
+    "entity": "/Users/nikolaiborbe/Documents/Programming/portfolio/scripts/summary.js",
+    "type": "file",
+    "time": 1739643632.466619,
+    "project": "portfolio",
+    "project_root_count": 6,
+    "branch": "main",
+    "language": "JavaScript",
+    "dependencies": [
+      "buffer",
+      "path",
+      "node-fetch",
+      "fs"
+    ],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 48,
+    "lineno": 40,
+    "cursorpos": 5,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-02-15T18:22:42Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "2fd88277-dcc0-4839-ae80-dff98040c4d4",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  },
+  {
+    "id": "76496a4c-eef6-45c5-ba46-9ba596c49ff8",
+    "entity": "/Users/nikolaiborbe/Documents/Programming/portfolio/src/lib/components/CurrentlyWorking.svelte",
+    "type": "file",
+    "time": 1739643735.064593,
+    "project": "portfolio",
+    "project_root_count": 6,
+    "branch": "main",
+    "language": "Svelte",
+    "dependencies": [],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 96,
+    "lineno": 21,
+    "cursorpos": 27,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-02-15T18:22:42Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "2fd88277-dcc0-4839-ae80-dff98040c4d4",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  },
+  {
+    "id": "42c22532-0641-431a-8513-154cafd61d73",
+    "entity": "/Users/nikolaiborbe/Documents/Programming/portfolio/src/lib/components/CurrentlyWorking.svelte",
+    "type": "file",
+    "time": 1739643746.55899,
+    "project": "portfolio",
+    "project_root_count": 6,
+    "branch": "main",
+    "language": "Svelte",
+    "dependencies": [],
+    "line_additions": null,
+    "line_deletions": null,
+>>>>>>> 82438c880d1c7cfcdbab02a70871c7054ccfe7d9
+    "lines": 97,
+    "lineno": 34,
+    "cursorpos": 2,
+    "is_write": true,
+    "category": "coding",
+<<<<<<< HEAD
+    "created_at": "2025-02-15T18:28:20Z",
+=======
+    "created_at": "2025-02-15T18:22:42Z",
+>>>>>>> 82438c880d1c7cfcdbab02a70871c7054ccfe7d9
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "2fd88277-dcc0-4839-ae80-dff98040c4d4",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  },
+  {
+<<<<<<< HEAD
     "id": "540b489b-b6db-475b-989f-aaf16b801625",
     "entity": "/Users/nikolaiborbe/Documents/Programming/portfolio/src/lib/components/CurrentlyWorking.svelte",
     "type": "file",
     "time": 1739644027.876184,
+=======
+    "id": "8735580e-7844-458d-841a-e2bc71ddf856",
+    "entity": "/Users/nikolaiborbe/Documents/Programming/portfolio/src/lib/components/CurrentlyWorking.svelte",
+    "type": "file",
+    "time": 1739643760.914186,
+>>>>>>> 82438c880d1c7cfcdbab02a70871c7054ccfe7d9
     "project": "portfolio",
     "project_root_count": 6,
     "branch": "main",
@@ -34,6 +131,7 @@
     "line_additions": null,
     "line_deletions": null,
     "lines": 97,
+<<<<<<< HEAD
     "lineno": 34,
     "cursorpos": 15,
     "is_write": true,
@@ -105,6 +203,13 @@
     "is_write": true,
     "category": "coding",
     "created_at": "2025-02-15T18:28:19Z",
+=======
+    "lineno": 31,
+    "cursorpos": 36,
+    "is_write": true,
+    "category": "coding",
+    "created_at": "2025-02-15T18:22:41Z",
+>>>>>>> 82438c880d1c7cfcdbab02a70871c7054ccfe7d9
     "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
     "user_agent_id": "2fd88277-dcc0-4839-ae80-dff98040c4d4",
     "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
