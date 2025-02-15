@@ -15,7 +15,7 @@
 	<div class="flex flex-col gap-3">
 		<div class="title">About me</div>
 		<div class="size-lg">
-			Hi, I’m Nikolai, a full-stack developer from Norway. I’m passionate about understanding the
+			Hi, my name is Nikolai, I’m a <span>age</span> year old, full-stack developer from Norway. I’m passionate about understanding the
 			world around me. Currently, I’m pursuing a bachelor’s degree in physics while programming in
 			my free time.
 		</div>

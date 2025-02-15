@@ -27,12 +27,13 @@
 		const res = await fetch("/heartbeat.json");
 		if (!res.ok) throw new Error("Error fetching WakaTime data");
 		const data = await res.json();
-		let last_five: Array<boolean> = data.slice(-5).map((x: any) => x.is_write);
-		if (last_five.includes(true)) {
+		const time_dif = new Date().getTime() - new Date(data[data.length - 1].timestamp).getTime();
+		if (time_dif < 1000 * 60 * 16) {
 			currently_programming = true;
 		} else {
 			currently_programming = false;
 		}
+
 		current_project = data[data.length - 1].project;
 	}
 
