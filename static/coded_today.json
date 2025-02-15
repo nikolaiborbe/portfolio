@@ -4,7 +4,7 @@
       "grand_total": {
         "hours": 8,
         "minutes": 54,
-        "total_seconds": 32070.670419,
+        "total_seconds": 32098.288404,
         "digital": "8:54",
         "decimal": "8.90",
         "text": "8 hrs 54 mins"
@@ -19,15 +19,15 @@
       "projects": [
         {
           "name": "portfolio",
-          "total_seconds": 16045.281294,
+          "total_seconds": 16072.899279,
           "color": null,
-          "digital": "4:27:25",
+          "digital": "4:27:52",
           "decimal": "4.45",
           "text": "4 hrs 27 mins",
           "hours": 4,
           "minutes": 27,
-          "seconds": 25,
-          "percent": 50.03
+          "seconds": 52,
+          "percent": 50.07
         },
         {
           "name": "engine-software-2025-v0",
@@ -39,7 +39,7 @@
           "hours": 3,
           "minutes": 43,
           "seconds": 0,
-          "percent": 41.72
+          "percent": 41.69
         },
         {
           "name": "engine-software-2025-thermocouple-driver-max31856",
@@ -51,7 +51,7 @@
           "hours": 0,
           "minutes": 44,
           "seconds": 5,
-          "percent": 8.25
+          "percent": 8.24
         }
       ],
       "languages": [
@@ -64,18 +64,18 @@
           "hours": 4,
           "minutes": 16,
           "seconds": 37,
-          "percent": 48.01
+          "percent": 47.97
         },
         {
           "name": "Svelte",
-          "total_seconds": 8328.64591,
-          "digital": "2:18:48",
-          "decimal": "2.30",
-          "text": "2 hrs 18 mins",
+          "total_seconds": 8356.263895,
+          "digital": "2:19:16",
+          "decimal": "2.32",
+          "text": "2 hrs 19 mins",
           "hours": 2,
-          "minutes": 18,
-          "seconds": 48,
-          "percent": 25.97
+          "minutes": 19,
+          "seconds": 16,
+          "percent": 26.03
         },
         {
           "name": "JavaScript",
@@ -86,7 +86,7 @@
           "hours": 1,
           "minutes": 13,
           "seconds": 53,
-          "percent": 13.83
+          "percent": 13.81
         },
         {
           "name": "JSON",
@@ -97,7 +97,7 @@
           "hours": 0,
           "minutes": 41,
           "seconds": 57,
-          "percent": 7.85
+          "percent": 7.84
         },
         {
           "name": "YAML",
@@ -174,6 +174,17 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 1,
+          "percent": 0
+        },
+        {
+          "name": "HTML",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
           "percent": 0
         }
       ],
@@ -1238,15 +1249,15 @@
       "machines": [
         {
           "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 16045.281294,
+          "total_seconds": 16072.899279,
           "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "4:27:25",
+          "digital": "4:27:52",
           "decimal": "4.45",
           "text": "4 hrs 27 mins",
           "hours": 4,
           "minutes": 27,
-          "seconds": 25,
-          "percent": 50.03
+          "seconds": 52,
+          "percent": 50.07
         },
         {
           "name": "ngb",
@@ -1258,33 +1269,33 @@
           "hours": 4,
           "minutes": 27,
           "seconds": 5,
-          "percent": 49.97
+          "percent": 49.93
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 32070.670419,
-          "digital": "8:54:30",
+          "total_seconds": 32098.288404,
+          "digital": "8:54:58",
           "decimal": "8.90",
           "text": "8 hrs 54 mins",
           "hours": 8,
           "minutes": 54,
-          "seconds": 30,
+          "seconds": 58,
           "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Mac",
-          "total_seconds": 16045.281294,
-          "digital": "4:27:25",
+          "total_seconds": 16072.899279,
+          "digital": "4:27:52",
           "decimal": "4.45",
           "text": "4 hrs 27 mins",
           "hours": 4,
           "minutes": 27,
-          "seconds": 25,
-          "percent": 50.03
+          "seconds": 52,
+          "percent": 50.07
         },
         {
           "name": "Windows",
@@ -1295,20 +1306,20 @@
           "hours": 4,
           "minutes": 27,
           "seconds": 5,
-          "percent": 49.97
+          "percent": 49.93
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 29823.544489,
-          "digital": "8:17:03",
+          "total_seconds": 29851.162474,
+          "digital": "8:17:31",
           "decimal": "8.28",
           "text": "8 hrs 17 mins",
           "hours": 8,
           "minutes": 17,
-          "seconds": 3,
-          "percent": 92.99
+          "seconds": 31,
+          "percent": 93
         },
         {
           "name": "Debugging",
@@ -1330,7 +1341,7 @@
           "hours": 0,
           "minutes": 10,
           "seconds": 33,
-          "percent": 1.98
+          "percent": 1.97
         }
       ]
     }
@@ -1338,7 +1349,7 @@
   "start": "2025-02-14T23:00:00Z",
   "end": "2025-02-15T22:59:59Z",
   "cumulative_total": {
-    "seconds": 32070.670419,
+    "seconds": 32098.288404,
     "text": "8 hrs 54 mins",
     "digital": "8:54",
     "decimal": "8.90"
@@ -1347,8 +1358,8 @@
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 32011,
-    "seconds_including_other_language": 32071,
+    "seconds": 32038,
+    "seconds_including_other_language": 32098,
     "text": "8 hrs 53 mins",
     "text_including_other_language": "8 hrs 54 mins"
   }
