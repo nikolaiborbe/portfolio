@@ -8,9 +8,6 @@
 	import Skills from '$lib/components/Skills.svelte';
 	import Age from '$lib/objects/Age.svelte';
 
-	let age: number = new Date().getTime() - new Date("2002-02-23T21:53:30").getTime(); // i'm convinced 30 sek makes the probability
-	age = (age / 1000 / 60 / 60 / 24 / 365.25); 															// of it being exact the best
-	console.log(age);
 	let projects: any = Object.values(Projects).flat();									
 </script>
 

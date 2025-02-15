@@ -27,8 +27,11 @@
 		const res = await fetch("/heartbeat.json");
 		if (!res.ok) throw new Error("Error fetching WakaTime data");
 		const data = await res.json();
-		const time_dif = new Date().getTime() - new Date(data[data.length - 1].timestamp).getTime();
-		if (time_dif < 1000 * 60 * 16) {
+		console.log(data[data.length - 1].time);
+		const wakatime = 1000 * data[data.length - 1].time;
+		const now = new Date().getTime();
+		const time_dif = now - wakatime;
+		if (time_dif < 1000 * 60 * 20) {
 			currently_programming = true;
 		} else {
 			currently_programming = false;
