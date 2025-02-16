@@ -27,17 +27,15 @@
 		const res = await fetch("/heartbeat.json");
 		if (!res.ok) throw new Error("Error fetching WakaTime data");
 		const data = await res.json();
-		console.log(data[data.length - 1].time);
 		const wakatime = 1000 * data[data.length - 1].time;
 		const now = new Date().getTime();
 		const time_dif = now - wakatime;
-		if (time_dif < 1000 * 60 * 20) {
-			currently_programming = true;
-		} else {
-			currently_programming = false;
-		}
-
 		current_project = data[data.length - 1].project;
+		if (current_project === "") {
+			currently_programming = false;
+		} else {
+			currently_programming = true;
+		}
 	}
 
 	async function fetchCodingTime() {
@@ -84,7 +82,7 @@
 <div class="flex justify-end p-4 md:justify-start">
 	<!-- Very bad implementation, but will atleast update time spent that day
 	 and should also reset every night.-->
-	{#if current_project}
+	{#if currently_programming}
 		{@render snippet1()}
 	{:else}
 		<div class="flex gap-2">
