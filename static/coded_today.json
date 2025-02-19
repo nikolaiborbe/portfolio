@@ -1,47 +1,6 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 4,
-        "minutes": 29,
-        "total_seconds": 16162.376149,
-        "digital": "4:29",
-        "decimal": "4.48",
-        "text": "4 hrs 29 mins"
-      },
-      "range": {
-        "start": "2025-02-18T23:00:00Z",
-        "end": "2025-02-19T22:59:59Z",
-        "date": "2025-02-19",
-        "text": "Wed Feb 19th 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
-        {
-          "name": "formula-website",
-          "total_seconds": 15340.90011,
-          "color": null,
-          "digital": "4:15:40",
-          "decimal": "4.25",
-          "text": "4 hrs 15 mins",
-          "hours": 4,
-          "minutes": 15,
-          "seconds": 40,
-          "percent": 94.92
-        },
-        {
-          "name": "propulse_website",
-          "total_seconds": 821.476039,
-          "color": null,
-          "digital": "0:13:41",
-          "decimal": "0.22",
-          "text": "13 mins",
-          "hours": 0,
-          "minutes": 13,
-          "seconds": 41,
-          "percent": 5.08
-        }
-      ],
       "languages": [
         {
           "name": "Svelte",
@@ -132,7 +91,76 @@
           "percent": 0.06
         }
       ],
+      "grand_total": {
+        "hours": 4,
+        "minutes": 29,
+        "total_seconds": 16162.376149,
+        "digital": "4:29",
+        "decimal": "4.48",
+        "text": "4 hrs 29 mins"
+      },
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 16162.376149,
+          "digital": "4:29:22",
+          "decimal": "4.48",
+          "text": "4 hrs 29 mins",
+          "hours": 4,
+          "minutes": 29,
+          "seconds": 22,
+          "percent": 100
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Mac",
+          "total_seconds": 15340.90011,
+          "digital": "4:15:40",
+          "decimal": "4.25",
+          "text": "4 hrs 15 mins",
+          "hours": 4,
+          "minutes": 15,
+          "seconds": 40,
+          "percent": 94.92
+        },
+        {
+          "name": "Windows",
+          "total_seconds": 821.476039,
+          "digital": "0:13:41",
+          "decimal": "0.22",
+          "text": "13 mins",
+          "hours": 0,
+          "minutes": 13,
+          "seconds": 41,
+          "percent": 5.08
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 16162.376149,
+          "digital": "4:29:22",
+          "decimal": "4.48",
+          "text": "4 hrs 29 mins",
+          "hours": 4,
+          "minutes": 29,
+          "seconds": 22,
+          "percent": 100
+        }
+      ],
       "dependencies": [
+        {
+          "name": "material",
+          "total_seconds": 807.145584,
+          "digital": "0:13:27",
+          "decimal": "0.22",
+          "text": "13 mins",
+          "hours": 0,
+          "minutes": 13,
+          "seconds": 27,
+          "percent": 5.38
+        },
         {
           "name": "react",
           "total_seconds": 807.145584,
@@ -145,15 +173,26 @@
           "percent": 5.38
         },
         {
-          "name": "material",
-          "total_seconds": 807.145584,
-          "digital": "0:13:27",
-          "decimal": "0.22",
-          "text": "13 mins",
+          "name": "LinkedIn",
+          "total_seconds": 680.407152,
+          "digital": "0:11:20",
+          "decimal": "0.18",
+          "text": "11 mins",
           "hours": 0,
-          "minutes": 13,
-          "seconds": 27,
-          "percent": 5.38
+          "minutes": 11,
+          "seconds": 20,
+          "percent": 4.54
+        },
+        {
+          "name": "ghost-spinning-ghost",
+          "total_seconds": 680.407152,
+          "digital": "0:11:20",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 20,
+          "percent": 4.54
         },
         {
           "name": "Renny_cart",
@@ -178,51 +217,7 @@
           "percent": 4.54
         },
         {
-          "name": "sad-kermit",
-          "total_seconds": 680.407152,
-          "digital": "0:11:20",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 20,
-          "percent": 4.54
-        },
-        {
-          "name": "shreksophone-saxophone",
-          "total_seconds": 680.407152,
-          "digital": "0:11:20",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 20,
-          "percent": 4.54
-        },
-        {
-          "name": "grinning-emoji",
-          "total_seconds": 680.407152,
-          "digital": "0:11:20",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 20,
-          "percent": 4.54
-        },
-        {
-          "name": "funny_sounds",
-          "total_seconds": 680.407152,
-          "digital": "0:11:20",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 20,
-          "percent": 4.54
-        },
-        {
-          "name": "ghost-spinning-ghost",
+          "name": "EmailRounded",
           "total_seconds": 680.407152,
           "digital": "0:11:20",
           "decimal": "0.18",
@@ -266,6 +261,39 @@
           "percent": 4.54
         },
         {
+          "name": "funny_sounds",
+          "total_seconds": 680.407152,
+          "digital": "0:11:20",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 20,
+          "percent": 4.54
+        },
+        {
+          "name": "shreksophone-saxophone",
+          "total_seconds": 680.407152,
+          "digital": "0:11:20",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 20,
+          "percent": 4.54
+        },
+        {
+          "name": "popcat",
+          "total_seconds": 680.407152,
+          "digital": "0:11:20",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 20,
+          "percent": 4.54
+        },
+        {
           "name": "use-sound",
           "total_seconds": 680.407152,
           "digital": "0:11:20",
@@ -277,7 +305,51 @@
           "percent": 4.54
         },
         {
+          "name": "teamlogo",
+          "total_seconds": 680.407152,
+          "digital": "0:11:20",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 20,
+          "percent": 4.54
+        },
+        {
+          "name": "grinning-emoji",
+          "total_seconds": 680.407152,
+          "digital": "0:11:20",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 20,
+          "percent": 4.54
+        },
+        {
+          "name": "sad-kermit",
+          "total_seconds": 680.407152,
+          "digital": "0:11:20",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 20,
+          "percent": 4.54
+        },
+        {
           "name": "among-us-twerk",
+          "total_seconds": 680.407152,
+          "digital": "0:11:20",
+          "decimal": "0.18",
+          "text": "11 mins",
+          "hours": 0,
+          "minutes": 11,
+          "seconds": 20,
+          "percent": 4.54
+        },
+        {
+          "name": "thanos-dancing",
           "total_seconds": 680.407152,
           "digital": "0:11:20",
           "decimal": "0.18",
@@ -310,61 +382,6 @@
           "percent": 4.54
         },
         {
-          "name": "EmailRounded",
-          "total_seconds": 680.407152,
-          "digital": "0:11:20",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 20,
-          "percent": 4.54
-        },
-        {
-          "name": "popcat",
-          "total_seconds": 680.407152,
-          "digital": "0:11:20",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 20,
-          "percent": 4.54
-        },
-        {
-          "name": "thanos-dancing",
-          "total_seconds": 680.407152,
-          "digital": "0:11:20",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 20,
-          "percent": 4.54
-        },
-        {
-          "name": "LinkedIn",
-          "total_seconds": 680.407152,
-          "digital": "0:11:20",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 20,
-          "percent": 4.54
-        },
-        {
-          "name": "teamlogo",
-          "total_seconds": 680.407152,
-          "digital": "0:11:20",
-          "decimal": "0.18",
-          "text": "11 mins",
-          "hours": 0,
-          "minutes": 11,
-          "seconds": 20,
-          "percent": 4.54
-        },
-        {
           "name": "MemberList",
           "total_seconds": 126.738432,
           "digital": "0:02:06",
@@ -376,7 +393,7 @@
           "percent": 0.85
         },
         {
-          "name": "Footer",
+          "name": "MemberCard",
           "total_seconds": 119.044977,
           "digital": "0:01:59",
           "decimal": "0.02",
@@ -387,7 +404,7 @@
           "percent": 0.79
         },
         {
-          "name": "MemberCard",
+          "name": "Footer",
           "total_seconds": 119.044977,
           "digital": "0:01:59",
           "decimal": "0.02",
@@ -409,7 +426,18 @@
           "percent": 0.05
         },
         {
-          "name": "team2021",
+          "name": "team2020",
+          "total_seconds": 7.693455,
+          "digital": "0:00:07",
+          "decimal": "0.00",
+          "text": "7 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 7,
+          "percent": 0.05
+        },
+        {
+          "name": "team24",
           "total_seconds": 7.693455,
           "digital": "0:00:07",
           "decimal": "0.00",
@@ -464,6 +492,17 @@
           "percent": 0.05
         },
         {
+          "name": "team2021",
+          "total_seconds": 7.693455,
+          "digital": "0:00:07",
+          "decimal": "0.00",
+          "text": "7 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 7,
+          "percent": 0.05
+        },
+        {
           "name": "KeyboardArrowLeftRounded",
           "total_seconds": 7.693455,
           "digital": "0:00:07",
@@ -486,29 +525,7 @@
           "percent": 0.05
         },
         {
-          "name": "team24",
-          "total_seconds": 7.693455,
-          "digital": "0:00:07",
-          "decimal": "0.00",
-          "text": "7 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 7,
-          "percent": 0.05
-        },
-        {
-          "name": "team2020",
-          "total_seconds": 7.693455,
-          "digital": "0:00:07",
-          "decimal": "0.00",
-          "text": "7 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 7,
-          "percent": 0.05
-        },
-        {
-          "name": "prop-types",
+          "name": "csstype",
           "total_seconds": 3.911624,
           "digital": "0:00:03",
           "decimal": "0.00",
@@ -530,7 +547,7 @@
           "percent": 0.03
         },
         {
-          "name": "csstype",
+          "name": "prop-types",
           "total_seconds": 3.911624,
           "digital": "0:00:03",
           "decimal": "0.00",
@@ -567,22 +584,9 @@
           "percent": 5.08
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "VS Code",
-          "total_seconds": 16162.376149,
-          "digital": "4:29:22",
-          "decimal": "4.48",
-          "text": "4 hrs 29 mins",
-          "hours": 4,
-          "minutes": 29,
-          "seconds": 22,
-          "percent": 100
-        }
-      ],
-      "operating_systems": [
-        {
-          "name": "Mac",
+          "name": "formula-website",
           "total_seconds": 15340.90011,
           "digital": "4:15:40",
           "decimal": "4.25",
@@ -593,7 +597,7 @@
           "percent": 94.92
         },
         {
-          "name": "Windows",
+          "name": "propulse_website",
           "total_seconds": 821.476039,
           "digital": "0:13:41",
           "decimal": "0.22",
@@ -604,19 +608,13 @@
           "percent": 5.08
         }
       ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 16162.376149,
-          "digital": "4:29:22",
-          "decimal": "4.48",
-          "text": "4 hrs 29 mins",
-          "hours": 4,
-          "minutes": 29,
-          "seconds": 22,
-          "percent": 100
-        }
-      ]
+      "range": {
+        "start": "2025-02-18T23:00:00Z",
+        "end": "2025-02-19T22:59:59Z",
+        "date": "2025-02-19",
+        "text": "Wed Feb 19th 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-02-18T23:00:00Z",
