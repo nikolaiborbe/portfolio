@@ -16,13 +16,231 @@
         "text": "Wed Feb 19th 2025",
         "timezone": "Europe/Oslo"
       },
-      "projects": [],
-      "languages": [],
-      "dependencies": [],
-      "machines": [],
-      "editors": [],
-      "operating_systems": [],
-      "categories": []
+      "projects": [
+        {
+          "name": "propulse_website",
+          "total_seconds": 0,
+          "color": null,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "languages": [
+        {
+          "name": "JavaScript",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "team2019",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "team2021",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "react-router-dom",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "react",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "Header",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "Birkeland_SAC_team_shrunk",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "KeyboardArrowRightRounded",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "KeyboardArrowLeftRounded",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "material",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "MemberList",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "bifrost_euroc_group_photo2",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "team24",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "team2020",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "machines": [
+        {
+          "name": "ngb",
+          "total_seconds": 0,
+          "machine_name_id": "9a1c9bbd-2465-49d6-8f80-3f116b2e3d34",
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ]
     }
   ],
   "start": "2025-02-18T23:00:00Z",
