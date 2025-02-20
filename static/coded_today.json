@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 0,
-        "minutes": 18,
-        "total_seconds": 1091.43233,
-        "digital": "0:18",
-        "decimal": "0.30",
-        "text": "18 mins"
+        "minutes": 24,
+        "total_seconds": 1464.412275,
+        "digital": "0:24",
+        "decimal": "0.40",
+        "text": "24 mins"
       },
       "range": {
         "start": "2025-02-19T23:00:00Z",
@@ -27,7 +27,19 @@
           "hours": 0,
           "minutes": 18,
           "seconds": 11,
-          "percent": 100
+          "percent": 74.53
+        },
+        {
+          "name": "formula-website",
+          "total_seconds": 372.979945,
+          "color": null,
+          "digital": "0:06:12",
+          "decimal": "0.10",
+          "text": "6 mins",
+          "hours": 0,
+          "minutes": 6,
+          "seconds": 12,
+          "percent": 25.47
         }
       ],
       "languages": [
@@ -40,7 +52,18 @@
           "hours": 0,
           "minutes": 18,
           "seconds": 11,
-          "percent": 100
+          "percent": 74.53
+        },
+        {
+          "name": "Svelte",
+          "total_seconds": 372.979945,
+          "digital": "0:06:12",
+          "decimal": "0.10",
+          "text": "6 mins",
+          "hours": 0,
+          "minutes": 6,
+          "seconds": 12,
+          "percent": 25.47
         }
       ],
       "dependencies": [
@@ -166,19 +189,31 @@
           "hours": 0,
           "minutes": 18,
           "seconds": 11,
-          "percent": 100
+          "percent": 74.53
+        },
+        {
+          "name": "Nikolais-Mac-mini.local",
+          "total_seconds": 372.979945,
+          "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
+          "digital": "0:06:12",
+          "decimal": "0.10",
+          "text": "6 mins",
+          "hours": 0,
+          "minutes": 6,
+          "seconds": 12,
+          "percent": 25.47
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 1091.43233,
-          "digital": "0:18:11",
-          "decimal": "0.30",
-          "text": "18 mins",
+          "total_seconds": 1464.412275,
+          "digital": "0:24:24",
+          "decimal": "0.40",
+          "text": "24 mins",
           "hours": 0,
-          "minutes": 18,
-          "seconds": 11,
+          "minutes": 24,
+          "seconds": 24,
           "percent": 100
         }
       ],
@@ -192,19 +227,30 @@
           "hours": 0,
           "minutes": 18,
           "seconds": 11,
-          "percent": 100
+          "percent": 74.53
+        },
+        {
+          "name": "Mac",
+          "total_seconds": 372.979945,
+          "digital": "0:06:12",
+          "decimal": "0.10",
+          "text": "6 mins",
+          "hours": 0,
+          "minutes": 6,
+          "seconds": 12,
+          "percent": 25.47
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 1091.43233,
-          "digital": "0:18:11",
-          "decimal": "0.30",
-          "text": "18 mins",
+          "total_seconds": 1464.412275,
+          "digital": "0:24:24",
+          "decimal": "0.40",
+          "text": "24 mins",
           "hours": 0,
-          "minutes": 18,
-          "seconds": 11,
+          "minutes": 24,
+          "seconds": 24,
           "percent": 100
         }
       ]
@@ -213,18 +259,18 @@
   "start": "2025-02-19T23:00:00Z",
   "end": "2025-02-20T22:59:59Z",
   "cumulative_total": {
-    "seconds": 1091.43233,
-    "text": "18 mins",
-    "digital": "0:18",
-    "decimal": "0.30"
+    "seconds": 1464.412275,
+    "text": "24 mins",
+    "digital": "0:24",
+    "decimal": "0.40"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 1091,
-    "seconds_including_other_language": 1091,
-    "text": "18 mins",
-    "text_including_other_language": "18 mins"
+    "seconds": 1464,
+    "seconds_including_other_language": 1464,
+    "text": "24 mins",
+    "text_including_other_language": "24 mins"
   }
 }
