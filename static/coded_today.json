@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 2,
-        "minutes": 39,
-        "total_seconds": 9554.650099,
-        "digital": "2:39",
-        "decimal": "2.65",
-        "text": "2 hrs 39 mins"
+        "minutes": 52,
+        "total_seconds": 10341.294477,
+        "digital": "2:52",
+        "decimal": "2.87",
+        "text": "2 hrs 52 mins"
       },
       "range": {
         "start": "2025-02-20T23:00:00Z",
@@ -19,28 +19,28 @@
       "projects": [
         {
           "name": "formula-website",
-          "total_seconds": 9554.650099,
+          "total_seconds": 10341.294477,
           "color": null,
-          "digital": "2:39:14",
-          "decimal": "2.65",
-          "text": "2 hrs 39 mins",
+          "digital": "2:52:21",
+          "decimal": "2.87",
+          "text": "2 hrs 52 mins",
           "hours": 2,
-          "minutes": 39,
-          "seconds": 14,
+          "minutes": 52,
+          "seconds": 21,
           "percent": 100
         }
       ],
       "languages": [
         {
           "name": "Svelte",
-          "total_seconds": 9444.336971,
-          "digital": "2:37:24",
-          "decimal": "2.62",
-          "text": "2 hrs 37 mins",
+          "total_seconds": 10230.981349,
+          "digital": "2:50:30",
+          "decimal": "2.83",
+          "text": "2 hrs 50 mins",
           "hours": 2,
-          "minutes": 37,
-          "seconds": 24,
-          "percent": 98.85
+          "minutes": 50,
+          "seconds": 30,
+          "percent": 98.93
         },
         {
           "name": "CSS",
@@ -51,7 +51,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 7,
-          "percent": 0.7
+          "percent": 0.65
         },
         {
           "name": "JSON",
@@ -62,60 +62,60 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 43,
-          "percent": 0.45
+          "percent": 0.42
         }
       ],
       "dependencies": [],
       "machines": [
         {
           "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 9554.650099,
+          "total_seconds": 10341.294477,
           "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "2:39:14",
-          "decimal": "2.65",
-          "text": "2 hrs 39 mins",
+          "digital": "2:52:21",
+          "decimal": "2.87",
+          "text": "2 hrs 52 mins",
           "hours": 2,
-          "minutes": 39,
-          "seconds": 14,
+          "minutes": 52,
+          "seconds": 21,
           "percent": 100
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 9554.650099,
-          "digital": "2:39:14",
-          "decimal": "2.65",
-          "text": "2 hrs 39 mins",
+          "total_seconds": 10341.294477,
+          "digital": "2:52:21",
+          "decimal": "2.87",
+          "text": "2 hrs 52 mins",
           "hours": 2,
-          "minutes": 39,
-          "seconds": 14,
+          "minutes": 52,
+          "seconds": 21,
           "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Mac",
-          "total_seconds": 9554.650099,
-          "digital": "2:39:14",
-          "decimal": "2.65",
-          "text": "2 hrs 39 mins",
+          "total_seconds": 10341.294477,
+          "digital": "2:52:21",
+          "decimal": "2.87",
+          "text": "2 hrs 52 mins",
           "hours": 2,
-          "minutes": 39,
-          "seconds": 14,
+          "minutes": 52,
+          "seconds": 21,
           "percent": 100
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 9554.650099,
-          "digital": "2:39:14",
-          "decimal": "2.65",
-          "text": "2 hrs 39 mins",
+          "total_seconds": 10341.294477,
+          "digital": "2:52:21",
+          "decimal": "2.87",
+          "text": "2 hrs 52 mins",
           "hours": 2,
-          "minutes": 39,
-          "seconds": 14,
+          "minutes": 52,
+          "seconds": 21,
           "percent": 100
         }
       ]
@@ -124,18 +124,18 @@
   "start": "2025-02-20T23:00:00Z",
   "end": "2025-02-21T22:59:59Z",
   "cumulative_total": {
-    "seconds": 9554.650099,
-    "text": "2 hrs 39 mins",
-    "digital": "2:39",
-    "decimal": "2.65"
+    "seconds": 10341.294477,
+    "text": "2 hrs 52 mins",
+    "digital": "2:52",
+    "decimal": "2.87"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 9555,
-    "seconds_including_other_language": 9555,
-    "text": "2 hrs 39 mins",
-    "text_including_other_language": "2 hrs 39 mins"
+    "seconds": 10341,
+    "seconds_including_other_language": 10341,
+    "text": "2 hrs 52 mins",
+    "text_including_other_language": "2 hrs 52 mins"
   }
 }
