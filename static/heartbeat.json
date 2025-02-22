@@ -1,30 +1,5 @@
 [
   {
-    "id": "e5a5b4d2-e861-474f-9413-3547c2089b41",
-    "entity": "C:/Users/nikol/MAIN/programmering/Propulse/engine-software-2025-thermocouple-driver-max31856/Core/Src/MAX31856.c",
-    "type": "file",
-    "time": 1740233634.62924,
-    "project": "engine-software-2025-thermocouple-driver-max31856",
-    "project_root_count": 7,
-    "branch": "anders-board",
-    "language": "C",
-    "dependencies": [
-      "MAX31856",
-      "main"
-    ],
-    "line_additions": null,
-    "line_deletions": null,
-    "lines": 479,
-    "lineno": 251,
-    "cursorpos": 52,
-    "is_write": false,
-    "category": "coding",
-    "created_at": "2025-02-22T14:13:50Z",
-    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
-    "user_agent_id": "1a713c80-b717-4cad-991b-f998d0743ba7",
-    "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2"
-  },
-  {
     "id": "f2cf2d66-797e-4d04-a6eb-fb9dd4b82b18",
     "entity": "C:/Users/nikol/MAIN/programmering/Propulse/engine-software-2025-thermocouple-driver-max31856/Core/Src/MAX31856.c",
     "type": "file",
@@ -122,6 +97,31 @@
     "is_write": false,
     "category": "debugging",
     "created_at": "2025-02-22T14:18:03Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "1a713c80-b717-4cad-991b-f998d0743ba7",
+    "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2"
+  },
+  {
+    "id": "33bf4d15-bef8-447a-bf5c-5bb3729a2e5e",
+    "entity": "C:/Users/nikol/MAIN/programmering/Propulse/engine-software-2025-thermocouple-driver-max31856/Core/Src/MAX31856.c",
+    "type": "file",
+    "time": 1740234577.275598,
+    "project": "engine-software-2025-thermocouple-driver-max31856",
+    "project_root_count": 7,
+    "branch": "anders-board",
+    "language": "C",
+    "dependencies": [
+      "MAX31856",
+      "main"
+    ],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 479,
+    "lineno": 432,
+    "cursorpos": 35,
+    "is_write": false,
+    "category": "debugging",
+    "created_at": "2025-02-22T14:29:32Z",
     "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
     "user_agent_id": "1a713c80-b717-4cad-991b-f998d0743ba7",
     "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2"
