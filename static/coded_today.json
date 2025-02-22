@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 1,
-        "minutes": 23,
-        "total_seconds": 4999.800513,
-        "digital": "1:23",
-        "decimal": "1.38",
-        "text": "1 hr 23 mins"
+        "minutes": 37,
+        "total_seconds": 5857.221736,
+        "digital": "1:37",
+        "decimal": "1.62",
+        "text": "1 hr 37 mins"
       },
       "range": {
         "start": "2025-02-21T23:00:00Z",
@@ -19,15 +19,15 @@
       "projects": [
         {
           "name": "engine-software-2025-thermocouple-driver-max31856",
-          "total_seconds": 4896.283885,
+          "total_seconds": 5753.396751,
           "color": null,
-          "digital": "1:21:36",
-          "decimal": "1.35",
-          "text": "1 hr 21 mins",
+          "digital": "1:35:53",
+          "decimal": "1.58",
+          "text": "1 hr 35 mins",
           "hours": 1,
-          "minutes": 21,
-          "seconds": 36,
-          "percent": 97.93
+          "minutes": 35,
+          "seconds": 53,
+          "percent": 98.23
         },
         {
           "name": "engine-software-2025-v0",
@@ -39,31 +39,43 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 43,
-          "percent": 2.07
+          "percent": 1.77
+        },
+        {
+          "name": "music_bot",
+          "total_seconds": 0.308357,
+          "color": null,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0.01
         }
       ],
       "languages": [
         {
           "name": "C",
-          "total_seconds": 4929.66439,
-          "digital": "1:22:09",
-          "decimal": "1.37",
-          "text": "1 hr 22 mins",
+          "total_seconds": 5784.900214,
+          "digital": "1:36:24",
+          "decimal": "1.60",
+          "text": "1 hr 36 mins",
           "hours": 1,
-          "minutes": 22,
-          "seconds": 9,
-          "percent": 98.6
+          "minutes": 36,
+          "seconds": 24,
+          "percent": 98.77
         },
         {
           "name": "Other",
-          "total_seconds": 49.866444,
-          "digital": "0:00:49",
+          "total_seconds": 51.743486,
+          "digital": "0:00:51",
           "decimal": "0.00",
-          "text": "49 secs",
+          "text": "51 secs",
           "hours": 0,
           "minutes": 0,
-          "seconds": 49,
-          "percent": 1
+          "seconds": 51,
+          "percent": 0.88
         },
         {
           "name": "CMake",
@@ -74,42 +86,53 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 20,
-          "percent": 0.41
+          "percent": 0.35
+        },
+        {
+          "name": "Python",
+          "total_seconds": 0.308357,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0.01
         }
       ],
       "dependencies": [
         {
           "name": "thermo",
-          "total_seconds": 2667.395473,
-          "digital": "0:44:27",
-          "decimal": "0.73",
-          "text": "44 mins",
+          "total_seconds": 3003.899714,
+          "digital": "0:50:03",
+          "decimal": "0.83",
+          "text": "50 mins",
           "hours": 0,
-          "minutes": 44,
-          "seconds": 27,
-          "percent": 38.61
+          "minutes": 50,
+          "seconds": 3,
+          "percent": 36.06
         },
         {
           "name": "main",
-          "total_seconds": 1578.511815,
-          "digital": "0:26:18",
-          "decimal": "0.43",
-          "text": "26 mins",
+          "total_seconds": 2097.243398,
+          "digital": "0:34:57",
+          "decimal": "0.57",
+          "text": "34 mins",
           "hours": 0,
-          "minutes": 26,
-          "seconds": 18,
-          "percent": 22.85
+          "minutes": 34,
+          "seconds": 57,
+          "percent": 25.18
         },
         {
           "name": "MAX31856",
-          "total_seconds": 1413.318631,
-          "digital": "0:23:33",
-          "decimal": "0.38",
-          "text": "23 mins",
+          "total_seconds": 1909.666736,
+          "digital": "0:31:49",
+          "decimal": "0.52",
+          "text": "31 mins",
           "hours": 0,
-          "minutes": 23,
-          "seconds": 33,
-          "percent": 20.46
+          "minutes": 31,
+          "seconds": 49,
+          "percent": 22.93
         },
         {
           "name": "stm32g4xx_hal",
@@ -120,40 +143,40 @@
           "hours": 0,
           "minutes": 10,
           "seconds": 42,
-          "percent": 9.3
+          "percent": 7.72
         },
         {
           "name": "spi",
-          "total_seconds": 196.352819,
-          "digital": "0:03:16",
+          "total_seconds": 218.736297,
+          "digital": "0:03:38",
           "decimal": "0.05",
           "text": "3 mins",
           "hours": 0,
           "minutes": 3,
-          "seconds": 16,
-          "percent": 2.84
+          "seconds": 38,
+          "percent": 2.63
         },
         {
           "name": "gpio",
-          "total_seconds": 164.228671,
-          "digital": "0:02:44",
-          "decimal": "0.03",
-          "text": "2 mins",
+          "total_seconds": 186.612149,
+          "digital": "0:03:06",
+          "decimal": "0.05",
+          "text": "3 mins",
           "hours": 0,
-          "minutes": 2,
-          "seconds": 44,
-          "percent": 2.38
+          "minutes": 3,
+          "seconds": 6,
+          "percent": 2.24
         },
         {
           "name": "fdcan",
-          "total_seconds": 164.228671,
-          "digital": "0:02:44",
-          "decimal": "0.03",
-          "text": "2 mins",
+          "total_seconds": 186.612149,
+          "digital": "0:03:06",
+          "decimal": "0.05",
+          "text": "3 mins",
           "hours": 0,
-          "minutes": 2,
-          "seconds": 44,
-          "percent": 2.38
+          "minutes": 3,
+          "seconds": 6,
+          "percent": 2.24
         },
         {
           "name": "fdcandriver",
@@ -164,7 +187,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 36,
-          "percent": 0.53
+          "percent": 0.44
         },
         {
           "name": "stdint",
@@ -175,7 +198,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 20,
-          "percent": 0.29
+          "percent": 0.24
         },
         {
           "name": "stdbool",
@@ -186,7 +209,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 12,
-          "percent": 0.18
+          "percent": 0.15
         },
         {
           "name": "loadcelldriver",
@@ -330,70 +353,169 @@
           "minutes": 0,
           "seconds": 0,
           "percent": 0.01
+        },
+        {
+          "name": "pycaw",
+          "total_seconds": 0.308357,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "dotenv",
+          "total_seconds": 0.308357,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "time",
+          "total_seconds": 0.308357,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "comtypes",
+          "total_seconds": 0.308357,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "test_player",
+          "total_seconds": 0.308357,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "threading",
+          "total_seconds": 0.308357,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "math",
+          "total_seconds": 0.308357,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "slack_bolt",
+          "total_seconds": 0.308357,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "yt_dlp",
+          "total_seconds": 0.308357,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "machines": [
         {
           "name": "ngb",
-          "total_seconds": 4999.800513,
+          "total_seconds": 5857.221736,
           "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2",
-          "digital": "1:23:19",
-          "decimal": "1.38",
-          "text": "1 hr 23 mins",
+          "digital": "1:37:37",
+          "decimal": "1.62",
+          "text": "1 hr 37 mins",
           "hours": 1,
-          "minutes": 23,
-          "seconds": 19,
+          "minutes": 37,
+          "seconds": 37,
           "percent": 100
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 4999.800513,
-          "digital": "1:23:19",
-          "decimal": "1.38",
-          "text": "1 hr 23 mins",
+          "total_seconds": 5857.221736,
+          "digital": "1:37:37",
+          "decimal": "1.62",
+          "text": "1 hr 37 mins",
           "hours": 1,
-          "minutes": 23,
-          "seconds": 19,
+          "minutes": 37,
+          "seconds": 37,
           "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Windows",
-          "total_seconds": 4999.800513,
-          "digital": "1:23:19",
-          "decimal": "1.38",
-          "text": "1 hr 23 mins",
+          "total_seconds": 5857.221736,
+          "digital": "1:37:37",
+          "decimal": "1.62",
+          "text": "1 hr 37 mins",
           "hours": 1,
-          "minutes": 23,
-          "seconds": 19,
+          "minutes": 37,
+          "seconds": 37,
           "percent": 100
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 2871.18137,
-          "digital": "0:47:51",
-          "decimal": "0.78",
-          "text": "47 mins",
+          "total_seconds": 2924.51449,
+          "digital": "0:48:44",
+          "decimal": "0.80",
+          "text": "48 mins",
           "hours": 0,
-          "minutes": 47,
-          "seconds": 51,
-          "percent": 57.43
+          "minutes": 48,
+          "seconds": 44,
+          "percent": 49.93
         },
         {
           "name": "Debugging",
-          "total_seconds": 2093.342764,
-          "digital": "0:34:53",
-          "decimal": "0.57",
-          "text": "34 mins",
+          "total_seconds": 2897.430867,
+          "digital": "0:48:17",
+          "decimal": "0.80",
+          "text": "48 mins",
           "hours": 0,
-          "minutes": 34,
-          "seconds": 53,
-          "percent": 41.87
+          "minutes": 48,
+          "seconds": 17,
+          "percent": 49.47
         },
         {
           "name": "Building",
@@ -404,7 +526,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 35,
-          "percent": 0.71
+          "percent": 0.6
         }
       ]
     }
@@ -412,18 +534,18 @@
   "start": "2025-02-21T23:00:00Z",
   "end": "2025-02-22T22:59:59Z",
   "cumulative_total": {
-    "seconds": 4999.800513,
-    "text": "1 hr 23 mins",
-    "digital": "1:23",
-    "decimal": "1.38"
+    "seconds": 5857.221736,
+    "text": "1 hr 37 mins",
+    "digital": "1:37",
+    "decimal": "1.62"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 4950,
-    "seconds_including_other_language": 5000,
-    "text": "1 hr 22 mins",
-    "text_including_other_language": "1 hr 23 mins"
+    "seconds": 5805,
+    "seconds_including_other_language": 5857,
+    "text": "1 hr 36 mins",
+    "text_including_other_language": "1 hr 37 mins"
   }
 }
