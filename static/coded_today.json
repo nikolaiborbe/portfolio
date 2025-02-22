@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 0,
-        "minutes": 5,
-        "total_seconds": 302.054288,
-        "digital": "0:05",
-        "decimal": "0.08",
-        "text": "5 mins"
+        "minutes": 24,
+        "total_seconds": 1443.826317,
+        "digital": "0:24",
+        "decimal": "0.40",
+        "text": "24 mins"
       },
       "range": {
         "start": "2025-02-21T23:00:00Z",
@@ -19,15 +19,15 @@
       "projects": [
         {
           "name": "engine-software-2025-thermocouple-driver-max31856",
-          "total_seconds": 221.750563,
+          "total_seconds": 1363.522592,
           "color": null,
-          "digital": "0:03:41",
-          "decimal": "0.05",
-          "text": "3 mins",
+          "digital": "0:22:43",
+          "decimal": "0.37",
+          "text": "22 mins",
           "hours": 0,
-          "minutes": 3,
-          "seconds": 41,
-          "percent": 73.41
+          "minutes": 22,
+          "seconds": 43,
+          "percent": 94.44
         },
         {
           "name": "engine-software-2025-v0",
@@ -39,85 +39,107 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 20,
-          "percent": 26.59
+          "percent": 5.56
         }
       ],
       "languages": [
         {
           "name": "C",
-          "total_seconds": 302.054288,
-          "digital": "0:05:02",
-          "decimal": "0.08",
-          "text": "5 mins",
+          "total_seconds": 1443.826317,
+          "digital": "0:24:03",
+          "decimal": "0.40",
+          "text": "24 mins",
           "hours": 0,
-          "minutes": 5,
-          "seconds": 2,
+          "minutes": 24,
+          "seconds": 3,
           "percent": 100
         }
       ],
       "dependencies": [
         {
           "name": "thermo",
-          "total_seconds": 302.054288,
-          "digital": "0:05:02",
-          "decimal": "0.08",
-          "text": "5 mins",
+          "total_seconds": 1305.507109,
+          "digital": "0:21:45",
+          "decimal": "0.35",
+          "text": "21 mins",
           "hours": 0,
-          "minutes": 5,
-          "seconds": 2,
-          "percent": 100
+          "minutes": 21,
+          "seconds": 45,
+          "percent": 90.42
+        },
+        {
+          "name": "stm32g4xx_hal",
+          "total_seconds": 136.391667,
+          "digital": "0:02:16",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 16,
+          "percent": 9.45
+        },
+        {
+          "name": "fdcandriver",
+          "total_seconds": 1.927541,
+          "digital": "0:00:01",
+          "decimal": "0.00",
+          "text": "1 sec",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 1,
+          "percent": 0.13
         }
       ],
       "machines": [
         {
           "name": "ngb",
-          "total_seconds": 302.054288,
+          "total_seconds": 1443.826317,
           "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2",
-          "digital": "0:05:02",
-          "decimal": "0.08",
-          "text": "5 mins",
+          "digital": "0:24:03",
+          "decimal": "0.40",
+          "text": "24 mins",
           "hours": 0,
-          "minutes": 5,
-          "seconds": 2,
+          "minutes": 24,
+          "seconds": 3,
           "percent": 100
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 302.054288,
-          "digital": "0:05:02",
-          "decimal": "0.08",
-          "text": "5 mins",
+          "total_seconds": 1443.826317,
+          "digital": "0:24:03",
+          "decimal": "0.40",
+          "text": "24 mins",
           "hours": 0,
-          "minutes": 5,
-          "seconds": 2,
+          "minutes": 24,
+          "seconds": 3,
           "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Windows",
-          "total_seconds": 302.054288,
-          "digital": "0:05:02",
-          "decimal": "0.08",
-          "text": "5 mins",
+          "total_seconds": 1443.826317,
+          "digital": "0:24:03",
+          "decimal": "0.40",
+          "text": "24 mins",
           "hours": 0,
-          "minutes": 5,
-          "seconds": 2,
+          "minutes": 24,
+          "seconds": 3,
           "percent": 100
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 302.054288,
-          "digital": "0:05:02",
-          "decimal": "0.08",
-          "text": "5 mins",
+          "total_seconds": 1443.826317,
+          "digital": "0:24:03",
+          "decimal": "0.40",
+          "text": "24 mins",
           "hours": 0,
-          "minutes": 5,
-          "seconds": 2,
+          "minutes": 24,
+          "seconds": 3,
           "percent": 100
         }
       ]
@@ -126,18 +148,18 @@
   "start": "2025-02-21T23:00:00Z",
   "end": "2025-02-22T22:59:59Z",
   "cumulative_total": {
-    "seconds": 302.054288,
-    "text": "5 mins",
-    "digital": "0:05",
-    "decimal": "0.08"
+    "seconds": 1443.826317,
+    "text": "24 mins",
+    "digital": "0:24",
+    "decimal": "0.40"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 302,
-    "seconds_including_other_language": 302,
-    "text": "5 mins",
-    "text_including_other_language": "5 mins"
+    "seconds": 1444,
+    "seconds_including_other_language": 1444,
+    "text": "24 mins",
+    "text_including_other_language": "24 mins"
   }
 }
