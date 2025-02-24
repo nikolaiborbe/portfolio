@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 3,
-        "minutes": 2,
-        "total_seconds": 10969.866795,
-        "digital": "3:02",
-        "decimal": "3.03",
-        "text": "3 hrs 2 mins"
+        "minutes": 20,
+        "total_seconds": 12008.231913,
+        "digital": "3:20",
+        "decimal": "3.33",
+        "text": "3 hrs 20 mins"
       },
       "range": {
         "start": "2025-02-23T23:00:00Z",
@@ -18,6 +18,18 @@
       },
       "projects": [
         {
+          "name": "latex-renderer",
+          "total_seconds": 6419.791961,
+          "color": null,
+          "digital": "1:46:59",
+          "decimal": "1.77",
+          "text": "1 hr 46 mins",
+          "hours": 1,
+          "minutes": 46,
+          "seconds": 59,
+          "percent": 53.46
+        },
+        {
           "name": "formula-website",
           "total_seconds": 5588.439952,
           "color": null,
@@ -27,32 +39,20 @@
           "hours": 1,
           "minutes": 33,
           "seconds": 8,
-          "percent": 50.94
-        },
-        {
-          "name": "latex-renderer",
-          "total_seconds": 5381.426843,
-          "color": null,
-          "digital": "1:29:41",
-          "decimal": "1.48",
-          "text": "1 hr 29 mins",
-          "hours": 1,
-          "minutes": 29,
-          "seconds": 41,
-          "percent": 49.06
+          "percent": 46.54
         }
       ],
       "languages": [
         {
           "name": "Svelte",
-          "total_seconds": 6926.465352,
-          "digital": "1:55:26",
-          "decimal": "1.92",
-          "text": "1 hr 55 mins",
-          "hours": 1,
-          "minutes": 55,
-          "seconds": 26,
-          "percent": 63.14
+          "total_seconds": 7964.83047,
+          "digital": "2:12:44",
+          "decimal": "2.20",
+          "text": "2 hrs 12 mins",
+          "hours": 2,
+          "minutes": 12,
+          "seconds": 44,
+          "percent": 66.33
         },
         {
           "name": "JSON",
@@ -63,7 +63,7 @@
           "hours": 0,
           "minutes": 56,
           "seconds": 45,
-          "percent": 31.05
+          "percent": 28.36
         },
         {
           "name": "TypeScript",
@@ -74,7 +74,7 @@
           "hours": 0,
           "minutes": 4,
           "seconds": 25,
-          "percent": 2.42
+          "percent": 2.21
         },
         {
           "name": "Python",
@@ -85,7 +85,7 @@
           "hours": 0,
           "minutes": 4,
           "seconds": 25,
-          "percent": 2.42
+          "percent": 2.21
         },
         {
           "name": "HTML",
@@ -96,7 +96,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 41,
-          "percent": 0.38
+          "percent": 0.34
         },
         {
           "name": "Other",
@@ -107,7 +107,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 33,
-          "percent": 0.31
+          "percent": 0.28
         },
         {
           "name": "CSS",
@@ -118,7 +118,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 31,
-          "percent": 0.28
+          "percent": 0.26
         }
       ],
       "dependencies": [
@@ -192,53 +192,53 @@
       "machines": [
         {
           "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 10969.866795,
+          "total_seconds": 12008.231913,
           "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "3:02:49",
-          "decimal": "3.03",
-          "text": "3 hrs 2 mins",
+          "digital": "3:20:08",
+          "decimal": "3.33",
+          "text": "3 hrs 20 mins",
           "hours": 3,
-          "minutes": 2,
-          "seconds": 49,
+          "minutes": 20,
+          "seconds": 8,
           "percent": 100
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 10969.866795,
-          "digital": "3:02:49",
-          "decimal": "3.03",
-          "text": "3 hrs 2 mins",
+          "total_seconds": 12008.231913,
+          "digital": "3:20:08",
+          "decimal": "3.33",
+          "text": "3 hrs 20 mins",
           "hours": 3,
-          "minutes": 2,
-          "seconds": 49,
+          "minutes": 20,
+          "seconds": 8,
           "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Mac",
-          "total_seconds": 10969.866795,
-          "digital": "3:02:49",
-          "decimal": "3.03",
-          "text": "3 hrs 2 mins",
+          "total_seconds": 12008.231913,
+          "digital": "3:20:08",
+          "decimal": "3.33",
+          "text": "3 hrs 20 mins",
           "hours": 3,
-          "minutes": 2,
-          "seconds": 49,
+          "minutes": 20,
+          "seconds": 8,
           "percent": 100
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 10969.866795,
-          "digital": "3:02:49",
-          "decimal": "3.03",
-          "text": "3 hrs 2 mins",
+          "total_seconds": 12008.231913,
+          "digital": "3:20:08",
+          "decimal": "3.33",
+          "text": "3 hrs 20 mins",
           "hours": 3,
-          "minutes": 2,
-          "seconds": 49,
+          "minutes": 20,
+          "seconds": 8,
           "percent": 100
         }
       ]
@@ -247,18 +247,18 @@
   "start": "2025-02-23T23:00:00Z",
   "end": "2025-02-24T22:59:59Z",
   "cumulative_total": {
-    "seconds": 10969.866795,
-    "text": "3 hrs 2 mins",
-    "digital": "3:02",
-    "decimal": "3.03"
+    "seconds": 12008.231913,
+    "text": "3 hrs 20 mins",
+    "digital": "3:20",
+    "decimal": "3.33"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 10936,
-    "seconds_including_other_language": 10970,
-    "text": "3 hrs 2 mins",
-    "text_including_other_language": "3 hrs 2 mins"
+    "seconds": 11974,
+    "seconds_including_other_language": 12008,
+    "text": "3 hrs 19 mins",
+    "text_including_other_language": "3 hrs 20 mins"
   }
 }
