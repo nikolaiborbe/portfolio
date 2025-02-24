@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 3,
-        "minutes": 34,
-        "total_seconds": 12859.893519,
-        "digital": "3:34",
-        "decimal": "3.57",
-        "text": "3 hrs 34 mins"
+        "minutes": 41,
+        "total_seconds": 13300.996518,
+        "digital": "3:41",
+        "decimal": "3.68",
+        "text": "3 hrs 41 mins"
       },
       "range": {
         "start": "2025-02-23T23:00:00Z",
@@ -19,15 +19,15 @@
       "projects": [
         {
           "name": "latex-renderer",
-          "total_seconds": 7271.453567,
+          "total_seconds": 7712.556566,
           "color": null,
-          "digital": "2:01:11",
-          "decimal": "2.02",
-          "text": "2 hrs 1 min",
+          "digital": "2:08:32",
+          "decimal": "2.13",
+          "text": "2 hrs 8 mins",
           "hours": 2,
-          "minutes": 1,
-          "seconds": 11,
-          "percent": 56.54
+          "minutes": 8,
+          "seconds": 32,
+          "percent": 57.98
         },
         {
           "name": "formula-website",
@@ -39,20 +39,20 @@
           "hours": 1,
           "minutes": 33,
           "seconds": 8,
-          "percent": 43.46
+          "percent": 42.02
         }
       ],
       "languages": [
         {
           "name": "Svelte",
-          "total_seconds": 8788.784598,
-          "digital": "2:26:28",
-          "decimal": "2.43",
-          "text": "2 hrs 26 mins",
+          "total_seconds": 9229.887597,
+          "digital": "2:33:49",
+          "decimal": "2.55",
+          "text": "2 hrs 33 mins",
           "hours": 2,
-          "minutes": 26,
-          "seconds": 28,
-          "percent": 68.34
+          "minutes": 33,
+          "seconds": 49,
+          "percent": 69.39
         },
         {
           "name": "JSON",
@@ -63,7 +63,7 @@
           "hours": 0,
           "minutes": 56,
           "seconds": 45,
-          "percent": 26.49
+          "percent": 25.61
         },
         {
           "name": "TypeScript",
@@ -74,7 +74,7 @@
           "hours": 0,
           "minutes": 4,
           "seconds": 25,
-          "percent": 2.07
+          "percent": 2
         },
         {
           "name": "Python",
@@ -85,7 +85,7 @@
           "hours": 0,
           "minutes": 4,
           "seconds": 25,
-          "percent": 2.06
+          "percent": 2
         },
         {
           "name": "HTML",
@@ -96,7 +96,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 42,
-          "percent": 0.33
+          "percent": 0.32
         },
         {
           "name": "Other",
@@ -107,7 +107,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 33,
-          "percent": 0.26
+          "percent": 0.25
         },
         {
           "name": "CSS",
@@ -118,7 +118,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 32,
-          "percent": 0.25
+          "percent": 0.24
         },
         {
           "name": "Markdown",
@@ -129,7 +129,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 25,
-          "percent": 0.2
+          "percent": 0.19
         }
       ],
       "dependencies": [
@@ -203,53 +203,53 @@
       "machines": [
         {
           "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 12859.893519,
+          "total_seconds": 13300.996518,
           "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "3:34:19",
-          "decimal": "3.57",
-          "text": "3 hrs 34 mins",
+          "digital": "3:41:40",
+          "decimal": "3.68",
+          "text": "3 hrs 41 mins",
           "hours": 3,
-          "minutes": 34,
-          "seconds": 19,
+          "minutes": 41,
+          "seconds": 40,
           "percent": 100
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 12859.893519,
-          "digital": "3:34:19",
-          "decimal": "3.57",
-          "text": "3 hrs 34 mins",
+          "total_seconds": 13300.996518,
+          "digital": "3:41:40",
+          "decimal": "3.68",
+          "text": "3 hrs 41 mins",
           "hours": 3,
-          "minutes": 34,
-          "seconds": 19,
+          "minutes": 41,
+          "seconds": 40,
           "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Mac",
-          "total_seconds": 12859.893519,
-          "digital": "3:34:19",
-          "decimal": "3.57",
-          "text": "3 hrs 34 mins",
+          "total_seconds": 13300.996518,
+          "digital": "3:41:40",
+          "decimal": "3.68",
+          "text": "3 hrs 41 mins",
           "hours": 3,
-          "minutes": 34,
-          "seconds": 19,
+          "minutes": 41,
+          "seconds": 40,
           "percent": 100
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 12859.893519,
-          "digital": "3:34:19",
-          "decimal": "3.57",
-          "text": "3 hrs 34 mins",
+          "total_seconds": 13300.996518,
+          "digital": "3:41:40",
+          "decimal": "3.68",
+          "text": "3 hrs 41 mins",
           "hours": 3,
-          "minutes": 34,
-          "seconds": 19,
+          "minutes": 41,
+          "seconds": 40,
           "percent": 100
         }
       ]
@@ -258,18 +258,18 @@
   "start": "2025-02-23T23:00:00Z",
   "end": "2025-02-24T22:59:59Z",
   "cumulative_total": {
-    "seconds": 12859.893519,
-    "text": "3 hrs 34 mins",
-    "digital": "3:34",
-    "decimal": "3.57"
+    "seconds": 13300.996518,
+    "text": "3 hrs 41 mins",
+    "digital": "3:41",
+    "decimal": "3.68"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 12826,
-    "seconds_including_other_language": 12860,
-    "text": "3 hrs 33 mins",
-    "text_including_other_language": "3 hrs 34 mins"
+    "seconds": 13267,
+    "seconds_including_other_language": 13301,
+    "text": "3 hrs 41 mins",
+    "text_including_other_language": "3 hrs 41 mins"
   }
 }
