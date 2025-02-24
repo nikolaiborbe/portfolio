@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 0,
-        "minutes": 0,
-        "total_seconds": 0,
-        "digital": "0:00",
-        "decimal": "0.00",
-        "text": "0 secs"
+        "minutes": 4,
+        "total_seconds": 257.22248,
+        "digital": "0:04",
+        "decimal": "0.07",
+        "text": "4 mins"
       },
       "range": {
         "start": "2025-02-23T23:00:00Z",
@@ -16,30 +16,126 @@
         "text": "Mon Feb 24th 2025",
         "timezone": "Europe/Oslo"
       },
-      "projects": [],
-      "languages": [],
+      "projects": [
+        {
+          "name": "formula-website",
+          "total_seconds": 257.22248,
+          "color": null,
+          "digital": "0:04:17",
+          "decimal": "0.07",
+          "text": "4 mins",
+          "hours": 0,
+          "minutes": 4,
+          "seconds": 17,
+          "percent": 100
+        }
+      ],
+      "languages": [
+        {
+          "name": "Svelte",
+          "total_seconds": 222.755324,
+          "digital": "0:03:42",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 42,
+          "percent": 86.6
+        },
+        {
+          "name": "JSON",
+          "total_seconds": 31.416846,
+          "digital": "0:00:31",
+          "decimal": "0.00",
+          "text": "31 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 31,
+          "percent": 12.21
+        },
+        {
+          "name": "Other",
+          "total_seconds": 3.05031,
+          "digital": "0:00:03",
+          "decimal": "0.00",
+          "text": "3 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 3,
+          "percent": 1.19
+        }
+      ],
       "dependencies": [],
-      "machines": [],
-      "editors": [],
-      "operating_systems": [],
-      "categories": []
+      "machines": [
+        {
+          "name": "Nikolais-Mac-mini.local",
+          "total_seconds": 257.22248,
+          "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
+          "digital": "0:04:17",
+          "decimal": "0.07",
+          "text": "4 mins",
+          "hours": 0,
+          "minutes": 4,
+          "seconds": 17,
+          "percent": 100
+        }
+      ],
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 257.22248,
+          "digital": "0:04:17",
+          "decimal": "0.07",
+          "text": "4 mins",
+          "hours": 0,
+          "minutes": 4,
+          "seconds": 17,
+          "percent": 100
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Mac",
+          "total_seconds": 257.22248,
+          "digital": "0:04:17",
+          "decimal": "0.07",
+          "text": "4 mins",
+          "hours": 0,
+          "minutes": 4,
+          "seconds": 17,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 257.22248,
+          "digital": "0:04:17",
+          "decimal": "0.07",
+          "text": "4 mins",
+          "hours": 0,
+          "minutes": 4,
+          "seconds": 17,
+          "percent": 100
+        }
+      ]
     }
   ],
   "start": "2025-02-23T23:00:00Z",
   "end": "2025-02-24T22:59:59Z",
   "cumulative_total": {
-    "seconds": 0,
-    "text": "0 secs",
-    "digital": "0:00",
-    "decimal": "0.00"
+    "seconds": 257.22248,
+    "text": "4 mins",
+    "digital": "0:04",
+    "decimal": "0.07"
   },
   "daily_average": {
-    "holidays": 1,
-    "days_minus_holidays": 0,
+    "holidays": 0,
+    "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 0,
-    "seconds_including_other_language": 0,
-    "text": "0 secs",
-    "text_including_other_language": "0 secs"
+    "seconds": 254,
+    "seconds_including_other_language": 257,
+    "text": "4 mins",
+    "text_including_other_language": "4 mins"
   }
 }
