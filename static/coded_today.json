@@ -28,6 +28,18 @@
           "minutes": 5,
           "seconds": 34,
           "percent": 100
+        },
+        {
+          "name": "engine-software-2025-v0",
+          "total_seconds": 0,
+          "color": null,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "languages": [
@@ -41,9 +53,32 @@
           "minutes": 5,
           "seconds": 34,
           "percent": 100
+        },
+        {
+          "name": "C",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
-      "dependencies": [],
+      "dependencies": [
+        {
+          "name": "thermo",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
       "machines": [
         {
           "name": "Nikolais-Mac-mini.local",
@@ -56,6 +91,18 @@
           "minutes": 5,
           "seconds": 34,
           "percent": 100
+        },
+        {
+          "name": "ngb",
+          "total_seconds": 0,
+          "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2",
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "editors": [
@@ -82,6 +129,17 @@
           "minutes": 5,
           "seconds": 34,
           "percent": 100
+        },
+        {
+          "name": "Windows",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "categories": [
