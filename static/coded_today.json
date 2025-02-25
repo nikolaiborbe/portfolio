@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 0,
-        "minutes": 28,
-        "total_seconds": 1680.733191,
-        "digital": "0:28",
-        "decimal": "0.47",
-        "text": "28 mins"
+        "minutes": 32,
+        "total_seconds": 1941.784367,
+        "digital": "0:32",
+        "decimal": "0.53",
+        "text": "32 mins"
       },
       "range": {
         "start": "2025-02-24T23:00:00Z",
@@ -19,15 +19,15 @@
       "projects": [
         {
           "name": "engine-software-2025-v0",
-          "total_seconds": 1346.162922,
+          "total_seconds": 1607.214098,
           "color": null,
-          "digital": "0:22:26",
-          "decimal": "0.37",
-          "text": "22 mins",
+          "digital": "0:26:47",
+          "decimal": "0.43",
+          "text": "26 mins",
           "hours": 0,
-          "minutes": 22,
-          "seconds": 26,
-          "percent": 80.09
+          "minutes": 26,
+          "seconds": 47,
+          "percent": 82.77
         },
         {
           "name": "formula-website",
@@ -39,20 +39,20 @@
           "hours": 0,
           "minutes": 5,
           "seconds": 34,
-          "percent": 19.91
+          "percent": 17.23
         }
       ],
       "languages": [
         {
           "name": "C",
-          "total_seconds": 1346.162922,
-          "digital": "0:22:26",
-          "decimal": "0.37",
-          "text": "22 mins",
+          "total_seconds": 1607.214098,
+          "digital": "0:26:47",
+          "decimal": "0.43",
+          "text": "26 mins",
           "hours": 0,
-          "minutes": 22,
-          "seconds": 26,
-          "percent": 80.09
+          "minutes": 26,
+          "seconds": 47,
+          "percent": 82.77
         },
         {
           "name": "Svelte",
@@ -63,7 +63,7 @@
           "hours": 0,
           "minutes": 5,
           "seconds": 34,
-          "percent": 19.91
+          "percent": 17.23
         }
       ],
       "dependencies": [
@@ -76,40 +76,40 @@
           "hours": 0,
           "minutes": 13,
           "seconds": 17,
-          "percent": 22.97
+          "percent": 18.74
         },
         {
           "name": "easingfunctions",
-          "total_seconds": 449.23427,
-          "digital": "0:07:29",
-          "decimal": "0.12",
-          "text": "7 mins",
+          "total_seconds": 710.285446,
+          "digital": "0:11:50",
+          "decimal": "0.18",
+          "text": "11 mins",
           "hours": 0,
-          "minutes": 7,
-          "seconds": 29,
-          "percent": 12.94
+          "minutes": 11,
+          "seconds": 50,
+          "percent": 16.69
         },
         {
           "name": "pressure",
-          "total_seconds": 449.23427,
-          "digital": "0:07:29",
-          "decimal": "0.12",
-          "text": "7 mins",
+          "total_seconds": 710.285446,
+          "digital": "0:11:50",
+          "decimal": "0.18",
+          "text": "11 mins",
           "hours": 0,
-          "minutes": 7,
-          "seconds": 29,
-          "percent": 12.94
+          "minutes": 11,
+          "seconds": 50,
+          "percent": 16.69
         },
         {
           "name": "fsm",
-          "total_seconds": 449.23427,
-          "digital": "0:07:29",
-          "decimal": "0.12",
-          "text": "7 mins",
+          "total_seconds": 710.285446,
+          "digital": "0:11:50",
+          "decimal": "0.18",
+          "text": "11 mins",
           "hours": 0,
-          "minutes": 7,
-          "seconds": 29,
-          "percent": 12.94
+          "minutes": 11,
+          "seconds": 50,
+          "percent": 16.69
         },
         {
           "name": "stdbool",
@@ -120,7 +120,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 47,
-          "percent": 3.1
+          "percent": 2.53
         },
         {
           "name": "main",
@@ -131,7 +131,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 47,
-          "percent": 3.1
+          "percent": 2.53
         },
         {
           "name": "syscmd",
@@ -142,7 +142,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 47,
-          "percent": 3.1
+          "percent": 2.53
         },
         {
           "name": "cliargs",
@@ -153,7 +153,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 47,
-          "percent": 3.1
+          "percent": 2.53
         },
         {
           "name": "stdint",
@@ -164,7 +164,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 47,
-          "percent": 3.1
+          "percent": 2.53
         },
         {
           "name": "cli",
@@ -175,7 +175,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 47,
-          "percent": 3.1
+          "percent": 2.53
         },
         {
           "name": "stdio.h>",
@@ -186,7 +186,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 10,
-          "percent": 2.04
+          "percent": 1.66
         },
         {
           "name": "main.h\"",
@@ -197,7 +197,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 10,
-          "percent": 2.04
+          "percent": 1.66
         },
         {
           "name": "solenoiddriver",
@@ -208,7 +208,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 10,
-          "percent": 2.04
+          "percent": 1.66
         },
         {
           "name": "stdbool.h>",
@@ -219,7 +219,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 10,
-          "percent": 2.04
+          "percent": 1.66
         },
         {
           "name": "bldcdriver",
@@ -230,7 +230,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 10,
-          "percent": 2.04
+          "percent": 1.66
         },
         {
           "name": "app_netxduo",
@@ -241,7 +241,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 10,
-          "percent": 2.04
+          "percent": 1.66
         },
         {
           "name": "servodriver",
@@ -252,7 +252,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 10,
-          "percent": 2.04
+          "percent": 1.66
         },
         {
           "name": "assert.h>",
@@ -263,7 +263,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 10,
-          "percent": 2.04
+          "percent": 1.66
         },
         {
           "name": "tx_api_extension",
@@ -274,7 +274,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 28,
-          "percent": 0.83
+          "percent": 0.68
         },
         {
           "name": "tx_port",
@@ -285,7 +285,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 28,
-          "percent": 0.83
+          "percent": 0.68
         },
         {
           "name": "tx_execution_profile",
@@ -296,7 +296,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 28,
-          "percent": 0.83
+          "percent": 0.68
         },
         {
           "name": "tx_el",
@@ -307,21 +307,21 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 28,
-          "percent": 0.83
+          "percent": 0.68
         }
       ],
       "machines": [
         {
           "name": "ngb",
-          "total_seconds": 1346.162922,
+          "total_seconds": 1607.214098,
           "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2",
-          "digital": "0:22:26",
-          "decimal": "0.37",
-          "text": "22 mins",
+          "digital": "0:26:47",
+          "decimal": "0.43",
+          "text": "26 mins",
           "hours": 0,
-          "minutes": 22,
-          "seconds": 26,
-          "percent": 80.09
+          "minutes": 26,
+          "seconds": 47,
+          "percent": 82.77
         },
         {
           "name": "Nikolais-Mac-mini.local",
@@ -333,33 +333,33 @@
           "hours": 0,
           "minutes": 5,
           "seconds": 34,
-          "percent": 19.91
+          "percent": 17.23
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 1680.733191,
-          "digital": "0:28:00",
-          "decimal": "0.47",
-          "text": "28 mins",
+          "total_seconds": 1941.784367,
+          "digital": "0:32:21",
+          "decimal": "0.53",
+          "text": "32 mins",
           "hours": 0,
-          "minutes": 28,
-          "seconds": 0,
+          "minutes": 32,
+          "seconds": 21,
           "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Windows",
-          "total_seconds": 1346.162922,
-          "digital": "0:22:26",
-          "decimal": "0.37",
-          "text": "22 mins",
+          "total_seconds": 1607.214098,
+          "digital": "0:26:47",
+          "decimal": "0.43",
+          "text": "26 mins",
           "hours": 0,
-          "minutes": 22,
-          "seconds": 26,
-          "percent": 80.09
+          "minutes": 26,
+          "seconds": 47,
+          "percent": 82.77
         },
         {
           "name": "Mac",
@@ -370,19 +370,19 @@
           "hours": 0,
           "minutes": 5,
           "seconds": 34,
-          "percent": 19.91
+          "percent": 17.23
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 1680.733191,
-          "digital": "0:28:00",
-          "decimal": "0.47",
-          "text": "28 mins",
+          "total_seconds": 1941.784367,
+          "digital": "0:32:21",
+          "decimal": "0.53",
+          "text": "32 mins",
           "hours": 0,
-          "minutes": 28,
-          "seconds": 0,
+          "minutes": 32,
+          "seconds": 21,
           "percent": 100
         }
       ]
@@ -391,18 +391,18 @@
   "start": "2025-02-24T23:00:00Z",
   "end": "2025-02-25T22:59:59Z",
   "cumulative_total": {
-    "seconds": 1680.733191,
-    "text": "28 mins",
-    "digital": "0:28",
-    "decimal": "0.47"
+    "seconds": 1941.784367,
+    "text": "32 mins",
+    "digital": "0:32",
+    "decimal": "0.53"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 1681,
-    "seconds_including_other_language": 1681,
-    "text": "28 mins",
-    "text_including_other_language": "28 mins"
+    "seconds": 1942,
+    "seconds_including_other_language": 1942,
+    "text": "32 mins",
+    "text_including_other_language": "32 mins"
   }
 }
