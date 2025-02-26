@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 0,
-        "minutes": 0,
-        "total_seconds": 0,
-        "digital": "0:00",
-        "decimal": "0.00",
-        "text": "0 secs"
+        "minutes": 7,
+        "total_seconds": 461.767083,
+        "digital": "0:07",
+        "decimal": "0.12",
+        "text": "7 mins"
       },
       "range": {
         "start": "2025-02-25T23:00:00Z",
@@ -16,30 +16,161 @@
         "text": "Wed Feb 26th 2025",
         "timezone": "Europe/Oslo"
       },
-      "projects": [],
-      "languages": [],
-      "dependencies": [],
-      "machines": [],
-      "editors": [],
-      "operating_systems": [],
-      "categories": []
+      "projects": [
+        {
+          "name": "latex-renderer",
+          "total_seconds": 389.019489,
+          "color": null,
+          "digital": "0:06:29",
+          "decimal": "0.10",
+          "text": "6 mins",
+          "hours": 0,
+          "minutes": 6,
+          "seconds": 29,
+          "percent": 84.25
+        },
+        {
+          "name": "engine-software-2025-v0",
+          "total_seconds": 72.747594,
+          "color": null,
+          "digital": "0:01:12",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 12,
+          "percent": 15.75
+        }
+      ],
+      "languages": [
+        {
+          "name": "Svelte",
+          "total_seconds": 389.019489,
+          "digital": "0:06:29",
+          "decimal": "0.10",
+          "text": "6 mins",
+          "hours": 0,
+          "minutes": 6,
+          "seconds": 29,
+          "percent": 84.25
+        },
+        {
+          "name": "C",
+          "total_seconds": 72.747594,
+          "digital": "0:01:12",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 12,
+          "percent": 15.75
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "easingfunctions",
+          "total_seconds": 72.747594,
+          "digital": "0:01:12",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 12,
+          "percent": 33.33
+        },
+        {
+          "name": "pressure",
+          "total_seconds": 72.747594,
+          "digital": "0:01:12",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 12,
+          "percent": 33.33
+        },
+        {
+          "name": "fsm",
+          "total_seconds": 72.747594,
+          "digital": "0:01:12",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 12,
+          "percent": 33.33
+        }
+      ],
+      "machines": [
+        {
+          "name": "ngb",
+          "total_seconds": 461.767083,
+          "machine_name_id": "994d03fc-4805-4d7e-b854-4921873ec361",
+          "digital": "0:07:41",
+          "decimal": "0.12",
+          "text": "7 mins",
+          "hours": 0,
+          "minutes": 7,
+          "seconds": 41,
+          "percent": 100
+        }
+      ],
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 461.767083,
+          "digital": "0:07:41",
+          "decimal": "0.12",
+          "text": "7 mins",
+          "hours": 0,
+          "minutes": 7,
+          "seconds": 41,
+          "percent": 100
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "total_seconds": 461.767083,
+          "digital": "0:07:41",
+          "decimal": "0.12",
+          "text": "7 mins",
+          "hours": 0,
+          "minutes": 7,
+          "seconds": 41,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 461.767083,
+          "digital": "0:07:41",
+          "decimal": "0.12",
+          "text": "7 mins",
+          "hours": 0,
+          "minutes": 7,
+          "seconds": 41,
+          "percent": 100
+        }
+      ]
     }
   ],
   "start": "2025-02-25T23:00:00Z",
   "end": "2025-02-26T22:59:59Z",
   "cumulative_total": {
-    "seconds": 0,
-    "text": "0 secs",
-    "digital": "0:00",
-    "decimal": "0.00"
+    "seconds": 461.767083,
+    "text": "7 mins",
+    "digital": "0:07",
+    "decimal": "0.12"
   },
   "daily_average": {
-    "holidays": 1,
-    "days_minus_holidays": 0,
+    "holidays": 0,
+    "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 0,
-    "seconds_including_other_language": 0,
-    "text": "0 secs",
-    "text_including_other_language": "0 secs"
+    "seconds": 462,
+    "seconds_including_other_language": 462,
+    "text": "7 mins",
+    "text_including_other_language": "7 mins"
   }
 }
