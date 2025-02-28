@@ -1,107 +1,6 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 3,
-        "minutes": 7,
-        "total_seconds": 11273.275831,
-        "digital": "3:07",
-        "decimal": "3.12",
-        "text": "3 hrs 7 mins"
-      },
-      "range": {
-        "start": "2025-02-27T23:00:00Z",
-        "end": "2025-02-28T22:59:59Z",
-        "date": "2025-02-28",
-        "text": "Fri Feb 28th 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
-        {
-          "name": "create-nb-app",
-          "total_seconds": 5840.524686,
-          "color": null,
-          "digital": "1:37:20",
-          "decimal": "1.62",
-          "text": "1 hr 37 mins",
-          "hours": 1,
-          "minutes": 37,
-          "seconds": 20,
-          "percent": 51.81
-        },
-        {
-          "name": "test",
-          "total_seconds": 2040.041821,
-          "color": null,
-          "digital": "0:34:00",
-          "decimal": "0.57",
-          "text": "34 mins",
-          "hours": 0,
-          "minutes": 34,
-          "seconds": 0,
-          "percent": 18.1
-        },
-        {
-          "name": "DeepSeek-V3",
-          "total_seconds": 1308.52048,
-          "color": null,
-          "digital": "0:21:48",
-          "decimal": "0.35",
-          "text": "21 mins",
-          "hours": 0,
-          "minutes": 21,
-          "seconds": 48,
-          "percent": 11.61
-        },
-        {
-          "name": "number-classifier",
-          "total_seconds": 1292.819091,
-          "color": null,
-          "digital": "0:21:32",
-          "decimal": "0.35",
-          "text": "21 mins",
-          "hours": 0,
-          "minutes": 21,
-          "seconds": 32,
-          "percent": 11.47
-        },
-        {
-          "name": "py-create",
-          "total_seconds": 647.384695,
-          "color": null,
-          "digital": "0:10:47",
-          "decimal": "0.17",
-          "text": "10 mins",
-          "hours": 0,
-          "minutes": 10,
-          "seconds": 47,
-          "percent": 5.74
-        },
-        {
-          "name": "my_project",
-          "total_seconds": 143.985058,
-          "color": null,
-          "digital": "0:02:23",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 23,
-          "percent": 1.28
-        },
-        {
-          "name": "idk",
-          "total_seconds": 0,
-          "color": null,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        }
-      ],
       "languages": [
         {
           "name": "Python",
@@ -203,6 +102,53 @@
           "percent": 0.27
         }
       ],
+      "grand_total": {
+        "hours": 3,
+        "minutes": 7,
+        "total_seconds": 11273.275831,
+        "digital": "3:07",
+        "decimal": "3.12",
+        "text": "3 hrs 7 mins"
+      },
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 11273.275831,
+          "digital": "3:07:53",
+          "decimal": "3.12",
+          "text": "3 hrs 7 mins",
+          "hours": 3,
+          "minutes": 7,
+          "seconds": 53,
+          "percent": 100
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Mac",
+          "total_seconds": 11273.275831,
+          "digital": "3:07:53",
+          "decimal": "3.12",
+          "text": "3 hrs 7 mins",
+          "hours": 3,
+          "minutes": 7,
+          "seconds": 53,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 11273.275831,
+          "digital": "3:07:53",
+          "decimal": "3.12",
+          "text": "3 hrs 7 mins",
+          "hours": 3,
+          "minutes": 7,
+          "seconds": 53,
+          "percent": 100
+        }
+      ],
       "dependencies": [
         {
           "name": "torch",
@@ -260,17 +206,6 @@
           "percent": 7.01
         },
         {
-          "name": "kernel",
-          "total_seconds": 381.388483,
-          "digital": "0:06:21",
-          "decimal": "0.10",
-          "text": "6 mins",
-          "hours": 0,
-          "minutes": 6,
-          "seconds": 21,
-          "percent": 6.59
-        },
-        {
           "name": "math",
           "total_seconds": 381.388483,
           "digital": "0:06:21",
@@ -283,6 +218,17 @@
         },
         {
           "name": "dataclasses",
+          "total_seconds": 381.388483,
+          "digital": "0:06:21",
+          "decimal": "0.10",
+          "text": "6 mins",
+          "hours": 0,
+          "minutes": 6,
+          "seconds": 21,
+          "percent": 6.59
+        },
+        {
+          "name": "kernel",
           "total_seconds": 381.388483,
           "digital": "0:06:21",
           "decimal": "0.10",
@@ -381,7 +327,7 @@
           "percent": 1.12
         },
         {
-          "name": "model",
+          "name": "transformers",
           "total_seconds": 65.003271,
           "digital": "0:01:05",
           "decimal": "0.02",
@@ -392,7 +338,7 @@
           "percent": 1.12
         },
         {
-          "name": "transformers",
+          "name": "model",
           "total_seconds": 65.003271,
           "digital": "0:01:05",
           "decimal": "0.02",
@@ -425,7 +371,7 @@
           "percent": 0.14
         },
         {
-          "name": "shutil",
+          "name": "tqdm",
           "total_seconds": 5.19253,
           "digital": "0:00:05",
           "decimal": "0.00",
@@ -436,7 +382,7 @@
           "percent": 0.09
         },
         {
-          "name": "tqdm",
+          "name": "shutil",
           "total_seconds": 5.19253,
           "digital": "0:00:05",
           "decimal": "0.00",
@@ -516,45 +462,92 @@
           "percent": 100
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "VS Code",
-          "total_seconds": 11273.275831,
-          "digital": "3:07:53",
-          "decimal": "3.12",
-          "text": "3 hrs 7 mins",
-          "hours": 3,
-          "minutes": 7,
-          "seconds": 53,
-          "percent": 100
+          "name": "create-nb-app",
+          "total_seconds": 5840.524686,
+          "digital": "1:37:20",
+          "decimal": "1.62",
+          "text": "1 hr 37 mins",
+          "hours": 1,
+          "minutes": 37,
+          "seconds": 20,
+          "percent": 51.81
+        },
+        {
+          "name": "test",
+          "total_seconds": 2040.041821,
+          "digital": "0:34:00",
+          "decimal": "0.57",
+          "text": "34 mins",
+          "hours": 0,
+          "minutes": 34,
+          "seconds": 0,
+          "percent": 18.1
+        },
+        {
+          "name": "DeepSeek-V3",
+          "total_seconds": 1308.52048,
+          "digital": "0:21:48",
+          "decimal": "0.35",
+          "text": "21 mins",
+          "hours": 0,
+          "minutes": 21,
+          "seconds": 48,
+          "percent": 11.61
+        },
+        {
+          "name": "number-classifier",
+          "total_seconds": 1292.819091,
+          "digital": "0:21:32",
+          "decimal": "0.35",
+          "text": "21 mins",
+          "hours": 0,
+          "minutes": 21,
+          "seconds": 32,
+          "percent": 11.47
+        },
+        {
+          "name": "py-create",
+          "total_seconds": 647.384695,
+          "digital": "0:10:47",
+          "decimal": "0.17",
+          "text": "10 mins",
+          "hours": 0,
+          "minutes": 10,
+          "seconds": 47,
+          "percent": 5.74
+        },
+        {
+          "name": "my_project",
+          "total_seconds": 143.985058,
+          "digital": "0:02:23",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 23,
+          "percent": 1.28
+        },
+        {
+          "name": "idk",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
-      "operating_systems": [
-        {
-          "name": "Mac",
-          "total_seconds": 11273.275831,
-          "digital": "3:07:53",
-          "decimal": "3.12",
-          "text": "3 hrs 7 mins",
-          "hours": 3,
-          "minutes": 7,
-          "seconds": 53,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 11273.275831,
-          "digital": "3:07:53",
-          "decimal": "3.12",
-          "text": "3 hrs 7 mins",
-          "hours": 3,
-          "minutes": 7,
-          "seconds": 53,
-          "percent": 100
-        }
-      ]
+      "range": {
+        "start": "2025-02-27T23:00:00Z",
+        "end": "2025-02-28T22:59:59Z",
+        "date": "2025-02-28",
+        "text": "Fri Feb 28th 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-02-27T23:00:00Z",
