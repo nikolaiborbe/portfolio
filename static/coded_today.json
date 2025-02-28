@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 2,
-        "minutes": 12,
-        "total_seconds": 7961.56209,
-        "digital": "2:12",
-        "decimal": "2.20",
-        "text": "2 hrs 12 mins"
+        "minutes": 23,
+        "total_seconds": 8625.717113,
+        "digital": "2:23",
+        "decimal": "2.38",
+        "text": "2 hrs 23 mins"
       },
       "range": {
         "start": "2025-02-27T23:00:00Z",
@@ -19,15 +19,27 @@
       "projects": [
         {
           "name": "create-nb-app",
-          "total_seconds": 3467.63636,
+          "total_seconds": 3825.68913,
           "color": null,
-          "digital": "0:57:47",
-          "decimal": "0.95",
-          "text": "57 mins",
+          "digital": "1:03:45",
+          "decimal": "1.05",
+          "text": "1 hr 3 mins",
+          "hours": 1,
+          "minutes": 3,
+          "seconds": 45,
+          "percent": 44.35
+        },
+        {
+          "name": "test",
+          "total_seconds": 1407.318659,
+          "color": null,
+          "digital": "0:23:27",
+          "decimal": "0.38",
+          "text": "23 mins",
           "hours": 0,
-          "minutes": 57,
-          "seconds": 47,
-          "percent": 43.55
+          "minutes": 23,
+          "seconds": 27,
+          "percent": 16.32
         },
         {
           "name": "DeepSeek-V3",
@@ -39,7 +51,7 @@
           "hours": 0,
           "minutes": 21,
           "seconds": 48,
-          "percent": 16.44
+          "percent": 15.17
         },
         {
           "name": "number-classifier",
@@ -51,19 +63,7 @@
           "hours": 0,
           "minutes": 21,
           "seconds": 32,
-          "percent": 16.24
-        },
-        {
-          "name": "test",
-          "total_seconds": 1101.216406,
-          "color": null,
-          "digital": "0:18:21",
-          "decimal": "0.30",
-          "text": "18 mins",
-          "hours": 0,
-          "minutes": 18,
-          "seconds": 21,
-          "percent": 13.83
+          "percent": 14.99
         },
         {
           "name": "py-create",
@@ -75,7 +75,7 @@
           "hours": 0,
           "minutes": 10,
           "seconds": 47,
-          "percent": 8.13
+          "percent": 7.51
         },
         {
           "name": "my_project",
@@ -87,86 +87,86 @@
           "hours": 0,
           "minutes": 2,
           "seconds": 23,
-          "percent": 1.81
+          "percent": 1.67
         }
       ],
       "languages": [
         {
           "name": "Python",
-          "total_seconds": 4528.483471,
-          "digital": "1:15:28",
-          "decimal": "1.25",
-          "text": "1 hr 15 mins",
+          "total_seconds": 5142.489246,
+          "digital": "1:25:42",
+          "decimal": "1.42",
+          "text": "1 hr 25 mins",
           "hours": 1,
-          "minutes": 15,
-          "seconds": 28,
-          "percent": 56.88
+          "minutes": 25,
+          "seconds": 42,
+          "percent": 59.62
         },
         {
           "name": "Markdown",
-          "total_seconds": 1784.739492,
-          "digital": "0:29:44",
+          "total_seconds": 1785.869224,
+          "digital": "0:29:45",
           "decimal": "0.48",
           "text": "29 mins",
           "hours": 0,
           "minutes": 29,
-          "seconds": 44,
-          "percent": 22.42
+          "seconds": 45,
+          "percent": 20.7
         },
         {
           "name": "Text",
-          "total_seconds": 629.125749,
-          "digital": "0:10:29",
+          "total_seconds": 658.877343,
+          "digital": "0:10:58",
           "decimal": "0.17",
           "text": "10 mins",
           "hours": 0,
           "minutes": 10,
-          "seconds": 29,
-          "percent": 7.9
+          "seconds": 58,
+          "percent": 7.64
         },
         {
           "name": "Other",
-          "total_seconds": 470.280484,
-          "digital": "0:07:50",
+          "total_seconds": 471.116855,
+          "digital": "0:07:51",
           "decimal": "0.12",
           "text": "7 mins",
           "hours": 0,
           "minutes": 7,
-          "seconds": 50,
-          "percent": 5.91
+          "seconds": 51,
+          "percent": 5.46
         },
         {
           "name": "TOML",
-          "total_seconds": 239.564684,
-          "digital": "0:03:59",
-          "decimal": "0.05",
-          "text": "3 mins",
+          "total_seconds": 241.838281,
+          "digital": "0:04:01",
+          "decimal": "0.07",
+          "text": "4 mins",
           "hours": 0,
-          "minutes": 3,
-          "seconds": 59,
-          "percent": 3.01
+          "minutes": 4,
+          "seconds": 1,
+          "percent": 2.8
         },
         {
           "name": "Git Config",
-          "total_seconds": 205.879241,
-          "digital": "0:03:25",
+          "total_seconds": 211.733048,
+          "digital": "0:03:31",
           "decimal": "0.05",
           "text": "3 mins",
           "hours": 0,
           "minutes": 3,
-          "seconds": 25,
-          "percent": 2.59
+          "seconds": 31,
+          "percent": 2.45
         },
         {
           "name": "INI",
-          "total_seconds": 60.214406,
-          "digital": "0:01:00",
+          "total_seconds": 70.518553,
+          "digital": "0:01:10",
           "decimal": "0.02",
           "text": "1 min",
           "hours": 0,
           "minutes": 1,
-          "seconds": 0,
-          "percent": 0.76
+          "seconds": 10,
+          "percent": 0.82
         },
         {
           "name": "JSON",
@@ -177,7 +177,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 30,
-          "percent": 0.38
+          "percent": 0.35
         },
         {
           "name": "YAML",
@@ -188,7 +188,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 0.16
+          "percent": 0.15
         }
       ],
       "dependencies": [
@@ -201,18 +201,29 @@
           "hours": 0,
           "minutes": 13,
           "seconds": 8,
-          "percent": 15.18
+          "percent": 14.39
+        },
+        {
+          "name": "questionary",
+          "total_seconds": 737.289584,
+          "digital": "0:12:17",
+          "decimal": "0.20",
+          "text": "12 mins",
+          "hours": 0,
+          "minutes": 12,
+          "seconds": 17,
+          "percent": 13.45
         },
         {
           "name": "subprocess",
-          "total_seconds": 633.115153,
-          "digital": "0:10:33",
-          "decimal": "0.17",
-          "text": "10 mins",
+          "total_seconds": 706.428343,
+          "digital": "0:11:46",
+          "decimal": "0.18",
+          "text": "11 mins",
           "hours": 0,
-          "minutes": 10,
-          "seconds": 33,
-          "percent": 12.19
+          "minutes": 11,
+          "seconds": 46,
+          "percent": 12.89
         },
         {
           "name": "typing",
@@ -223,18 +234,7 @@
           "hours": 0,
           "minutes": 9,
           "seconds": 0,
-          "percent": 10.4
-        },
-        {
-          "name": "questionary",
-          "total_seconds": 525.231509,
-          "digital": "0:08:45",
-          "decimal": "0.13",
-          "text": "8 mins",
-          "hours": 0,
-          "minutes": 8,
-          "seconds": 45,
-          "percent": 10.11
+          "percent": 9.86
         },
         {
           "name": "setuptools",
@@ -245,7 +245,7 @@
           "hours": 0,
           "minutes": 6,
           "seconds": 42,
-          "percent": 7.76
+          "percent": 7.35
         },
         {
           "name": "kernel",
@@ -256,7 +256,7 @@
           "hours": 0,
           "minutes": 6,
           "seconds": 21,
-          "percent": 7.34
+          "percent": 6.96
         },
         {
           "name": "math",
@@ -267,7 +267,7 @@
           "hours": 0,
           "minutes": 6,
           "seconds": 21,
-          "percent": 7.34
+          "percent": 6.96
         },
         {
           "name": "dataclasses",
@@ -278,7 +278,7 @@
           "hours": 0,
           "minutes": 6,
           "seconds": 21,
-          "percent": 7.34
+          "percent": 6.96
         },
         {
           "name": "numpy",
@@ -289,7 +289,7 @@
           "hours": 0,
           "minutes": 5,
           "seconds": 9,
-          "percent": 5.96
+          "percent": 5.65
         },
         {
           "name": "torchvision",
@@ -300,7 +300,7 @@
           "hours": 0,
           "minutes": 4,
           "seconds": 3,
-          "percent": 4.68
+          "percent": 4.44
         },
         {
           "name": "scaffolder",
@@ -311,7 +311,7 @@
           "hours": 0,
           "minutes": 2,
           "seconds": 43,
-          "percent": 3.14
+          "percent": 2.97
         },
         {
           "name": "triton",
@@ -322,7 +322,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 33,
-          "percent": 1.81
+          "percent": 1.71
         },
         {
           "name": "argparse",
@@ -333,7 +333,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 10,
-          "percent": 1.35
+          "percent": 1.28
         },
         {
           "name": "safetensors",
@@ -344,7 +344,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 10,
-          "percent": 1.35
+          "percent": 1.28
         },
         {
           "name": "json",
@@ -355,7 +355,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 5,
-          "percent": 1.25
+          "percent": 1.19
         },
         {
           "name": "model",
@@ -366,7 +366,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 5,
-          "percent": 1.25
+          "percent": 1.19
         },
         {
           "name": "transformers",
@@ -377,7 +377,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 5,
-          "percent": 1.25
+          "percent": 1.19
         },
         {
           "name": "shutil",
@@ -388,7 +388,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 5,
-          "percent": 0.1
+          "percent": 0.09
         },
         {
           "name": "tqdm",
@@ -399,7 +399,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 5,
-          "percent": 0.1
+          "percent": 0.09
         },
         {
           "name": "glob",
@@ -410,59 +410,59 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 5,
-          "percent": 0.1
+          "percent": 0.09
         }
       ],
       "machines": [
         {
           "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 7961.56209,
+          "total_seconds": 8625.717113,
           "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "2:12:41",
-          "decimal": "2.20",
-          "text": "2 hrs 12 mins",
+          "digital": "2:23:45",
+          "decimal": "2.38",
+          "text": "2 hrs 23 mins",
           "hours": 2,
-          "minutes": 12,
-          "seconds": 41,
+          "minutes": 23,
+          "seconds": 45,
           "percent": 100
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 7961.56209,
-          "digital": "2:12:41",
-          "decimal": "2.20",
-          "text": "2 hrs 12 mins",
+          "total_seconds": 8625.717113,
+          "digital": "2:23:45",
+          "decimal": "2.38",
+          "text": "2 hrs 23 mins",
           "hours": 2,
-          "minutes": 12,
-          "seconds": 41,
+          "minutes": 23,
+          "seconds": 45,
           "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Mac",
-          "total_seconds": 7961.56209,
-          "digital": "2:12:41",
-          "decimal": "2.20",
-          "text": "2 hrs 12 mins",
+          "total_seconds": 8625.717113,
+          "digital": "2:23:45",
+          "decimal": "2.38",
+          "text": "2 hrs 23 mins",
           "hours": 2,
-          "minutes": 12,
-          "seconds": 41,
+          "minutes": 23,
+          "seconds": 45,
           "percent": 100
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 7961.56209,
-          "digital": "2:12:41",
-          "decimal": "2.20",
-          "text": "2 hrs 12 mins",
+          "total_seconds": 8625.717113,
+          "digital": "2:23:45",
+          "decimal": "2.38",
+          "text": "2 hrs 23 mins",
           "hours": 2,
-          "minutes": 12,
-          "seconds": 41,
+          "minutes": 23,
+          "seconds": 45,
           "percent": 100
         }
       ]
@@ -471,18 +471,18 @@
   "start": "2025-02-27T23:00:00Z",
   "end": "2025-02-28T22:59:59Z",
   "cumulative_total": {
-    "seconds": 7961.56209,
-    "text": "2 hrs 12 mins",
-    "digital": "2:12",
-    "decimal": "2.20"
+    "seconds": 8625.717113,
+    "text": "2 hrs 23 mins",
+    "digital": "2:23",
+    "decimal": "2.38"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 7491,
-    "seconds_including_other_language": 7962,
-    "text": "2 hrs 4 mins",
-    "text_including_other_language": "2 hrs 12 mins"
+    "seconds": 8155,
+    "seconds_including_other_language": 8626,
+    "text": "2 hrs 15 mins",
+    "text_including_other_language": "2 hrs 23 mins"
   }
 }
