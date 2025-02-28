@@ -1,129 +1,44 @@
 {
   "data": [
     {
-      "languages": [
-        {
-          "name": "Other",
-          "total_seconds": 0.915742,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 51.32
-        },
-        {
-          "name": "Git Config",
-          "total_seconds": 0.868764,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 48.68
-        }
-      ],
       "grand_total": {
         "hours": 0,
         "minutes": 0,
-        "total_seconds": 1.784506,
+        "total_seconds": 0,
         "digital": "0:00",
         "decimal": "0.00",
         "text": "0 secs"
       },
-      "editors": [
-        {
-          "name": "VS Code",
-          "total_seconds": 1.784506,
-          "digital": "0:00:01",
-          "decimal": "0.00",
-          "text": "1 sec",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 1,
-          "percent": 100
-        }
-      ],
-      "operating_systems": [
-        {
-          "name": "Mac",
-          "total_seconds": 1.784506,
-          "digital": "0:00:01",
-          "decimal": "0.00",
-          "text": "1 sec",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 1,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 1.784506,
-          "digital": "0:00:01",
-          "decimal": "0.00",
-          "text": "1 sec",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 1,
-          "percent": 100
-        }
-      ],
-      "dependencies": [],
-      "machines": [
-        {
-          "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 1.784506,
-          "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "0:00:01",
-          "decimal": "0.00",
-          "text": "1 sec",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 1,
-          "percent": 100
-        }
-      ],
-      "projects": [
-        {
-          "name": "latex-renderer",
-          "total_seconds": 1.784506,
-          "color": null,
-          "digital": "0:00:01",
-          "decimal": "0.00",
-          "text": "1 sec",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 1,
-          "percent": 100
-        }
-      ],
       "range": {
-        "start": "2025-02-26T23:00:00Z",
-        "end": "2025-02-27T22:59:59Z",
-        "date": "2025-02-27",
-        "text": "Thu Feb 27th 2025",
+        "start": "2025-02-27T23:00:00Z",
+        "end": "2025-02-28T22:59:59Z",
+        "date": "2025-02-28",
+        "text": "Fri Feb 28th 2025",
         "timezone": "Europe/Oslo"
-      }
+      },
+      "projects": [],
+      "languages": [],
+      "dependencies": [],
+      "machines": [],
+      "editors": [],
+      "operating_systems": [],
+      "categories": []
     }
   ],
-  "start": "2025-02-26T23:00:00Z",
-  "end": "2025-02-27T22:59:59Z",
+  "start": "2025-02-27T23:00:00Z",
+  "end": "2025-02-28T22:59:59Z",
   "cumulative_total": {
-    "seconds": 1.784506,
-    "text": "1 sec",
+    "seconds": 0,
+    "text": "0 secs",
     "digital": "0:00",
     "decimal": "0.00"
   },
   "daily_average": {
-    "holidays": 0,
-    "days_minus_holidays": 1,
+    "holidays": 1,
+    "days_minus_holidays": 0,
     "days_including_holidays": 1,
-    "seconds": 1,
-    "seconds_including_other_language": 2,
+    "seconds": 0,
+    "seconds_including_other_language": 0,
     "text": "0 secs",
     "text_including_other_language": "0 secs"
   }
