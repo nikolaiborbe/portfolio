@@ -1,83 +1,6 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 8,
-        "minutes": 42,
-        "total_seconds": 31346.865438,
-        "digital": "8:42",
-        "decimal": "8.70",
-        "text": "8 hrs 42 mins"
-      },
-      "range": {
-        "start": "2025-02-28T23:00:00Z",
-        "end": "2025-03-01T22:59:59Z",
-        "date": "2025-03-01",
-        "text": "Sat Mar 1st 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
-        {
-          "name": "engine-software-2025-v0",
-          "total_seconds": 21177.927187,
-          "color": null,
-          "digital": "5:52:57",
-          "decimal": "5.87",
-          "text": "5 hrs 52 mins",
-          "hours": 5,
-          "minutes": 52,
-          "seconds": 57,
-          "percent": 67.56
-        },
-        {
-          "name": "engine-software-2025-thermocouple-driver-max31856",
-          "total_seconds": 9227.847209,
-          "color": null,
-          "digital": "2:33:47",
-          "decimal": "2.55",
-          "text": "2 hrs 33 mins",
-          "hours": 2,
-          "minutes": 33,
-          "seconds": 47,
-          "percent": 29.44
-        },
-        {
-          "name": "gjallarhorn",
-          "total_seconds": 796.675882,
-          "color": null,
-          "digital": "0:13:16",
-          "decimal": "0.22",
-          "text": "13 mins",
-          "hours": 0,
-          "minutes": 13,
-          "seconds": 16,
-          "percent": 2.54
-        },
-        {
-          "name": "rtos-docs",
-          "total_seconds": 102.475907,
-          "color": null,
-          "digital": "0:01:42",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 42,
-          "percent": 0.33
-        },
-        {
-          "name": "latex-renderer",
-          "total_seconds": 41.939253,
-          "color": null,
-          "digital": "0:00:41",
-          "decimal": "0.00",
-          "text": "41 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 41,
-          "percent": 0.13
-        }
-      ],
       "languages": [
         {
           "name": "C",
@@ -199,6 +122,75 @@
           "minutes": 0,
           "seconds": 1,
           "percent": 0
+        }
+      ],
+      "grand_total": {
+        "hours": 8,
+        "minutes": 42,
+        "total_seconds": 31346.865438,
+        "digital": "8:42",
+        "decimal": "8.70",
+        "text": "8 hrs 42 mins"
+      },
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 31346.865438,
+          "digital": "8:42:26",
+          "decimal": "8.70",
+          "text": "8 hrs 42 mins",
+          "hours": 8,
+          "minutes": 42,
+          "seconds": 26,
+          "percent": 100
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "total_seconds": 31346.865438,
+          "digital": "8:42:26",
+          "decimal": "8.70",
+          "text": "8 hrs 42 mins",
+          "hours": 8,
+          "minutes": 42,
+          "seconds": 26,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 20074.447472,
+          "digital": "5:34:34",
+          "decimal": "5.57",
+          "text": "5 hrs 34 mins",
+          "hours": 5,
+          "minutes": 34,
+          "seconds": 34,
+          "percent": 64.04
+        },
+        {
+          "name": "Debugging",
+          "total_seconds": 10860.740867,
+          "digital": "3:01:00",
+          "decimal": "3.02",
+          "text": "3 hrs 1 min",
+          "hours": 3,
+          "minutes": 1,
+          "seconds": 0,
+          "percent": 34.65
+        },
+        {
+          "name": "Building",
+          "total_seconds": 411.677099,
+          "digital": "0:06:51",
+          "decimal": "0.10",
+          "text": "6 mins",
+          "hours": 0,
+          "minutes": 6,
+          "seconds": 51,
+          "percent": 1.31
         }
       ],
       "dependencies": [
@@ -1493,67 +1485,75 @@
           "percent": 100
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "VS Code",
-          "total_seconds": 31346.865438,
-          "digital": "8:42:26",
-          "decimal": "8.70",
-          "text": "8 hrs 42 mins",
-          "hours": 8,
-          "minutes": 42,
-          "seconds": 26,
-          "percent": 100
-        }
-      ],
-      "operating_systems": [
-        {
-          "name": "Windows",
-          "total_seconds": 31346.865438,
-          "digital": "8:42:26",
-          "decimal": "8.70",
-          "text": "8 hrs 42 mins",
-          "hours": 8,
-          "minutes": 42,
-          "seconds": 26,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 20074.447472,
-          "digital": "5:34:34",
-          "decimal": "5.57",
-          "text": "5 hrs 34 mins",
+          "name": "engine-software-2025-v0",
+          "total_seconds": 21177.927187,
+          "color": null,
+          "digital": "5:52:57",
+          "decimal": "5.87",
+          "text": "5 hrs 52 mins",
           "hours": 5,
-          "minutes": 34,
-          "seconds": 34,
-          "percent": 64.04
+          "minutes": 52,
+          "seconds": 57,
+          "percent": 67.56
         },
         {
-          "name": "Debugging",
-          "total_seconds": 10860.740867,
-          "digital": "3:01:00",
-          "decimal": "3.02",
-          "text": "3 hrs 1 min",
-          "hours": 3,
-          "minutes": 1,
-          "seconds": 0,
-          "percent": 34.65
+          "name": "engine-software-2025-thermocouple-driver-max31856",
+          "total_seconds": 9227.847209,
+          "color": null,
+          "digital": "2:33:47",
+          "decimal": "2.55",
+          "text": "2 hrs 33 mins",
+          "hours": 2,
+          "minutes": 33,
+          "seconds": 47,
+          "percent": 29.44
         },
         {
-          "name": "Building",
-          "total_seconds": 411.677099,
-          "digital": "0:06:51",
-          "decimal": "0.10",
-          "text": "6 mins",
+          "name": "gjallarhorn",
+          "total_seconds": 796.675882,
+          "color": null,
+          "digital": "0:13:16",
+          "decimal": "0.22",
+          "text": "13 mins",
           "hours": 0,
-          "minutes": 6,
-          "seconds": 51,
-          "percent": 1.31
+          "minutes": 13,
+          "seconds": 16,
+          "percent": 2.54
+        },
+        {
+          "name": "rtos-docs",
+          "total_seconds": 102.475907,
+          "color": null,
+          "digital": "0:01:42",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 42,
+          "percent": 0.33
+        },
+        {
+          "name": "latex-renderer",
+          "total_seconds": 41.939253,
+          "color": null,
+          "digital": "0:00:41",
+          "decimal": "0.00",
+          "text": "41 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 41,
+          "percent": 0.13
         }
-      ]
+      ],
+      "range": {
+        "start": "2025-02-28T23:00:00Z",
+        "end": "2025-03-01T22:59:59Z",
+        "date": "2025-03-01",
+        "text": "Sat Mar 1st 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-02-28T23:00:00Z",
