@@ -1,53 +1,5 @@
 [
   {
-    "id": "9950c125-f6f3-4d27-a395-d73a73f847ed",
-    "entity": "/Users/nikolaiborbe/Documents/Programming/MNIST-guide/src/main.py",
-    "type": "file",
-    "time": 1740917970.587673,
-    "project": "MNIST-guide",
-    "project_root_count": 6,
-    "branch": "main",
-    "language": "Python",
-    "dependencies": [
-      "torch"
-    ],
-    "line_additions": null,
-    "line_deletions": null,
-    "lines": 13,
-    "lineno": 13,
-    "cursorpos": 1,
-    "is_write": false,
-    "category": "coding",
-    "created_at": "2025-03-02T12:20:05Z",
-    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
-    "user_agent_id": "355defd7-2c7d-4e46-a9af-48462f6f2bdf",
-    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
-  },
-  {
-    "id": "9f38fe4a-76bb-4ce5-a2e0-d63fa61fbd8e",
-    "entity": "/Users/nikolaiborbe/Documents/Programming/MNIST-guide/src/main.py",
-    "type": "file",
-    "time": 1740918004.172334,
-    "project": "MNIST-guide",
-    "project_root_count": 6,
-    "branch": "main",
-    "language": "Python",
-    "dependencies": [
-      "torch"
-    ],
-    "line_additions": null,
-    "line_deletions": null,
-    "lines": 14,
-    "lineno": 13,
-    "cursorpos": 9,
-    "is_write": true,
-    "category": "coding",
-    "created_at": "2025-03-02T12:20:04Z",
-    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
-    "user_agent_id": "355defd7-2c7d-4e46-a9af-48462f6f2bdf",
-    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
-  },
-  {
     "id": "9b2e1620-ebef-4504-a23f-d35c37afce83",
     "entity": "/Users/nikolaiborbe/Documents/Programming/MNIST-guide/src/main.py",
     "type": "file",
@@ -115,6 +67,54 @@
     "is_write": false,
     "category": "coding",
     "created_at": "2025-03-02T12:25:53Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "355defd7-2c7d-4e46-a9af-48462f6f2bdf",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  },
+  {
+    "id": "b0877b61-0aaa-4ab1-96d4-81160849c21a",
+    "entity": "/Users/nikolaiborbe/Documents/Programming/MNIST-guide/src/main.py",
+    "type": "file",
+    "time": 1740918359.111821,
+    "project": "MNIST-guide",
+    "project_root_count": 6,
+    "branch": "main",
+    "language": "Python",
+    "dependencies": [
+      "torch"
+    ],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 15,
+    "lineno": 14,
+    "cursorpos": 36,
+    "is_write": true,
+    "category": "coding",
+    "created_at": "2025-03-02T12:30:09Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "355defd7-2c7d-4e46-a9af-48462f6f2bdf",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  },
+  {
+    "id": "8d7b83ef-2cdf-4f50-abc5-3a5f49a11215",
+    "entity": "/Users/nikolaiborbe/Documents/Programming/MNIST-guide/src/main.py",
+    "type": "file",
+    "time": 1740918607.786271,
+    "project": "MNIST-guide",
+    "project_root_count": 6,
+    "branch": "main",
+    "language": "Python",
+    "dependencies": [
+      "torch"
+    ],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 16,
+    "lineno": 16,
+    "cursorpos": 1,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-03-02T12:30:08Z",
     "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
     "user_agent_id": "355defd7-2c7d-4e46-a9af-48462f6f2bdf",
     "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
