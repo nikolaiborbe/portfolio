@@ -16,13 +16,187 @@
         "text": "Sun Mar 2nd 2025",
         "timezone": "Europe/Oslo"
       },
-      "projects": [],
-      "languages": [],
-      "dependencies": [],
-      "machines": [],
-      "editors": [],
-      "operating_systems": [],
-      "categories": []
+      "projects": [
+        {
+          "name": "ChatBot",
+          "total_seconds": 0,
+          "color": null,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "languages": [
+        {
+          "name": "Python",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "time",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "requests",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "colorama",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "json",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "pygame",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "random",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "twitchio",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "config",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "ai",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "machines": [
+        {
+          "name": "Nikolais-Mac-mini.local",
+          "total_seconds": 0,
+          "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Mac",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ]
     }
   ],
   "start": "2025-03-01T23:00:00Z",
