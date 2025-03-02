@@ -82,7 +82,7 @@
 <div class="flex justify-end p-4 md:justify-start">
 	<!-- Very bad implementation, but will atleast update time spent that day
 	 and should also reset every night.-->
-	{#if currently_programming}
+	{#if current_project}
 		{@render snippet1()}
 	{:else}
 		<div class="flex gap-2">
