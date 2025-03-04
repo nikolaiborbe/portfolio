@@ -1,7 +1,6 @@
 {
   "data": [
     {
-      "languages": [],
       "grand_total": {
         "hours": 0,
         "minutes": 0,
@@ -10,23 +9,24 @@
         "decimal": "0.00",
         "text": "0 secs"
       },
-      "editors": [],
-      "operating_systems": [],
-      "categories": [],
+      "range": {
+        "start": "2025-03-03T23:00:00Z",
+        "end": "2025-03-04T22:59:59Z",
+        "date": "2025-03-04",
+        "text": "Tue Mar 4th 2025",
+        "timezone": "Europe/Oslo"
+      },
+      "projects": [],
+      "languages": [],
       "dependencies": [],
       "machines": [],
-      "projects": [],
-      "range": {
-        "start": "2025-03-02T23:00:00Z",
-        "end": "2025-03-03T22:59:59Z",
-        "date": "2025-03-03",
-        "text": "Mon Mar 3rd 2025",
-        "timezone": "Europe/Oslo"
-      }
+      "editors": [],
+      "operating_systems": [],
+      "categories": []
     }
   ],
-  "start": "2025-03-02T23:00:00Z",
-  "end": "2025-03-03T22:59:59Z",
+  "start": "2025-03-03T23:00:00Z",
+  "end": "2025-03-04T22:59:59Z",
   "cumulative_total": {
     "seconds": 0,
     "text": "0 secs",
