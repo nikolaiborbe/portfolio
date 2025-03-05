@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 0,
-        "minutes": 0,
-        "total_seconds": 0,
-        "digital": "0:00",
-        "decimal": "0.00",
-        "text": "0 secs"
+        "minutes": 10,
+        "total_seconds": 608.72306,
+        "digital": "0:10",
+        "decimal": "0.17",
+        "text": "10 mins"
       },
       "range": {
         "start": "2025-03-04T23:00:00Z",
@@ -19,82 +19,93 @@
       "projects": [
         {
           "name": "website",
-          "total_seconds": 0,
+          "total_seconds": 608.72306,
           "color": null,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
+          "digital": "0:10:08",
+          "decimal": "0.17",
+          "text": "10 mins",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
+          "minutes": 10,
+          "seconds": 8,
+          "percent": 100
         }
       ],
       "languages": [
         {
-          "name": "Git Config",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
+          "name": "TypeScript",
+          "total_seconds": 348.44216,
+          "digital": "0:05:48",
+          "decimal": "0.08",
+          "text": "5 mins",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
+          "minutes": 5,
+          "seconds": 48,
+          "percent": 57.24
+        },
+        {
+          "name": "Git Config",
+          "total_seconds": 260.2809,
+          "digital": "0:04:20",
+          "decimal": "0.07",
+          "text": "4 mins",
+          "hours": 0,
+          "minutes": 4,
+          "seconds": 20,
+          "percent": 42.76
         }
       ],
       "dependencies": [],
       "machines": [
         {
           "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 0,
+          "total_seconds": 608.72306,
           "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
+          "digital": "0:10:08",
+          "decimal": "0.17",
+          "text": "10 mins",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
+          "minutes": 10,
+          "seconds": 8,
+          "percent": 100
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
+          "total_seconds": 608.72306,
+          "digital": "0:10:08",
+          "decimal": "0.17",
+          "text": "10 mins",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
+          "minutes": 10,
+          "seconds": 8,
+          "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Mac",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
+          "total_seconds": 608.72306,
+          "digital": "0:10:08",
+          "decimal": "0.17",
+          "text": "10 mins",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
+          "minutes": 10,
+          "seconds": 8,
+          "percent": 100
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
+          "total_seconds": 608.72306,
+          "digital": "0:10:08",
+          "decimal": "0.17",
+          "text": "10 mins",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
+          "minutes": 10,
+          "seconds": 8,
+          "percent": 100
         }
       ]
     }
@@ -102,18 +113,18 @@
   "start": "2025-03-04T23:00:00Z",
   "end": "2025-03-05T22:59:59Z",
   "cumulative_total": {
-    "seconds": 0,
-    "text": "0 secs",
-    "digital": "0:00",
-    "decimal": "0.00"
+    "seconds": 608.72306,
+    "text": "10 mins",
+    "digital": "0:10",
+    "decimal": "0.17"
   },
   "daily_average": {
-    "holidays": 1,
-    "days_minus_holidays": 0,
+    "holidays": 0,
+    "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 0,
-    "seconds_including_other_language": 0,
-    "text": "0 secs",
-    "text_including_other_language": "0 secs"
+    "seconds": 609,
+    "seconds_including_other_language": 609,
+    "text": "10 mins",
+    "text_including_other_language": "10 mins"
   }
 }
