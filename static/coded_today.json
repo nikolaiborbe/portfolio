@@ -2,12 +2,12 @@
   "data": [
     {
       "grand_total": {
-        "hours": 1,
-        "minutes": 46,
-        "total_seconds": 6381.86021,
-        "digital": "1:46",
-        "decimal": "1.77",
-        "text": "1 hr 46 mins"
+        "hours": 2,
+        "minutes": 0,
+        "total_seconds": 7231.286256,
+        "digital": "2:00",
+        "decimal": "2.00",
+        "text": "2 hrs"
       },
       "range": {
         "start": "2025-03-05T23:00:00Z",
@@ -19,137 +19,170 @@
       "projects": [
         {
           "name": "website",
-          "total_seconds": 6381.86021,
+          "total_seconds": 7231.286256,
           "color": null,
-          "digital": "1:46:21",
-          "decimal": "1.77",
-          "text": "1 hr 46 mins",
-          "hours": 1,
-          "minutes": 46,
-          "seconds": 21,
+          "digital": "2:00:31",
+          "decimal": "2.00",
+          "text": "2 hrs",
+          "hours": 2,
+          "minutes": 0,
+          "seconds": 31,
           "percent": 100
         }
       ],
       "languages": [
         {
           "name": "TypeScript",
-          "total_seconds": 6381.86021,
-          "digital": "1:46:21",
-          "decimal": "1.77",
-          "text": "1 hr 46 mins",
-          "hours": 1,
-          "minutes": 46,
-          "seconds": 21,
-          "percent": 100
+          "total_seconds": 7229.309023,
+          "digital": "2:00:29",
+          "decimal": "2.00",
+          "text": "2 hrs",
+          "hours": 2,
+          "minutes": 0,
+          "seconds": 29,
+          "percent": 99.97
+        },
+        {
+          "name": "TSConfig",
+          "total_seconds": 1.977233,
+          "digital": "0:00:01",
+          "decimal": "0.00",
+          "text": "1 sec",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 1,
+          "percent": 0.03
         }
       ],
       "dependencies": [
         {
           "name": "image",
-          "total_seconds": 5019.114746,
-          "digital": "1:23:39",
-          "decimal": "1.38",
-          "text": "1 hr 23 mins",
+          "total_seconds": 5794.132507,
+          "digital": "1:36:34",
+          "decimal": "1.60",
+          "text": "1 hr 36 mins",
           "hours": 1,
-          "minutes": 23,
-          "seconds": 39,
-          "percent": 30.22
+          "minutes": 36,
+          "seconds": 34,
+          "percent": 29.86
         },
         {
           "name": "react",
-          "total_seconds": 3980.532136,
-          "digital": "1:06:20",
-          "decimal": "1.10",
-          "text": "1 hr 6 mins",
+          "total_seconds": 4781.068176,
+          "digital": "1:19:41",
+          "decimal": "1.32",
+          "text": "1 hr 19 mins",
           "hours": 1,
-          "minutes": 6,
-          "seconds": 20,
-          "percent": 23.97
+          "minutes": 19,
+          "seconds": 41,
+          "percent": 24.64
         },
         {
           "name": "Navbar",
-          "total_seconds": 3627.544879,
-          "digital": "1:00:27",
-          "decimal": "1.00",
-          "text": "1 hr",
+          "total_seconds": 3927.784968,
+          "digital": "1:05:27",
+          "decimal": "1.08",
+          "text": "1 hr 5 mins",
           "hours": 1,
-          "minutes": 0,
+          "minutes": 5,
           "seconds": 27,
-          "percent": 21.84
+          "percent": 20.24
         },
         {
           "name": "Footer",
-          "total_seconds": 3627.544879,
-          "digital": "1:00:27",
-          "decimal": "1.00",
-          "text": "1 hr",
+          "total_seconds": 3927.784968,
+          "digital": "1:05:27",
+          "decimal": "1.08",
+          "text": "1 hr 5 mins",
           "hours": 1,
-          "minutes": 0,
+          "minutes": 5,
           "seconds": 27,
-          "percent": 21.84
+          "percent": 20.24
         },
         {
           "name": "navFooter",
-          "total_seconds": 352.987257,
-          "digital": "0:05:52",
-          "decimal": "0.08",
-          "text": "5 mins",
+          "total_seconds": 827.764929,
+          "digital": "0:13:47",
+          "decimal": "0.22",
+          "text": "13 mins",
           "hours": 0,
-          "minutes": 5,
-          "seconds": 52,
-          "percent": 2.13
+          "minutes": 13,
+          "seconds": 47,
+          "percent": 4.27
+        },
+        {
+          "name": "RandomImage",
+          "total_seconds": 102.070036,
+          "digital": "0:01:42",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 42,
+          "percent": 0.53
+        },
+        {
+          "name": "tailwindcss",
+          "total_seconds": 41.277167,
+          "digital": "0:00:41",
+          "decimal": "0.00",
+          "text": "41 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 41,
+          "percent": 0.21
         }
       ],
       "machines": [
         {
           "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 6381.86021,
+          "total_seconds": 7231.286256,
           "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "1:46:21",
-          "decimal": "1.77",
-          "text": "1 hr 46 mins",
-          "hours": 1,
-          "minutes": 46,
-          "seconds": 21,
+          "digital": "2:00:31",
+          "decimal": "2.00",
+          "text": "2 hrs",
+          "hours": 2,
+          "minutes": 0,
+          "seconds": 31,
           "percent": 100
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 6381.86021,
-          "digital": "1:46:21",
-          "decimal": "1.77",
-          "text": "1 hr 46 mins",
-          "hours": 1,
-          "minutes": 46,
-          "seconds": 21,
+          "total_seconds": 7231.286256,
+          "digital": "2:00:31",
+          "decimal": "2.00",
+          "text": "2 hrs",
+          "hours": 2,
+          "minutes": 0,
+          "seconds": 31,
           "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Mac",
-          "total_seconds": 6381.86021,
-          "digital": "1:46:21",
-          "decimal": "1.77",
-          "text": "1 hr 46 mins",
-          "hours": 1,
-          "minutes": 46,
-          "seconds": 21,
+          "total_seconds": 7231.286256,
+          "digital": "2:00:31",
+          "decimal": "2.00",
+          "text": "2 hrs",
+          "hours": 2,
+          "minutes": 0,
+          "seconds": 31,
           "percent": 100
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 6381.86021,
-          "digital": "1:46:21",
-          "decimal": "1.77",
-          "text": "1 hr 46 mins",
-          "hours": 1,
-          "minutes": 46,
-          "seconds": 21,
+          "total_seconds": 7231.286256,
+          "digital": "2:00:31",
+          "decimal": "2.00",
+          "text": "2 hrs",
+          "hours": 2,
+          "minutes": 0,
+          "seconds": 31,
           "percent": 100
         }
       ]
@@ -158,18 +191,18 @@
   "start": "2025-03-05T23:00:00Z",
   "end": "2025-03-06T22:59:59Z",
   "cumulative_total": {
-    "seconds": 6381.86021,
-    "text": "1 hr 46 mins",
-    "digital": "1:46",
-    "decimal": "1.77"
+    "seconds": 7231.286256,
+    "text": "2 hrs",
+    "digital": "2:00",
+    "decimal": "2.00"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 6382,
-    "seconds_including_other_language": 6382,
-    "text": "1 hr 46 mins",
-    "text_including_other_language": "1 hr 46 mins"
+    "seconds": 7231,
+    "seconds_including_other_language": 7231,
+    "text": "2 hrs",
+    "text_including_other_language": "2 hrs"
   }
 }
