@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "74414ff5-a755-409e-b10a-3724ec44b32e",
+    "entity": "/Users/nikolaiborbe/Documents/Complexity/website/src/components/page/navbar/Navbar.tsx",
+    "type": "file",
+    "time": 1741263143.363318,
+    "project": "website",
+    "project_root_count": 6,
+    "branch": "main",
+    "language": "TypeScript",
+    "dependencies": [
+      "image",
+      "react",
+      "navFooter"
+    ],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 120,
+    "lineno": 31,
+    "cursorpos": 18,
+    "is_write": true,
+    "category": "coding",
+    "created_at": "2025-03-06T12:12:24Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "355defd7-2c7d-4e46-a9af-48462f6f2bdf",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  }
+]
