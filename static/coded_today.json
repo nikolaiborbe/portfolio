@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 0,
-        "minutes": 36,
-        "total_seconds": 2209.396828,
-        "digital": "0:36",
-        "decimal": "0.60",
-        "text": "36 mins"
+        "minutes": 51,
+        "total_seconds": 3112.009891,
+        "digital": "0:51",
+        "decimal": "0.85",
+        "text": "51 mins"
       },
       "range": {
         "start": "2025-03-06T23:00:00Z",
@@ -19,15 +19,15 @@
       "projects": [
         {
           "name": "website",
-          "total_seconds": 2155.671646,
+          "total_seconds": 3058.284709,
           "color": null,
-          "digital": "0:35:55",
-          "decimal": "0.58",
-          "text": "35 mins",
+          "digital": "0:50:58",
+          "decimal": "0.83",
+          "text": "50 mins",
           "hours": 0,
-          "minutes": 35,
-          "seconds": 55,
-          "percent": 97.57
+          "minutes": 50,
+          "seconds": 58,
+          "percent": 98.27
         },
         {
           "name": "latex-renderer",
@@ -39,20 +39,20 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 53,
-          "percent": 2.43
+          "percent": 1.73
         }
       ],
       "languages": [
         {
           "name": "TypeScript",
-          "total_seconds": 2125.388332,
-          "digital": "0:35:25",
-          "decimal": "0.58",
-          "text": "35 mins",
+          "total_seconds": 3028.001395,
+          "digital": "0:50:28",
+          "decimal": "0.83",
+          "text": "50 mins",
           "hours": 0,
-          "minutes": 35,
-          "seconds": 25,
-          "percent": 96.2
+          "minutes": 50,
+          "seconds": 28,
+          "percent": 97.3
         },
         {
           "name": "Svelte",
@@ -63,7 +63,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 53,
-          "percent": 2.43
+          "percent": 1.73
         },
         {
           "name": "JSON",
@@ -74,7 +74,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 29,
-          "percent": 1.36
+          "percent": 0.96
         },
         {
           "name": "Git Config",
@@ -85,75 +85,75 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 0,
-          "percent": 0.02
+          "percent": 0.01
         }
       ],
       "dependencies": [
         {
           "name": "Navbar",
-          "total_seconds": 1857.285239,
-          "digital": "0:30:57",
-          "decimal": "0.50",
-          "text": "30 mins",
+          "total_seconds": 2759.898302,
+          "digital": "0:45:59",
+          "decimal": "0.75",
+          "text": "45 mins",
           "hours": 0,
-          "minutes": 30,
-          "seconds": 57,
-          "percent": 23.48
+          "minutes": 45,
+          "seconds": 59,
+          "percent": 25.83
         },
         {
           "name": "Footer",
-          "total_seconds": 1857.285239,
-          "digital": "0:30:57",
-          "decimal": "0.50",
-          "text": "30 mins",
+          "total_seconds": 2759.898302,
+          "digital": "0:45:59",
+          "decimal": "0.75",
+          "text": "45 mins",
           "hours": 0,
-          "minutes": 30,
-          "seconds": 57,
-          "percent": 23.48
+          "minutes": 45,
+          "seconds": 59,
+          "percent": 25.83
+        },
+        {
+          "name": "react",
+          "total_seconds": 1860.142427,
+          "digital": "0:31:00",
+          "decimal": "0.52",
+          "text": "31 mins",
+          "hours": 0,
+          "minutes": 31,
+          "seconds": 0,
+          "percent": 17.41
         },
         {
           "name": "roles",
-          "total_seconds": 1200.296045,
-          "digital": "0:20:00",
+          "total_seconds": 1210.282137,
+          "digital": "0:20:10",
           "decimal": "0.33",
           "text": "20 mins",
           "hours": 0,
           "minutes": 20,
-          "seconds": 0,
-          "percent": 15.17
+          "seconds": 10,
+          "percent": 11.32
         },
         {
           "name": "navigation",
-          "total_seconds": 1041.033326,
-          "digital": "0:17:21",
+          "total_seconds": 1043.528606,
+          "digital": "0:17:23",
           "decimal": "0.28",
           "text": "17 mins",
           "hours": 0,
           "minutes": 17,
-          "seconds": 21,
-          "percent": 13.16
-        },
-        {
-          "name": "react",
-          "total_seconds": 960.024644,
-          "digital": "0:16:00",
-          "decimal": "0.27",
-          "text": "16 mins",
-          "hours": 0,
-          "minutes": 16,
-          "seconds": 0,
-          "percent": 12.14
+          "seconds": 23,
+          "percent": 9.76
         },
         {
           "name": "image",
-          "total_seconds": 417.405373,
-          "digital": "0:06:57",
-          "decimal": "0.10",
-          "text": "6 mins",
+          "total_seconds": 443.170903,
+          "digital": "0:07:23",
+          "decimal": "0.12",
+          "text": "7 mins",
           "hours": 0,
-          "minutes": 6,
-          "seconds": 57,
-          "percent": 5.28
+          "minutes": 7,
+          "seconds": 23,
+          "percent": 4.15
         },
         {
           "name": "navFooter",
@@ -164,81 +164,81 @@
           "hours": 0,
           "minutes": 3,
           "seconds": 41,
-          "percent": 2.8
+          "percent": 2.08
         },
         {
           "name": "RandomImage",
-          "total_seconds": 195.620225,
-          "digital": "0:03:15",
+          "total_seconds": 221.385755,
+          "digital": "0:03:41",
           "decimal": "0.05",
           "text": "3 mins",
           "hours": 0,
           "minutes": 3,
-          "seconds": 15,
-          "percent": 2.47
+          "seconds": 41,
+          "percent": 2.07
         },
         {
           "name": "link",
-          "total_seconds": 159.262719,
-          "digital": "0:02:39",
+          "total_seconds": 166.753531,
+          "digital": "0:02:46",
           "decimal": "0.03",
           "text": "2 mins",
           "hours": 0,
           "minutes": 2,
-          "seconds": 39,
-          "percent": 2.01
+          "seconds": 46,
+          "percent": 1.56
         }
       ],
       "machines": [
         {
           "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 2209.396828,
+          "total_seconds": 3112.009891,
           "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "0:36:49",
-          "decimal": "0.60",
-          "text": "36 mins",
+          "digital": "0:51:52",
+          "decimal": "0.85",
+          "text": "51 mins",
           "hours": 0,
-          "minutes": 36,
-          "seconds": 49,
+          "minutes": 51,
+          "seconds": 52,
           "percent": 100
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 2209.396828,
-          "digital": "0:36:49",
-          "decimal": "0.60",
-          "text": "36 mins",
+          "total_seconds": 3112.009891,
+          "digital": "0:51:52",
+          "decimal": "0.85",
+          "text": "51 mins",
           "hours": 0,
-          "minutes": 36,
-          "seconds": 49,
+          "minutes": 51,
+          "seconds": 52,
           "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Mac",
-          "total_seconds": 2209.396828,
-          "digital": "0:36:49",
-          "decimal": "0.60",
-          "text": "36 mins",
+          "total_seconds": 3112.009891,
+          "digital": "0:51:52",
+          "decimal": "0.85",
+          "text": "51 mins",
           "hours": 0,
-          "minutes": 36,
-          "seconds": 49,
+          "minutes": 51,
+          "seconds": 52,
           "percent": 100
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 2209.396828,
-          "digital": "0:36:49",
-          "decimal": "0.60",
-          "text": "36 mins",
+          "total_seconds": 3112.009891,
+          "digital": "0:51:52",
+          "decimal": "0.85",
+          "text": "51 mins",
           "hours": 0,
-          "minutes": 36,
-          "seconds": 49,
+          "minutes": 51,
+          "seconds": 52,
           "percent": 100
         }
       ]
@@ -247,18 +247,18 @@
   "start": "2025-03-06T23:00:00Z",
   "end": "2025-03-07T22:59:59Z",
   "cumulative_total": {
-    "seconds": 2209.396828,
-    "text": "36 mins",
-    "digital": "0:36",
-    "decimal": "0.60"
+    "seconds": 3112.009891,
+    "text": "51 mins",
+    "digital": "0:51",
+    "decimal": "0.85"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 2209,
-    "seconds_including_other_language": 2209,
-    "text": "36 mins",
-    "text_including_other_language": "36 mins"
+    "seconds": 3112,
+    "seconds_including_other_language": 3112,
+    "text": "51 mins",
+    "text_including_other_language": "51 mins"
   }
 }
