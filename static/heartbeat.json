@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "c208dc90-26f1-4b4b-ad91-7c9a6f75be64",
+    "entity": "C:/Users/nikol/MAIN/programmering/Propulse/engine-software-2025-thermocouple-driver-max31856/Core/Inc/thermo.h",
+    "type": "file",
+    "time": 1741428272.745318,
+    "project": "engine-software-2025-thermocouple-driver-max31856",
+    "project_root_count": 7,
+    "branch": "anders-board",
+    "language": "C",
+    "dependencies": [
+      "fdcandriver",
+      "main",
+      "spi",
+      "MAX31856",
+      "stdint"
+    ],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 74,
+    "lineno": 56,
+    "cursorpos": 21,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-03-08T10:04:32Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "1a713c80-b717-4cad-991b-f998d0743ba7",
+    "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2"
+  }
+]
