@@ -4,7 +4,7 @@
       "grand_total": {
         "hours": 0,
         "minutes": 0,
-        "total_seconds": 0,
+        "total_seconds": 0.278032,
         "digital": "0:00",
         "decimal": "0.00",
         "text": "0 secs"
@@ -16,19 +16,127 @@
         "text": "Wed Mar 12th 2025",
         "timezone": "Europe/Oslo"
       },
-      "projects": [],
-      "languages": [],
-      "dependencies": [],
-      "machines": [],
-      "editors": [],
-      "operating_systems": [],
-      "categories": []
+      "projects": [
+        {
+          "name": "website",
+          "total_seconds": 0.278032,
+          "color": null,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 100
+        }
+      ],
+      "languages": [
+        {
+          "name": "TypeScript",
+          "total_seconds": 0.278032,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 100
+        }
+      ],
+      "dependencies": [
+        {
+          "name": "react",
+          "total_seconds": 0.278032,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 100
+        },
+        {
+          "name": "three",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "fiber",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "machines": [
+        {
+          "name": "Nikolais-Mac-mini.local",
+          "total_seconds": 0.278032,
+          "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 100
+        }
+      ],
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 0.278032,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 100
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Mac",
+          "total_seconds": 0.278032,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 0.278032,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 100
+        }
+      ]
     }
   ],
   "start": "2025-03-11T23:00:00Z",
   "end": "2025-03-12T22:59:59Z",
   "cumulative_total": {
-    "seconds": 0,
+    "seconds": 0.278032,
     "text": "0 secs",
     "digital": "0:00",
     "decimal": "0.00"
