@@ -1,26 +1,10 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 0,
-        "minutes": 3,
-        "total_seconds": 187.871212,
-        "digital": "0:03",
-        "decimal": "0.05",
-        "text": "3 mins"
-      },
-      "range": {
-        "start": "2025-03-11T23:00:00Z",
-        "end": "2025-03-12T22:59:59Z",
-        "date": "2025-03-12",
-        "text": "Wed Mar 12th 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
+      "languages": [
         {
-          "name": "website",
+          "name": "TypeScript",
           "total_seconds": 187.871212,
-          "color": null,
           "digital": "0:03:07",
           "decimal": "0.05",
           "text": "3 mins",
@@ -30,9 +14,43 @@
           "percent": 100
         }
       ],
-      "languages": [
+      "grand_total": {
+        "hours": 0,
+        "minutes": 3,
+        "total_seconds": 187.871212,
+        "digital": "0:03",
+        "decimal": "0.05",
+        "text": "3 mins"
+      },
+      "editors": [
         {
-          "name": "TypeScript",
+          "name": "VS Code",
+          "total_seconds": 187.871212,
+          "digital": "0:03:07",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 7,
+          "percent": 100
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Mac",
+          "total_seconds": 187.871212,
+          "digital": "0:03:07",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 7,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
           "total_seconds": 187.871212,
           "digital": "0:03:07",
           "decimal": "0.05",
@@ -191,10 +209,11 @@
           "percent": 100
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "VS Code",
+          "name": "website",
           "total_seconds": 187.871212,
+          "color": null,
           "digital": "0:03:07",
           "decimal": "0.05",
           "text": "3 mins",
@@ -204,32 +223,13 @@
           "percent": 100
         }
       ],
-      "operating_systems": [
-        {
-          "name": "Mac",
-          "total_seconds": 187.871212,
-          "digital": "0:03:07",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 7,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 187.871212,
-          "digital": "0:03:07",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 7,
-          "percent": 100
-        }
-      ]
+      "range": {
+        "start": "2025-03-11T23:00:00Z",
+        "end": "2025-03-12T22:59:59Z",
+        "date": "2025-03-12",
+        "text": "Wed Mar 12th 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-03-11T23:00:00Z",
