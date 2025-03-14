@@ -1,241 +1,45 @@
 {
   "data": [
     {
-      "languages": [
-        {
-          "name": "TypeScript",
-          "total_seconds": 594.675571,
-          "digital": "0:09:54",
-          "decimal": "0.15",
-          "text": "9 mins",
-          "hours": 0,
-          "minutes": 9,
-          "seconds": 54,
-          "percent": 100
-        }
-      ],
       "grand_total": {
         "hours": 0,
-        "minutes": 9,
-        "total_seconds": 594.675571,
-        "digital": "0:09",
-        "decimal": "0.15",
-        "text": "9 mins"
+        "minutes": 0,
+        "total_seconds": 0,
+        "digital": "0:00",
+        "decimal": "0.00",
+        "text": "0 secs"
       },
-      "editors": [
-        {
-          "name": "VS Code",
-          "total_seconds": 594.675571,
-          "digital": "0:09:54",
-          "decimal": "0.15",
-          "text": "9 mins",
-          "hours": 0,
-          "minutes": 9,
-          "seconds": 54,
-          "percent": 100
-        }
-      ],
-      "operating_systems": [
-        {
-          "name": "Mac",
-          "total_seconds": 594.675571,
-          "digital": "0:09:54",
-          "decimal": "0.15",
-          "text": "9 mins",
-          "hours": 0,
-          "minutes": 9,
-          "seconds": 54,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 594.675571,
-          "digital": "0:09:54",
-          "decimal": "0.15",
-          "text": "9 mins",
-          "hours": 0,
-          "minutes": 9,
-          "seconds": 54,
-          "percent": 100
-        }
-      ],
-      "dependencies": [
-        {
-          "name": "react",
-          "total_seconds": 594.675571,
-          "digital": "0:09:54",
-          "decimal": "0.15",
-          "text": "9 mins",
-          "hours": 0,
-          "minutes": 9,
-          "seconds": 54,
-          "percent": 19.06
-        },
-        {
-          "name": "image",
-          "total_seconds": 594.675571,
-          "digital": "0:09:54",
-          "decimal": "0.15",
-          "text": "9 mins",
-          "hours": 0,
-          "minutes": 9,
-          "seconds": 54,
-          "percent": 19.06
-        },
-        {
-          "name": "Footer",
-          "total_seconds": 399.733726,
-          "digital": "0:06:39",
-          "decimal": "0.10",
-          "text": "6 mins",
-          "hours": 0,
-          "minutes": 6,
-          "seconds": 39,
-          "percent": 12.81
-        },
-        {
-          "name": "Navbar",
-          "total_seconds": 399.733726,
-          "digital": "0:06:39",
-          "decimal": "0.10",
-          "text": "6 mins",
-          "hours": 0,
-          "minutes": 6,
-          "seconds": 39,
-          "percent": 12.81
-        },
-        {
-          "name": "link",
-          "total_seconds": 365.390652,
-          "digital": "0:06:05",
-          "decimal": "0.10",
-          "text": "6 mins",
-          "hours": 0,
-          "minutes": 6,
-          "seconds": 5,
-          "percent": 11.71
-        },
-        {
-          "name": "Roadmap",
-          "total_seconds": 229.284919,
-          "digital": "0:03:49",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 49,
-          "percent": 7.35
-        },
-        {
-          "name": "navFooter",
-          "total_seconds": 194.941845,
-          "digital": "0:03:14",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 14,
-          "percent": 6.25
-        },
-        {
-          "name": "Brain",
-          "total_seconds": 170.448807,
-          "digital": "0:02:50",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 50,
-          "percent": 5.46
-        },
-        {
-          "name": "HomepageBigCard",
-          "total_seconds": 170.448807,
-          "digital": "0:02:50",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 50,
-          "percent": 5.46
-        },
-        {
-          "name": "roles",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        },
-        {
-          "name": "navigation",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        }
-      ],
-      "machines": [
-        {
-          "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 594.675571,
-          "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "0:09:54",
-          "decimal": "0.15",
-          "text": "9 mins",
-          "hours": 0,
-          "minutes": 9,
-          "seconds": 54,
-          "percent": 100
-        }
-      ],
-      "projects": [
-        {
-          "name": "website",
-          "total_seconds": 594.675571,
-          "color": null,
-          "digital": "0:09:54",
-          "decimal": "0.15",
-          "text": "9 mins",
-          "hours": 0,
-          "minutes": 9,
-          "seconds": 54,
-          "percent": 100
-        }
-      ],
       "range": {
-        "start": "2025-03-12T23:00:00Z",
-        "end": "2025-03-13T22:59:59Z",
-        "date": "2025-03-13",
-        "text": "Thu Mar 13th 2025",
+        "start": "2025-03-13T23:00:00Z",
+        "end": "2025-03-14T22:59:59Z",
+        "date": "2025-03-14",
+        "text": "Fri Mar 14th 2025",
         "timezone": "Europe/Oslo"
-      }
+      },
+      "projects": [],
+      "languages": [],
+      "dependencies": [],
+      "machines": [],
+      "editors": [],
+      "operating_systems": [],
+      "categories": []
     }
   ],
-  "start": "2025-03-12T23:00:00Z",
-  "end": "2025-03-13T22:59:59Z",
+  "start": "2025-03-13T23:00:00Z",
+  "end": "2025-03-14T22:59:59Z",
   "cumulative_total": {
-    "seconds": 594.675571,
-    "text": "9 mins",
-    "digital": "0:09",
-    "decimal": "0.15"
+    "seconds": 0,
+    "text": "0 secs",
+    "digital": "0:00",
+    "decimal": "0.00"
   },
   "daily_average": {
-    "holidays": 0,
-    "days_minus_holidays": 1,
+    "holidays": 1,
+    "days_minus_holidays": 0,
     "days_including_holidays": 1,
-    "seconds": 595,
-    "seconds_including_other_language": 595,
-    "text": "9 mins",
-    "text_including_other_language": "9 mins"
+    "seconds": 0,
+    "seconds_including_other_language": 0,
+    "text": "0 secs",
+    "text_including_other_language": "0 secs"
   }
 }
