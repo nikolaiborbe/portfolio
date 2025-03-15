@@ -1,71 +1,6 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 4,
-        "minutes": 45,
-        "total_seconds": 17146.380386,
-        "digital": "4:45",
-        "decimal": "4.75",
-        "text": "4 hrs 45 mins"
-      },
-      "range": {
-        "start": "2025-03-14T23:00:00Z",
-        "end": "2025-03-15T22:59:59Z",
-        "date": "2025-03-15",
-        "text": "Sat Mar 15th 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
-        {
-          "name": "engine-software-2025-thermocouple-driver-max31856",
-          "total_seconds": 7407.638007,
-          "color": null,
-          "digital": "2:03:27",
-          "decimal": "2.05",
-          "text": "2 hrs 3 mins",
-          "hours": 2,
-          "minutes": 3,
-          "seconds": 27,
-          "percent": 43.2
-        },
-        {
-          "name": "engine-software-2025-v0",
-          "total_seconds": 5142.033906,
-          "color": null,
-          "digital": "1:25:42",
-          "decimal": "1.42",
-          "text": "1 hr 25 mins",
-          "hours": 1,
-          "minutes": 25,
-          "seconds": 42,
-          "percent": 29.99
-        },
-        {
-          "name": "portfolio",
-          "total_seconds": 4386.906252,
-          "color": null,
-          "digital": "1:13:06",
-          "decimal": "1.22",
-          "text": "1 hr 13 mins",
-          "hours": 1,
-          "minutes": 13,
-          "seconds": 6,
-          "percent": 25.59
-        },
-        {
-          "name": "gjallarhorn",
-          "total_seconds": 209.802221,
-          "color": null,
-          "digital": "0:03:29",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 29,
-          "percent": 1.22
-        }
-      ],
       "languages": [
         {
           "name": "C",
@@ -165,6 +100,86 @@
           "minutes": 0,
           "seconds": 4,
           "percent": 0.02
+        }
+      ],
+      "grand_total": {
+        "hours": 4,
+        "minutes": 45,
+        "total_seconds": 17146.380386,
+        "digital": "4:45",
+        "decimal": "4.75",
+        "text": "4 hrs 45 mins"
+      },
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 17146.380386,
+          "digital": "4:45:46",
+          "decimal": "4.75",
+          "text": "4 hrs 45 mins",
+          "hours": 4,
+          "minutes": 45,
+          "seconds": 46,
+          "percent": 100
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "total_seconds": 12759.474134,
+          "digital": "3:32:39",
+          "decimal": "3.53",
+          "text": "3 hrs 32 mins",
+          "hours": 3,
+          "minutes": 32,
+          "seconds": 39,
+          "percent": 74.41
+        },
+        {
+          "name": "Mac",
+          "total_seconds": 4386.906252,
+          "digital": "1:13:06",
+          "decimal": "1.22",
+          "text": "1 hr 13 mins",
+          "hours": 1,
+          "minutes": 13,
+          "seconds": 6,
+          "percent": 25.59
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 12425.389268,
+          "digital": "3:27:05",
+          "decimal": "3.45",
+          "text": "3 hrs 27 mins",
+          "hours": 3,
+          "minutes": 27,
+          "seconds": 5,
+          "percent": 72.47
+        },
+        {
+          "name": "Debugging",
+          "total_seconds": 4359.240692,
+          "digital": "1:12:39",
+          "decimal": "1.20",
+          "text": "1 hr 12 mins",
+          "hours": 1,
+          "minutes": 12,
+          "seconds": 39,
+          "percent": 25.42
+        },
+        {
+          "name": "Building",
+          "total_seconds": 361.750426,
+          "digital": "0:06:01",
+          "decimal": "0.10",
+          "text": "6 mins",
+          "hours": 0,
+          "minutes": 6,
+          "seconds": 1,
+          "percent": 2.11
         }
       ],
       "dependencies": [
@@ -356,17 +371,6 @@
           "percent": 1.53
         },
         {
-          "name": "dma",
-          "total_seconds": 403.750447,
-          "digital": "0:06:43",
-          "decimal": "0.10",
-          "text": "6 mins",
-          "hours": 0,
-          "minutes": 6,
-          "seconds": 43,
-          "percent": 1.51
-        },
-        {
           "name": "memorymap",
           "total_seconds": 403.750447,
           "digital": "0:06:43",
@@ -389,7 +393,7 @@
           "percent": 1.51
         },
         {
-          "name": "usb_otg",
+          "name": "dma",
           "total_seconds": 403.750447,
           "digital": "0:06:43",
           "decimal": "0.10",
@@ -401,6 +405,17 @@
         },
         {
           "name": "sdmmc",
+          "total_seconds": 403.750447,
+          "digital": "0:06:43",
+          "decimal": "0.10",
+          "text": "6 mins",
+          "hours": 0,
+          "minutes": 6,
+          "seconds": 43,
+          "percent": 1.51
+        },
+        {
+          "name": "usb_otg",
           "total_seconds": 403.750447,
           "digital": "0:06:43",
           "decimal": "0.10",
@@ -499,29 +514,7 @@
           "percent": 1.01
         },
         {
-          "name": "path",
-          "total_seconds": 203.928966,
-          "digital": "0:03:23",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 23,
-          "percent": 0.76
-        },
-        {
           "name": "buffer",
-          "total_seconds": 203.928966,
-          "digital": "0:03:23",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 23,
-          "percent": 0.76
-        },
-        {
-          "name": "node-fetch",
           "total_seconds": 203.928966,
           "digital": "0:03:23",
           "decimal": "0.05",
@@ -543,6 +536,28 @@
           "percent": 0.76
         },
         {
+          "name": "node-fetch",
+          "total_seconds": 203.928966,
+          "digital": "0:03:23",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 23,
+          "percent": 0.76
+        },
+        {
+          "name": "path",
+          "total_seconds": 203.928966,
+          "digital": "0:03:23",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 23,
+          "percent": 0.76
+        },
+        {
           "name": "tx_el",
           "total_seconds": 134.295422,
           "digital": "0:02:14",
@@ -554,7 +569,7 @@
           "percent": 0.5
         },
         {
-          "name": "tx_api_extension",
+          "name": "tx_port",
           "total_seconds": 134.295422,
           "digital": "0:02:14",
           "decimal": "0.03",
@@ -565,7 +580,7 @@
           "percent": 0.5
         },
         {
-          "name": "tx_port",
+          "name": "tx_api_extension",
           "total_seconds": 134.295422,
           "digital": "0:02:14",
           "decimal": "0.03",
@@ -697,6 +712,39 @@
           "percent": 0.13
         },
         {
+          "name": "cmsis_compiler.h\"",
+          "total_seconds": 32.619436,
+          "digital": "0:00:32",
+          "decimal": "0.00",
+          "text": "32 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 32,
+          "percent": 0.12
+        },
+        {
+          "name": "CMSIS_NVIC_VIRTUAL_HEADER_FILE",
+          "total_seconds": 32.619436,
+          "digital": "0:00:32",
+          "decimal": "0.00",
+          "text": "32 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 32,
+          "percent": 0.12
+        },
+        {
+          "name": "CMSIS_VECTAB_VIRTUAL_HEADER_FILE",
+          "total_seconds": 32.619436,
+          "digital": "0:00:32",
+          "decimal": "0.00",
+          "text": "32 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 32,
+          "percent": 0.12
+        },
+        {
           "name": "cmsis_version",
           "total_seconds": 32.619436,
           "digital": "0:00:32",
@@ -719,40 +767,7 @@
           "percent": 0.12
         },
         {
-          "name": "CMSIS_VECTAB_VIRTUAL_HEADER_FILE",
-          "total_seconds": 32.619436,
-          "digital": "0:00:32",
-          "decimal": "0.00",
-          "text": "32 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 32,
-          "percent": 0.12
-        },
-        {
-          "name": "CMSIS_NVIC_VIRTUAL_HEADER_FILE",
-          "total_seconds": 32.619436,
-          "digital": "0:00:32",
-          "decimal": "0.00",
-          "text": "32 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 32,
-          "percent": 0.12
-        },
-        {
-          "name": "cmsis_compiler.h\"",
-          "total_seconds": 32.619436,
-          "digital": "0:00:32",
-          "decimal": "0.00",
-          "text": "32 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 32,
-          "percent": 0.12
-        },
-        {
-          "name": "can-data",
+          "name": "reset",
           "total_seconds": 30.981288,
           "digital": "0:00:30",
           "decimal": "0.00",
@@ -774,7 +789,7 @@
           "percent": 0.12
         },
         {
-          "name": "threadpool",
+          "name": "status",
           "total_seconds": 30.981288,
           "digital": "0:00:30",
           "decimal": "0.00",
@@ -785,7 +800,7 @@
           "percent": 0.12
         },
         {
-          "name": "status",
+          "name": "can-data",
           "total_seconds": 30.981288,
           "digital": "0:00:30",
           "decimal": "0.00",
@@ -807,7 +822,7 @@
           "percent": 0.12
         },
         {
-          "name": "reset",
+          "name": "threadpool",
           "total_seconds": 30.981288,
           "digital": "0:00:30",
           "decimal": "0.00",
@@ -873,7 +888,7 @@
           "percent": 0.06
         },
         {
-          "name": "categories",
+          "name": "operating_systems",
           "total_seconds": 13.674079,
           "digital": "0:00:13",
           "decimal": "0.00",
@@ -906,7 +921,7 @@
           "percent": 0.05
         },
         {
-          "name": "operating_systems",
+          "name": "categories",
           "total_seconds": 13.674079,
           "digital": "0:00:13",
           "decimal": "0.00",
@@ -961,7 +976,7 @@
           "percent": 0.03
         },
         {
-          "name": "usart",
+          "name": "utilities_string",
           "total_seconds": 8.98476,
           "digital": "0:00:08",
           "decimal": "0.00",
@@ -972,7 +987,7 @@
           "percent": 0.03
         },
         {
-          "name": "utilities_string",
+          "name": "usart",
           "total_seconds": 8.98476,
           "digital": "0:00:08",
           "decimal": "0.00",
@@ -1049,7 +1064,7 @@
           "percent": 0.02
         },
         {
-          "name": "stdbool",
+          "name": "stdarg",
           "total_seconds": 3.598167,
           "digital": "0:00:03",
           "decimal": "0.00",
@@ -1060,7 +1075,7 @@
           "percent": 0.01
         },
         {
-          "name": "stdarg",
+          "name": "stdbool",
           "total_seconds": 3.598167,
           "digital": "0:00:03",
           "decimal": "0.00",
@@ -1097,33 +1112,31 @@
           "percent": 25.59
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "VS Code",
-          "total_seconds": 17146.380386,
-          "digital": "4:45:46",
-          "decimal": "4.75",
-          "text": "4 hrs 45 mins",
-          "hours": 4,
-          "minutes": 45,
-          "seconds": 46,
-          "percent": 100
-        }
-      ],
-      "operating_systems": [
-        {
-          "name": "Windows",
-          "total_seconds": 12759.474134,
-          "digital": "3:32:39",
-          "decimal": "3.53",
-          "text": "3 hrs 32 mins",
-          "hours": 3,
-          "minutes": 32,
-          "seconds": 39,
-          "percent": 74.41
+          "name": "engine-software-2025-thermocouple-driver-max31856",
+          "total_seconds": 7407.638007,
+          "digital": "2:03:27",
+          "decimal": "2.05",
+          "text": "2 hrs 3 mins",
+          "hours": 2,
+          "minutes": 3,
+          "seconds": 27,
+          "percent": 43.2
         },
         {
-          "name": "Mac",
+          "name": "engine-software-2025-v0",
+          "total_seconds": 5142.033906,
+          "digital": "1:25:42",
+          "decimal": "1.42",
+          "text": "1 hr 25 mins",
+          "hours": 1,
+          "minutes": 25,
+          "seconds": 42,
+          "percent": 29.99
+        },
+        {
+          "name": "portfolio",
           "total_seconds": 4386.906252,
           "digital": "1:13:06",
           "decimal": "1.22",
@@ -1132,43 +1145,26 @@
           "minutes": 13,
           "seconds": 6,
           "percent": 25.59
+        },
+        {
+          "name": "gjallarhorn",
+          "total_seconds": 209.802221,
+          "digital": "0:03:29",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 29,
+          "percent": 1.22
         }
       ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 12425.389268,
-          "digital": "3:27:05",
-          "decimal": "3.45",
-          "text": "3 hrs 27 mins",
-          "hours": 3,
-          "minutes": 27,
-          "seconds": 5,
-          "percent": 72.47
-        },
-        {
-          "name": "Debugging",
-          "total_seconds": 4359.240692,
-          "digital": "1:12:39",
-          "decimal": "1.20",
-          "text": "1 hr 12 mins",
-          "hours": 1,
-          "minutes": 12,
-          "seconds": 39,
-          "percent": 25.42
-        },
-        {
-          "name": "Building",
-          "total_seconds": 361.750426,
-          "digital": "0:06:01",
-          "decimal": "0.10",
-          "text": "6 mins",
-          "hours": 0,
-          "minutes": 6,
-          "seconds": 1,
-          "percent": 2.11
-        }
-      ]
+      "range": {
+        "start": "2025-03-14T23:00:00Z",
+        "end": "2025-03-15T22:59:59Z",
+        "date": "2025-03-15",
+        "text": "Sat Mar 15th 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-03-14T23:00:00Z",
