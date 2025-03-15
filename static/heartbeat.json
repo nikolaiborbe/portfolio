@@ -1,53 +1,5 @@
 [
   {
-    "id": "af446ef1-71be-4171-86fc-c8c34a8b88e1",
-    "entity": "C:/Users/nikol/MAIN/programmering/Propulse/engine-software-2025-thermocouple-driver-max31856/Core/Src/fdcandriver.c",
-    "type": "file",
-    "time": 1742028238.998513,
-    "project": "engine-software-2025-thermocouple-driver-max31856",
-    "project_root_count": 7,
-    "branch": "anders-board",
-    "language": "C",
-    "dependencies": [
-      "fdcandriver"
-    ],
-    "line_additions": null,
-    "line_deletions": null,
-    "lines": 136,
-    "lineno": 105,
-    "cursorpos": 1,
-    "is_write": false,
-    "category": "debugging",
-    "created_at": "2025-03-15T08:45:03Z",
-    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
-    "user_agent_id": "7ae140aa-8db8-4450-a519-9415b20c6394",
-    "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2"
-  },
-  {
-    "id": "31b56edf-3acf-4e8a-b2c0-61711239e22f",
-    "entity": "C:/Users/nikol/MAIN/programmering/Propulse/engine-software-2025-thermocouple-driver-max31856/Core/Src/thermo.c",
-    "type": "file",
-    "time": 1742028240.641224,
-    "project": "engine-software-2025-thermocouple-driver-max31856",
-    "project_root_count": 7,
-    "branch": "anders-board",
-    "language": "C",
-    "dependencies": [
-      "thermo"
-    ],
-    "line_additions": null,
-    "line_deletions": null,
-    "lines": 149,
-    "lineno": 122,
-    "cursorpos": 1,
-    "is_write": false,
-    "category": "debugging",
-    "created_at": "2025-03-15T08:45:03Z",
-    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
-    "user_agent_id": "7ae140aa-8db8-4450-a519-9415b20c6394",
-    "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2"
-  },
-  {
     "id": "f699d463-a9e2-4776-9d7f-5561d33a3572",
     "entity": "C:/Users/nikol/MAIN/programmering/Propulse/engine-software-2025-thermocouple-driver-max31856/Core/Src/fdcandriver.c",
     "type": "file",
@@ -115,6 +67,54 @@
     "is_write": false,
     "category": "debugging",
     "created_at": "2025-03-15T08:45:01Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "7ae140aa-8db8-4450-a519-9415b20c6394",
+    "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2"
+  },
+  {
+    "id": "e50b3e75-b8cb-4411-a629-d3f01b2c1e68",
+    "entity": "C:/Users/nikol/MAIN/programmering/Propulse/engine-software-2025-thermocouple-driver-max31856/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c",
+    "type": "file",
+    "time": 1742028307.771114,
+    "project": "engine-software-2025-thermocouple-driver-max31856",
+    "project_root_count": 7,
+    "branch": "anders-board",
+    "language": "C",
+    "dependencies": [
+      "stm32g4xx_hal"
+    ],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 3547,
+    "lineno": 2130,
+    "cursorpos": 1,
+    "is_write": false,
+    "category": "debugging",
+    "created_at": "2025-03-15T08:56:08Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "7ae140aa-8db8-4450-a519-9415b20c6394",
+    "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2"
+  },
+  {
+    "id": "455a44c7-e74d-4218-8fac-d0cfecf94fe4",
+    "entity": "C:/Users/nikol/MAIN/programmering/Propulse/engine-software-2025-thermocouple-driver-max31856/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c",
+    "type": "file",
+    "time": 1742028966.355128,
+    "project": "engine-software-2025-thermocouple-driver-max31856",
+    "project_root_count": 7,
+    "branch": "anders-board",
+    "language": "C",
+    "dependencies": [
+      "stm32g4xx_hal"
+    ],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 3547,
+    "lineno": 2143,
+    "cursorpos": 46,
+    "is_write": false,
+    "category": "debugging",
+    "created_at": "2025-03-15T08:56:07Z",
     "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
     "user_agent_id": "7ae140aa-8db8-4450-a519-9415b20c6394",
     "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2"
