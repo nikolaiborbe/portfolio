@@ -12,7 +12,7 @@
 		{
       "title": "Formula Website",
       "description":
-        "An easy way to look up formulas for physics and math. The website let's a person search the variables of their problem to find a fitting formula.",
+        "An easy way to look up formulas for physics and math. The website lets a person search the variables of their problem to find a fitting formula.",
       "image": "projects/formula_website.png",
       "tags": ["SvelteKit", "TypeScript", "Tailwind"],
       "link": "https://search.nikolai.vip/",
