@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 4,
-        "minutes": 40,
-        "total_seconds": 16858.775802,
-        "digital": "4:40",
-        "decimal": "4.67",
-        "text": "4 hrs 40 mins"
+        "minutes": 45,
+        "total_seconds": 17146.380386,
+        "digital": "4:45",
+        "decimal": "4.75",
+        "text": "4 hrs 45 mins"
       },
       "range": {
         "start": "2025-03-14T23:00:00Z",
@@ -27,7 +27,7 @@
           "hours": 2,
           "minutes": 3,
           "seconds": 27,
-          "percent": 43.94
+          "percent": 43.2
         },
         {
           "name": "engine-software-2025-v0",
@@ -39,19 +39,19 @@
           "hours": 1,
           "minutes": 25,
           "seconds": 42,
-          "percent": 30.5
+          "percent": 29.99
         },
         {
           "name": "portfolio",
-          "total_seconds": 4099.301668,
+          "total_seconds": 4386.906252,
           "color": null,
-          "digital": "1:08:19",
-          "decimal": "1.13",
-          "text": "1 hr 8 mins",
+          "digital": "1:13:06",
+          "decimal": "1.22",
+          "text": "1 hr 13 mins",
           "hours": 1,
-          "minutes": 8,
-          "seconds": 19,
-          "percent": 24.32
+          "minutes": 13,
+          "seconds": 6,
+          "percent": 25.59
         },
         {
           "name": "gjallarhorn",
@@ -63,7 +63,7 @@
           "hours": 0,
           "minutes": 3,
           "seconds": 29,
-          "percent": 1.24
+          "percent": 1.22
         }
       ],
       "languages": [
@@ -76,18 +76,18 @@
           "hours": 3,
           "minutes": 12,
           "seconds": 16,
-          "percent": 68.43
+          "percent": 67.28
         },
         {
           "name": "Svelte",
-          "total_seconds": 3049.425262,
-          "digital": "0:50:49",
-          "decimal": "0.83",
-          "text": "50 mins",
+          "total_seconds": 3337.029846,
+          "digital": "0:55:37",
+          "decimal": "0.92",
+          "text": "55 mins",
           "hours": 0,
-          "minutes": 50,
-          "seconds": 49,
-          "percent": 18.09
+          "minutes": 55,
+          "seconds": 37,
+          "percent": 19.46
         },
         {
           "name": "JSON",
@@ -98,7 +98,7 @@
           "hours": 0,
           "minutes": 12,
           "seconds": 27,
-          "percent": 4.44
+          "percent": 4.36
         },
         {
           "name": "Assembly",
@@ -109,7 +109,7 @@
           "hours": 0,
           "minutes": 9,
           "seconds": 52,
-          "percent": 3.51
+          "percent": 3.45
         },
         {
           "name": "Other",
@@ -120,7 +120,7 @@
           "hours": 0,
           "minutes": 9,
           "seconds": 51,
-          "percent": 3.51
+          "percent": 3.45
         },
         {
           "name": "JavaScript",
@@ -131,7 +131,7 @@
           "hours": 0,
           "minutes": 3,
           "seconds": 23,
-          "percent": 1.21
+          "percent": 1.19
         },
         {
           "name": "YAML",
@@ -142,7 +142,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 38,
-          "percent": 0.58
+          "percent": 0.57
         },
         {
           "name": "CMake",
@@ -153,7 +153,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 34,
-          "percent": 0.21
+          "percent": 0.2
         },
         {
           "name": "Text",
@@ -1082,31 +1082,31 @@
           "hours": 3,
           "minutes": 32,
           "seconds": 39,
-          "percent": 75.68
+          "percent": 74.41
         },
         {
           "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 4099.301668,
+          "total_seconds": 4386.906252,
           "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "1:08:19",
-          "decimal": "1.13",
-          "text": "1 hr 8 mins",
+          "digital": "1:13:06",
+          "decimal": "1.22",
+          "text": "1 hr 13 mins",
           "hours": 1,
-          "minutes": 8,
-          "seconds": 19,
-          "percent": 24.32
+          "minutes": 13,
+          "seconds": 6,
+          "percent": 25.59
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 16858.775802,
-          "digital": "4:40:58",
-          "decimal": "4.67",
-          "text": "4 hrs 40 mins",
+          "total_seconds": 17146.380386,
+          "digital": "4:45:46",
+          "decimal": "4.75",
+          "text": "4 hrs 45 mins",
           "hours": 4,
-          "minutes": 40,
-          "seconds": 58,
+          "minutes": 45,
+          "seconds": 46,
           "percent": 100
         }
       ],
@@ -1120,31 +1120,31 @@
           "hours": 3,
           "minutes": 32,
           "seconds": 39,
-          "percent": 75.68
+          "percent": 74.41
         },
         {
           "name": "Mac",
-          "total_seconds": 4099.301668,
-          "digital": "1:08:19",
-          "decimal": "1.13",
-          "text": "1 hr 8 mins",
+          "total_seconds": 4386.906252,
+          "digital": "1:13:06",
+          "decimal": "1.22",
+          "text": "1 hr 13 mins",
           "hours": 1,
-          "minutes": 8,
-          "seconds": 19,
-          "percent": 24.32
+          "minutes": 13,
+          "seconds": 6,
+          "percent": 25.59
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 12137.784684,
-          "digital": "3:22:17",
-          "decimal": "3.37",
-          "text": "3 hrs 22 mins",
+          "total_seconds": 12425.389268,
+          "digital": "3:27:05",
+          "decimal": "3.45",
+          "text": "3 hrs 27 mins",
           "hours": 3,
-          "minutes": 22,
-          "seconds": 17,
-          "percent": 72
+          "minutes": 27,
+          "seconds": 5,
+          "percent": 72.47
         },
         {
           "name": "Debugging",
@@ -1155,7 +1155,7 @@
           "hours": 1,
           "minutes": 12,
           "seconds": 39,
-          "percent": 25.86
+          "percent": 25.42
         },
         {
           "name": "Building",
@@ -1166,7 +1166,7 @@
           "hours": 0,
           "minutes": 6,
           "seconds": 1,
-          "percent": 2.15
+          "percent": 2.11
         }
       ]
     }
@@ -1174,18 +1174,18 @@
   "start": "2025-03-14T23:00:00Z",
   "end": "2025-03-15T22:59:59Z",
   "cumulative_total": {
-    "seconds": 16858.775802,
-    "text": "4 hrs 40 mins",
-    "digital": "4:40",
-    "decimal": "4.67"
+    "seconds": 17146.380386,
+    "text": "4 hrs 45 mins",
+    "digital": "4:45",
+    "decimal": "4.75"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 16267,
-    "seconds_including_other_language": 16859,
-    "text": "4 hrs 31 mins",
-    "text_including_other_language": "4 hrs 40 mins"
+    "seconds": 16555,
+    "seconds_including_other_language": 17146,
+    "text": "4 hrs 35 mins",
+    "text_including_other_language": "4 hrs 45 mins"
   }
 }
