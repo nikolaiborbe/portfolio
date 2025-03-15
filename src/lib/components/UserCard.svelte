@@ -16,7 +16,6 @@
     <h2 class="md:text-xl">Average programming enjoyer</h2>
     <div class="flex flex-wrap gap-2 pt-1">
       <GitHub />
-      <LeetCode />
       <BuyCoffee />
       <Linkedin />
     </div>

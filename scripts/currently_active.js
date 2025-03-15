@@ -30,7 +30,7 @@ async function updateWakaTimeData() {
       });
       if (heartbeatResponse.ok) {
         const data = await heartbeatResponse.json();
-        heartbeatData = data.data.slice(-5);
+        heartbeatData = data.data && data.data.length > 0 ? data.data.slice(-5) : [];
         
         // console.log("Heartbeat data fetched:", heartbeatData);
       } else {

@@ -10,6 +10,36 @@
       "live": true
 		},
 		{
+      "title": "Formula Website",
+      "description":
+        "An easy way to look up formulas for physics and math. The website let's a person search the variables of their problem to find a fitting formula.",
+      "image": "projects/formula_website.png",
+      "tags": ["SvelteKit", "TypeScript", "Tailwind"],
+      "link": "https://search.nikolai.vip/",
+      "github": "https://github.com/nikolaiborbe/formula-website",
+      "live": true
+		},
+		{
+      "title": "Complexity NTNU",
+      "description":
+        "Complexity NTNU is a student led organization that aims to build AI projects. The website was created by me.",
+      "image": "projects/complexity.png",
+      "tags": ["React", "Next.js", "Tailwind"],
+      "link": "https://complexityntnu.no/",
+      "github": "https://github.com/Complexity-NTNU/website",
+      "live": true
+		},
+		{
+      "title": "Latex Renderer",
+      "description":
+        "A simple LaTeX renderer that can be used to render LaTeX code to images, both with a white background or a transparent background.",
+      "image": "projects/math_website.png",
+      "tags": ["SvelteKit", "TypeScript", "Tailwind"],
+      "link": "https://math.nikolai.vip/",
+      "github": "https://github.com/nikolaiborbe/latex-renderer",
+      "live": true
+		},
+		{
       "title": "Delta Beer Shop",
       "description":
         "A streamlined system with card-scanning login for quick access and a backend to manage member funds and inventory prices.",

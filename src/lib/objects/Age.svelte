@@ -7,7 +7,7 @@
     const now = new Date();
     const diff = now.getTime() - Date.parse("2002-08-23T21:53:30");
     let days    = diff / 86400000;
-    let years   = (days / 365.25).toPrecision(10);
+    let years   = (days / 365.25).toPrecision(11);
     age = years;
   }
 
