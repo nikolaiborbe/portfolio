@@ -1,35 +1,6 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 0,
-        "minutes": 37,
-        "total_seconds": 2253.492342,
-        "digital": "0:37",
-        "decimal": "0.62",
-        "text": "37 mins"
-      },
-      "range": {
-        "start": "2025-03-20T23:00:00Z",
-        "end": "2025-03-21T22:59:59Z",
-        "date": "2025-03-21",
-        "text": "Fri Mar 21st 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
-        {
-          "name": "trading-bot",
-          "total_seconds": 2253.492342,
-          "color": null,
-          "digital": "0:37:33",
-          "decimal": "0.62",
-          "text": "37 mins",
-          "hours": 0,
-          "minutes": 37,
-          "seconds": 33,
-          "percent": 100
-        }
-      ],
       "languages": [
         {
           "name": "Python",
@@ -87,18 +58,54 @@
           "percent": 0.2
         }
       ],
-      "dependencies": [
+      "grand_total": {
+        "hours": 0,
+        "minutes": 37,
+        "total_seconds": 2253.492342,
+        "digital": "0:37",
+        "decimal": "0.62",
+        "text": "37 mins"
+      },
+      "editors": [
         {
-          "name": "datetime",
-          "total_seconds": 1516.385047,
-          "digital": "0:25:16",
-          "decimal": "0.42",
-          "text": "25 mins",
+          "name": "VS Code",
+          "total_seconds": 2253.492342,
+          "digital": "0:37:33",
+          "decimal": "0.62",
+          "text": "37 mins",
           "hours": 0,
-          "minutes": 25,
-          "seconds": 16,
-          "percent": 17.96
-        },
+          "minutes": 37,
+          "seconds": 33,
+          "percent": 100
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Mac",
+          "total_seconds": 2253.492342,
+          "digital": "0:37:33",
+          "decimal": "0.62",
+          "text": "37 mins",
+          "hours": 0,
+          "minutes": 37,
+          "seconds": 33,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 2253.492342,
+          "digital": "0:37:33",
+          "decimal": "0.62",
+          "text": "37 mins",
+          "hours": 0,
+          "minutes": 37,
+          "seconds": 33,
+          "percent": 100
+        }
+      ],
+      "dependencies": [
         {
           "name": "dotenv",
           "total_seconds": 1516.385047,
@@ -112,6 +119,17 @@
         },
         {
           "name": "alpaca_trade_api",
+          "total_seconds": 1516.385047,
+          "digital": "0:25:16",
+          "decimal": "0.42",
+          "text": "25 mins",
+          "hours": 0,
+          "minutes": 25,
+          "seconds": 16,
+          "percent": 17.96
+        },
+        {
+          "name": "datetime",
           "total_seconds": 1516.385047,
           "digital": "0:25:16",
           "decimal": "0.42",
@@ -180,9 +198,9 @@
           "percent": 100
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "VS Code",
+          "name": "trading-bot",
           "total_seconds": 2253.492342,
           "digital": "0:37:33",
           "decimal": "0.62",
@@ -193,32 +211,13 @@
           "percent": 100
         }
       ],
-      "operating_systems": [
-        {
-          "name": "Mac",
-          "total_seconds": 2253.492342,
-          "digital": "0:37:33",
-          "decimal": "0.62",
-          "text": "37 mins",
-          "hours": 0,
-          "minutes": 37,
-          "seconds": 33,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 2253.492342,
-          "digital": "0:37:33",
-          "decimal": "0.62",
-          "text": "37 mins",
-          "hours": 0,
-          "minutes": 37,
-          "seconds": 33,
-          "percent": 100
-        }
-      ]
+      "range": {
+        "start": "2025-03-20T23:00:00Z",
+        "end": "2025-03-21T22:59:59Z",
+        "date": "2025-03-21",
+        "text": "Fri Mar 21st 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-03-20T23:00:00Z",
