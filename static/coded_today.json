@@ -1,362 +1,45 @@
 {
   "data": [
     {
-      "languages": [
-        {
-          "name": "C",
-          "total_seconds": 877.457457,
-          "digital": "0:14:37",
-          "decimal": "0.23",
-          "text": "14 mins",
-          "hours": 0,
-          "minutes": 14,
-          "seconds": 37,
-          "percent": 100
-        }
-      ],
       "grand_total": {
         "hours": 0,
-        "minutes": 14,
-        "total_seconds": 877.457457,
-        "digital": "0:14",
-        "decimal": "0.23",
-        "text": "14 mins"
+        "minutes": 0,
+        "total_seconds": 0,
+        "digital": "0:00",
+        "decimal": "0.00",
+        "text": "0 secs"
       },
-      "editors": [
-        {
-          "name": "VS Code",
-          "total_seconds": 877.457457,
-          "digital": "0:14:37",
-          "decimal": "0.23",
-          "text": "14 mins",
-          "hours": 0,
-          "minutes": 14,
-          "seconds": 37,
-          "percent": 100
-        }
-      ],
-      "operating_systems": [
-        {
-          "name": "Windows",
-          "total_seconds": 877.457457,
-          "digital": "0:14:37",
-          "decimal": "0.23",
-          "text": "14 mins",
-          "hours": 0,
-          "minutes": 14,
-          "seconds": 37,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 877.457457,
-          "digital": "0:14:37",
-          "decimal": "0.23",
-          "text": "14 mins",
-          "hours": 0,
-          "minutes": 14,
-          "seconds": 37,
-          "percent": 100
-        }
-      ],
-      "dependencies": [
-        {
-          "name": "stdio.h>",
-          "total_seconds": 845.400064,
-          "digital": "0:14:05",
-          "decimal": "0.23",
-          "text": "14 mins",
-          "hours": 0,
-          "minutes": 14,
-          "seconds": 5,
-          "percent": 12.32
-        },
-        {
-          "name": "stdbool.h>",
-          "total_seconds": 845.400064,
-          "digital": "0:14:05",
-          "decimal": "0.23",
-          "text": "14 mins",
-          "hours": 0,
-          "minutes": 14,
-          "seconds": 5,
-          "percent": 12.32
-        },
-        {
-          "name": "servodriver",
-          "total_seconds": 845.400064,
-          "digital": "0:14:05",
-          "decimal": "0.23",
-          "text": "14 mins",
-          "hours": 0,
-          "minutes": 14,
-          "seconds": 5,
-          "percent": 12.32
-        },
-        {
-          "name": "solenoiddriver",
-          "total_seconds": 845.400064,
-          "digital": "0:14:05",
-          "decimal": "0.23",
-          "text": "14 mins",
-          "hours": 0,
-          "minutes": 14,
-          "seconds": 5,
-          "percent": 12.32
-        },
-        {
-          "name": "main.h\"",
-          "total_seconds": 845.400064,
-          "digital": "0:14:05",
-          "decimal": "0.23",
-          "text": "14 mins",
-          "hours": 0,
-          "minutes": 14,
-          "seconds": 5,
-          "percent": 12.32
-        },
-        {
-          "name": "bldcdriver",
-          "total_seconds": 845.400064,
-          "digital": "0:14:05",
-          "decimal": "0.23",
-          "text": "14 mins",
-          "hours": 0,
-          "minutes": 14,
-          "seconds": 5,
-          "percent": 12.32
-        },
-        {
-          "name": "app_netxduo",
-          "total_seconds": 845.400064,
-          "digital": "0:14:05",
-          "decimal": "0.23",
-          "text": "14 mins",
-          "hours": 0,
-          "minutes": 14,
-          "seconds": 5,
-          "percent": 12.32
-        },
-        {
-          "name": "assert.h>",
-          "total_seconds": 845.400064,
-          "digital": "0:14:05",
-          "decimal": "0.23",
-          "text": "14 mins",
-          "hours": 0,
-          "minutes": 14,
-          "seconds": 5,
-          "percent": 12.32
-        },
-        {
-          "name": "easingfunctions",
-          "total_seconds": 32.057393,
-          "digital": "0:00:32",
-          "decimal": "0.00",
-          "text": "32 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 32,
-          "percent": 0.47
-        },
-        {
-          "name": "fsm",
-          "total_seconds": 32.057393,
-          "digital": "0:00:32",
-          "decimal": "0.00",
-          "text": "32 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 32,
-          "percent": 0.47
-        },
-        {
-          "name": "pressure",
-          "total_seconds": 32.057393,
-          "digital": "0:00:32",
-          "decimal": "0.00",
-          "text": "32 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 32,
-          "percent": 0.47
-        },
-        {
-          "name": "thermo",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        },
-        {
-          "name": "reset",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        },
-        {
-          "name": "cliudp",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        },
-        {
-          "name": "ereg",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        },
-        {
-          "name": "stdint",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        },
-        {
-          "name": "can-data",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        },
-        {
-          "name": "status",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        },
-        {
-          "name": "encoder",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        },
-        {
-          "name": "threadpool",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        },
-        {
-          "name": "autovent",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        },
-        {
-          "name": "app_threadx",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        }
-      ],
-      "machines": [
-        {
-          "name": "ngb",
-          "total_seconds": 877.457457,
-          "machine_name_id": "7f151c38-776e-42c6-bd9a-91b7a0beb422",
-          "digital": "0:14:37",
-          "decimal": "0.23",
-          "text": "14 mins",
-          "hours": 0,
-          "minutes": 14,
-          "seconds": 37,
-          "percent": 100
-        }
-      ],
-      "projects": [
-        {
-          "name": "engine-software-2025-v0",
-          "total_seconds": 877.457457,
-          "color": null,
-          "digital": "0:14:37",
-          "decimal": "0.23",
-          "text": "14 mins",
-          "hours": 0,
-          "minutes": 14,
-          "seconds": 37,
-          "percent": 100
-        }
-      ],
       "range": {
-        "start": "2025-03-19T23:00:00Z",
-        "end": "2025-03-20T22:59:59Z",
-        "date": "2025-03-20",
-        "text": "Thu Mar 20th 2025",
+        "start": "2025-03-20T23:00:00Z",
+        "end": "2025-03-21T22:59:59Z",
+        "date": "2025-03-21",
+        "text": "Fri Mar 21st 2025",
         "timezone": "Europe/Oslo"
-      }
+      },
+      "projects": [],
+      "languages": [],
+      "dependencies": [],
+      "machines": [],
+      "editors": [],
+      "operating_systems": [],
+      "categories": []
     }
   ],
-  "start": "2025-03-19T23:00:00Z",
-  "end": "2025-03-20T22:59:59Z",
+  "start": "2025-03-20T23:00:00Z",
+  "end": "2025-03-21T22:59:59Z",
   "cumulative_total": {
-    "seconds": 877.457457,
-    "text": "14 mins",
-    "digital": "0:14",
-    "decimal": "0.23"
+    "seconds": 0,
+    "text": "0 secs",
+    "digital": "0:00",
+    "decimal": "0.00"
   },
   "daily_average": {
-    "holidays": 0,
-    "days_minus_holidays": 1,
+    "holidays": 1,
+    "days_minus_holidays": 0,
     "days_including_holidays": 1,
-    "seconds": 877,
-    "seconds_including_other_language": 877,
-    "text": "14 mins",
-    "text_including_other_language": "14 mins"
+    "seconds": 0,
+    "seconds_including_other_language": 0,
+    "text": "0 secs",
+    "text_including_other_language": "0 secs"
   }
 }
