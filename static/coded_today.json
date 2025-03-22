@@ -1,83 +1,6 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 3,
-        "minutes": 30,
-        "total_seconds": 12602.261212,
-        "digital": "3:30",
-        "decimal": "3.50",
-        "text": "3 hrs 30 mins"
-      },
-      "range": {
-        "start": "2025-03-21T23:00:00Z",
-        "end": "2025-03-22T22:59:59Z",
-        "date": "2025-03-22",
-        "text": "Sat Mar 22nd 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
-        {
-          "name": "engine-software-2025-v0",
-          "total_seconds": 11051.604492,
-          "color": null,
-          "digital": "3:04:11",
-          "decimal": "3.07",
-          "text": "3 hrs 4 mins",
-          "hours": 3,
-          "minutes": 4,
-          "seconds": 11,
-          "percent": 87.7
-        },
-        {
-          "name": "engine-software-2025-thermocouple-driver-max31856",
-          "total_seconds": 1401.061896,
-          "color": null,
-          "digital": "0:23:21",
-          "decimal": "0.38",
-          "text": "23 mins",
-          "hours": 0,
-          "minutes": 23,
-          "seconds": 21,
-          "percent": 11.12
-        },
-        {
-          "name": "lox-level-sensor",
-          "total_seconds": 80.608217,
-          "color": null,
-          "digital": "0:01:20",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 20,
-          "percent": 0.64
-        },
-        {
-          "name": "gjallarhorn",
-          "total_seconds": 68.986607,
-          "color": null,
-          "digital": "0:01:08",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 8,
-          "percent": 0.55
-        },
-        {
-          "name": "trading-bot",
-          "total_seconds": 0,
-          "color": null,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        }
-      ],
       "languages": [
         {
           "name": "C",
@@ -111,6 +34,86 @@
           "minutes": 0,
           "seconds": 0,
           "percent": 0
+        }
+      ],
+      "grand_total": {
+        "hours": 3,
+        "minutes": 30,
+        "total_seconds": 12602.261212,
+        "digital": "3:30",
+        "decimal": "3.50",
+        "text": "3 hrs 30 mins"
+      },
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 12602.261212,
+          "digital": "3:30:02",
+          "decimal": "3.50",
+          "text": "3 hrs 30 mins",
+          "hours": 3,
+          "minutes": 30,
+          "seconds": 2,
+          "percent": 100
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "total_seconds": 12602.261212,
+          "digital": "3:30:02",
+          "decimal": "3.50",
+          "text": "3 hrs 30 mins",
+          "hours": 3,
+          "minutes": 30,
+          "seconds": 2,
+          "percent": 100
+        },
+        {
+          "name": "Mac",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 7949.369479,
+          "digital": "2:12:29",
+          "decimal": "2.20",
+          "text": "2 hrs 12 mins",
+          "hours": 2,
+          "minutes": 12,
+          "seconds": 29,
+          "percent": 63.08
+        },
+        {
+          "name": "Debugging",
+          "total_seconds": 4525.193431,
+          "digital": "1:15:25",
+          "decimal": "1.25",
+          "text": "1 hr 15 mins",
+          "hours": 1,
+          "minutes": 15,
+          "seconds": 25,
+          "percent": 35.91
+        },
+        {
+          "name": "Building",
+          "total_seconds": 127.698302,
+          "digital": "0:02:07",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 7,
+          "percent": 1.01
         }
       ],
       "dependencies": [
@@ -845,34 +848,59 @@
           "percent": 0
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "VS Code",
-          "total_seconds": 12602.261212,
-          "digital": "3:30:02",
-          "decimal": "3.50",
-          "text": "3 hrs 30 mins",
+          "name": "engine-software-2025-v0",
+          "total_seconds": 11051.604492,
+          "color": null,
+          "digital": "3:04:11",
+          "decimal": "3.07",
+          "text": "3 hrs 4 mins",
           "hours": 3,
-          "minutes": 30,
-          "seconds": 2,
-          "percent": 100
-        }
-      ],
-      "operating_systems": [
-        {
-          "name": "Windows",
-          "total_seconds": 12602.261212,
-          "digital": "3:30:02",
-          "decimal": "3.50",
-          "text": "3 hrs 30 mins",
-          "hours": 3,
-          "minutes": 30,
-          "seconds": 2,
-          "percent": 100
+          "minutes": 4,
+          "seconds": 11,
+          "percent": 87.7
         },
         {
-          "name": "Mac",
+          "name": "engine-software-2025-thermocouple-driver-max31856",
+          "total_seconds": 1401.061896,
+          "color": null,
+          "digital": "0:23:21",
+          "decimal": "0.38",
+          "text": "23 mins",
+          "hours": 0,
+          "minutes": 23,
+          "seconds": 21,
+          "percent": 11.12
+        },
+        {
+          "name": "lox-level-sensor",
+          "total_seconds": 80.608217,
+          "color": null,
+          "digital": "0:01:20",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 20,
+          "percent": 0.64
+        },
+        {
+          "name": "gjallarhorn",
+          "total_seconds": 68.986607,
+          "color": null,
+          "digital": "0:01:08",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 8,
+          "percent": 0.55
+        },
+        {
+          "name": "trading-bot",
           "total_seconds": 0,
+          "color": null,
           "digital": "0:00:00",
           "decimal": "0.00",
           "text": "0 secs",
@@ -882,41 +910,13 @@
           "percent": 0
         }
       ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 7949.369479,
-          "digital": "2:12:29",
-          "decimal": "2.20",
-          "text": "2 hrs 12 mins",
-          "hours": 2,
-          "minutes": 12,
-          "seconds": 29,
-          "percent": 63.08
-        },
-        {
-          "name": "Debugging",
-          "total_seconds": 4525.193431,
-          "digital": "1:15:25",
-          "decimal": "1.25",
-          "text": "1 hr 15 mins",
-          "hours": 1,
-          "minutes": 15,
-          "seconds": 25,
-          "percent": 35.91
-        },
-        {
-          "name": "Building",
-          "total_seconds": 127.698302,
-          "digital": "0:02:07",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 7,
-          "percent": 1.01
-        }
-      ]
+      "range": {
+        "start": "2025-03-21T23:00:00Z",
+        "end": "2025-03-22T22:59:59Z",
+        "date": "2025-03-22",
+        "text": "Sat Mar 22nd 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-03-21T23:00:00Z",
