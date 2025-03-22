@@ -1,29 +1,5 @@
 [
   {
-    "id": "c5c52619-9453-4f7a-9a4c-1b002d7282a5",
-    "entity": "C:/Users/nikol/MAIN/programmering/Propulse/engine-software-2025-thermocouple-driver-max31856/Core/Src/thermo.c",
-    "type": "file",
-    "time": 1742643644.47492,
-    "project": "engine-software-2025-thermocouple-driver-max31856",
-    "project_root_count": 7,
-    "branch": "anders-board",
-    "language": "C",
-    "dependencies": [
-      "thermo"
-    ],
-    "line_additions": null,
-    "line_deletions": null,
-    "lines": 148,
-    "lineno": 101,
-    "cursorpos": 51,
-    "is_write": false,
-    "category": "debugging",
-    "created_at": "2025-03-22T11:42:56Z",
-    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
-    "user_agent_id": "3f5004bf-d45f-4155-9829-b8a3a763edb8",
-    "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2"
-  },
-  {
     "id": "3a489dde-b628-45ac-a7ad-a198f227d99b",
     "entity": "C:/Users/nikol/MAIN/programmering/Propulse/engine-software-2025-thermocouple-driver-max31856/Core/Src/main.c",
     "type": "file",
@@ -121,5 +97,34 @@
     "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
     "user_agent_id": "3f5004bf-d45f-4155-9829-b8a3a763edb8",
     "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2"
+  },
+  {
+    "id": "1384bc4f-47a5-4de7-9e89-94ca01272e86",
+    "entity": "/Users/nikolaiborbe/Documents/Complexity/trading-bot/bot.py",
+    "type": "file",
+    "time": 1742662240.987548,
+    "project": "trading-bot",
+    "project_root_count": 6,
+    "branch": "main",
+    "language": "Python",
+    "dependencies": [
+      "numpy",
+      "dotenv",
+      "time",
+      "datetime",
+      "alpaca_trade_api",
+      "pandas"
+    ],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 131,
+    "lineno": 13,
+    "cursorpos": 24,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-03-22T16:50:41Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "5295af23-2b25-43d7-b6fc-3111244daefc",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
   }
 ]
