@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 0,
-        "minutes": 12,
-        "total_seconds": 760,
-        "digital": "0:12",
-        "decimal": "0.20",
-        "text": "12 mins"
+        "minutes": 29,
+        "total_seconds": 1747,
+        "digital": "0:29",
+        "decimal": "0.48",
+        "text": "29 mins"
       },
       "range": {
         "start": "2025-03-26T23:00:00Z",
@@ -19,15 +19,15 @@
       "projects": [
         {
           "name": "Uni",
-          "total_seconds": 643,
+          "total_seconds": 1630,
           "color": null,
-          "digital": "0:10:43",
-          "decimal": "0.17",
-          "text": "10 mins",
+          "digital": "0:27:10",
+          "decimal": "0.45",
+          "text": "27 mins",
           "hours": 0,
-          "minutes": 10,
-          "seconds": 43,
-          "percent": 84.61
+          "minutes": 27,
+          "seconds": 10,
+          "percent": 93.3
         },
         {
           "name": "Unknown Project",
@@ -39,20 +39,20 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 57,
-          "percent": 15.39
+          "percent": 6.7
         }
       ],
       "languages": [
         {
           "name": "Python",
-          "total_seconds": 643,
-          "digital": "0:10:43",
-          "decimal": "0.17",
-          "text": "10 mins",
+          "total_seconds": 1630,
+          "digital": "0:27:10",
+          "decimal": "0.45",
+          "text": "27 mins",
           "hours": 0,
-          "minutes": 10,
-          "seconds": 43,
-          "percent": 84.61
+          "minutes": 27,
+          "seconds": 10,
+          "percent": 93.3
         },
         {
           "name": "INI",
@@ -63,7 +63,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 12,
-          "percent": 9.47
+          "percent": 4.12
         },
         {
           "name": "Lua",
@@ -74,7 +74,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 45,
-          "percent": 5.92
+          "percent": 2.58
         }
       ],
       "dependencies": [
@@ -148,28 +148,28 @@
       "machines": [
         {
           "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 760,
+          "total_seconds": 1747,
           "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "0:12:40",
-          "decimal": "0.20",
-          "text": "12 mins",
+          "digital": "0:29:07",
+          "decimal": "0.48",
+          "text": "29 mins",
           "hours": 0,
-          "minutes": 12,
-          "seconds": 40,
+          "minutes": 29,
+          "seconds": 7,
           "percent": 100
         }
       ],
       "editors": [
         {
           "name": "Neovim",
-          "total_seconds": 733,
-          "digital": "0:12:13",
-          "decimal": "0.20",
-          "text": "12 mins",
+          "total_seconds": 1720,
+          "digital": "0:28:40",
+          "decimal": "0.47",
+          "text": "28 mins",
           "hours": 0,
-          "minutes": 12,
-          "seconds": 13,
-          "percent": 96.45
+          "minutes": 28,
+          "seconds": 40,
+          "percent": 98.45
         },
         {
           "name": "Unknown Editor",
@@ -180,32 +180,32 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 27,
-          "percent": 3.55
+          "percent": 1.55
         }
       ],
       "operating_systems": [
         {
           "name": "Mac",
-          "total_seconds": 760,
-          "digital": "0:12:40",
-          "decimal": "0.20",
-          "text": "12 mins",
+          "total_seconds": 1747,
+          "digital": "0:29:07",
+          "decimal": "0.48",
+          "text": "29 mins",
           "hours": 0,
-          "minutes": 12,
-          "seconds": 40,
+          "minutes": 29,
+          "seconds": 7,
           "percent": 100
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 760,
-          "digital": "0:12:40",
-          "decimal": "0.20",
-          "text": "12 mins",
+          "total_seconds": 1747,
+          "digital": "0:29:07",
+          "decimal": "0.48",
+          "text": "29 mins",
           "hours": 0,
-          "minutes": 12,
-          "seconds": 40,
+          "minutes": 29,
+          "seconds": 7,
           "percent": 100
         }
       ]
@@ -214,18 +214,18 @@
   "start": "2025-03-26T23:00:00Z",
   "end": "2025-03-27T22:59:59Z",
   "cumulative_total": {
-    "seconds": 760,
-    "text": "12 mins",
-    "digital": "0:12",
-    "decimal": "0.20"
+    "seconds": 1747,
+    "text": "29 mins",
+    "digital": "0:29",
+    "decimal": "0.48"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 760,
-    "seconds_including_other_language": 760,
-    "text": "12 mins",
-    "text_including_other_language": "12 mins"
+    "seconds": 1747,
+    "seconds_including_other_language": 1747,
+    "text": "29 mins",
+    "text_including_other_language": "29 mins"
   }
 }
