@@ -1,71 +1,6 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 2,
-        "minutes": 57,
-        "total_seconds": 10643.303745,
-        "digital": "2:57",
-        "decimal": "2.95",
-        "text": "2 hrs 57 mins"
-      },
-      "range": {
-        "start": "2025-03-26T23:00:00Z",
-        "end": "2025-03-27T22:59:59Z",
-        "date": "2025-03-27",
-        "text": "Thu Mar 27th 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
-        {
-          "name": "option-pricing-MCS",
-          "total_seconds": 5236.236312,
-          "color": null,
-          "digital": "1:27:16",
-          "decimal": "1.45",
-          "text": "1 hr 27 mins",
-          "hours": 1,
-          "minutes": 27,
-          "seconds": 16,
-          "percent": 49.2
-        },
-        {
-          "name": "Uni",
-          "total_seconds": 5178,
-          "color": null,
-          "digital": "1:26:18",
-          "decimal": "1.43",
-          "text": "1 hr 26 mins",
-          "hours": 1,
-          "minutes": 26,
-          "seconds": 18,
-          "percent": 48.65
-        },
-        {
-          "name": "Unknown Project",
-          "total_seconds": 117,
-          "color": null,
-          "digital": "0:01:57",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 57,
-          "percent": 1.1
-        },
-        {
-          "name": "trading-bot",
-          "total_seconds": 112.067433,
-          "color": null,
-          "digital": "0:01:52",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 52,
-          "percent": 1.05
-        }
-      ],
       "languages": [
         {
           "name": "Python",
@@ -132,6 +67,75 @@
           "minutes": 0,
           "seconds": 4,
           "percent": 0.04
+        }
+      ],
+      "grand_total": {
+        "hours": 2,
+        "minutes": 57,
+        "total_seconds": 10643.303745,
+        "digital": "2:57",
+        "decimal": "2.95",
+        "text": "2 hrs 57 mins"
+      },
+      "editors": [
+        {
+          "name": "Neovim",
+          "total_seconds": 5380.067433,
+          "digital": "1:29:40",
+          "decimal": "1.48",
+          "text": "1 hr 29 mins",
+          "hours": 1,
+          "minutes": 29,
+          "seconds": 40,
+          "percent": 50.55
+        },
+        {
+          "name": "VS Code",
+          "total_seconds": 5236.236312,
+          "digital": "1:27:16",
+          "decimal": "1.45",
+          "text": "1 hr 27 mins",
+          "hours": 1,
+          "minutes": 27,
+          "seconds": 16,
+          "percent": 49.2
+        },
+        {
+          "name": "Unknown Editor",
+          "total_seconds": 27,
+          "digital": "0:00:27",
+          "decimal": "0.00",
+          "text": "27 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 27,
+          "percent": 0.25
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Mac",
+          "total_seconds": 10643.303745,
+          "digital": "2:57:23",
+          "decimal": "2.95",
+          "text": "2 hrs 57 mins",
+          "hours": 2,
+          "minutes": 57,
+          "seconds": 23,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 10643.303745,
+          "digital": "2:57:23",
+          "decimal": "2.95",
+          "text": "2 hrs 57 mins",
+          "hours": 2,
+          "minutes": 57,
+          "seconds": 23,
+          "percent": 100
         }
       ],
       "dependencies": [
@@ -246,7 +250,7 @@
           "percent": 1.32
         },
         {
-          "name": "ink",
+          "name": "dek",
           "total_seconds": 297,
           "digital": "0:04:57",
           "decimal": "0.07",
@@ -257,7 +261,7 @@
           "percent": 1.27
         },
         {
-          "name": "dek",
+          "name": "ink",
           "total_seconds": 297,
           "digital": "0:04:57",
           "decimal": "0.07",
@@ -279,7 +283,7 @@
           "percent": 0.94
         },
         {
-          "name": "functools",
+          "name": "urllib",
           "total_seconds": 145.548272,
           "digital": "0:02:25",
           "decimal": "0.03",
@@ -301,7 +305,7 @@
           "percent": 0.62
         },
         {
-          "name": "urllib",
+          "name": "functools",
           "total_seconds": 145.548272,
           "digital": "0:02:25",
           "decimal": "0.03",
@@ -323,17 +327,6 @@
           "percent": 0.53
         },
         {
-          "name": "dotenv",
-          "total_seconds": 112.067433,
-          "digital": "0:01:52",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 52,
-          "percent": 0.48
-        },
-        {
           "name": "time",
           "total_seconds": 112.067433,
           "digital": "0:01:52",
@@ -346,6 +339,17 @@
         },
         {
           "name": "alpaca_trade_api",
+          "total_seconds": 112.067433,
+          "digital": "0:01:52",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 52,
+          "percent": 0.48
+        },
+        {
+          "name": "dotenv",
           "total_seconds": 112.067433,
           "digital": "0:01:52",
           "decimal": "0.02",
@@ -389,7 +393,7 @@
           "percent": 0.12
         },
         {
-          "name": "fromBS_call",
+          "name": "BS_put",
           "total_seconds": 6.10394,
           "digital": "0:00:06",
           "decimal": "0.00",
@@ -400,7 +404,7 @@
           "percent": 0.03
         },
         {
-          "name": "BS_put",
+          "name": "fromBS_call",
           "total_seconds": 6.10394,
           "digital": "0:00:06",
           "decimal": "0.00",
@@ -447,20 +451,9 @@
           "percent": 100
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "Neovim",
-          "total_seconds": 5380.067433,
-          "digital": "1:29:40",
-          "decimal": "1.48",
-          "text": "1 hr 29 mins",
-          "hours": 1,
-          "minutes": 29,
-          "seconds": 40,
-          "percent": 50.55
-        },
-        {
-          "name": "VS Code",
+          "name": "option-pricing-MCS",
           "total_seconds": 5236.236312,
           "digital": "1:27:16",
           "decimal": "1.45",
@@ -471,43 +464,46 @@
           "percent": 49.2
         },
         {
-          "name": "Unknown Editor",
-          "total_seconds": 27,
-          "digital": "0:00:27",
-          "decimal": "0.00",
-          "text": "27 secs",
+          "name": "Uni",
+          "total_seconds": 5178,
+          "digital": "1:26:18",
+          "decimal": "1.43",
+          "text": "1 hr 26 mins",
+          "hours": 1,
+          "minutes": 26,
+          "seconds": 18,
+          "percent": 48.65
+        },
+        {
+          "name": "Unknown Project",
+          "total_seconds": 117,
+          "digital": "0:01:57",
+          "decimal": "0.02",
+          "text": "1 min",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 27,
-          "percent": 0.25
+          "minutes": 1,
+          "seconds": 57,
+          "percent": 1.1
+        },
+        {
+          "name": "trading-bot",
+          "total_seconds": 112.067433,
+          "digital": "0:01:52",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 52,
+          "percent": 1.05
         }
       ],
-      "operating_systems": [
-        {
-          "name": "Mac",
-          "total_seconds": 10643.303745,
-          "digital": "2:57:23",
-          "decimal": "2.95",
-          "text": "2 hrs 57 mins",
-          "hours": 2,
-          "minutes": 57,
-          "seconds": 23,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 10643.303745,
-          "digital": "2:57:23",
-          "decimal": "2.95",
-          "text": "2 hrs 57 mins",
-          "hours": 2,
-          "minutes": 57,
-          "seconds": 23,
-          "percent": 100
-        }
-      ]
+      "range": {
+        "start": "2025-03-26T23:00:00Z",
+        "end": "2025-03-27T22:59:59Z",
+        "date": "2025-03-27",
+        "text": "Thu Mar 27th 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-03-26T23:00:00Z",
