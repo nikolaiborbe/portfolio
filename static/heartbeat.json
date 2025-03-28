@@ -1,1 +1,76 @@
-[]
+[
+  {
+    "id": "3fbb9d0a-641c-49b1-97a2-b90e6d4ac8f9",
+    "entity": "/Users/nikolaiborbe/Documents/Complexity/option-pricing-MCS/src/main.py",
+    "type": "file",
+    "time": 1743163573.24336,
+    "project": "option-pricing-MCS",
+    "project_root_count": 6,
+    "branch": "main",
+    "language": "Python",
+    "dependencies": [
+      "scipy",
+      "numpy",
+      "typing"
+    ],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 68,
+    "lineno": 42,
+    "cursorpos": 28,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-03-28T12:06:13Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "5295af23-2b25-43d7-b6fc-3111244daefc",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  },
+  {
+    "id": "42668bf8-c58f-42c2-b1d5-b4df46004a7e",
+    "entity": "/Users/nikolaiborbe/Documents/Complexity/option-pricing-MCS/src/__init__.py",
+    "type": "file",
+    "time": 1743163573.674305,
+    "project": "option-pricing-MCS",
+    "project_root_count": 6,
+    "branch": "main",
+    "language": "Python",
+    "dependencies": [],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 2,
+    "lineno": 1,
+    "cursorpos": 22,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-03-28T12:06:14Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "5295af23-2b25-43d7-b6fc-3111244daefc",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  },
+  {
+    "id": "97c53bf5-0811-4489-b90c-f21c381d38b7",
+    "entity": "/Users/nikolaiborbe/Documents/Complexity/option-pricing-MCS/src/black_scholes.py",
+    "type": "file",
+    "time": 1743163574.419737,
+    "project": "option-pricing-MCS",
+    "project_root_count": 6,
+    "branch": "main",
+    "language": "Python",
+    "dependencies": [
+      "numpy",
+      "scipy",
+      "typing"
+    ],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 26,
+    "lineno": 26,
+    "cursorpos": 1,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-03-28T12:06:15Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "5295af23-2b25-43d7-b6fc-3111244daefc",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  }
+]
