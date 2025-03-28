@@ -56,7 +56,7 @@
           "percent": 33.33
         },
         {
-          "name": "numpy",
+          "name": "scipy",
           "total_seconds": 0.430945,
           "digital": "0:00:00",
           "decimal": "0.00",
@@ -67,7 +67,7 @@
           "percent": 33.33
         },
         {
-          "name": "scipy",
+          "name": "numpy",
           "total_seconds": 0.430945,
           "digital": "0:00:00",
           "decimal": "0.00",
