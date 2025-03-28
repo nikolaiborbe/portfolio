@@ -4,7 +4,7 @@
       "grand_total": {
         "hours": 0,
         "minutes": 0,
-        "total_seconds": 1.176377,
+        "total_seconds": 2.162679,
         "digital": "0:00",
         "decimal": "0.00",
         "text": "0 secs"
@@ -19,115 +19,115 @@
       "projects": [
         {
           "name": "option-pricing-MCS",
-          "total_seconds": 1.176377,
+          "total_seconds": 2.162679,
           "color": null,
-          "digital": "0:00:01",
+          "digital": "0:00:02",
           "decimal": "0.00",
-          "text": "1 sec",
+          "text": "2 secs",
           "hours": 0,
           "minutes": 0,
-          "seconds": 1,
+          "seconds": 2,
           "percent": 100
         }
       ],
       "languages": [
         {
           "name": "Python",
-          "total_seconds": 1.176377,
-          "digital": "0:00:01",
+          "total_seconds": 2.162679,
+          "digital": "0:00:02",
           "decimal": "0.00",
-          "text": "1 sec",
+          "text": "2 secs",
           "hours": 0,
           "minutes": 0,
-          "seconds": 1,
+          "seconds": 2,
           "percent": 100
         }
       ],
       "dependencies": [
         {
           "name": "typing",
-          "total_seconds": 0.430945,
-          "digital": "0:00:00",
+          "total_seconds": 1.417247,
+          "digital": "0:00:01",
           "decimal": "0.00",
-          "text": "0 secs",
+          "text": "1 sec",
           "hours": 0,
           "minutes": 0,
-          "seconds": 0,
+          "seconds": 1,
           "percent": 33.33
         },
         {
           "name": "scipy",
-          "total_seconds": 0.430945,
-          "digital": "0:00:00",
+          "total_seconds": 1.417247,
+          "digital": "0:00:01",
           "decimal": "0.00",
-          "text": "0 secs",
+          "text": "1 sec",
           "hours": 0,
           "minutes": 0,
-          "seconds": 0,
+          "seconds": 1,
           "percent": 33.33
         },
         {
           "name": "numpy",
-          "total_seconds": 0.430945,
-          "digital": "0:00:00",
+          "total_seconds": 1.417247,
+          "digital": "0:00:01",
           "decimal": "0.00",
-          "text": "0 secs",
+          "text": "1 sec",
           "hours": 0,
           "minutes": 0,
-          "seconds": 0,
+          "seconds": 1,
           "percent": 33.33
         }
       ],
       "machines": [
         {
           "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 1.176377,
+          "total_seconds": 2.162679,
           "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "0:00:01",
+          "digital": "0:00:02",
           "decimal": "0.00",
-          "text": "1 sec",
+          "text": "2 secs",
           "hours": 0,
           "minutes": 0,
-          "seconds": 1,
+          "seconds": 2,
           "percent": 100
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 1.176377,
-          "digital": "0:00:01",
+          "total_seconds": 2.162679,
+          "digital": "0:00:02",
           "decimal": "0.00",
-          "text": "1 sec",
+          "text": "2 secs",
           "hours": 0,
           "minutes": 0,
-          "seconds": 1,
+          "seconds": 2,
           "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Mac",
-          "total_seconds": 1.176377,
-          "digital": "0:00:01",
+          "total_seconds": 2.162679,
+          "digital": "0:00:02",
           "decimal": "0.00",
-          "text": "1 sec",
+          "text": "2 secs",
           "hours": 0,
           "minutes": 0,
-          "seconds": 1,
+          "seconds": 2,
           "percent": 100
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 1.176377,
-          "digital": "0:00:01",
+          "total_seconds": 2.162679,
+          "digital": "0:00:02",
           "decimal": "0.00",
-          "text": "1 sec",
+          "text": "2 secs",
           "hours": 0,
           "minutes": 0,
-          "seconds": 1,
+          "seconds": 2,
           "percent": 100
         }
       ]
@@ -136,8 +136,8 @@
   "start": "2025-03-27T23:00:00Z",
   "end": "2025-03-28T22:59:59Z",
   "cumulative_total": {
-    "seconds": 1.176377,
-    "text": "1 sec",
+    "seconds": 2.162679,
+    "text": "2 secs",
     "digital": "0:00",
     "decimal": "0.00"
   },
@@ -145,8 +145,8 @@
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 1,
-    "seconds_including_other_language": 1,
+    "seconds": 2,
+    "seconds_including_other_language": 2,
     "text": "0 secs",
     "text_including_other_language": "0 secs"
   }
