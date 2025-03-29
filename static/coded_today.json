@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 1,
-        "minutes": 13,
-        "total_seconds": 4399.01443,
-        "digital": "1:13",
-        "decimal": "1.22",
-        "text": "1 hr 13 mins"
+        "minutes": 24,
+        "total_seconds": 5086.125545,
+        "digital": "1:24",
+        "decimal": "1.40",
+        "text": "1 hr 24 mins"
       },
       "range": {
         "start": "2025-03-28T23:00:00Z",
@@ -19,15 +19,15 @@
       "projects": [
         {
           "name": "godot-engine-gui",
-          "total_seconds": 3257.539973,
+          "total_seconds": 3944.651088,
           "color": null,
-          "digital": "0:54:17",
-          "decimal": "0.90",
-          "text": "54 mins",
-          "hours": 0,
-          "minutes": 54,
-          "seconds": 17,
-          "percent": 74.05
+          "digital": "1:05:44",
+          "decimal": "1.08",
+          "text": "1 hr 5 mins",
+          "hours": 1,
+          "minutes": 5,
+          "seconds": 44,
+          "percent": 77.56
         },
         {
           "name": "engine-software-2025-v0",
@@ -39,20 +39,20 @@
           "hours": 0,
           "minutes": 19,
           "seconds": 1,
-          "percent": 25.95
+          "percent": 22.44
         }
       ],
       "languages": [
         {
           "name": "GDScript3",
-          "total_seconds": 2086.223028,
-          "digital": "0:34:46",
-          "decimal": "0.57",
-          "text": "34 mins",
+          "total_seconds": 2770.808592,
+          "digital": "0:46:10",
+          "decimal": "0.77",
+          "text": "46 mins",
           "hours": 0,
-          "minutes": 34,
-          "seconds": 46,
-          "percent": 47.42
+          "minutes": 46,
+          "seconds": 10,
+          "percent": 54.48
         },
         {
           "name": "Markdown",
@@ -63,7 +63,7 @@
           "hours": 0,
           "minutes": 14,
           "seconds": 51,
-          "percent": 20.26
+          "percent": 17.53
         },
         {
           "name": "C",
@@ -74,7 +74,7 @@
           "hours": 0,
           "minutes": 12,
           "seconds": 42,
-          "percent": 17.33
+          "percent": 14.99
         },
         {
           "name": "JSON",
@@ -85,18 +85,18 @@
           "hours": 0,
           "minutes": 7,
           "seconds": 35,
-          "percent": 10.36
+          "percent": 8.96
         },
         {
           "name": "Other",
-          "total_seconds": 203.323308,
-          "digital": "0:03:23",
+          "total_seconds": 205.848859,
+          "digital": "0:03:25",
           "decimal": "0.05",
           "text": "3 mins",
           "hours": 0,
           "minutes": 3,
-          "seconds": 23,
-          "percent": 4.62
+          "seconds": 25,
+          "percent": 4.05
         }
       ],
       "dependencies": [
@@ -302,54 +302,54 @@
       "machines": [
         {
           "name": "ngb",
-          "total_seconds": 4399.01443,
+          "total_seconds": 5086.125545,
           "machine_name_id": "187acaf3-e3c6-4b6d-ab77-4d9cd4a079e2",
-          "digital": "1:13:19",
-          "decimal": "1.22",
-          "text": "1 hr 13 mins",
+          "digital": "1:24:46",
+          "decimal": "1.40",
+          "text": "1 hr 24 mins",
           "hours": 1,
-          "minutes": 13,
-          "seconds": 19,
+          "minutes": 24,
+          "seconds": 46,
           "percent": 100
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 4399.01443,
-          "digital": "1:13:19",
-          "decimal": "1.22",
-          "text": "1 hr 13 mins",
+          "total_seconds": 5086.125545,
+          "digital": "1:24:46",
+          "decimal": "1.40",
+          "text": "1 hr 24 mins",
           "hours": 1,
-          "minutes": 13,
-          "seconds": 19,
+          "minutes": 24,
+          "seconds": 46,
           "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Windows",
-          "total_seconds": 4399.01443,
-          "digital": "1:13:19",
-          "decimal": "1.22",
-          "text": "1 hr 13 mins",
+          "total_seconds": 5086.125545,
+          "digital": "1:24:46",
+          "decimal": "1.40",
+          "text": "1 hr 24 mins",
           "hours": 1,
-          "minutes": 13,
-          "seconds": 19,
+          "minutes": 24,
+          "seconds": 46,
           "percent": 100
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 4356.621258,
-          "digital": "1:12:36",
-          "decimal": "1.20",
-          "text": "1 hr 12 mins",
+          "total_seconds": 5043.732373,
+          "digital": "1:24:03",
+          "decimal": "1.40",
+          "text": "1 hr 24 mins",
           "hours": 1,
-          "minutes": 12,
-          "seconds": 36,
-          "percent": 99.04
+          "minutes": 24,
+          "seconds": 3,
+          "percent": 99.17
         },
         {
           "name": "Building",
@@ -360,7 +360,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 42,
-          "percent": 0.96
+          "percent": 0.83
         }
       ]
     }
@@ -368,18 +368,18 @@
   "start": "2025-03-28T23:00:00Z",
   "end": "2025-03-29T22:59:59Z",
   "cumulative_total": {
-    "seconds": 4399.01443,
-    "text": "1 hr 13 mins",
-    "digital": "1:13",
-    "decimal": "1.22"
+    "seconds": 5086.125545,
+    "text": "1 hr 24 mins",
+    "digital": "1:24",
+    "decimal": "1.40"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 4196,
-    "seconds_including_other_language": 4399,
-    "text": "1 hr 9 mins",
-    "text_including_other_language": "1 hr 13 mins"
+    "seconds": 4880,
+    "seconds_including_other_language": 5086,
+    "text": "1 hr 21 mins",
+    "text_including_other_language": "1 hr 24 mins"
   }
 }
