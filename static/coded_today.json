@@ -1,47 +1,6 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 2,
-        "minutes": 41,
-        "total_seconds": 9711.19598,
-        "digital": "2:41",
-        "decimal": "2.68",
-        "text": "2 hrs 41 mins"
-      },
-      "range": {
-        "start": "2025-03-28T23:00:00Z",
-        "end": "2025-03-29T22:59:59Z",
-        "date": "2025-03-29",
-        "text": "Sat Mar 29th 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
-        {
-          "name": "godot-engine-gui",
-          "total_seconds": 7583.635685,
-          "color": null,
-          "digital": "2:06:23",
-          "decimal": "2.10",
-          "text": "2 hrs 6 mins",
-          "hours": 2,
-          "minutes": 6,
-          "seconds": 23,
-          "percent": 78.09
-        },
-        {
-          "name": "engine-software-2025-v0",
-          "total_seconds": 2127.560295,
-          "color": null,
-          "digital": "0:35:27",
-          "decimal": "0.58",
-          "text": "35 mins",
-          "hours": 0,
-          "minutes": 35,
-          "seconds": 27,
-          "percent": 21.91
-        }
-      ],
       "languages": [
         {
           "name": "GDScript3",
@@ -99,6 +58,75 @@
           "percent": 5.5
         }
       ],
+      "grand_total": {
+        "hours": 2,
+        "minutes": 41,
+        "total_seconds": 9711.19598,
+        "digital": "2:41",
+        "decimal": "2.68",
+        "text": "2 hrs 41 mins"
+      },
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 9711.19598,
+          "digital": "2:41:51",
+          "decimal": "2.68",
+          "text": "2 hrs 41 mins",
+          "hours": 2,
+          "minutes": 41,
+          "seconds": 51,
+          "percent": 100
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "total_seconds": 9711.19598,
+          "digital": "2:41:51",
+          "decimal": "2.68",
+          "text": "2 hrs 41 mins",
+          "hours": 2,
+          "minutes": 41,
+          "seconds": 51,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 9644.994198,
+          "digital": "2:40:44",
+          "decimal": "2.67",
+          "text": "2 hrs 40 mins",
+          "hours": 2,
+          "minutes": 40,
+          "seconds": 44,
+          "percent": 99.32
+        },
+        {
+          "name": "Building",
+          "total_seconds": 46.910058,
+          "digital": "0:00:46",
+          "decimal": "0.00",
+          "text": "46 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 46,
+          "percent": 0.48
+        },
+        {
+          "name": "Debugging",
+          "total_seconds": 19.291724,
+          "digital": "0:00:19",
+          "decimal": "0.00",
+          "text": "19 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 19,
+          "percent": 0.2
+        }
+      ],
       "dependencies": [
         {
           "name": "app_netxduo",
@@ -123,7 +151,7 @@
           "percent": 6.09
         },
         {
-          "name": "solenoiddriver",
+          "name": "servodriver",
           "total_seconds": 432.389232,
           "digital": "0:07:12",
           "decimal": "0.12",
@@ -134,7 +162,7 @@
           "percent": 5.46
         },
         {
-          "name": "servodriver",
+          "name": "solenoiddriver",
           "total_seconds": 432.389232,
           "digital": "0:07:12",
           "decimal": "0.12",
@@ -156,7 +184,7 @@
           "percent": 5.26
         },
         {
-          "name": "bldcdriver",
+          "name": "stdio.h>",
           "total_seconds": 319.592974,
           "digital": "0:05:19",
           "decimal": "0.08",
@@ -178,17 +206,6 @@
           "percent": 4.04
         },
         {
-          "name": "assert.h>",
-          "total_seconds": 319.592974,
-          "digital": "0:05:19",
-          "decimal": "0.08",
-          "text": "5 mins",
-          "hours": 0,
-          "minutes": 5,
-          "seconds": 19,
-          "percent": 4.04
-        },
-        {
           "name": "main.h\"",
           "total_seconds": 319.592974,
           "digital": "0:05:19",
@@ -200,7 +217,18 @@
           "percent": 4.04
         },
         {
-          "name": "stdio.h>",
+          "name": "bldcdriver",
+          "total_seconds": 319.592974,
+          "digital": "0:05:19",
+          "decimal": "0.08",
+          "text": "5 mins",
+          "hours": 0,
+          "minutes": 5,
+          "seconds": 19,
+          "percent": 4.04
+        },
+        {
+          "name": "assert.h>",
           "total_seconds": 319.592974,
           "digital": "0:05:19",
           "decimal": "0.08",
@@ -233,94 +261,6 @@
           "percent": 2.26
         },
         {
-          "name": "tx_api",
-          "total_seconds": 171.438686,
-          "digital": "0:02:51",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 51,
-          "percent": 2.17
-        },
-        {
-          "name": "sdmmc",
-          "total_seconds": 171.438686,
-          "digital": "0:02:51",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 51,
-          "percent": 2.17
-        },
-        {
-          "name": "tim",
-          "total_seconds": 171.438686,
-          "digital": "0:02:51",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 51,
-          "percent": 2.17
-        },
-        {
-          "name": "quadspi",
-          "total_seconds": 171.438686,
-          "digital": "0:02:51",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 51,
-          "percent": 2.17
-        },
-        {
-          "name": "fdcan",
-          "total_seconds": 171.438686,
-          "digital": "0:02:51",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 51,
-          "percent": 2.17
-        },
-        {
-          "name": "gpio",
-          "total_seconds": 171.438686,
-          "digital": "0:02:51",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 51,
-          "percent": 2.17
-        },
-        {
-          "name": "adc",
-          "total_seconds": 171.438686,
-          "digital": "0:02:51",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 51,
-          "percent": 2.17
-        },
-        {
-          "name": "usb_otg",
-          "total_seconds": 171.438686,
-          "digital": "0:02:51",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 51,
-          "percent": 2.17
-        },
-        {
           "name": "app_threadx",
           "total_seconds": 171.438686,
           "digital": "0:02:51",
@@ -332,18 +272,7 @@
           "percent": 2.17
         },
         {
-          "name": "spi",
-          "total_seconds": 171.438686,
-          "digital": "0:02:51",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 51,
-          "percent": 2.17
-        },
-        {
-          "name": "memorymap",
+          "name": "tx_api",
           "total_seconds": 171.438686,
           "digital": "0:02:51",
           "decimal": "0.03",
@@ -365,7 +294,106 @@
           "percent": 2.17
         },
         {
+          "name": "memorymap",
+          "total_seconds": 171.438686,
+          "digital": "0:02:51",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 51,
+          "percent": 2.17
+        },
+        {
+          "name": "tim",
+          "total_seconds": 171.438686,
+          "digital": "0:02:51",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 51,
+          "percent": 2.17
+        },
+        {
           "name": "eth",
+          "total_seconds": 171.438686,
+          "digital": "0:02:51",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 51,
+          "percent": 2.17
+        },
+        {
+          "name": "usb_otg",
+          "total_seconds": 171.438686,
+          "digital": "0:02:51",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 51,
+          "percent": 2.17
+        },
+        {
+          "name": "quadspi",
+          "total_seconds": 171.438686,
+          "digital": "0:02:51",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 51,
+          "percent": 2.17
+        },
+        {
+          "name": "adc",
+          "total_seconds": 171.438686,
+          "digital": "0:02:51",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 51,
+          "percent": 2.17
+        },
+        {
+          "name": "fdcan",
+          "total_seconds": 171.438686,
+          "digital": "0:02:51",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 51,
+          "percent": 2.17
+        },
+        {
+          "name": "spi",
+          "total_seconds": 171.438686,
+          "digital": "0:02:51",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 51,
+          "percent": 2.17
+        },
+        {
+          "name": "sdmmc",
+          "total_seconds": 171.438686,
+          "digital": "0:02:51",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 51,
+          "percent": 2.17
+        },
+        {
+          "name": "gpio",
           "total_seconds": 171.438686,
           "digital": "0:02:51",
           "decimal": "0.03",
@@ -385,17 +413,6 @@
           "minutes": 2,
           "seconds": 18,
           "percent": 1.75
-        },
-        {
-          "name": "nx_stm32_eth_driver",
-          "total_seconds": 131.142852,
-          "digital": "0:02:11",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 11,
-          "percent": 1.66
         },
         {
           "name": "clitelnet",
@@ -420,15 +437,15 @@
           "percent": 1.66
         },
         {
-          "name": "nx_api",
-          "total_seconds": 112.796258,
-          "digital": "0:01:52",
-          "decimal": "0.02",
-          "text": "1 min",
+          "name": "nx_stm32_eth_driver",
+          "total_seconds": 131.142852,
+          "digital": "0:02:11",
+          "decimal": "0.03",
+          "text": "2 mins",
           "hours": 0,
-          "minutes": 1,
-          "seconds": 52,
-          "percent": 1.43
+          "minutes": 2,
+          "seconds": 11,
+          "percent": 1.66
         },
         {
           "name": "utilities",
@@ -443,6 +460,17 @@
         },
         {
           "name": "autovent",
+          "total_seconds": 112.796258,
+          "digital": "0:01:52",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 52,
+          "percent": 1.43
+        },
+        {
+          "name": "nx_api",
           "total_seconds": 112.796258,
           "digital": "0:01:52",
           "decimal": "0.02",
@@ -522,67 +550,37 @@
           "percent": 100
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "VS Code",
-          "total_seconds": 9711.19598,
-          "digital": "2:41:51",
-          "decimal": "2.68",
-          "text": "2 hrs 41 mins",
+          "name": "godot-engine-gui",
+          "total_seconds": 7583.635685,
+          "digital": "2:06:23",
+          "decimal": "2.10",
+          "text": "2 hrs 6 mins",
           "hours": 2,
-          "minutes": 41,
-          "seconds": 51,
-          "percent": 100
-        }
-      ],
-      "operating_systems": [
-        {
-          "name": "Windows",
-          "total_seconds": 9711.19598,
-          "digital": "2:41:51",
-          "decimal": "2.68",
-          "text": "2 hrs 41 mins",
-          "hours": 2,
-          "minutes": 41,
-          "seconds": 51,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 9644.994198,
-          "digital": "2:40:44",
-          "decimal": "2.67",
-          "text": "2 hrs 40 mins",
-          "hours": 2,
-          "minutes": 40,
-          "seconds": 44,
-          "percent": 99.32
+          "minutes": 6,
+          "seconds": 23,
+          "percent": 78.09
         },
         {
-          "name": "Building",
-          "total_seconds": 46.910058,
-          "digital": "0:00:46",
-          "decimal": "0.00",
-          "text": "46 secs",
+          "name": "engine-software-2025-v0",
+          "total_seconds": 2127.560295,
+          "digital": "0:35:27",
+          "decimal": "0.58",
+          "text": "35 mins",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 46,
-          "percent": 0.48
-        },
-        {
-          "name": "Debugging",
-          "total_seconds": 19.291724,
-          "digital": "0:00:19",
-          "decimal": "0.00",
-          "text": "19 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 19,
-          "percent": 0.2
+          "minutes": 35,
+          "seconds": 27,
+          "percent": 21.91
         }
-      ]
+      ],
+      "range": {
+        "start": "2025-03-28T23:00:00Z",
+        "end": "2025-03-29T22:59:59Z",
+        "date": "2025-03-29",
+        "text": "Sat Mar 29th 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-03-28T23:00:00Z",
