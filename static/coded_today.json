@@ -1,83 +1,6 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 0,
-        "minutes": 42,
-        "total_seconds": 2529.24507,
-        "digital": "0:42",
-        "decimal": "0.70",
-        "text": "42 mins"
-      },
-      "range": {
-        "start": "2025-04-02T22:00:00Z",
-        "end": "2025-04-03T21:59:59Z",
-        "date": "2025-04-03",
-        "text": "Thu Apr 3rd 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
-        {
-          "name": "website",
-          "total_seconds": 961.945265,
-          "color": null,
-          "digital": "0:16:01",
-          "decimal": "0.27",
-          "text": "16 mins",
-          "hours": 0,
-          "minutes": 16,
-          "seconds": 1,
-          "percent": 38.03
-        },
-        {
-          "name": "portfolio",
-          "total_seconds": 723.299805,
-          "color": null,
-          "digital": "0:12:03",
-          "decimal": "0.20",
-          "text": "12 mins",
-          "hours": 0,
-          "minutes": 12,
-          "seconds": 3,
-          "percent": 28.6
-        },
-        {
-          "name": "Uni",
-          "total_seconds": 594,
-          "color": null,
-          "digital": "0:09:54",
-          "decimal": "0.15",
-          "text": "9 mins",
-          "hours": 0,
-          "minutes": 9,
-          "seconds": 54,
-          "percent": 23.49
-        },
-        {
-          "name": "Unknown Project",
-          "total_seconds": 201,
-          "color": null,
-          "digital": "0:03:21",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 21,
-          "percent": 7.95
-        },
-        {
-          "name": "trading-bot",
-          "total_seconds": 49,
-          "color": null,
-          "digital": "0:00:49",
-          "decimal": "0.00",
-          "text": "49 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 49,
-          "percent": 1.94
-        }
-      ],
       "languages": [
         {
           "name": "Python",
@@ -122,6 +45,64 @@
           "minutes": 3,
           "seconds": 44,
           "percent": 8.89
+        }
+      ],
+      "grand_total": {
+        "hours": 0,
+        "minutes": 42,
+        "total_seconds": 2529.24507,
+        "digital": "0:42",
+        "decimal": "0.70",
+        "text": "42 mins"
+      },
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 1685.24507,
+          "digital": "0:28:05",
+          "decimal": "0.47",
+          "text": "28 mins",
+          "hours": 0,
+          "minutes": 28,
+          "seconds": 5,
+          "percent": 66.63
+        },
+        {
+          "name": "Neovim",
+          "total_seconds": 844,
+          "digital": "0:14:04",
+          "decimal": "0.23",
+          "text": "14 mins",
+          "hours": 0,
+          "minutes": 14,
+          "seconds": 4,
+          "percent": 33.37
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Mac",
+          "total_seconds": 2529.24507,
+          "digital": "0:42:09",
+          "decimal": "0.70",
+          "text": "42 mins",
+          "hours": 0,
+          "minutes": 42,
+          "seconds": 9,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 2529.24507,
+          "digital": "0:42:09",
+          "decimal": "0.70",
+          "text": "42 mins",
+          "hours": 0,
+          "minutes": 42,
+          "seconds": 9,
+          "percent": 100
         }
       ],
       "dependencies": [
@@ -272,56 +253,75 @@
           "percent": 100
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "VS Code",
-          "total_seconds": 1685.24507,
-          "digital": "0:28:05",
-          "decimal": "0.47",
-          "text": "28 mins",
+          "name": "website",
+          "total_seconds": 961.945265,
+          "color": null,
+          "digital": "0:16:01",
+          "decimal": "0.27",
+          "text": "16 mins",
           "hours": 0,
-          "minutes": 28,
-          "seconds": 5,
-          "percent": 66.63
+          "minutes": 16,
+          "seconds": 1,
+          "percent": 38.03
         },
         {
-          "name": "Neovim",
-          "total_seconds": 844,
-          "digital": "0:14:04",
-          "decimal": "0.23",
-          "text": "14 mins",
+          "name": "portfolio",
+          "total_seconds": 723.299805,
+          "color": null,
+          "digital": "0:12:03",
+          "decimal": "0.20",
+          "text": "12 mins",
           "hours": 0,
-          "minutes": 14,
-          "seconds": 4,
-          "percent": 33.37
+          "minutes": 12,
+          "seconds": 3,
+          "percent": 28.6
+        },
+        {
+          "name": "Uni",
+          "total_seconds": 594,
+          "color": null,
+          "digital": "0:09:54",
+          "decimal": "0.15",
+          "text": "9 mins",
+          "hours": 0,
+          "minutes": 9,
+          "seconds": 54,
+          "percent": 23.49
+        },
+        {
+          "name": "Unknown Project",
+          "total_seconds": 201,
+          "color": null,
+          "digital": "0:03:21",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 21,
+          "percent": 7.95
+        },
+        {
+          "name": "trading-bot",
+          "total_seconds": 49,
+          "color": null,
+          "digital": "0:00:49",
+          "decimal": "0.00",
+          "text": "49 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 49,
+          "percent": 1.94
         }
       ],
-      "operating_systems": [
-        {
-          "name": "Mac",
-          "total_seconds": 2529.24507,
-          "digital": "0:42:09",
-          "decimal": "0.70",
-          "text": "42 mins",
-          "hours": 0,
-          "minutes": 42,
-          "seconds": 9,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 2529.24507,
-          "digital": "0:42:09",
-          "decimal": "0.70",
-          "text": "42 mins",
-          "hours": 0,
-          "minutes": 42,
-          "seconds": 9,
-          "percent": 100
-        }
-      ]
+      "range": {
+        "start": "2025-04-02T22:00:00Z",
+        "end": "2025-04-03T21:59:59Z",
+        "date": "2025-04-03",
+        "text": "Thu Apr 3rd 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-04-02T22:00:00Z",
