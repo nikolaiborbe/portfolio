@@ -1,27 +1,5 @@
 [
   {
-    "id": "8e6b84fb-519e-4b6d-8284-c25e0a429b90",
-    "entity": "/Users/nikolaiborbe/Documents/Complexity/trading-bot/test.py",
-    "type": "file",
-    "time": 1743666361,
-    "project": "trading-bot",
-    "project_root_count": 6,
-    "branch": "main",
-    "language": "Python",
-    "dependencies": [],
-    "line_additions": null,
-    "line_deletions": null,
-    "lines": 1,
-    "lineno": 1,
-    "cursorpos": 1,
-    "is_write": true,
-    "category": "coding",
-    "created_at": "2025-04-03T10:01:34Z",
-    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
-    "user_agent_id": "dae0bd8a-acaf-4a8b-a15f-fc66e4c08453",
-    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
-  },
-  {
     "id": "e365141b-e847-4434-99cf-7e75699db0ca",
     "entity": "/Users/nikolaiborbe/Documents/Programming/helmets/main.py",
     "type": "file",
@@ -119,6 +97,28 @@
     "created_at": "2025-04-03T10:04:53Z",
     "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
     "user_agent_id": "dae0bd8a-acaf-4a8b-a15f-fc66e4c08453",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  },
+  {
+    "id": "eb7ce7b5-5ddc-4e76-a1ba-9d60ec984ac3",
+    "entity": "/Users/nikolaiborbe/Documents/Complexity/website/src/data/members.json",
+    "type": "file",
+    "time": 1743681598.538046,
+    "project": "website",
+    "project_root_count": 6,
+    "branch": "main",
+    "language": "JSON",
+    "dependencies": [],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 57,
+    "lineno": 24,
+    "cursorpos": 39,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-04-03T11:59:59Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "588576a7-0dce-4750-8cd6-5cb51adf3568",
     "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
   }
 ]

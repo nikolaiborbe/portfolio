@@ -40,6 +40,18 @@
           "minutes": 0,
           "seconds": 49,
           "percent": 19.6
+        },
+        {
+          "name": "website",
+          "total_seconds": 0,
+          "color": null,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "languages": [
@@ -53,6 +65,17 @@
           "minutes": 4,
           "seconds": 10,
           "percent": 100
+        },
+        {
+          "name": "JSON",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "dependencies": [
@@ -159,6 +182,17 @@
           "minutes": 4,
           "seconds": 10,
           "percent": 100
+        },
+        {
+          "name": "VS Code",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "operating_systems": [
