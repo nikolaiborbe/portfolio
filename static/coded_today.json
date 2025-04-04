@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 0,
-        "minutes": 12,
-        "total_seconds": 741.613556,
-        "digital": "0:12",
-        "decimal": "0.20",
-        "text": "12 mins"
+        "minutes": 24,
+        "total_seconds": 1480.470152,
+        "digital": "0:24",
+        "decimal": "0.40",
+        "text": "24 mins"
       },
       "range": {
         "start": "2025-04-03T22:00:00Z",
@@ -19,15 +19,15 @@
       "projects": [
         {
           "name": "hackathon",
-          "total_seconds": 740.613556,
+          "total_seconds": 1479.470152,
           "color": null,
-          "digital": "0:12:20",
-          "decimal": "0.20",
-          "text": "12 mins",
+          "digital": "0:24:39",
+          "decimal": "0.40",
+          "text": "24 mins",
           "hours": 0,
-          "minutes": 12,
-          "seconds": 20,
-          "percent": 99.87
+          "minutes": 24,
+          "seconds": 39,
+          "percent": 99.93
         },
         {
           "name": "Uni",
@@ -39,42 +39,42 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 1,
-          "percent": 0.13
+          "percent": 0.07
         }
       ],
       "languages": [
         {
           "name": "Text",
-          "total_seconds": 561.369177,
-          "digital": "0:09:21",
-          "decimal": "0.15",
-          "text": "9 mins",
+          "total_seconds": 716.137978,
+          "digital": "0:11:56",
+          "decimal": "0.18",
+          "text": "11 mins",
           "hours": 0,
-          "minutes": 9,
-          "seconds": 21,
-          "percent": 75.7
+          "minutes": 11,
+          "seconds": 56,
+          "percent": 48.37
         },
         {
           "name": "Markdown",
-          "total_seconds": 150.26066,
-          "digital": "0:02:30",
-          "decimal": "0.03",
-          "text": "2 mins",
+          "total_seconds": 493.173801,
+          "digital": "0:08:13",
+          "decimal": "0.13",
+          "text": "8 mins",
           "hours": 0,
-          "minutes": 2,
-          "seconds": 30,
-          "percent": 20.26
+          "minutes": 8,
+          "seconds": 13,
+          "percent": 33.31
         },
         {
           "name": "Python",
-          "total_seconds": 17.473979,
-          "digital": "0:00:17",
-          "decimal": "0.00",
-          "text": "17 secs",
+          "total_seconds": 258.648633,
+          "digital": "0:04:18",
+          "decimal": "0.07",
+          "text": "4 mins",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 17,
-          "percent": 2.36
+          "minutes": 4,
+          "seconds": 18,
+          "percent": 17.47
         },
         {
           "name": "Git Config",
@@ -85,7 +85,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 12,
-          "percent": 1.69
+          "percent": 0.84
         }
       ],
       "dependencies": [
@@ -126,15 +126,15 @@
       "machines": [
         {
           "name": "ngb",
-          "total_seconds": 740.613556,
+          "total_seconds": 1479.470152,
           "machine_name_id": "7492e417-29d7-4980-8071-f5d98d4acc42",
-          "digital": "0:12:20",
-          "decimal": "0.20",
-          "text": "12 mins",
+          "digital": "0:24:39",
+          "decimal": "0.40",
+          "text": "24 mins",
           "hours": 0,
-          "minutes": 12,
-          "seconds": 20,
-          "percent": 99.87
+          "minutes": 24,
+          "seconds": 39,
+          "percent": 99.93
         },
         {
           "name": "Nikolais-Mac-mini.local",
@@ -146,20 +146,20 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 1,
-          "percent": 0.13
+          "percent": 0.07
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 740.613556,
-          "digital": "0:12:20",
-          "decimal": "0.20",
-          "text": "12 mins",
+          "total_seconds": 1479.470152,
+          "digital": "0:24:39",
+          "decimal": "0.40",
+          "text": "24 mins",
           "hours": 0,
-          "minutes": 12,
-          "seconds": 20,
-          "percent": 99.87
+          "minutes": 24,
+          "seconds": 39,
+          "percent": 99.93
         },
         {
           "name": "Neovim",
@@ -170,20 +170,20 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 1,
-          "percent": 0.13
+          "percent": 0.07
         }
       ],
       "operating_systems": [
         {
           "name": "Windows",
-          "total_seconds": 740.613556,
-          "digital": "0:12:20",
-          "decimal": "0.20",
-          "text": "12 mins",
+          "total_seconds": 1479.470152,
+          "digital": "0:24:39",
+          "decimal": "0.40",
+          "text": "24 mins",
           "hours": 0,
-          "minutes": 12,
-          "seconds": 20,
-          "percent": 99.87
+          "minutes": 24,
+          "seconds": 39,
+          "percent": 99.93
         },
         {
           "name": "Mac",
@@ -194,19 +194,19 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 1,
-          "percent": 0.13
+          "percent": 0.07
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 741.613556,
-          "digital": "0:12:21",
-          "decimal": "0.20",
-          "text": "12 mins",
+          "total_seconds": 1480.470152,
+          "digital": "0:24:40",
+          "decimal": "0.40",
+          "text": "24 mins",
           "hours": 0,
-          "minutes": 12,
-          "seconds": 21,
+          "minutes": 24,
+          "seconds": 40,
           "percent": 100
         }
       ]
@@ -215,18 +215,18 @@
   "start": "2025-04-03T22:00:00Z",
   "end": "2025-04-04T21:59:59Z",
   "cumulative_total": {
-    "seconds": 741.613556,
-    "text": "12 mins",
-    "digital": "0:12",
-    "decimal": "0.20"
+    "seconds": 1480.470152,
+    "text": "24 mins",
+    "digital": "0:24",
+    "decimal": "0.40"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 742,
-    "seconds_including_other_language": 742,
-    "text": "12 mins",
-    "text_including_other_language": "12 mins"
+    "seconds": 1480,
+    "seconds_including_other_language": 1480,
+    "text": "24 mins",
+    "text_including_other_language": "24 mins"
   }
 }
