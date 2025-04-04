@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 4,
-        "minutes": 49,
-        "total_seconds": 17347.126234,
-        "digital": "4:49",
-        "decimal": "4.82",
-        "text": "4 hrs 49 mins"
+        "minutes": 59,
+        "total_seconds": 17976.08289,
+        "digital": "4:59",
+        "decimal": "4.98",
+        "text": "4 hrs 59 mins"
       },
       "range": {
         "start": "2025-04-03T22:00:00Z",
@@ -19,14 +19,14 @@
       "projects": [
         {
           "name": "hackathon",
-          "total_seconds": 17346.126234,
+          "total_seconds": 17975.08289,
           "color": null,
-          "digital": "4:49:06",
-          "decimal": "4.82",
-          "text": "4 hrs 49 mins",
+          "digital": "4:59:35",
+          "decimal": "4.98",
+          "text": "4 hrs 59 mins",
           "hours": 4,
-          "minutes": 49,
-          "seconds": 6,
+          "minutes": 59,
+          "seconds": 35,
           "percent": 99.99
         },
         {
@@ -45,14 +45,14 @@
       "languages": [
         {
           "name": "Python",
-          "total_seconds": 13330.070334,
-          "digital": "3:42:10",
-          "decimal": "3.70",
-          "text": "3 hrs 42 mins",
+          "total_seconds": 13959.02699,
+          "digital": "3:52:39",
+          "decimal": "3.87",
+          "text": "3 hrs 52 mins",
           "hours": 3,
-          "minutes": 42,
-          "seconds": 10,
-          "percent": 76.84
+          "minutes": 52,
+          "seconds": 39,
+          "percent": 77.65
         },
         {
           "name": "Markdown",
@@ -63,7 +63,7 @@
           "hours": 0,
           "minutes": 23,
           "seconds": 2,
-          "percent": 7.97
+          "percent": 7.69
         },
         {
           "name": "Git Config",
@@ -74,7 +74,7 @@
           "hours": 0,
           "minutes": 20,
           "seconds": 58,
-          "percent": 7.25
+          "percent": 7
         },
         {
           "name": "Text",
@@ -85,7 +85,7 @@
           "hours": 0,
           "minutes": 14,
           "seconds": 3,
-          "percent": 4.86
+          "percent": 4.69
         },
         {
           "name": "INI",
@@ -96,7 +96,7 @@
           "hours": 0,
           "minutes": 7,
           "seconds": 59,
-          "percent": 2.76
+          "percent": 2.67
         },
         {
           "name": "PowerShell",
@@ -140,53 +140,53 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 4,
-          "percent": 0.03
+          "percent": 0.02
         }
       ],
       "dependencies": [
         {
           "name": "cv2",
-          "total_seconds": 11740.654456,
-          "digital": "3:15:40",
-          "decimal": "3.25",
-          "text": "3 hrs 15 mins",
+          "total_seconds": 12369.611112,
+          "digital": "3:26:09",
+          "decimal": "3.43",
+          "text": "3 hrs 26 mins",
           "hours": 3,
-          "minutes": 15,
-          "seconds": 40,
-          "percent": 39.67
+          "minutes": 26,
+          "seconds": 9,
+          "percent": 40.04
         },
         {
           "name": "numpy",
-          "total_seconds": 9087.289134,
-          "digital": "2:31:27",
-          "decimal": "2.52",
-          "text": "2 hrs 31 mins",
+          "total_seconds": 9714.097073,
+          "digital": "2:41:54",
+          "decimal": "2.68",
+          "text": "2 hrs 41 mins",
           "hours": 2,
-          "minutes": 31,
-          "seconds": 27,
-          "percent": 30.7
+          "minutes": 41,
+          "seconds": 54,
+          "percent": 31.45
         },
         {
           "name": "argparse",
-          "total_seconds": 4336.703438,
-          "digital": "1:12:16",
+          "total_seconds": 4354.470704,
+          "digital": "1:12:34",
           "decimal": "1.20",
           "text": "1 hr 12 mins",
           "hours": 1,
           "minutes": 12,
-          "seconds": 16,
-          "percent": 14.65
+          "seconds": 34,
+          "percent": 14.1
         },
         {
           "name": "src",
-          "total_seconds": 4275.571416,
-          "digital": "1:11:15",
+          "total_seconds": 4293.338682,
+          "digital": "1:11:33",
           "decimal": "1.18",
           "text": "1 hr 11 mins",
           "hours": 1,
           "minutes": 11,
-          "seconds": 15,
-          "percent": 14.45
+          "seconds": 33,
+          "percent": 13.9
         },
         {
           "name": "pathlib",
@@ -197,7 +197,7 @@
           "hours": 0,
           "minutes": 1,
           "seconds": 59,
-          "percent": 0.4
+          "percent": 0.39
         },
         {
           "name": "importlib",
@@ -208,7 +208,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 10,
-          "percent": 0.04
+          "percent": 0.03
         },
         {
           "name": "warnings",
@@ -219,7 +219,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 10,
-          "percent": 0.04
+          "percent": 0.03
         },
         {
           "name": "traceback",
@@ -230,7 +230,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 10,
-          "percent": 0.04
+          "percent": 0.03
         },
         {
           "name": "def",
@@ -269,14 +269,14 @@
       "machines": [
         {
           "name": "ngb",
-          "total_seconds": 17346.126234,
+          "total_seconds": 17975.08289,
           "machine_name_id": "7492e417-29d7-4980-8071-f5d98d4acc42",
-          "digital": "4:49:06",
-          "decimal": "4.82",
-          "text": "4 hrs 49 mins",
+          "digital": "4:59:35",
+          "decimal": "4.98",
+          "text": "4 hrs 59 mins",
           "hours": 4,
-          "minutes": 49,
-          "seconds": 6,
+          "minutes": 59,
+          "seconds": 35,
           "percent": 99.99
         },
         {
@@ -295,13 +295,13 @@
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 17346.126234,
-          "digital": "4:49:06",
-          "decimal": "4.82",
-          "text": "4 hrs 49 mins",
+          "total_seconds": 17975.08289,
+          "digital": "4:59:35",
+          "decimal": "4.98",
+          "text": "4 hrs 59 mins",
           "hours": 4,
-          "minutes": 49,
-          "seconds": 6,
+          "minutes": 59,
+          "seconds": 35,
           "percent": 99.99
         },
         {
@@ -319,13 +319,13 @@
       "operating_systems": [
         {
           "name": "Windows",
-          "total_seconds": 17346.126234,
-          "digital": "4:49:06",
-          "decimal": "4.82",
-          "text": "4 hrs 49 mins",
+          "total_seconds": 17975.08289,
+          "digital": "4:59:35",
+          "decimal": "4.98",
+          "text": "4 hrs 59 mins",
           "hours": 4,
-          "minutes": 49,
-          "seconds": 6,
+          "minutes": 59,
+          "seconds": 35,
           "percent": 99.99
         },
         {
@@ -343,13 +343,13 @@
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 17347.126234,
-          "digital": "4:49:07",
-          "decimal": "4.82",
-          "text": "4 hrs 49 mins",
+          "total_seconds": 17976.08289,
+          "digital": "4:59:36",
+          "decimal": "4.98",
+          "text": "4 hrs 59 mins",
           "hours": 4,
-          "minutes": 49,
-          "seconds": 7,
+          "minutes": 59,
+          "seconds": 36,
           "percent": 100
         }
       ]
@@ -358,18 +358,18 @@
   "start": "2025-04-03T22:00:00Z",
   "end": "2025-04-04T21:59:59Z",
   "cumulative_total": {
-    "seconds": 17347.126234,
-    "text": "4 hrs 49 mins",
-    "digital": "4:49",
-    "decimal": "4.82"
+    "seconds": 17976.08289,
+    "text": "4 hrs 59 mins",
+    "digital": "4:59",
+    "decimal": "4.98"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 17343,
-    "seconds_including_other_language": 17347,
-    "text": "4 hrs 49 mins",
-    "text_including_other_language": "4 hrs 49 mins"
+    "seconds": 17972,
+    "seconds_including_other_language": 17976,
+    "text": "4 hrs 59 mins",
+    "text_including_other_language": "4 hrs 59 mins"
   }
 }
