@@ -50,5 +50,27 @@
     "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
     "user_agent_id": "c8667cd6-fd11-4b72-b16f-f176a9832a84",
     "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  },
+  {
+    "id": "f2424d49-17e2-4c5a-919b-ca4ed0811cfa",
+    "entity": "C:/Users/nikol/MAIN/programmering/Propulse/hackathon/.gitignore",
+    "type": "file",
+    "time": 1743783468.916182,
+    "project": "hackathon",
+    "project_root_count": 7,
+    "branch": "main",
+    "language": "Git Config",
+    "dependencies": [],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 1,
+    "lineno": 1,
+    "cursorpos": 1,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-04-04T16:17:49Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "97769527-78f0-4227-8d35-8ad43140dbd5",
+    "machine_name_id": "7492e417-29d7-4980-8071-f5d98d4acc42"
   }
 ]

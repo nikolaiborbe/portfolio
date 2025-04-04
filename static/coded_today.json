@@ -28,6 +28,18 @@
           "minutes": 0,
           "seconds": 1,
           "percent": 100
+        },
+        {
+          "name": "hackathon",
+          "total_seconds": 0,
+          "color": null,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "languages": [
@@ -41,6 +53,17 @@
           "minutes": 0,
           "seconds": 1,
           "percent": 100
+        },
+        {
+          "name": "Git Config",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "dependencies": [
@@ -90,6 +113,18 @@
           "minutes": 0,
           "seconds": 1,
           "percent": 100
+        },
+        {
+          "name": "ngb",
+          "total_seconds": 0,
+          "machine_name_id": "7492e417-29d7-4980-8071-f5d98d4acc42",
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "editors": [
@@ -103,6 +138,17 @@
           "minutes": 0,
           "seconds": 1,
           "percent": 100
+        },
+        {
+          "name": "VS Code",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "operating_systems": [
@@ -116,6 +162,17 @@
           "minutes": 0,
           "seconds": 1,
           "percent": 100
+        },
+        {
+          "name": "Windows",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "categories": [
