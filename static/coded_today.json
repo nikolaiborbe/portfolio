@@ -1,47 +1,6 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 5,
-        "minutes": 42,
-        "total_seconds": 20531.083818,
-        "digital": "5:42",
-        "decimal": "5.70",
-        "text": "5 hrs 42 mins"
-      },
-      "range": {
-        "start": "2025-04-03T22:00:00Z",
-        "end": "2025-04-04T21:59:59Z",
-        "date": "2025-04-04",
-        "text": "Fri Apr 4th 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
-        {
-          "name": "hackathon",
-          "total_seconds": 20530.083818,
-          "color": null,
-          "digital": "5:42:10",
-          "decimal": "5.70",
-          "text": "5 hrs 42 mins",
-          "hours": 5,
-          "minutes": 42,
-          "seconds": 10,
-          "percent": 100
-        },
-        {
-          "name": "Uni",
-          "total_seconds": 1,
-          "color": null,
-          "digital": "0:00:01",
-          "decimal": "0.00",
-          "text": "1 sec",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 1,
-          "percent": 0
-        }
-      ],
       "languages": [
         {
           "name": "Python",
@@ -141,6 +100,75 @@
           "minutes": 0,
           "seconds": 4,
           "percent": 0.02
+        }
+      ],
+      "grand_total": {
+        "hours": 5,
+        "minutes": 42,
+        "total_seconds": 20531.083818,
+        "digital": "5:42",
+        "decimal": "5.70",
+        "text": "5 hrs 42 mins"
+      },
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 20530.083818,
+          "digital": "5:42:10",
+          "decimal": "5.70",
+          "text": "5 hrs 42 mins",
+          "hours": 5,
+          "minutes": 42,
+          "seconds": 10,
+          "percent": 100
+        },
+        {
+          "name": "Neovim",
+          "total_seconds": 1,
+          "digital": "0:00:01",
+          "decimal": "0.00",
+          "text": "1 sec",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 1,
+          "percent": 0
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "total_seconds": 20530.083818,
+          "digital": "5:42:10",
+          "decimal": "5.70",
+          "text": "5 hrs 42 mins",
+          "hours": 5,
+          "minutes": 42,
+          "seconds": 10,
+          "percent": 100
+        },
+        {
+          "name": "Mac",
+          "total_seconds": 1,
+          "digital": "0:00:01",
+          "decimal": "0.00",
+          "text": "1 sec",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 1,
+          "percent": 0
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 20531.083818,
+          "digital": "5:42:11",
+          "decimal": "5.70",
+          "text": "5 hrs 42 mins",
+          "hours": 5,
+          "minutes": 42,
+          "seconds": 11,
+          "percent": 100
         }
       ],
       "dependencies": [
@@ -369,10 +397,11 @@
           "percent": 0
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "VS Code",
+          "name": "hackathon",
           "total_seconds": 20530.083818,
+          "color": null,
           "digital": "5:42:10",
           "decimal": "5.70",
           "text": "5 hrs 42 mins",
@@ -382,8 +411,9 @@
           "percent": 100
         },
         {
-          "name": "Neovim",
+          "name": "Uni",
           "total_seconds": 1,
+          "color": null,
           "digital": "0:00:01",
           "decimal": "0.00",
           "text": "1 sec",
@@ -393,43 +423,13 @@
           "percent": 0
         }
       ],
-      "operating_systems": [
-        {
-          "name": "Windows",
-          "total_seconds": 20530.083818,
-          "digital": "5:42:10",
-          "decimal": "5.70",
-          "text": "5 hrs 42 mins",
-          "hours": 5,
-          "minutes": 42,
-          "seconds": 10,
-          "percent": 100
-        },
-        {
-          "name": "Mac",
-          "total_seconds": 1,
-          "digital": "0:00:01",
-          "decimal": "0.00",
-          "text": "1 sec",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 1,
-          "percent": 0
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 20531.083818,
-          "digital": "5:42:11",
-          "decimal": "5.70",
-          "text": "5 hrs 42 mins",
-          "hours": 5,
-          "minutes": 42,
-          "seconds": 11,
-          "percent": 100
-        }
-      ]
+      "range": {
+        "start": "2025-04-03T22:00:00Z",
+        "end": "2025-04-04T21:59:59Z",
+        "date": "2025-04-04",
+        "text": "Fri Apr 4th 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-04-03T22:00:00Z",
