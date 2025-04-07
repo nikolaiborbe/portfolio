@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "3523bd4a-5d6f-4938-a70c-441e0ad6fd07",
+    "entity": "/Users/nikolaiborbe/Documents/Complexity/mimir/src/__init__.py",
+    "type": "file",
+    "time": 1744044063.582811,
+    "project": "mimir",
+    "project_root_count": 6,
+    "branch": "main",
+    "language": "Python",
+    "dependencies": [],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 1,
+    "lineno": 1,
+    "cursorpos": 1,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-04-07T16:41:04Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "a3a6b697-8da5-48cf-8984-cc441c410071",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  }
+]
