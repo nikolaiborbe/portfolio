@@ -1,71 +1,6 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 1,
-        "minutes": 56,
-        "total_seconds": 7015.746307,
-        "digital": "1:56",
-        "decimal": "1.93",
-        "text": "1 hr 56 mins"
-      },
-      "range": {
-        "start": "2025-04-06T22:00:00Z",
-        "end": "2025-04-07T21:59:59Z",
-        "date": "2025-04-07",
-        "text": "Mon Apr 7th 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
-        {
-          "name": "mimir",
-          "total_seconds": 6468.694589,
-          "color": null,
-          "digital": "1:47:48",
-          "decimal": "1.78",
-          "text": "1 hr 47 mins",
-          "hours": 1,
-          "minutes": 47,
-          "seconds": 48,
-          "percent": 92.2
-        },
-        {
-          "name": "trading-bot",
-          "total_seconds": 384.946774,
-          "color": null,
-          "digital": "0:06:24",
-          "decimal": "0.10",
-          "text": "6 mins",
-          "hours": 0,
-          "minutes": 6,
-          "seconds": 24,
-          "percent": 5.49
-        },
-        {
-          "name": "DeepSeek-V3",
-          "total_seconds": 160.281082,
-          "color": null,
-          "digital": "0:02:40",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 40,
-          "percent": 2.28
-        },
-        {
-          "name": "website",
-          "total_seconds": 1.823862,
-          "color": null,
-          "digital": "0:00:01",
-          "decimal": "0.00",
-          "text": "1 sec",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 1,
-          "percent": 0.03
-        }
-      ],
       "languages": [
         {
           "name": "Python",
@@ -187,6 +122,64 @@
           "minutes": 0,
           "seconds": 0,
           "percent": 0
+        }
+      ],
+      "grand_total": {
+        "hours": 1,
+        "minutes": 56,
+        "total_seconds": 7015.746307,
+        "digital": "1:56",
+        "decimal": "1.93",
+        "text": "1 hr 56 mins"
+      },
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 6630.799533,
+          "digital": "1:50:30",
+          "decimal": "1.83",
+          "text": "1 hr 50 mins",
+          "hours": 1,
+          "minutes": 50,
+          "seconds": 30,
+          "percent": 94.51
+        },
+        {
+          "name": "Neovim",
+          "total_seconds": 384.946774,
+          "digital": "0:06:24",
+          "decimal": "0.10",
+          "text": "6 mins",
+          "hours": 0,
+          "minutes": 6,
+          "seconds": 24,
+          "percent": 5.49
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Mac",
+          "total_seconds": 7015.746307,
+          "digital": "1:56:55",
+          "decimal": "1.93",
+          "text": "1 hr 56 mins",
+          "hours": 1,
+          "minutes": 56,
+          "seconds": 55,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 7015.746307,
+          "digital": "1:56:55",
+          "decimal": "1.93",
+          "text": "1 hr 56 mins",
+          "hours": 1,
+          "minutes": 56,
+          "seconds": 55,
+          "percent": 100
         }
       ],
       "dependencies": [
@@ -568,21 +561,23 @@
           "percent": 100
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "VS Code",
-          "total_seconds": 6630.799533,
-          "digital": "1:50:30",
-          "decimal": "1.83",
-          "text": "1 hr 50 mins",
+          "name": "mimir",
+          "total_seconds": 6468.694589,
+          "color": null,
+          "digital": "1:47:48",
+          "decimal": "1.78",
+          "text": "1 hr 47 mins",
           "hours": 1,
-          "minutes": 50,
-          "seconds": 30,
-          "percent": 94.51
+          "minutes": 47,
+          "seconds": 48,
+          "percent": 92.2
         },
         {
-          "name": "Neovim",
+          "name": "trading-bot",
           "total_seconds": 384.946774,
+          "color": null,
           "digital": "0:06:24",
           "decimal": "0.10",
           "text": "6 mins",
@@ -590,34 +585,39 @@
           "minutes": 6,
           "seconds": 24,
           "percent": 5.49
+        },
+        {
+          "name": "DeepSeek-V3",
+          "total_seconds": 160.281082,
+          "color": null,
+          "digital": "0:02:40",
+          "decimal": "0.03",
+          "text": "2 mins",
+          "hours": 0,
+          "minutes": 2,
+          "seconds": 40,
+          "percent": 2.28
+        },
+        {
+          "name": "website",
+          "total_seconds": 1.823862,
+          "color": null,
+          "digital": "0:00:01",
+          "decimal": "0.00",
+          "text": "1 sec",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 1,
+          "percent": 0.03
         }
       ],
-      "operating_systems": [
-        {
-          "name": "Mac",
-          "total_seconds": 7015.746307,
-          "digital": "1:56:55",
-          "decimal": "1.93",
-          "text": "1 hr 56 mins",
-          "hours": 1,
-          "minutes": 56,
-          "seconds": 55,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 7015.746307,
-          "digital": "1:56:55",
-          "decimal": "1.93",
-          "text": "1 hr 56 mins",
-          "hours": 1,
-          "minutes": 56,
-          "seconds": 55,
-          "percent": 100
-        }
-      ]
+      "range": {
+        "start": "2025-04-06T22:00:00Z",
+        "end": "2025-04-07T21:59:59Z",
+        "date": "2025-04-07",
+        "text": "Mon Apr 7th 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-04-06T22:00:00Z",
