@@ -52,6 +52,17 @@
           "minutes": 0,
           "seconds": 0,
           "percent": 0
+        },
+        {
+          "name": "Text",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "dependencies": [
@@ -103,6 +114,17 @@
           "minutes": 2,
           "seconds": 33,
           "percent": 100
+        },
+        {
+          "name": "Neovim",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "operating_systems": [
