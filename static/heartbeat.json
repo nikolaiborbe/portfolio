@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "548cbe6b-536e-4989-887c-4215126e6e05",
+    "entity": "/Users/nikolaiborbe/Documents/Programming/portfolio/src/lib/components/UserCard.svelte",
+    "type": "file",
+    "time": 1744393121.313956,
+    "project": "portfolio",
+    "project_root_count": 6,
+    "branch": "main",
+    "language": "Svelte",
+    "dependencies": [],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 34,
+    "lineno": 16,
+    "cursorpos": 34,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-04-11T17:38:42Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "a3a6b697-8da5-48cf-8984-cc441c410071",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  }
+]
