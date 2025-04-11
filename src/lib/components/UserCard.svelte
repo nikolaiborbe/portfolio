@@ -12,7 +12,7 @@
 		<div class="absolute h-32 w-32 animate-pulse rounded-lg bg-black md:h-40 md:w-40"></div>
 	{/if}
 	<img
-		src="pp.png"
+		src="pp.jpg"
 		onload={() => (loading = false)}
 		class="h-32 w-32 rounded-lg object-cover md:h-40 md:w-40"
 		alt=""
