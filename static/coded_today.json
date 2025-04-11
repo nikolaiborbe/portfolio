@@ -3,252 +3,43 @@
     {
       "grand_total": {
         "hours": 0,
-        "minutes": 7,
-        "total_seconds": 425.987026,
-        "digital": "0:07",
-        "decimal": "0.12",
-        "text": "7 mins"
+        "minutes": 0,
+        "total_seconds": 0,
+        "digital": "0:00",
+        "decimal": "0.00",
+        "text": "0 secs"
       },
       "range": {
-        "start": "2025-04-02T22:00:00Z",
-        "end": "2025-04-03T21:59:59Z",
-        "date": "2025-04-03",
-        "text": "Thu Apr 3rd 2025",
+        "start": "2025-04-10T22:00:00Z",
+        "end": "2025-04-11T21:59:59Z",
+        "date": "2025-04-11",
+        "text": "Fri Apr 11th 2025",
         "timezone": "Europe/Oslo"
       },
-      "projects": [
-        {
-          "name": "Unknown Project",
-          "total_seconds": 201,
-          "color": null,
-          "digital": "0:03:21",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 21,
-          "percent": 47.18
-        },
-        {
-          "name": "website",
-          "total_seconds": 175.987026,
-          "color": null,
-          "digital": "0:02:55",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 55,
-          "percent": 41.31
-        },
-        {
-          "name": "trading-bot",
-          "total_seconds": 49,
-          "color": null,
-          "digital": "0:00:49",
-          "decimal": "0.00",
-          "text": "49 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 49,
-          "percent": 11.5
-        }
-      ],
-      "languages": [
-        {
-          "name": "Python",
-          "total_seconds": 250,
-          "digital": "0:04:10",
-          "decimal": "0.07",
-          "text": "4 mins",
-          "hours": 0,
-          "minutes": 4,
-          "seconds": 10,
-          "percent": 58.69
-        },
-        {
-          "name": "JSON",
-          "total_seconds": 175.987026,
-          "digital": "0:02:55",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 55,
-          "percent": 41.31
-        },
-        {
-          "name": "CSS",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        }
-      ],
-      "dependencies": [
-        {
-          "name": "numpy",
-          "total_seconds": 250,
-          "digital": "0:04:10",
-          "decimal": "0.07",
-          "text": "4 mins",
-          "hours": 0,
-          "minutes": 4,
-          "seconds": 10,
-          "percent": 35.92
-        },
-        {
-          "name": "matplotlib",
-          "total_seconds": 201,
-          "digital": "0:03:21",
-          "decimal": "0.05",
-          "text": "3 mins",
-          "hours": 0,
-          "minutes": 3,
-          "seconds": 21,
-          "percent": 28.88
-        },
-        {
-          "name": "dotenv",
-          "total_seconds": 49,
-          "digital": "0:00:49",
-          "decimal": "0.00",
-          "text": "49 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 49,
-          "percent": 7.04
-        },
-        {
-          "name": "pandas",
-          "total_seconds": 49,
-          "digital": "0:00:49",
-          "decimal": "0.00",
-          "text": "49 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 49,
-          "percent": 7.04
-        },
-        {
-          "name": "time",
-          "total_seconds": 49,
-          "digital": "0:00:49",
-          "decimal": "0.00",
-          "text": "49 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 49,
-          "percent": 7.04
-        },
-        {
-          "name": "datetime",
-          "total_seconds": 49,
-          "digital": "0:00:49",
-          "decimal": "0.00",
-          "text": "49 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 49,
-          "percent": 7.04
-        },
-        {
-          "name": "alpaca_trade_api",
-          "total_seconds": 49,
-          "digital": "0:00:49",
-          "decimal": "0.00",
-          "text": "49 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 49,
-          "percent": 7.04
-        }
-      ],
-      "machines": [
-        {
-          "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 425.987026,
-          "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "0:07:05",
-          "decimal": "0.12",
-          "text": "7 mins",
-          "hours": 0,
-          "minutes": 7,
-          "seconds": 5,
-          "percent": 100
-        }
-      ],
-      "editors": [
-        {
-          "name": "Neovim",
-          "total_seconds": 250,
-          "digital": "0:04:10",
-          "decimal": "0.07",
-          "text": "4 mins",
-          "hours": 0,
-          "minutes": 4,
-          "seconds": 10,
-          "percent": 58.69
-        },
-        {
-          "name": "VS Code",
-          "total_seconds": 175.987026,
-          "digital": "0:02:55",
-          "decimal": "0.03",
-          "text": "2 mins",
-          "hours": 0,
-          "minutes": 2,
-          "seconds": 55,
-          "percent": 41.31
-        }
-      ],
-      "operating_systems": [
-        {
-          "name": "Mac",
-          "total_seconds": 425.987026,
-          "digital": "0:07:05",
-          "decimal": "0.12",
-          "text": "7 mins",
-          "hours": 0,
-          "minutes": 7,
-          "seconds": 5,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 425.987026,
-          "digital": "0:07:05",
-          "decimal": "0.12",
-          "text": "7 mins",
-          "hours": 0,
-          "minutes": 7,
-          "seconds": 5,
-          "percent": 100
-        }
-      ]
+      "projects": [],
+      "languages": [],
+      "dependencies": [],
+      "machines": [],
+      "editors": [],
+      "operating_systems": [],
+      "categories": []
     }
   ],
-  "start": "2025-04-02T22:00:00Z",
-  "end": "2025-04-03T21:59:59Z",
+  "start": "2025-04-10T22:00:00Z",
+  "end": "2025-04-11T21:59:59Z",
   "cumulative_total": {
-    "seconds": 425.987026,
-    "text": "7 mins",
-    "digital": "0:07",
-    "decimal": "0.12"
+    "seconds": 0,
+    "text": "0 secs",
+    "digital": "0:00",
+    "decimal": "0.00"
   },
   "daily_average": {
-    "holidays": 0,
-    "days_minus_holidays": 1,
+    "holidays": 1,
+    "days_minus_holidays": 0,
     "days_including_holidays": 1,
-    "seconds": 426,
-    "seconds_including_other_language": 426,
-    "text": "7 mins",
-    "text_including_other_language": "7 mins"
+    "seconds": 0,
+    "seconds_including_other_language": 0,
+    "text": "0 secs",
+    "text_including_other_language": "0 secs"
   }
 }
