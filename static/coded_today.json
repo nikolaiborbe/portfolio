@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 0,
-        "minutes": 10,
-        "total_seconds": 602.676765,
-        "digital": "0:10",
-        "decimal": "0.17",
-        "text": "10 mins"
+        "minutes": 17,
+        "total_seconds": 1046.091521,
+        "digital": "0:17",
+        "decimal": "0.28",
+        "text": "17 mins"
       },
       "range": {
         "start": "2025-04-11T22:00:00Z",
@@ -19,64 +19,64 @@
       "projects": [
         {
           "name": "engine-software-2025-thermocouple-driver-max31856",
-          "total_seconds": 387.242479,
+          "total_seconds": 760.765892,
           "color": null,
-          "digital": "0:06:27",
-          "decimal": "0.10",
-          "text": "6 mins",
+          "digital": "0:12:40",
+          "decimal": "0.20",
+          "text": "12 mins",
           "hours": 0,
-          "minutes": 6,
-          "seconds": 27,
-          "percent": 64.25
+          "minutes": 12,
+          "seconds": 40,
+          "percent": 72.72
         },
         {
           "name": "engine-software-2025-v0",
-          "total_seconds": 215.434286,
+          "total_seconds": 285.325629,
           "color": null,
-          "digital": "0:03:35",
-          "decimal": "0.05",
-          "text": "3 mins",
+          "digital": "0:04:45",
+          "decimal": "0.07",
+          "text": "4 mins",
           "hours": 0,
-          "minutes": 3,
-          "seconds": 35,
-          "percent": 35.75
+          "minutes": 4,
+          "seconds": 45,
+          "percent": 27.28
         }
       ],
       "languages": [
         {
           "name": "C",
-          "total_seconds": 559.788884,
-          "digital": "0:09:19",
-          "decimal": "0.15",
-          "text": "9 mins",
+          "total_seconds": 958.106537,
+          "digital": "0:15:58",
+          "decimal": "0.25",
+          "text": "15 mins",
           "hours": 0,
-          "minutes": 9,
-          "seconds": 19,
-          "percent": 92.88
+          "minutes": 15,
+          "seconds": 58,
+          "percent": 91.59
         },
         {
           "name": "S",
-          "total_seconds": 42.887881,
-          "digital": "0:00:42",
-          "decimal": "0.00",
-          "text": "42 secs",
+          "total_seconds": 87.984984,
+          "digital": "0:01:27",
+          "decimal": "0.02",
+          "text": "1 min",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 42,
-          "percent": 7.12
+          "minutes": 1,
+          "seconds": 27,
+          "percent": 8.41
         }
       ],
       "dependencies": [
         {
           "name": "thermo",
-          "total_seconds": 387.242479,
-          "digital": "0:06:27",
-          "decimal": "0.10",
-          "text": "6 mins",
+          "total_seconds": 785.560132,
+          "digital": "0:13:05",
+          "decimal": "0.22",
+          "text": "13 mins",
           "hours": 0,
-          "minutes": 6,
-          "seconds": 27,
-          "percent": 51.67
+          "minutes": 13,
+          "seconds": 5,
+          "percent": 68.44
         },
         {
           "name": "encoder",
@@ -87,7 +87,7 @@
           "hours": 0,
           "minutes": 2,
           "seconds": 25,
-          "percent": 19.37
+          "percent": 12.65
         },
         {
           "name": "fdcandriver",
@@ -98,7 +98,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.85
+          "percent": 1.21
         },
         {
           "name": "adc",
@@ -109,7 +109,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.81
+          "percent": 1.18
         },
         {
           "name": "dma",
@@ -120,7 +120,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.81
+          "percent": 1.18
         },
         {
           "name": "quadspi",
@@ -131,7 +131,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.81
+          "percent": 1.18
         },
         {
           "name": "app_threadx",
@@ -142,7 +142,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.81
+          "percent": 1.18
         },
         {
           "name": "eth",
@@ -153,7 +153,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.81
+          "percent": 1.18
         },
         {
           "name": "usb_otg",
@@ -164,7 +164,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.81
+          "percent": 1.18
         },
         {
           "name": "gpio",
@@ -175,7 +175,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.81
+          "percent": 1.18
         },
         {
           "name": "fdcan",
@@ -186,7 +186,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.81
+          "percent": 1.18
         },
         {
           "name": "tx_api",
@@ -197,7 +197,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.81
+          "percent": 1.18
         },
         {
           "name": "app_netxduo",
@@ -208,7 +208,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.81
+          "percent": 1.18
         },
         {
           "name": "sdmmc",
@@ -219,7 +219,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.81
+          "percent": 1.18
         },
         {
           "name": "spi",
@@ -230,7 +230,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.81
+          "percent": 1.18
         },
         {
           "name": "tim",
@@ -241,7 +241,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.81
+          "percent": 1.18
         },
         {
           "name": "memorymap",
@@ -252,7 +252,7 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.81
+          "percent": 1.18
         },
         {
           "name": "main",
@@ -263,82 +263,82 @@
           "hours": 0,
           "minutes": 0,
           "seconds": 13,
-          "percent": 1.81
+          "percent": 1.18
         }
       ],
       "machines": [
         {
           "name": "ngb",
-          "total_seconds": 602.676765,
+          "total_seconds": 1046.091521,
           "machine_name_id": "2983c34c-1cc8-4a1f-8c2e-6c8f1c7289e8",
-          "digital": "0:10:02",
-          "decimal": "0.17",
-          "text": "10 mins",
+          "digital": "0:17:26",
+          "decimal": "0.28",
+          "text": "17 mins",
           "hours": 0,
-          "minutes": 10,
-          "seconds": 2,
+          "minutes": 17,
+          "seconds": 26,
           "percent": 100
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 602.676765,
-          "digital": "0:10:02",
-          "decimal": "0.17",
-          "text": "10 mins",
+          "total_seconds": 1046.091521,
+          "digital": "0:17:26",
+          "decimal": "0.28",
+          "text": "17 mins",
           "hours": 0,
-          "minutes": 10,
-          "seconds": 2,
+          "minutes": 17,
+          "seconds": 26,
           "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Windows",
-          "total_seconds": 602.676765,
-          "digital": "0:10:02",
-          "decimal": "0.17",
-          "text": "10 mins",
+          "total_seconds": 1046.091521,
+          "digital": "0:17:26",
+          "decimal": "0.28",
+          "text": "17 mins",
           "hours": 0,
-          "minutes": 10,
-          "seconds": 2,
+          "minutes": 17,
+          "seconds": 26,
           "percent": 100
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 443.805049,
-          "digital": "0:07:23",
-          "decimal": "0.12",
-          "text": "7 mins",
+          "total_seconds": 592.032731,
+          "digital": "0:09:52",
+          "decimal": "0.15",
+          "text": "9 mins",
           "hours": 0,
-          "minutes": 7,
-          "seconds": 23,
-          "percent": 73.64
+          "minutes": 9,
+          "seconds": 52,
+          "percent": 56.59
+        },
+        {
+          "name": "Debugging",
+          "total_seconds": 335.830922,
+          "digital": "0:05:35",
+          "decimal": "0.08",
+          "text": "5 mins",
+          "hours": 0,
+          "minutes": 5,
+          "seconds": 35,
+          "percent": 32.1
         },
         {
           "name": "Building",
-          "total_seconds": 108.656613,
-          "digital": "0:01:48",
+          "total_seconds": 118.227868,
+          "digital": "0:01:58",
           "decimal": "0.02",
           "text": "1 min",
           "hours": 0,
           "minutes": 1,
-          "seconds": 48,
-          "percent": 18.03
-        },
-        {
-          "name": "Debugging",
-          "total_seconds": 50.215103,
-          "digital": "0:00:50",
-          "decimal": "0.00",
-          "text": "50 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 50,
-          "percent": 8.33
+          "seconds": 58,
+          "percent": 11.3
         }
       ]
     }
@@ -346,18 +346,18 @@
   "start": "2025-04-11T22:00:00Z",
   "end": "2025-04-12T21:59:59Z",
   "cumulative_total": {
-    "seconds": 602.676765,
-    "text": "10 mins",
-    "digital": "0:10",
-    "decimal": "0.17"
+    "seconds": 1046.091521,
+    "text": "17 mins",
+    "digital": "0:17",
+    "decimal": "0.28"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 603,
-    "seconds_including_other_language": 603,
-    "text": "10 mins",
-    "text_including_other_language": "10 mins"
+    "seconds": 1046,
+    "seconds_including_other_language": 1046,
+    "text": "17 mins",
+    "text_including_other_language": "17 mins"
   }
 }
