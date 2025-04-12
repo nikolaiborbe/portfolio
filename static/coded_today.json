@@ -1,19 +1,6 @@
 {
   "data": [
     {
-      "languages": [
-        {
-          "name": "Svelte",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        }
-      ],
       "grand_total": {
         "hours": 0,
         "minutes": 0,
@@ -22,85 +9,24 @@
         "decimal": "0.00",
         "text": "0 secs"
       },
-      "editors": [
-        {
-          "name": "VS Code",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        }
-      ],
-      "operating_systems": [
-        {
-          "name": "Mac",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        }
-      ],
-      "dependencies": [],
-      "machines": [
-        {
-          "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 0,
-          "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        }
-      ],
-      "projects": [
-        {
-          "name": "portfolio",
-          "total_seconds": 0,
-          "color": null,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
-        }
-      ],
       "range": {
-        "start": "2025-04-10T22:00:00Z",
-        "end": "2025-04-11T21:59:59Z",
-        "date": "2025-04-11",
-        "text": "Fri Apr 11th 2025",
+        "start": "2025-04-11T22:00:00Z",
+        "end": "2025-04-12T21:59:59Z",
+        "date": "2025-04-12",
+        "text": "Sat Apr 12th 2025",
         "timezone": "Europe/Oslo"
-      }
+      },
+      "projects": [],
+      "languages": [],
+      "dependencies": [],
+      "machines": [],
+      "editors": [],
+      "operating_systems": [],
+      "categories": []
     }
   ],
-  "start": "2025-04-10T22:00:00Z",
-  "end": "2025-04-11T21:59:59Z",
+  "start": "2025-04-11T22:00:00Z",
+  "end": "2025-04-12T21:59:59Z",
   "cumulative_total": {
     "seconds": 0,
     "text": "0 secs",
