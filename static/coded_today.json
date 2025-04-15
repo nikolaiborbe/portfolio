@@ -1,26 +1,10 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 0,
-        "minutes": 42,
-        "total_seconds": 2547,
-        "digital": "0:42",
-        "decimal": "0.70",
-        "text": "42 mins"
-      },
-      "range": {
-        "start": "2025-04-14T22:00:00Z",
-        "end": "2025-04-15T21:59:59Z",
-        "date": "2025-04-15",
-        "text": "Tue Apr 15th 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
+      "languages": [
         {
-          "name": "Uni",
+          "name": "Python",
           "total_seconds": 2547,
-          "color": null,
           "digital": "0:42:27",
           "decimal": "0.70",
           "text": "42 mins",
@@ -30,9 +14,43 @@
           "percent": 100
         }
       ],
-      "languages": [
+      "grand_total": {
+        "hours": 0,
+        "minutes": 42,
+        "total_seconds": 2547,
+        "digital": "0:42",
+        "decimal": "0.70",
+        "text": "42 mins"
+      },
+      "editors": [
         {
-          "name": "Python",
+          "name": "Neovim",
+          "total_seconds": 2547,
+          "digital": "0:42:27",
+          "decimal": "0.70",
+          "text": "42 mins",
+          "hours": 0,
+          "minutes": 42,
+          "seconds": 27,
+          "percent": 100
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Mac",
+          "total_seconds": 2547,
+          "digital": "0:42:27",
+          "decimal": "0.70",
+          "text": "42 mins",
+          "hours": 0,
+          "minutes": 42,
+          "seconds": 27,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
           "total_seconds": 2547,
           "digital": "0:42:27",
           "decimal": "0.70",
@@ -92,10 +110,11 @@
           "percent": 100
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "Neovim",
+          "name": "Uni",
           "total_seconds": 2547,
+          "color": null,
           "digital": "0:42:27",
           "decimal": "0.70",
           "text": "42 mins",
@@ -105,32 +124,13 @@
           "percent": 100
         }
       ],
-      "operating_systems": [
-        {
-          "name": "Mac",
-          "total_seconds": 2547,
-          "digital": "0:42:27",
-          "decimal": "0.70",
-          "text": "42 mins",
-          "hours": 0,
-          "minutes": 42,
-          "seconds": 27,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 2547,
-          "digital": "0:42:27",
-          "decimal": "0.70",
-          "text": "42 mins",
-          "hours": 0,
-          "minutes": 42,
-          "seconds": 27,
-          "percent": 100
-        }
-      ]
+      "range": {
+        "start": "2025-04-14T22:00:00Z",
+        "end": "2025-04-15T21:59:59Z",
+        "date": "2025-04-15",
+        "text": "Tue Apr 15th 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-04-14T22:00:00Z",
