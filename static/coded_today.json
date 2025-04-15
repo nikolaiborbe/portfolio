@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 0,
-        "minutes": 27,
-        "total_seconds": 1646,
-        "digital": "0:27",
-        "decimal": "0.45",
-        "text": "27 mins"
+        "minutes": 37,
+        "total_seconds": 2265,
+        "digital": "0:37",
+        "decimal": "0.62",
+        "text": "37 mins"
       },
       "range": {
         "start": "2025-04-14T22:00:00Z",
@@ -19,115 +19,115 @@
       "projects": [
         {
           "name": "Uni",
-          "total_seconds": 1646,
+          "total_seconds": 2265,
           "color": null,
-          "digital": "0:27:26",
-          "decimal": "0.45",
-          "text": "27 mins",
+          "digital": "0:37:45",
+          "decimal": "0.62",
+          "text": "37 mins",
           "hours": 0,
-          "minutes": 27,
-          "seconds": 26,
+          "minutes": 37,
+          "seconds": 45,
           "percent": 100
         }
       ],
       "languages": [
         {
           "name": "Python",
-          "total_seconds": 1646,
-          "digital": "0:27:26",
-          "decimal": "0.45",
-          "text": "27 mins",
+          "total_seconds": 2265,
+          "digital": "0:37:45",
+          "decimal": "0.62",
+          "text": "37 mins",
           "hours": 0,
-          "minutes": 27,
-          "seconds": 26,
+          "minutes": 37,
+          "seconds": 45,
           "percent": 100
         }
       ],
       "dependencies": [
         {
           "name": "numpy",
-          "total_seconds": 1646,
-          "digital": "0:27:26",
-          "decimal": "0.45",
-          "text": "27 mins",
+          "total_seconds": 2265,
+          "digital": "0:37:45",
+          "decimal": "0.62",
+          "text": "37 mins",
           "hours": 0,
-          "minutes": 27,
-          "seconds": 26,
+          "minutes": 37,
+          "seconds": 45,
           "percent": 33.33
         },
         {
           "name": "matplotlib",
-          "total_seconds": 1646,
-          "digital": "0:27:26",
-          "decimal": "0.45",
-          "text": "27 mins",
+          "total_seconds": 2265,
+          "digital": "0:37:45",
+          "decimal": "0.62",
+          "text": "37 mins",
           "hours": 0,
-          "minutes": 27,
-          "seconds": 26,
+          "minutes": 37,
+          "seconds": 45,
           "percent": 33.33
         },
         {
           "name": "math",
-          "total_seconds": 1646,
-          "digital": "0:27:26",
-          "decimal": "0.45",
-          "text": "27 mins",
+          "total_seconds": 2265,
+          "digital": "0:37:45",
+          "decimal": "0.62",
+          "text": "37 mins",
           "hours": 0,
-          "minutes": 27,
-          "seconds": 26,
+          "minutes": 37,
+          "seconds": 45,
           "percent": 33.33
         }
       ],
       "machines": [
         {
           "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 1646,
+          "total_seconds": 2265,
           "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "0:27:26",
-          "decimal": "0.45",
-          "text": "27 mins",
+          "digital": "0:37:45",
+          "decimal": "0.62",
+          "text": "37 mins",
           "hours": 0,
-          "minutes": 27,
-          "seconds": 26,
+          "minutes": 37,
+          "seconds": 45,
           "percent": 100
         }
       ],
       "editors": [
         {
           "name": "Neovim",
-          "total_seconds": 1646,
-          "digital": "0:27:26",
-          "decimal": "0.45",
-          "text": "27 mins",
+          "total_seconds": 2265,
+          "digital": "0:37:45",
+          "decimal": "0.62",
+          "text": "37 mins",
           "hours": 0,
-          "minutes": 27,
-          "seconds": 26,
+          "minutes": 37,
+          "seconds": 45,
           "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Mac",
-          "total_seconds": 1646,
-          "digital": "0:27:26",
-          "decimal": "0.45",
-          "text": "27 mins",
+          "total_seconds": 2265,
+          "digital": "0:37:45",
+          "decimal": "0.62",
+          "text": "37 mins",
           "hours": 0,
-          "minutes": 27,
-          "seconds": 26,
+          "minutes": 37,
+          "seconds": 45,
           "percent": 100
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 1646,
-          "digital": "0:27:26",
-          "decimal": "0.45",
-          "text": "27 mins",
+          "total_seconds": 2265,
+          "digital": "0:37:45",
+          "decimal": "0.62",
+          "text": "37 mins",
           "hours": 0,
-          "minutes": 27,
-          "seconds": 26,
+          "minutes": 37,
+          "seconds": 45,
           "percent": 100
         }
       ]
@@ -136,18 +136,18 @@
   "start": "2025-04-14T22:00:00Z",
   "end": "2025-04-15T21:59:59Z",
   "cumulative_total": {
-    "seconds": 1646,
-    "text": "27 mins",
-    "digital": "0:27",
-    "decimal": "0.45"
+    "seconds": 2265,
+    "text": "37 mins",
+    "digital": "0:37",
+    "decimal": "0.62"
   },
   "daily_average": {
     "holidays": 0,
     "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 1646,
-    "seconds_including_other_language": 1646,
-    "text": "27 mins",
-    "text_including_other_language": "27 mins"
+    "seconds": 2265,
+    "seconds_including_other_language": 2265,
+    "text": "37 mins",
+    "text_including_other_language": "37 mins"
   }
 }
