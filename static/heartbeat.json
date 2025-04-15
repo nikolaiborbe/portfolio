@@ -1,31 +1,5 @@
 [
   {
-    "id": "93cb3de4-fd83-410d-b2b5-e3f1c74e6686",
-    "entity": "/Users/nikolaiborbe/Documents/Uni/bøfler/eks_2024/24v.py",
-    "type": "file",
-    "time": 1744712577,
-    "project": "Uni",
-    "project_root_count": 5,
-    "branch": "main",
-    "language": "Python",
-    "dependencies": [
-      "math",
-      "numpy",
-      "matplotlib"
-    ],
-    "line_additions": null,
-    "line_deletions": null,
-    "lines": 41,
-    "lineno": 40,
-    "cursorpos": 23,
-    "is_write": true,
-    "category": "coding",
-    "created_at": "2025-04-15T10:24:27Z",
-    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
-    "user_agent_id": "c8667cd6-fd11-4b72-b16f-f176a9832a84",
-    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
-  },
-  {
     "id": "90984f57-3ad5-496b-8506-a9de8d6d8815",
     "entity": "/Users/nikolaiborbe/Documents/Uni/bøfler/eks_2024/24v.py",
     "type": "file",
@@ -125,6 +99,32 @@
     "is_write": false,
     "category": "coding",
     "created_at": "2025-04-15T10:31:09Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "c8667cd6-fd11-4b72-b16f-f176a9832a84",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  },
+  {
+    "id": "72375c29-db81-4b7c-9582-dfff7d00a732",
+    "entity": "/Users/nikolaiborbe/Documents/Uni/bøfler/eks_2024/24v.py",
+    "type": "file",
+    "time": 1744713670,
+    "project": "Uni",
+    "project_root_count": 5,
+    "branch": "main",
+    "language": "Python",
+    "dependencies": [
+      "math",
+      "numpy",
+      "matplotlib"
+    ],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 39,
+    "lineno": 1,
+    "cursorpos": 31,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-04-15T10:41:11Z",
     "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
     "user_agent_id": "c8667cd6-fd11-4b72-b16f-f176a9832a84",
     "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
