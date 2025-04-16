@@ -268,51 +268,7 @@
           "percent": 0.6
         },
         {
-          "name": "pressurecmd",
-          "total_seconds": 28.300322,
-          "digital": "0:00:28",
-          "decimal": "0.00",
-          "text": "28 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 28,
-          "percent": 0.58
-        },
-        {
           "name": "threadpool",
-          "total_seconds": 28.300322,
-          "digital": "0:00:28",
-          "decimal": "0.00",
-          "text": "28 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 28,
-          "percent": 0.58
-        },
-        {
-          "name": "syscmd",
-          "total_seconds": 28.300322,
-          "digital": "0:00:28",
-          "decimal": "0.00",
-          "text": "28 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 28,
-          "percent": 0.58
-        },
-        {
-          "name": "eregcmd",
-          "total_seconds": 28.300322,
-          "digital": "0:00:28",
-          "decimal": "0.00",
-          "text": "28 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 28,
-          "percent": 0.58
-        },
-        {
-          "name": "servocmd",
           "total_seconds": 28.300322,
           "digital": "0:00:28",
           "decimal": "0.00",
@@ -334,7 +290,18 @@
           "percent": 0.58
         },
         {
-          "name": "consolecmd",
+          "name": "fsmcmd",
+          "total_seconds": 28.300322,
+          "digital": "0:00:28",
+          "decimal": "0.00",
+          "text": "28 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 28,
+          "percent": 0.58
+        },
+        {
+          "name": "pressurecmd",
           "total_seconds": 28.300322,
           "digital": "0:00:28",
           "decimal": "0.00",
@@ -356,7 +323,40 @@
           "percent": 0.58
         },
         {
-          "name": "fsmcmd",
+          "name": "syscmd",
+          "total_seconds": 28.300322,
+          "digital": "0:00:28",
+          "decimal": "0.00",
+          "text": "28 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 28,
+          "percent": 0.58
+        },
+        {
+          "name": "servocmd",
+          "total_seconds": 28.300322,
+          "digital": "0:00:28",
+          "decimal": "0.00",
+          "text": "28 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 28,
+          "percent": 0.58
+        },
+        {
+          "name": "consolecmd",
+          "total_seconds": 28.300322,
+          "digital": "0:00:28",
+          "decimal": "0.00",
+          "text": "28 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 28,
+          "percent": 0.58
+        },
+        {
+          "name": "eregcmd",
           "total_seconds": 28.300322,
           "digital": "0:00:28",
           "decimal": "0.00",
@@ -433,7 +433,7 @@
           "percent": 0.04
         },
         {
-          "name": "ADS8674",
+          "name": "FIR",
           "total_seconds": 1.768703,
           "digital": "0:00:01",
           "decimal": "0.00",
@@ -444,7 +444,7 @@
           "percent": 0.04
         },
         {
-          "name": "FIR",
+          "name": "ADS8674",
           "total_seconds": 1.768703,
           "digital": "0:00:01",
           "decimal": "0.00",
@@ -466,7 +466,7 @@
           "percent": 0.03
         },
         {
-          "name": "config",
+          "name": "nxd_telnet_server",
           "total_seconds": 1.183877,
           "digital": "0:00:01",
           "decimal": "0.00",
@@ -477,7 +477,7 @@
           "percent": 0.02
         },
         {
-          "name": "nxd_telnet_server",
+          "name": "config",
           "total_seconds": 1.183877,
           "digital": "0:00:01",
           "decimal": "0.00",
