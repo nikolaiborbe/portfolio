@@ -1,33 +1,5 @@
 [
   {
-    "id": "05629929-0aa4-4082-a368-61d0e8087f9c",
-    "entity": "/Users/nikolaiborbe/Documents/Complexity/mimir/R&D/pairs_trading.py",
-    "type": "file",
-    "time": 1744834599,
-    "project": "mimir",
-    "project_root_count": 6,
-    "branch": "main",
-    "language": "Python",
-    "dependencies": [
-      "statsmodels",
-      "yfinance",
-      "matplotlib",
-      "pandas",
-      "datetime"
-    ],
-    "line_additions": null,
-    "line_deletions": null,
-    "lines": 90,
-    "lineno": 52,
-    "cursorpos": 30,
-    "is_write": true,
-    "category": "coding",
-    "created_at": "2025-04-16T20:16:40Z",
-    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
-    "user_agent_id": "c8667cd6-fd11-4b72-b16f-f176a9832a84",
-    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
-  },
-  {
     "id": "198c3c1d-df6b-4de3-ab11-f017d0f52053",
     "entity": "/Users/nikolaiborbe/Documents/Complexity/mimir/R&D/pairs_trading.py",
     "type": "file",
@@ -135,6 +107,34 @@
     "is_write": false,
     "category": "coding",
     "created_at": "2025-04-16T20:37:42Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "c8667cd6-fd11-4b72-b16f-f176a9832a84",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  },
+  {
+    "id": "cf567a9a-8b97-4152-a525-ab66022ab997",
+    "entity": "/Users/nikolaiborbe/Documents/Complexity/mimir/R&D/pairs_trading.py",
+    "type": "file",
+    "time": 1744836517,
+    "project": "mimir",
+    "project_root_count": 6,
+    "branch": "main",
+    "language": "Python",
+    "dependencies": [
+      "statsmodels",
+      "yfinance",
+      "matplotlib",
+      "pandas",
+      "datetime"
+    ],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 90,
+    "lineno": 62,
+    "cursorpos": 34,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-04-16T20:48:37Z",
     "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
     "user_agent_id": "c8667cd6-fd11-4b72-b16f-f176a9832a84",
     "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
