@@ -28,6 +28,18 @@
           "minutes": 14,
           "seconds": 25,
           "percent": 100
+        },
+        {
+          "name": "filling-station",
+          "total_seconds": 0,
+          "color": null,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "languages": [
@@ -52,6 +64,17 @@
           "minutes": 0,
           "seconds": 1,
           "percent": 0.2
+        },
+        {
+          "name": "Markdown",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "dependencies": [
