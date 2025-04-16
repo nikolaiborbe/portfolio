@@ -52,6 +52,18 @@
           "minutes": 14,
           "seconds": 25,
           "percent": 29.72
+        },
+        {
+          "name": "mimir",
+          "total_seconds": 0,
+          "color": null,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "languages": [
@@ -120,6 +132,17 @@
           "minutes": 0,
           "seconds": 4,
           "percent": 0.17
+        },
+        {
+          "name": "Python",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "dependencies": [
@@ -521,6 +544,18 @@
           "minutes": 48,
           "seconds": 31,
           "percent": 100
+        },
+        {
+          "name": "Nikolais-Mac-mini.local",
+          "total_seconds": 0,
+          "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "editors": [
@@ -547,6 +582,17 @@
           "minutes": 48,
           "seconds": 31,
           "percent": 100
+        },
+        {
+          "name": "Mac",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
         }
       ],
       "categories": [
