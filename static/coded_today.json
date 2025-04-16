@@ -1,153 +1,45 @@
 {
   "data": [
     {
-      "languages": [
-        {
-          "name": "Python",
-          "total_seconds": 2547,
-          "digital": "0:42:27",
-          "decimal": "0.70",
-          "text": "42 mins",
-          "hours": 0,
-          "minutes": 42,
-          "seconds": 27,
-          "percent": 100
-        }
-      ],
       "grand_total": {
         "hours": 0,
-        "minutes": 42,
-        "total_seconds": 2547,
-        "digital": "0:42",
-        "decimal": "0.70",
-        "text": "42 mins"
+        "minutes": 0,
+        "total_seconds": 0,
+        "digital": "0:00",
+        "decimal": "0.00",
+        "text": "0 secs"
       },
-      "editors": [
-        {
-          "name": "Neovim",
-          "total_seconds": 2547,
-          "digital": "0:42:27",
-          "decimal": "0.70",
-          "text": "42 mins",
-          "hours": 0,
-          "minutes": 42,
-          "seconds": 27,
-          "percent": 100
-        }
-      ],
-      "operating_systems": [
-        {
-          "name": "Mac",
-          "total_seconds": 2547,
-          "digital": "0:42:27",
-          "decimal": "0.70",
-          "text": "42 mins",
-          "hours": 0,
-          "minutes": 42,
-          "seconds": 27,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 2547,
-          "digital": "0:42:27",
-          "decimal": "0.70",
-          "text": "42 mins",
-          "hours": 0,
-          "minutes": 42,
-          "seconds": 27,
-          "percent": 100
-        }
-      ],
-      "dependencies": [
-        {
-          "name": "numpy",
-          "total_seconds": 2547,
-          "digital": "0:42:27",
-          "decimal": "0.70",
-          "text": "42 mins",
-          "hours": 0,
-          "minutes": 42,
-          "seconds": 27,
-          "percent": 33.33
-        },
-        {
-          "name": "matplotlib",
-          "total_seconds": 2547,
-          "digital": "0:42:27",
-          "decimal": "0.70",
-          "text": "42 mins",
-          "hours": 0,
-          "minutes": 42,
-          "seconds": 27,
-          "percent": 33.33
-        },
-        {
-          "name": "math",
-          "total_seconds": 2547,
-          "digital": "0:42:27",
-          "decimal": "0.70",
-          "text": "42 mins",
-          "hours": 0,
-          "minutes": 42,
-          "seconds": 27,
-          "percent": 33.33
-        }
-      ],
-      "machines": [
-        {
-          "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 2547,
-          "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "0:42:27",
-          "decimal": "0.70",
-          "text": "42 mins",
-          "hours": 0,
-          "minutes": 42,
-          "seconds": 27,
-          "percent": 100
-        }
-      ],
-      "projects": [
-        {
-          "name": "Uni",
-          "total_seconds": 2547,
-          "color": null,
-          "digital": "0:42:27",
-          "decimal": "0.70",
-          "text": "42 mins",
-          "hours": 0,
-          "minutes": 42,
-          "seconds": 27,
-          "percent": 100
-        }
-      ],
       "range": {
-        "start": "2025-04-14T22:00:00Z",
-        "end": "2025-04-15T21:59:59Z",
-        "date": "2025-04-15",
-        "text": "Tue Apr 15th 2025",
+        "start": "2025-04-15T22:00:00Z",
+        "end": "2025-04-16T21:59:59Z",
+        "date": "2025-04-16",
+        "text": "Wed Apr 16th 2025",
         "timezone": "Europe/Oslo"
-      }
+      },
+      "projects": [],
+      "languages": [],
+      "dependencies": [],
+      "machines": [],
+      "editors": [],
+      "operating_systems": [],
+      "categories": []
     }
   ],
-  "start": "2025-04-14T22:00:00Z",
-  "end": "2025-04-15T21:59:59Z",
+  "start": "2025-04-15T22:00:00Z",
+  "end": "2025-04-16T21:59:59Z",
   "cumulative_total": {
-    "seconds": 2547,
-    "text": "42 mins",
-    "digital": "0:42",
-    "decimal": "0.70"
+    "seconds": 0,
+    "text": "0 secs",
+    "digital": "0:00",
+    "decimal": "0.00"
   },
   "daily_average": {
-    "holidays": 0,
-    "days_minus_holidays": 1,
+    "holidays": 1,
+    "days_minus_holidays": 0,
     "days_including_holidays": 1,
-    "seconds": 2547,
-    "seconds_including_other_language": 2547,
-    "text": "42 mins",
-    "text_including_other_language": "42 mins"
+    "seconds": 0,
+    "seconds_including_other_language": 0,
+    "text": "0 secs",
+    "text_including_other_language": "0 secs"
   }
 }
