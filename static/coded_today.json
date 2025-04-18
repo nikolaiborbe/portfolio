@@ -1,59 +1,6 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 2,
-        "minutes": 0,
-        "total_seconds": 7236.829701,
-        "digital": "2:00",
-        "decimal": "2.00",
-        "text": "2 hrs"
-      },
-      "range": {
-        "start": "2025-04-17T22:00:00Z",
-        "end": "2025-04-18T21:59:59Z",
-        "date": "2025-04-18",
-        "text": "Fri Apr 18th 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
-        {
-          "name": "engine-software-2024-v0",
-          "total_seconds": 7132.019072,
-          "color": null,
-          "digital": "1:58:52",
-          "decimal": "1.97",
-          "text": "1 hr 58 mins",
-          "hours": 1,
-          "minutes": 58,
-          "seconds": 52,
-          "percent": 98.55
-        },
-        {
-          "name": "engine-software-2025-thermocouple-driver-max31856",
-          "total_seconds": 70.794712,
-          "color": null,
-          "digital": "0:01:10",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 10,
-          "percent": 0.98
-        },
-        {
-          "name": "engine-software-2025-v0",
-          "total_seconds": 34.015917,
-          "color": null,
-          "digital": "0:00:34",
-          "decimal": "0.00",
-          "text": "34 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 34,
-          "percent": 0.47
-        }
-      ],
       "languages": [
         {
           "name": "CMake",
@@ -164,6 +111,64 @@
           "minutes": 0,
           "seconds": 0,
           "percent": 0.01
+        }
+      ],
+      "grand_total": {
+        "hours": 2,
+        "minutes": 0,
+        "total_seconds": 7236.829701,
+        "digital": "2:00",
+        "decimal": "2.00",
+        "text": "2 hrs"
+      },
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 7236.829701,
+          "digital": "2:00:36",
+          "decimal": "2.00",
+          "text": "2 hrs",
+          "hours": 2,
+          "minutes": 0,
+          "seconds": 36,
+          "percent": 100
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Windows",
+          "total_seconds": 7236.829701,
+          "digital": "2:00:36",
+          "decimal": "2.00",
+          "text": "2 hrs",
+          "hours": 2,
+          "minutes": 0,
+          "seconds": 36,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 7040.143192,
+          "digital": "1:57:20",
+          "decimal": "1.95",
+          "text": "1 hr 57 mins",
+          "hours": 1,
+          "minutes": 57,
+          "seconds": 20,
+          "percent": 97.28
+        },
+        {
+          "name": "Building",
+          "total_seconds": 196.686509,
+          "digital": "0:03:16",
+          "decimal": "0.05",
+          "text": "3 mins",
+          "hours": 0,
+          "minutes": 3,
+          "seconds": 16,
+          "percent": 2.72
         }
       ],
       "dependencies": [
@@ -699,56 +704,51 @@
           "percent": 100
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "VS Code",
-          "total_seconds": 7236.829701,
-          "digital": "2:00:36",
-          "decimal": "2.00",
-          "text": "2 hrs",
-          "hours": 2,
-          "minutes": 0,
-          "seconds": 36,
-          "percent": 100
-        }
-      ],
-      "operating_systems": [
-        {
-          "name": "Windows",
-          "total_seconds": 7236.829701,
-          "digital": "2:00:36",
-          "decimal": "2.00",
-          "text": "2 hrs",
-          "hours": 2,
-          "minutes": 0,
-          "seconds": 36,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 7040.143192,
-          "digital": "1:57:20",
-          "decimal": "1.95",
-          "text": "1 hr 57 mins",
+          "name": "engine-software-2024-v0",
+          "total_seconds": 7132.019072,
+          "color": null,
+          "digital": "1:58:52",
+          "decimal": "1.97",
+          "text": "1 hr 58 mins",
           "hours": 1,
-          "minutes": 57,
-          "seconds": 20,
-          "percent": 97.28
+          "minutes": 58,
+          "seconds": 52,
+          "percent": 98.55
         },
         {
-          "name": "Building",
-          "total_seconds": 196.686509,
-          "digital": "0:03:16",
-          "decimal": "0.05",
-          "text": "3 mins",
+          "name": "engine-software-2025-thermocouple-driver-max31856",
+          "total_seconds": 70.794712,
+          "color": null,
+          "digital": "0:01:10",
+          "decimal": "0.02",
+          "text": "1 min",
           "hours": 0,
-          "minutes": 3,
-          "seconds": 16,
-          "percent": 2.72
+          "minutes": 1,
+          "seconds": 10,
+          "percent": 0.98
+        },
+        {
+          "name": "engine-software-2025-v0",
+          "total_seconds": 34.015917,
+          "color": null,
+          "digital": "0:00:34",
+          "decimal": "0.00",
+          "text": "34 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 34,
+          "percent": 0.47
         }
-      ]
+      ],
+      "range": {
+        "start": "2025-04-17T22:00:00Z",
+        "end": "2025-04-18T21:59:59Z",
+        "date": "2025-04-18",
+        "text": "Fri Apr 18th 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-04-17T22:00:00Z",
