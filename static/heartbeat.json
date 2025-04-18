@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "id": "be30aa24-b998-42c6-accd-0bae7081cdbd",
+    "entity": "C:/Users/nikol/MAIN/programmering/Propulse/engine-software-2025-thermocouple-driver-max31856/Core/Src/MAX31856.c",
+    "type": "file",
+    "time": 1744971588.317502,
+    "project": "engine-software-2025-thermocouple-driver-max31856",
+    "project_root_count": 7,
+    "branch": "main",
+    "language": "C",
+    "dependencies": [
+      "MAX31856",
+      "main"
+    ],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 480,
+    "lineno": 254,
+    "cursorpos": 48,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-04-18T10:19:48Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "7bf8ccc9-30c7-4da3-882c-620fedea98e4",
+    "machine_name_id": "2983c34c-1cc8-4a1f-8c2e-6c8f1c7289e8"
+  }
+]
