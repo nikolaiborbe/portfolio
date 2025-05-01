@@ -1,59 +1,6 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 1,
-        "minutes": 57,
-        "total_seconds": 7057.671711,
-        "digital": "1:57",
-        "decimal": "1.95",
-        "text": "1 hr 57 mins"
-      },
-      "range": {
-        "start": "2025-04-30T22:00:00Z",
-        "end": "2025-05-01T21:59:59Z",
-        "date": "2025-05-01",
-        "text": "Thu May 1st 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
-        {
-          "name": "engine-software-2025-v0",
-          "total_seconds": 2742.671711,
-          "color": null,
-          "digital": "0:45:42",
-          "decimal": "0.75",
-          "text": "45 mins",
-          "hours": 0,
-          "minutes": 45,
-          "seconds": 42,
-          "percent": 38.86
-        },
-        {
-          "name": "Unknown Project",
-          "total_seconds": 2526,
-          "color": null,
-          "digital": "0:42:06",
-          "decimal": "0.70",
-          "text": "42 mins",
-          "hours": 0,
-          "minutes": 42,
-          "seconds": 6,
-          "percent": 35.79
-        },
-        {
-          "name": "tracker",
-          "total_seconds": 1789,
-          "color": null,
-          "digital": "0:29:49",
-          "decimal": "0.48",
-          "text": "29 mins",
-          "hours": 0,
-          "minutes": 29,
-          "seconds": 49,
-          "percent": 25.35
-        }
-      ],
       "languages": [
         {
           "name": "Python",
@@ -175,6 +122,64 @@
           "minutes": 0,
           "seconds": 3,
           "percent": 0.04
+        }
+      ],
+      "grand_total": {
+        "hours": 1,
+        "minutes": 57,
+        "total_seconds": 7057.671711,
+        "digital": "1:57",
+        "decimal": "1.95",
+        "text": "1 hr 57 mins"
+      },
+      "editors": [
+        {
+          "name": "Neovim",
+          "total_seconds": 4315,
+          "digital": "1:11:55",
+          "decimal": "1.18",
+          "text": "1 hr 11 mins",
+          "hours": 1,
+          "minutes": 11,
+          "seconds": 55,
+          "percent": 61.14
+        },
+        {
+          "name": "VS Code",
+          "total_seconds": 2742.671711,
+          "digital": "0:45:42",
+          "decimal": "0.75",
+          "text": "45 mins",
+          "hours": 0,
+          "minutes": 45,
+          "seconds": 42,
+          "percent": 38.86
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Mac",
+          "total_seconds": 7057.671711,
+          "digital": "1:57:37",
+          "decimal": "1.95",
+          "text": "1 hr 57 mins",
+          "hours": 1,
+          "minutes": 57,
+          "seconds": 37,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 7057.671711,
+          "digital": "1:57:37",
+          "decimal": "1.95",
+          "text": "1 hr 57 mins",
+          "hours": 1,
+          "minutes": 57,
+          "seconds": 37,
+          "percent": 100
         }
       ],
       "dependencies": [
@@ -479,21 +484,11 @@
           "percent": 100
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "Neovim",
-          "total_seconds": 4315,
-          "digital": "1:11:55",
-          "decimal": "1.18",
-          "text": "1 hr 11 mins",
-          "hours": 1,
-          "minutes": 11,
-          "seconds": 55,
-          "percent": 61.14
-        },
-        {
-          "name": "VS Code",
+          "name": "engine-software-2025-v0",
           "total_seconds": 2742.671711,
+          "color": null,
           "digital": "0:45:42",
           "decimal": "0.75",
           "text": "45 mins",
@@ -501,34 +496,39 @@
           "minutes": 45,
           "seconds": 42,
           "percent": 38.86
+        },
+        {
+          "name": "Unknown Project",
+          "total_seconds": 2526,
+          "color": null,
+          "digital": "0:42:06",
+          "decimal": "0.70",
+          "text": "42 mins",
+          "hours": 0,
+          "minutes": 42,
+          "seconds": 6,
+          "percent": 35.79
+        },
+        {
+          "name": "tracker",
+          "total_seconds": 1789,
+          "color": null,
+          "digital": "0:29:49",
+          "decimal": "0.48",
+          "text": "29 mins",
+          "hours": 0,
+          "minutes": 29,
+          "seconds": 49,
+          "percent": 25.35
         }
       ],
-      "operating_systems": [
-        {
-          "name": "Mac",
-          "total_seconds": 7057.671711,
-          "digital": "1:57:37",
-          "decimal": "1.95",
-          "text": "1 hr 57 mins",
-          "hours": 1,
-          "minutes": 57,
-          "seconds": 37,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 7057.671711,
-          "digital": "1:57:37",
-          "decimal": "1.95",
-          "text": "1 hr 57 mins",
-          "hours": 1,
-          "minutes": 57,
-          "seconds": 37,
-          "percent": 100
-        }
-      ]
+      "range": {
+        "start": "2025-04-30T22:00:00Z",
+        "end": "2025-05-01T21:59:59Z",
+        "date": "2025-05-01",
+        "text": "Thu May 1st 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-04-30T22:00:00Z",
