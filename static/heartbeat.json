@@ -1,27 +1,5 @@
 [
   {
-    "id": "4b242e8a-be7e-4dc2-84b4-815d0641e687",
-    "entity": "/Users/nikolaiborbe/Documents/test2.txt",
-    "type": "file",
-    "time": 1746109989,
-    "project": null,
-    "project_root_count": 4,
-    "branch": null,
-    "language": "Text",
-    "dependencies": [],
-    "line_additions": null,
-    "line_deletions": null,
-    "lines": 56,
-    "lineno": 56,
-    "cursorpos": 18,
-    "is_write": true,
-    "category": "coding",
-    "created_at": "2025-05-01T14:36:47Z",
-    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
-    "user_agent_id": "c8667cd6-fd11-4b72-b16f-f176a9832a84",
-    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
-  },
-  {
     "id": "09869c20-a077-4539-95c6-a6ba4910c7a8",
     "entity": "/Users/nikolaiborbe/Documents/test2.txt",
     "type": "file",
@@ -107,6 +85,32 @@
     "created_at": "2025-05-01T14:36:47Z",
     "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
     "user_agent_id": "c8667cd6-fd11-4b72-b16f-f176a9832a84",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  },
+  {
+    "id": "5025e7fc-7cc9-43de-afdd-a469fb55cb6d",
+    "entity": "/Users/nikolaiborbe/Documents/Propulse/engine-software-2025-v0/Core/Src/tasks/fsm.c",
+    "type": "file",
+    "time": 1746119920.699109,
+    "project": "engine-software-2025-v0",
+    "project_root_count": 6,
+    "branch": "fsm-rewrite",
+    "language": "C",
+    "dependencies": [
+      "pressure",
+      "fsm",
+      "easingfunctions"
+    ],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 1000,
+    "lineno": 1,
+    "cursorpos": 1,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-05-01T17:18:41Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "2647e928-a0fd-4d48-9cc0-f330d9c16d25",
     "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
   }
 ]
