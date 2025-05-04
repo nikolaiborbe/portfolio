@@ -1,44 +1,118 @@
 {
   "data": [
     {
-      "languages": [],
       "grand_total": {
         "hours": 0,
         "minutes": 0,
-        "total_seconds": 0,
+        "total_seconds": 24,
         "digital": "0:00",
         "decimal": "0.00",
         "text": "0 secs"
       },
-      "editors": [],
-      "operating_systems": [],
-      "categories": [],
-      "dependencies": [],
-      "machines": [],
-      "projects": [],
       "range": {
-        "start": "2025-05-02T22:00:00Z",
-        "end": "2025-05-03T21:59:59Z",
-        "date": "2025-05-03",
-        "text": "Sat May 3rd 2025",
+        "start": "2025-05-03T22:00:00Z",
+        "end": "2025-05-04T21:59:59Z",
+        "date": "2025-05-04",
+        "text": "Sun May 4th 2025",
         "timezone": "Europe/Oslo"
-      }
+      },
+      "projects": [
+        {
+          "name": "Unknown Project",
+          "total_seconds": 24,
+          "color": null,
+          "digital": "0:00:24",
+          "decimal": "0.00",
+          "text": "24 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 24,
+          "percent": 100
+        }
+      ],
+      "languages": [
+        {
+          "name": "YAML",
+          "total_seconds": 24,
+          "digital": "0:00:24",
+          "decimal": "0.00",
+          "text": "24 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 24,
+          "percent": 100
+        }
+      ],
+      "dependencies": [],
+      "machines": [
+        {
+          "name": "Nikolais-Mac-mini.local",
+          "total_seconds": 24,
+          "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
+          "digital": "0:00:24",
+          "decimal": "0.00",
+          "text": "24 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 24,
+          "percent": 100
+        }
+      ],
+      "editors": [
+        {
+          "name": "Neovim",
+          "total_seconds": 24,
+          "digital": "0:00:24",
+          "decimal": "0.00",
+          "text": "24 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 24,
+          "percent": 100
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Mac",
+          "total_seconds": 24,
+          "digital": "0:00:24",
+          "decimal": "0.00",
+          "text": "24 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 24,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 24,
+          "digital": "0:00:24",
+          "decimal": "0.00",
+          "text": "24 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 24,
+          "percent": 100
+        }
+      ]
     }
   ],
-  "start": "2025-05-02T22:00:00Z",
-  "end": "2025-05-03T21:59:59Z",
+  "start": "2025-05-03T22:00:00Z",
+  "end": "2025-05-04T21:59:59Z",
   "cumulative_total": {
-    "seconds": 0,
-    "text": "0 secs",
+    "seconds": 24,
+    "text": "24 secs",
     "digital": "0:00",
     "decimal": "0.00"
   },
   "daily_average": {
-    "holidays": 1,
-    "days_minus_holidays": 0,
+    "holidays": 0,
+    "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 0,
-    "seconds_including_other_language": 0,
+    "seconds": 24,
+    "seconds_including_other_language": 24,
     "text": "0 secs",
     "text_including_other_language": "0 secs"
   }

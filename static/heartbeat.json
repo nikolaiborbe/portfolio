@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "id": "a7d86073-9924-472e-9766-652982a9eec2",
+    "entity": "/Users/nikolaiborbe/.config/espanso/match/greek.yml",
+    "type": "file",
+    "time": 1746311768,
+    "project": null,
+    "project_root_count": 6,
+    "branch": null,
+    "language": "YAML",
+    "dependencies": [],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 105,
+    "lineno": 1,
+    "cursorpos": 1,
+    "is_write": false,
+    "category": "coding",
+    "created_at": "2025-05-03T22:36:33Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "1d3385f5-b6af-43fe-8608-9083025183b9",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  },
+  {
+    "id": "c8d59487-aadd-4d30-93ee-c659f5edcc60",
+    "entity": "/Users/nikolaiborbe/.config/espanso/match/greek.yml",
+    "type": "file",
+    "time": 1746311792,
+    "project": null,
+    "project_root_count": 6,
+    "branch": null,
+    "language": "YAML",
+    "dependencies": [],
+    "line_additions": null,
+    "line_deletions": null,
+    "lines": 105,
+    "lineno": 75,
+    "cursorpos": 15,
+    "is_write": true,
+    "category": "coding",
+    "created_at": "2025-05-03T22:36:33Z",
+    "user_id": "1b7db2bc-8fbb-4a77-a51f-ea1943e20993",
+    "user_agent_id": "1d3385f5-b6af-43fe-8608-9083025183b9",
+    "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda"
+  }
+]
