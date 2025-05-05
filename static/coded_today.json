@@ -67,6 +67,28 @@
           "percent": 16.82
         },
         {
+          "name": "strategies",
+          "total_seconds": 109.564862,
+          "digital": "0:01:49",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 49,
+          "percent": 16.59
+        },
+        {
+          "name": "predict",
+          "total_seconds": 109.564862,
+          "digital": "0:01:49",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 49,
+          "percent": 16.59
+        },
+        {
           "name": "numpy",
           "total_seconds": 109.564862,
           "digital": "0:01:49",
@@ -100,28 +122,6 @@
           "percent": 16.59
         },
         {
-          "name": "predict",
-          "total_seconds": 109.564862,
-          "digital": "0:01:49",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 49,
-          "percent": 16.59
-        },
-        {
-          "name": "strategies",
-          "total_seconds": 109.564862,
-          "digital": "0:01:49",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 49,
-          "percent": 16.59
-        },
-        {
           "name": "torch",
           "total_seconds": 1.5579,
           "digital": "0:00:01",
@@ -131,17 +131,6 @@
           "minutes": 0,
           "seconds": 1,
           "percent": 0.24
-        },
-        {
-          "name": "datetime",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
-          "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
         },
         {
           "name": "statsmodels",
@@ -156,6 +145,17 @@
         },
         {
           "name": "yfinance",
+          "total_seconds": 0,
+          "digital": "0:00:00",
+          "decimal": "0.00",
+          "text": "0 secs",
+          "hours": 0,
+          "minutes": 0,
+          "seconds": 0,
+          "percent": 0
+        },
+        {
+          "name": "datetime",
           "total_seconds": 0,
           "digital": "0:00:00",
           "decimal": "0.00",
