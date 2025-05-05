@@ -1,35 +1,6 @@
 {
   "data": [
     {
-      "grand_total": {
-        "hours": 0,
-        "minutes": 1,
-        "total_seconds": 112.714816,
-        "digital": "0:01",
-        "decimal": "0.02",
-        "text": "1 min"
-      },
-      "range": {
-        "start": "2025-05-04T22:00:00Z",
-        "end": "2025-05-05T21:59:59Z",
-        "date": "2025-05-05",
-        "text": "Mon May 5th 2025",
-        "timezone": "Europe/Oslo"
-      },
-      "projects": [
-        {
-          "name": "mimir",
-          "total_seconds": 112.714816,
-          "color": null,
-          "digital": "0:01:52",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 52,
-          "percent": 100
-        }
-      ],
       "languages": [
         {
           "name": "Python",
@@ -52,6 +23,53 @@
           "minutes": 0,
           "seconds": 1,
           "percent": 1.41
+        }
+      ],
+      "grand_total": {
+        "hours": 0,
+        "minutes": 1,
+        "total_seconds": 112.714816,
+        "digital": "0:01",
+        "decimal": "0.02",
+        "text": "1 min"
+      },
+      "editors": [
+        {
+          "name": "VS Code",
+          "total_seconds": 112.714816,
+          "digital": "0:01:52",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 52,
+          "percent": 100
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "Mac",
+          "total_seconds": 112.714816,
+          "digital": "0:01:52",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 52,
+          "percent": 100
+        }
+      ],
+      "categories": [
+        {
+          "name": "Coding",
+          "total_seconds": 112.714816,
+          "digital": "0:01:52",
+          "decimal": "0.02",
+          "text": "1 min",
+          "hours": 0,
+          "minutes": 1,
+          "seconds": 52,
+          "percent": 100
         }
       ],
       "dependencies": [
@@ -191,10 +209,11 @@
           "percent": 100
         }
       ],
-      "editors": [
+      "projects": [
         {
-          "name": "VS Code",
+          "name": "mimir",
           "total_seconds": 112.714816,
+          "color": null,
           "digital": "0:01:52",
           "decimal": "0.02",
           "text": "1 min",
@@ -204,32 +223,13 @@
           "percent": 100
         }
       ],
-      "operating_systems": [
-        {
-          "name": "Mac",
-          "total_seconds": 112.714816,
-          "digital": "0:01:52",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 52,
-          "percent": 100
-        }
-      ],
-      "categories": [
-        {
-          "name": "Coding",
-          "total_seconds": 112.714816,
-          "digital": "0:01:52",
-          "decimal": "0.02",
-          "text": "1 min",
-          "hours": 0,
-          "minutes": 1,
-          "seconds": 52,
-          "percent": 100
-        }
-      ]
+      "range": {
+        "start": "2025-05-04T22:00:00Z",
+        "end": "2025-05-05T21:59:59Z",
+        "date": "2025-05-05",
+        "text": "Mon May 5th 2025",
+        "timezone": "Europe/Oslo"
+      }
     }
   ],
   "start": "2025-05-04T22:00:00Z",
