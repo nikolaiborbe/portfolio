@@ -3,11 +3,11 @@
     {
       "grand_total": {
         "hours": 0,
-        "minutes": 0,
-        "total_seconds": 0,
-        "digital": "0:00",
-        "decimal": "0.00",
-        "text": "0 secs"
+        "minutes": 9,
+        "total_seconds": 554.290661,
+        "digital": "0:09",
+        "decimal": "0.15",
+        "text": "9 mins"
       },
       "range": {
         "start": "2025-05-06T22:00:00Z",
@@ -19,82 +19,82 @@
       "projects": [
         {
           "name": "portfolio",
-          "total_seconds": 0,
+          "total_seconds": 554.290661,
           "color": null,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
+          "digital": "0:09:14",
+          "decimal": "0.15",
+          "text": "9 mins",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
+          "minutes": 9,
+          "seconds": 14,
+          "percent": 100
         }
       ],
       "languages": [
         {
           "name": "Svelte",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
+          "total_seconds": 554.290661,
+          "digital": "0:09:14",
+          "decimal": "0.15",
+          "text": "9 mins",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
+          "minutes": 9,
+          "seconds": 14,
+          "percent": 100
         }
       ],
       "dependencies": [],
       "machines": [
         {
           "name": "Nikolais-Mac-mini.local",
-          "total_seconds": 0,
+          "total_seconds": 554.290661,
           "machine_name_id": "8e4f98f0-d325-4088-af2f-e0ee5b89dfda",
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
+          "digital": "0:09:14",
+          "decimal": "0.15",
+          "text": "9 mins",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
+          "minutes": 9,
+          "seconds": 14,
+          "percent": 100
         }
       ],
       "editors": [
         {
           "name": "VS Code",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
+          "total_seconds": 554.290661,
+          "digital": "0:09:14",
+          "decimal": "0.15",
+          "text": "9 mins",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
+          "minutes": 9,
+          "seconds": 14,
+          "percent": 100
         }
       ],
       "operating_systems": [
         {
           "name": "Mac",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
+          "total_seconds": 554.290661,
+          "digital": "0:09:14",
+          "decimal": "0.15",
+          "text": "9 mins",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
+          "minutes": 9,
+          "seconds": 14,
+          "percent": 100
         }
       ],
       "categories": [
         {
           "name": "Coding",
-          "total_seconds": 0,
-          "digital": "0:00:00",
-          "decimal": "0.00",
-          "text": "0 secs",
+          "total_seconds": 554.290661,
+          "digital": "0:09:14",
+          "decimal": "0.15",
+          "text": "9 mins",
           "hours": 0,
-          "minutes": 0,
-          "seconds": 0,
-          "percent": 0
+          "minutes": 9,
+          "seconds": 14,
+          "percent": 100
         }
       ]
     }
@@ -102,18 +102,18 @@
   "start": "2025-05-06T22:00:00Z",
   "end": "2025-05-07T21:59:59Z",
   "cumulative_total": {
-    "seconds": 0,
-    "text": "0 secs",
-    "digital": "0:00",
-    "decimal": "0.00"
+    "seconds": 554.290661,
+    "text": "9 mins",
+    "digital": "0:09",
+    "decimal": "0.15"
   },
   "daily_average": {
-    "holidays": 1,
-    "days_minus_holidays": 0,
+    "holidays": 0,
+    "days_minus_holidays": 1,
     "days_including_holidays": 1,
-    "seconds": 0,
-    "seconds_including_other_language": 0,
-    "text": "0 secs",
-    "text_including_other_language": "0 secs"
+    "seconds": 554,
+    "seconds_including_other_language": 554,
+    "text": "9 mins",
+    "text_including_other_language": "9 mins"
   }
 }
