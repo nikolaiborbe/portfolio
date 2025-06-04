@@ -17,7 +17,7 @@
 	<div class="flex flex-col gap-3">
 		<div class="title">About me</div>
 		<div class="size-lg">
-			I’m a <Age /> year old developer who's passionate
+			I’m a <Age /> year-old developer who's passionate
 			about AI and building cool stuff. Currently, I’m pursuing a bachelor’s degree in physics
 			while programming in my free time.
 		</div>
