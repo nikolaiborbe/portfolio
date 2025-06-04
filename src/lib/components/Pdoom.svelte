@@ -33,9 +33,12 @@
           z-10
           whitespace-normal
 
-          left-0
+          left-auto
+          right-0
+          transform-none
           md:left-auto
           md:right-0
+          md:transform-none
         "
       >
         I believe that by 2028 (1) all knowledge work will be obsolete, (2) NVIDIA’s market cap will pass $15T, and (3) the human species will either be on an unavoidable trajectory to doom or will become a Type III civilization with high probability.
