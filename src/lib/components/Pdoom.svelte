@@ -1,48 +1,64 @@
 <script lang="ts">
-  // Pure CSS tooltip—no extra TypeScript needed
+	// Pure CSS tooltip—no extra TypeScript needed
 </script>
 
 <div class="flex justify-start p-4 md:justify-end">
-  <div class="flex gap-2">
-    <!-- Wrap only the text in a “group” so the tooltip appears only when hovering this text -->
-    <div class="relative group font-bold text-[#D8D8D8] cursor-pointer">
-      P(doom) ≈ <span>30%</span>
+	<div class="flex gap-2">
+		<!-- Wrap only the text in a “group” so the tooltip appears only when hovering this text -->
+		<a href="https://ai-2027.com/" target="_blank" rel="noopener noreferrer">
+			<div class="group relative cursor-pointer font-bold text-[#D8D8D8]">
+				P(doom) ≈ <span>30%</span>
 
-      <!-- Tooltip box: hidden until you hover over exactly the “P(doom)” text -->
-      <div
-        class="
+				<!-- Tooltip box: hidden until you hover over exactly the “P(doom)” text -->
+				<div
+					class="
+          pointer-events-none
           absolute
+          left-auto
+          right-0
           top-full
+          z-10
           mt-2
           w-80
           max-w-[90vw]
-          p-4
+          transform-none
+          whitespace-normal
+          rounded-lg border
+          border-gray-700
           bg-[#212123]
-          text-[#D8D8D8]
+          p-4
           text-base
           font-normal
           leading-relaxed
-          border border-gray-700
-          rounded-lg
+          text-[#D8D8D8] opacity-0
           shadow-xl
-          opacity-0
-          group-hover:opacity-100
           transition-opacity
-          duration-200
-          pointer-events-none group-hover:pointer-events-auto
-          z-10
-          whitespace-normal
 
-          left-auto
-          right-0
-          transform-none
+          duration-200
+          group-hover:pointer-events-auto
+          group-hover:opacity-100
           md:left-auto
           md:right-0
           md:transform-none
         "
-      >
-        I believe that by 2028 (1) all knowledge work will be obsolete, (2) NVIDIA’s market cap will pass $15T, and (3) the human species will either be on an unavoidable trajectory to doom or will become a Type III civilization with high probability.
-      </div>
-    </div>
-  </div>
+				>
+					<pre class="whitespace-pre font-mono text-sm leading-none">
+           /\_/\____/\_/\
+      ____/            \____
+     /  _     .----.     _  \
+    /  / \___/ 0  0 \___/ \  \
+   |  |  (___)   ^   (___) |  |
+   |  |        \___/       |  |
+   |  |   .---'_____'---.  |  |
+   |  |  /   /  AI  \   \  |  |
+   |  |  \__/  DOOM  \__/  |  |
+    \  \      \_____/      /  /
+     \__\_____/     \_____/__/
+         /  /|     |\  \
+        /__/ |_____| \__\
+        </pre>
+				</div>
+			</div>
+		</a>
+	</div>
 </div>

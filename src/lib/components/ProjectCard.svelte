@@ -7,6 +7,9 @@
 	let { title, description, image, tags, link, github, live } = $props();
 	let preview = $state(false);
 
+	// loading state for the project screenshot
+	let loading = $state(true);
+
 	// TODO: add preview
 
 </script>
@@ -14,8 +17,19 @@
 <div
 	class="flex flex-col gap-3 rounded-lg border border-[#3F3F46] bg-[#212123] p-2 transition-all hover:bg-[#252527] md:flex-row"
 >
-	<div class="h-48 md:w-56 overflow-hidden rounded-md flex-none">
-		<img src={image} alt={title} class="h-full w-full object-cover" />
+	<div class="relative h-48 md:w-56 overflow-hidden rounded-md flex-none">
+		{#if loading}
+			<!-- Skeleton placeholder while the image loads -->
+			<div class="absolute inset-0 animate-pulse bg-[#2a2a2d]"></div>
+		{/if}
+
+		<img
+			src={image}
+			alt={title}
+			class="h-full w-full object-cover transition-opacity duration-[1000ms]"
+			class:opacity-0={loading}
+			onload={() => (loading = false)}
+		/>
 	</div>
 	<div class="content flex flex-col justify-between pl-1">
 		<div>

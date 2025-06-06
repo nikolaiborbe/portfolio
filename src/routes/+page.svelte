@@ -17,9 +17,9 @@
 	<div class="flex flex-col gap-3">
 		<div class="title">About me</div>
 		<div class="size-lg">
-			I’m a <Age /> year-old developer who's passionate
-			about AI and building cool stuff. Currently, I’m pursuing a bachelor’s degree in physics
-			while programming in my free time.
+			I’m a <Age /> year-old developer
+			who's passionate about AI and building cool stuff. Currently, I’m pursuing a bachelor’s degree
+			in physics while programming in my free time.
 		</div>
 	</div>
 	<div>
@@ -35,7 +35,7 @@
 		</div>
 		{#if projects.length > 2}
 			<button
-				class="mt-4 w-full rounded-lg border border-[#3F3F46] bg-[#212123] transition-colors flex items-center justify-center p-2"
+				class="mt-4 flex w-full items-center justify-center rounded-lg border border-[#3F3F46] bg-[#212123] p-2 transition-colors"
 				on:click={() => (showAll = !showAll)}
 				aria-label="Show all projects"
 			>

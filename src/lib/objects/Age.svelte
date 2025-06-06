@@ -2,6 +2,9 @@
   import { onMount } from "svelte";
 
   let age = $state();
+  let loading = $state(true);
+
+  updateAge();
 
   function updateAge() {
     const now = new Date();
@@ -11,11 +14,10 @@
     age = years;
   }
 
-
   onMount(() => {
     updateAge();
+    loading = false;
     setInterval(updateAge, 25);
   })
 </script>
-
 {age}
