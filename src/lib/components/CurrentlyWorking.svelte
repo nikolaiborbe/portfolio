@@ -6,42 +6,56 @@
 	let localAdditionalSeconds: number = $state(0);
 	const github_username = 'nikolaiborbe';
 
-	type Status = { loading: boolean; active: boolean; project: string | null , seconds: number | null};
-	const status = $state(writable<Status>({ loading: true, active: false, project: null , seconds: null }));
+	type Status = {
+		loading: boolean;
+		active: boolean;
+		project: string | null;
+		seconds: number | null;
+	};
+	const status = $state(
+		writable<Status>({ loading: true, active: false, project: null, seconds: null })
+	);
+	let l = $state(true);
 
-	const THRESHOLD_MIN = 20;          // keep in sync with your default
-	const POLL_MS       = 60_000;      // how often to re‑query
+	const THRESHOLD_MIN = 20; // keep in sync with your default
+	const POLL_MS = 60_000; // how often to re‑query
 
 	async function check() {
-		const res  = await fetch(`/api/check-wakatime?threshold=${THRESHOLD_MIN}`);
+		const res = await fetch(`/api/check-wakatime?threshold=${THRESHOLD_MIN}`);
 		const json = await res.json();
-		status.set({ loading: false, active: json.result, project: json.project, seconds: json.seconds});
+		status.set({
+			loading: false,
+			active: json.result,
+			project: json.project,
+			seconds: json.seconds
+		});
 	}
 
 	function formatTime(seconds: number): string {
-		const hours   = Math.floor(seconds / 3600);
+		const hours = Math.floor(seconds / 3600);
 		const minutes = Math.floor((seconds % 3600) / 60);
-		const secs    = seconds % 60;
+		const secs = seconds % 60;
 		return `${hours}h ${minutes}m ${secs}s`;
 	}
 
 	onMount(() => {
-		check();                                 // first run
-		const id = setInterval(check, POLL_MS);  // keep polling
+		check(); // first run
+		const id = setInterval(check, POLL_MS); // keep polling
 		const now = setInterval(() => {
 			if ($status.active) {
 				localAdditionalSeconds += 1;
 			}
-		}, 1000);                               // update every second
-		
+		}, 1000); // update every second
+
+		setTimeout(() => {
+			l = false; // stop loading after 1 second
+		}, 4000);
+
 		onDestroy(() => {
 			clearInterval(id);
 			clearInterval(now);
 		});
-
 	});
-
-
 </script>
 
 {#snippet snippet1()}
@@ -50,7 +64,7 @@
 		target="_blank"
 		class="flex items-center gap-2"
 	>
-		<div class="md:hidden flex text-[#32cd32]">
+		<div class="flex text-[#32cd32] md:hidden">
 			<WorkingIcon color="#32cd32" />
 			<div class="pl-2 font-medium">
 				{#if $status.seconds}
@@ -58,7 +72,7 @@
 				{/if}
 			</div>
 		</div>
-		<div class="hidden md:flex text-[#32cd32]">
+		<div class="hidden text-[#32cd32] md:flex">
 			<div class="pr-2 font-medium">
 				{#if $status.seconds}
 					Today: {formatTime($status.seconds + ($status.active ? localAdditionalSeconds : 0))}
@@ -69,13 +83,22 @@
 	</a>
 {/snippet}
 
-<div class="flex justify-end p-4 md:justify-start">
-	{#if $status.active}
-		{@render snippet1()}
-	{:else}
+{#if l}
+	<div class="flex justify-end p-4 md:justify-start">
 		<div class="flex gap-2">
-			<div class="font-medium text-[#ff0000]">Offline</div>
-			<WorkingIcon color="#ff0000" />
+			<div class="font-medium text-[#ff9b19]">Loading</div>
+			<WorkingIcon color="#ff9b19" />
 		</div>
-	{/if}
-</div>
+	</div>
+{:else}
+	<div class="flex justify-end p-4 md:justify-start">
+		{#if $status.active}
+			{@render snippet1()}
+		{:else}
+			<div class="flex gap-2">
+				<div class="font-medium text-[#ff0000]">Offline</div>
+				<WorkingIcon color="#ff0000" />
+			</div>
+		{/if}
+	</div>
+{/if}
