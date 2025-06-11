@@ -1,12 +1,13 @@
 // src/routes/api/check-wakatime/+server.js
 import { json } from '@sveltejs/kit';
+import type { RequestHandler } from '@sveltejs/kit';
 import { WAKATIME_API_KEY } from '$env/static/private';
 
 const AUTH = 'Basic ' + Buffer.from(WAKATIME_API_KEY).toString('base64');
 
 // --- helpers -----------------------------------------------------------
 
-async function wakatime(path) {
+async function wakatime<T = unknown>(path: string): Promise<T> {
   const res = await fetch(`https://api.wakatime.com/api/v1${path}`, {
     headers: { Authorization: AUTH }
   });
@@ -15,9 +16,26 @@ async function wakatime(path) {
   return payload;
 }
 
+// --- types -------------------------------------------------------------
+interface Duration {
+  duration?: number;
+  project?: string;
+}
+interface Heartbeat {
+  time: number | string;
+  project?: string;
+  alternate_project?: string;
+}
+interface DurationsResponse {
+  data: Duration[];
+}
+interface HeartbeatsResponse {
+  data: Heartbeat[];
+}
+
 // --- handler -----------------------------------------------------------
 
-export async function GET({ url }) {
+export const GET: RequestHandler = async ({ url }) => {
   const thresholdMin = Number(url.searchParams.get('threshold')) || 20;
 
   const now = new Date();
@@ -27,7 +45,7 @@ export async function GET({ url }) {
     /* --------------------------------------------------------------
      * 1) Durations (needed in every outcome)
      * -------------------------------------------------------------- */
-    const durPayload = await wakatime(`/users/current/durations?date=${today}`);
+    const durPayload = await wakatime<DurationsResponse>(`/users/current/durations?date=${today}`);
     const durations = durPayload.data ?? [];
 
     let totalSeconds = 0;
@@ -43,7 +61,7 @@ export async function GET({ url }) {
     /* --------------------------------------------------------------
      * 2) Heartbeats → detect current activity
      * -------------------------------------------------------------- */
-    const hbPayload = await wakatime(`/users/current/heartbeats?date=${today}`);
+    const hbPayload = await wakatime<HeartbeatsResponse>(`/users/current/heartbeats?date=${today}`);
     const heartbeats = hbPayload.data ?? [];
 
     const thresholdMs = thresholdMin * 60_000;
@@ -55,7 +73,11 @@ export async function GET({ url }) {
     });
 
     if (recent.length > 0) {
-      recent.sort((a, b) => b.time - a.time);
+      recent.sort(
+        (a, b) =>
+          (typeof b.time === 'number' ? b.time : new Date(b.time).getTime() / 1000) -
+          (typeof a.time === 'number' ? a.time : new Date(a.time).getTime() / 1000)
+      );
       const latest = recent[0];
       const project = latest.project || latest.alternate_project || 'unknown';
 
@@ -91,10 +113,11 @@ export async function GET({ url }) {
       },
       { headers: { 'Access-Control-Allow-Origin': '*' } }
     );
-  } catch (err) {
+  } catch (err: unknown) {
+    const e = err as { status?: number; payload?: unknown };
     return json(
-      { error: 'WakaTime error', details: err.payload || err },
-      { status: err.status || 500 }
+      { error: 'WakaTime error', details: e.payload ?? e },
+      { status: e.status ?? 500 }
     );
   }
-}
+};
