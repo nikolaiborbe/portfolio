@@ -1,11 +1,11 @@
 {
   "projects": [
     {
-      "title": "Rocket Launch Simulator",
+      "title": "Rocket Simulator",
       "description":
         "Using current weather forecasts, we run a RocketPy simulation that continuously calculates the trajectory of the 2025 Propulse rocket, providing a live prediction of its flight path.",
       "image": "projects/rocket_launch.png",
-      "tags": ["Svelte", "Python", "Docker", "RocketPy", "TypeScript"],
+      "tags": ["Svelte", "Python", "RocketPy", "TypeScript"],
       "link": "https://launch-propulse.netlify.app/",
       "github": ["https://github.com/nikolaiborbe/launch-server"],
       "live": true
