@@ -2,32 +2,33 @@
 	import Skill from '$lib/icons/Skill.svelte';
 	import Skill2 from '$lib/icons/Skill2.svelte';
 	import C from '$lib/icons/C.svelte';
+	import Rust from '$lib/icons/Rust.svelte';
 
 	import {
 		LogoSvelte,
 		LogoPython,
-		Sql
+		Sql,
 	} from 'carbon-icons-svelte';
 
 	let skills = [
-		'C-Plus-Plus',
 		'Python',
 		'TypeScript',
-    "Figma",
 		'React',
-		'Java',
 		'git',
-    "Tailwind-css"
+    "Tailwind-css",
 	];
 	let skills2: { [key: string]: typeof LogoPython } = {
 		Svelte: LogoSvelte,
-		Sql: Sql
+		Sql: Sql,
 	};
 </script>
 
 <div class="flex flex-wrap gap-2">
   <div class="flex h-fit w-fit items-center gap-2 rounded-md border border-[#3F3F46] bg-[#212123] px-3 py-1">
     <div class="scale-125"><C /></div> C
+  </div>
+  <div class="flex h-fit w-fit items-center gap-2 rounded-md border border-[#3F3F46] bg-[#212123] px-3 py-1">
+		<div class=""><Rust /></div> Rust
   </div>
 	{#each Object.keys(skills2) as skill2}
 		<Skill2 title={skill2} icon={skills2[skill2]} />
