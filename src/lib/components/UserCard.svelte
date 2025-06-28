@@ -1,8 +1,7 @@
 <script lang="ts">
 	import Linkedin from './../icons/Linkedin.svelte';
-	import BuyCoffee from '$lib/icons/BuyCoffee.svelte';
 	import GitHub from '$lib/icons/GitHub.svelte';
-	import LeetCode from '$lib/icons/LeetCode.svelte';
+  import X from '$lib/icons/X.svelte';
 
 	let loading = $state(true);
 </script>
@@ -28,6 +27,7 @@
 		<div class="flex flex-wrap gap-2 pt-1">
 			<GitHub />
 			<Linkedin />
+      <X />
 		</div>
 	</div>
 </div>
