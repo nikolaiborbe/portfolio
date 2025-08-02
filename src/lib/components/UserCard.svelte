@@ -1,20 +1,15 @@
 <script lang="ts">
 	import Linkedin from './../icons/Linkedin.svelte';
 	import GitHub from '$lib/icons/GitHub.svelte';
-  import X from '$lib/icons/X.svelte';
+	import X from '$lib/icons/X.svelte';
 
 	let loading = $state(true);
 </script>
 
 <div class="flex items-center">
-	{#if loading}
-		<div class="absolute h-32 w-32 animate-pulse rounded-lg bg-[#2a2a2d] md:h-40 md:w-40"></div>
-	{/if}
 	<img
-		src="pp.jpg"
-		onload={() => (loading = false)}
-		class="h-32 w-32 rounded-lg object-cover md:h-40 md:w-40 transition-opacity duration-500"
-		class:opacity-0={loading}
+		src="pp.webp"
+		class="h-32 w-32 rounded-lg object-cover transition-opacity duration-500 md:h-40 md:w-40"
 		alt=""
 	/>
 	<div class="flex flex-col gap-1 pl-4 md:gap-2">
@@ -27,7 +22,7 @@
 		<div class="flex flex-wrap gap-2 pt-1">
 			<GitHub />
 			<Linkedin />
-      <X />
+			<X />
 		</div>
 	</div>
 </div>

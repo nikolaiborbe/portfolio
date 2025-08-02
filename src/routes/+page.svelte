@@ -17,9 +17,9 @@
 	<div class="flex flex-col gap-3">
 		<div class="title">About me</div>
 		<div class="size-lg">
-			I’m a <Age /> year-old developer
-			who's passionate about AI and building cool stuff. Currently, I’m pursuing a bachelor’s degree
-			in physics while programming in my free time.
+			I’m a <Age /> year-old retired viking
+			who likes cycling. Currently, I’m pursuing a master’s degree
+			in physics and mathematics at <a href="https://www.ntnu.no/studier/mtfyma" target="_blank" class="hover:font-semibold hover:text-blue-500">NTNU</a> while programming in my free time.
 		</div>
 	</div>
 	<div>
@@ -36,7 +36,7 @@
 		{#if projects.length > 2}
 			<button
 				class="mt-4 flex w-full items-center justify-center rounded-lg border border-[#3F3F46] bg-[#212123] p-2 transition-colors"
-				on:click={() => (showAll = !showAll)}
+				onmousedown={() => (showAll = !showAll)}
 				aria-label="Show all projects"
 			>
 				<svg
@@ -60,10 +60,10 @@
 	<WakatimeTable />
 	<hr class="mt-4 border-[#3F3F46]" />
 	<div class="color-[#535353] mb-6 mt-1 flex justify-center text-lg">
-		Website design greatly inspired by ‎ <a
+		Website design greatly inspired by<a
 			href="https://x.com/damnGruz"
 			target="_blank"
-			class="hover:cursor-poitner transition-all hover:font-medium">Gruz.</a
+			class="hover:cursor-poitner transition-all hover:font-medium">&nbsp;Gruz.</a
 		>
 	</div>
 </div>
