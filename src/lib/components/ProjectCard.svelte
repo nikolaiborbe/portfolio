@@ -19,14 +19,17 @@
 >
 	<div class="relative h-48 md:w-56 overflow-hidden rounded-md flex-none">
 		{#if loading}
-			<!-- Skeleton placeholder while the image loads -->
-			<div class="absolute inset-0 animate-pulse bg-[#2a2a2d]"></div>
+		<img
+			src={image}
+			alt={title}
+			class="absolute h-full w-full object-cover "
+		/>
 		{/if}
 
 		<img
 			src={image}
 			alt={title}
-			class="h-full w-full object-cover transition-opacity duration-[1000ms]"
+			class="h-full w-full object-cover"
 			class:opacity-0={loading}
 			onload={() => (loading = false)}
 		/>

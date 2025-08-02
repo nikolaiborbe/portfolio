@@ -7,9 +7,18 @@
 </script>
 
 <div class="flex items-center">
+	{#if loading}
+		<img
+			src="pp_10.webp"
+			class="absolute h-32 w-32 rounded-lg object-cover md:h-40 md:w-40"
+			alt=""
+		/>
+		{/if}
 	<img
 		src="pp.webp"
-		class="h-32 w-32 rounded-lg object-cover transition-opacity duration-500 md:h-40 md:w-40"
+		onload={() => (loading = false)}
+		class="h-32 w-32 rounded-lg object-cover md:h-40 md:w-40"
+		class:opacity-0={loading}
 		alt=""
 	/>
 	<div class="flex flex-col gap-1 pl-4 md:gap-2">
