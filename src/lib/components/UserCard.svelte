@@ -2,6 +2,7 @@
 	import Linkedin from './../icons/Linkedin.svelte';
 	import GitHub from '$lib/icons/GitHub.svelte';
 	import X from '$lib/icons/X.svelte';
+	import CV from '$lib/icons/CV.svelte';
 
 	let loading = $state(true);
 </script>
@@ -32,6 +33,7 @@
 			<GitHub />
 			<Linkedin />
 			<X />
+			<CV />
 		</div>
 	</div>
 </div>
