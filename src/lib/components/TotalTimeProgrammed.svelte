@@ -15,4 +15,4 @@
 	});
 </script>
 
-{totalTime ? totalTime + ' hours total' : ''}
+{totalTime ? totalTime + ' hours' : ''}
