@@ -32,7 +32,6 @@
 		<div class="flex flex-wrap gap-2 pt-1">
 			<GitHub />
 			<Linkedin />
-			<X />
 			<CV />
 		</div>
 	</div>
