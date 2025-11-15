@@ -14,7 +14,7 @@
 	studying applied maths and physics. I lead the avionics recovery team at
 	<a href="https://www.propulse.no/" class="text-fg-brand font-medium underline hover:no-underline"
 		>Propulse</a
-	>, and enjoy making cycling betting programs.
+	>, and I enjoy making cycling betting programs.
 </p>
 
 <br />
