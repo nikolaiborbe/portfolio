@@ -8,8 +8,6 @@ node_modules
 /.svelte-kit
 /build
 
-src/lib/components/GithubContributions.svelte
-
 # OS
 .DS_Store
 Thumbs.db

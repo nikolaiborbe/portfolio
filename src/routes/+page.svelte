@@ -1,69 +1,29 @@
 <script lang="ts">
-	import UserCard from '$lib/components/UserCard.svelte';
-	import ProjectCard from '$lib/components/ProjectCard.svelte';
-	import type { Project } from './Types';
-	import Projects from './projects.json';
-	import WakaTime from '$lib/components/WakaTime.svelte';
-	import WakatimeTable from '$lib/components/WakatimeTable.svelte';
-	import Skills from '$lib/components/Skills.svelte';
-	import Age from '$lib/objects/Age.svelte';
-
-	let showAll = false;
-	let projects: any = Object.values(Projects).flat();
 </script>
 
-<div class="flex flex-col gap-4 md:text-xl">
-	<UserCard />
-	<div class="flex flex-col gap-3">
-		<div class="title">About me</div>
-		<div class="size-lg">
-			I’m a <Age /> year-old retired viking
-			who likes cycling. Currently, I’m pursuing a master’s degree
-			in physics and mathematics at <a href="https://www.ntnu.no/studier/mtfyma" target="_blank" class="hover:font-semibold hover:text-blue-500">NTNU</a> while programming in my free time.
-		</div>
-	</div>
-	<div>
-		<div class="title pb-4">Skills</div>
-		<Skills />
-	</div>
-	<div>
-		<div class="title pb-4">Projects</div>
-		<div class="flex flex-col gap-4">
-			{#each projects.slice(0, showAll ? projects.length : 2) as project}
-				<ProjectCard {...project} />
-			{/each}
-		</div>
-		{#if projects.length > 2}
-			<button
-				class="mt-4 flex w-full items-center justify-center rounded-lg border border-[#3F3F46] bg-[#212123] p-2 transition-colors"
-				onmousedown={() => (showAll = !showAll)}
-				aria-label="Show all projects"
-			>
-				<svg
-					class={`h-6 w-6 transition-transform ${showAll ? 'rotate-180' : ''}`}
-					xmlns="http://www.w3.org/2000/svg"
-					fill="none"
-					viewBox="0 0 24 24"
-					stroke="currentColor"
-				>
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="M19 9l-7 7-7-7"
-					/>
-				</svg>
-			</button>
-		{/if}
-	</div>
-	<WakaTime />
-	<WakatimeTable />
-	<hr class="mt-4 border-[#3F3F46]" />
-	<div class="color-[#535353] mb-6 mt-1 flex justify-center text-lg">
-		Website design greatly inspired by<a
-			href="https://x.com/damnGruz"
-			target="_blank"
-			class="hover:cursor-poitner transition-all hover:font-medium">&nbsp;Gruz.</a
-		>
-	</div>
+<h1 class="text-4xl">Nikolai Grytvik Borbe</h1>
+
+<br />
+
+<h3 class="text-2xl font-semibold">About me</h3>
+<p class="text-body">
+	I'm a student at <a
+		href="https://www.ntnu.edu/studies/mtfyma"
+		class="text-fg-brand font-medium underline hover:no-underline">NTNU</a
+	>
+	studying applied maths and physics. I lead the avionics recovery team at
+	<a href="https://www.propulse.no/" class="text-fg-brand font-medium underline hover:no-underline"
+		>Propulse</a
+	>, and enjoy making cycling betting programs.
+</p>
+
+<br />
+
+<h3 class="text-2xl font-semibold">Contact</h3>
+<div class="pl-4">
+	<ul class="list-disc">
+		<li><a href="https://github.com/nikolaiborbe/" class="text-fg-brand font-medium underline hover:no-underline">GitHub</a></li>
+		<li><a href="https://www.linkedin.com/in/nikolai-grytvik-borbe-347aa11a3/" class="text-fg-brand font-medium underline hover:no-underline">LinkedIn</a></li>
+		<li><a href="mailto:nikolaiborbe@gmail.com" class="text-fg-brand font-medium underline hover:no-underline">nikolaiborbe@gmail.com</a></li>
+	</ul>
 </div>
