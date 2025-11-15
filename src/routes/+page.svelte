@@ -19,7 +19,7 @@
 
 <br />
 
-<h3 class="text-2xl font-semibold">Contact</h3>
+<h3 class="text-2xl font-semibold">Links</h3>
 <div class="pl-4">
 	<ul class="list-disc">
 		<li><a href="https://github.com/nikolaiborbe/" class="text-fg-brand font-medium underline hover:no-underline">GitHub</a></li>
