@@ -27,3 +27,7 @@
 		<li><a href="mailto:nikolaiborbe@gmail.com" class="text-fg-brand font-medium underline hover:no-underline">nikolaiborbe@gmail.com</a></li>
 	</ul>
 </div>
+
+<br>
+
+<h3 class="text-2xl font-semibold"><a href="/writings" class="text-fg-brand underline hover:no-underline">Writings</a></h3>
