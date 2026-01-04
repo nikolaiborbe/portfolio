@@ -1,5 +1,5 @@
 <h1 class="text-4xl">A Morning, a Day, and a Night</h1>
-<h5>by Nikolai G. Borbe 7th Apr 2022</h5>
+<h5>by <b>Nikolai G. Borbe</b> 7th Apr 2022</h5>
 
 <br />
 
@@ -8,11 +8,11 @@
 <p>
 	The darkness about the place, the creeping cold air, and the ever now and then grunts, could be
 	smelt flowing through the air like the ocean on a quiet beach flowing to and fro with the
-	moon-tide. A young boy, his family name was not important, nor his history, or legacy, just that
-	he went by Boh, laid on an almost empty air mattress. His hair was blond but dark, and was filled
+	moon-tide. A young boy laid on an almost empty air mattress. His family name, history, and legacy
+	were unimportant; he simply went by Boh. His hair was blond but dark, and was filled
 	with mud and dirt, he had bright sky-blue eyes, and was lean of figure; on his left forearm he
-	carried an anchor tattoo. The mattress he had been using eminently for the last couple of weeks
-	was holding vigorously up through the long days. Next to him lay his companion, and only listener,
+	carried an anchor tattoo. The mattress he had been using continuously for the last couple of weeks
+	was holding up well through the long days. Next to him lay his companion, and only listener,
 	Mykola. A bit shorter of stature, but still as handsome as himself.
 </p>
 
@@ -203,7 +203,7 @@
 	The man, only a few meters away now suddenly stopped where they could see him clearly. The man
 	wasn’t a man, he was a boy. Probably no more than 18 years, maybe even younger. He was wearing a
 	Russian, over-sized, military uniform. His face, even though it was very dirty, was spotless,
-	unscared, unshaped. He was clearly alone because he was scared. Over his right shoulder he was
+	unscarred, unshaped. He was clearly alone because he was scared. Over his right shoulder he was
 	carrying a military assault rifle AK-12. He had taken off his vest and was not carrying any
 	visible ammunition or explosives. On his back he was carrying a black, and dark blue, backpack,
 	not of the military kind, this one he had probably found on his adventure.
@@ -493,6 +493,6 @@
 <p>
 	Filled with shock, Nikolai fell back. He didn't quite understand what he had just done; he had
 	never killed anyone before. He felt a certain emptiness and loneliness, but his survival-instincts
-	quickly kicked in and he was well on his way before the blood-river from the cadaver had reached
+	quickly kicked in and he was well on his way before the stream of blood from the cadaver had reached
 	the bottom of the hillside. Never to be seen again.
 </p>
