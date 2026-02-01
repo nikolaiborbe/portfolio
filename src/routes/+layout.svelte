@@ -9,6 +9,6 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<div class="font-mono p-4">
+<div class="font-mono p-4 mx-auto max-w-[750px]">
 	{@render children()}
 </div>
