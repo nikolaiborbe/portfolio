@@ -30,9 +30,9 @@
 
 <br>
 
-<h3 class="text-2xl font-semibold"><a href="/essays" class="text-fg-brand underline hover:no-underline">Essays</a></h3>
+<h3 class="text-2xl font-semibold"><a href="/writing" class="text-fg-brand underline hover:no-underline">Writing</a></h3>
 <div class="pl-4">
 	<ul class="list-disc">
-		<li><a href="/essays/morning-day-night" class="text-fg-brand font-medium underline hover:no-underline">A morning, a Day, and a Night</a></li>
+		<li><a href="/writing/morning-day-night" class="text-fg-brand font-medium underline hover:no-underline">A morning, a Day, and a Night</a></li>
 	</ul>
 </div>
