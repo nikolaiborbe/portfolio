@@ -14,6 +14,6 @@
 	<meta property="og:type" content="website" />
 </svelte:head>
 
-<div class="font-serif p-4 mx-auto max-w-[750px]">
+<div class="font-serif p-4 mx-auto max-w-[700px]">
 	{@render children()}
 </div>

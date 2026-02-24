@@ -1,9 +1,48 @@
-<h1 class="text-4xl">A Morning, a Day, and a Night</h1>
-<h5>by <b>Nikolai G. Borbe</b> 7th Apr 2022</h5>
+<script lang="ts">
+	import { onMount } from 'svelte';
+	import TableOfContents from '$lib/components/TableOfContents.svelte';
 
-<br />
+	const sections = [
+		{ id: 'a-morning', title: 'A Morning' },
+		{ id: 'a-day', title: 'A Day' },
+		{ id: 'a-night', title: 'A Night' }
+	];
 
-<h2 class="text-2xl">A Morning</h2>
+	let readingTime = $state('');
+	let articleEl: HTMLElement;
+
+	onMount(() => {
+		const words = (articleEl.textContent ?? '').trim().split(/\s+/).length;
+		readingTime = `${Math.ceil(words / 230)} min read`;
+	});
+</script>
+
+<svelte:head>
+	<title>A Morning, a Day, and a Night — Nikolai Borbe</title>
+	<meta property="og:title" content="A Morning, a Day, and a Night" />
+	<meta property="og:description" content="A short story by Nikolai G. Borbe" />
+	<meta property="og:type" content="article" />
+	<meta property="article:author" content="Nikolai G. Borbe" />
+	<meta property="article:published_time" content="2022-04-07" />
+</svelte:head>
+
+<TableOfContents {sections} />
+
+<article bind:this={articleEl}>
+	<nav class="print:hidden">
+		<a href="/writing" class="text-sm text-neutral-400 hover:text-neutral-600 no-underline"
+			>← Writings</a
+		>
+	</nav>
+
+	<h1 class="text-4xl mt-4">A Morning, a Day, and a Night</h1>
+	<p class="text-sm text-neutral-500 mt-1">
+		by <span class="font-medium">Nikolai G. Borbe</span> · 7 Apr 2022{#if readingTime}{' '}· {readingTime}{/if}
+	</p>
+
+	<br />
+
+	<h2 id="a-morning" class="text-2xl">A Morning</h2>
 
 <p>
 	The darkness about the place, the creeping cold air, and the ever now and then grunts, could be
@@ -163,7 +202,7 @@
 
 <br />
 
-<h2 class="text-2xl">A Day</h2>
+<h2 id="a-day" class="text-2xl">A Day</h2>
 
 <p>
 	Two long hours went by, and slowly they started feeling sick with apprehension. They could hear
@@ -451,7 +490,7 @@
 
 <br />
 
-<h2 class="text-2xl">A Night</h2>
+<h2 id="a-night" class="text-2xl">A Night</h2>
 
 <p>
 	Nikolai let a few moments pass after Boh had left. He knew that this was his best opportunity to
@@ -496,3 +535,4 @@
 	quickly kicked in and he was well on his way before the stream of blood from the cadaver had reached
 	the bottom of the hillside. Never to be seen again.
 </p>
+</article>
