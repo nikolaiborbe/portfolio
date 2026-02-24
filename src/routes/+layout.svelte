@@ -6,7 +6,12 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href={favicon} type="image/svg+xml" />
+	<title>Nikolai Borbe</title>
+	<meta name="description" content="Nikolai Grytvik Borbe - Student at NTNU studying applied maths and physics." />
+	<meta property="og:title" content="Nikolai Borbe" />
+	<meta property="og:description" content="Student at NTNU studying applied maths and physics." />
+	<meta property="og:type" content="website" />
 </svelte:head>
 
 <div class="font-mono p-4 mx-auto max-w-[750px]">
