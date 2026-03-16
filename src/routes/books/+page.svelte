@@ -1,4 +1,14 @@
 <script lang="ts">
+	const prefetched = new Set<string>();
+
+	function prefetch(href: string) {
+		if (prefetched.has(href)) return;
+		prefetched.add(href);
+		const link = document.createElement('link');
+		link.rel = 'prefetch';
+		link.href = href;
+		document.head.appendChild(link);
+	}
 </script>
 
 <h1 class="text-4xl">Books</h1>
@@ -6,7 +16,11 @@
 <br>
 
 <div class="pl-4">
-	<ul class="list-disc">
+	<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+	<ul class="list-disc" onmouseover={(e) => {
+		const anchor = (e.target as HTMLElement).closest('a');
+		if (anchor?.href) prefetch(anchor.href);
+	}}>
 		<li>
 			<a href="/books/introduction_to_optics.pdf" class="text-fg-brand underline hover:no-underline" target="_blank">Introduction To Optics</a>
 		</li>
