@@ -42,5 +42,8 @@
 		<li>
 			<a href="/books/probability_and_statistics_for_engineers.pdf" class="text-fg-brand underline hover:no-underline" target="_blank">Probability And Statistics For Engineers</a>
 		</li>
+		<li>
+			<a href="/books/general_chemistry.pdf" class="text-fg-brand underline hover:no-underline" target="_blank">General Chemistry: Principles And Modern Applications</a>
+		</li>
 	</ul>
 </div>
