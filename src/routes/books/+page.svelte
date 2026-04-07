@@ -45,5 +45,8 @@
 		<li>
 			<a href="/books/general_chemistry.pdf" class="text-fg-brand underline hover:no-underline" target="_blank">General Chemistry: Principles And Modern Applications</a>
 		</li>
+		<li>
+			<a href="/books/deep_learning_in_computational_mechanics.pdf" class="text-fg-brand underline hover:no-underline" target="_blank">Deep Learning In Computational Mechanics</a>
+		</li>
 	</ul>
 </div>

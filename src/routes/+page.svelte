@@ -37,10 +37,3 @@
 	</ul>
 </div>
 
-<br>
-
-<h3 class="text-2xl font-semibold"><a href="/books" class="text-fg-brand underline hover:no-underline">Books</a></h3>
-
-<br>
-
-<h3 class="text-2xl font-semibold"><a href="/exams" class="text-fg-brand underline hover:no-underline">Exams</a></h3>
