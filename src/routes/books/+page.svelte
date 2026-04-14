@@ -48,5 +48,8 @@
 		<li>
 			<a href="/books/deep_learning_in_computational_mechanics.pdf" class="text-fg-brand underline hover:no-underline" target="_blank">Deep Learning In Computational Mechanics</a>
 		</li>
+		<li>
+			<a href="/books/programming_principles_and_practice_using_cpp.pdf" class="text-fg-brand underline hover:no-underline" target="_blank">Programming: Principles And Practice Using C++ (3rd edition)</a>
+		</li>
 	</ul>
 </div>
