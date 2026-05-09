@@ -31,6 +31,10 @@
 					href: '/books/advanced_engineering_mathematics.pdf'
 				},
 				{
+					title: 'Numerical Analysis (2nd edition)',
+					href: '/books/sauer_numerical_analysis_2nd.pdf'
+				},
+				{
 					title: 'Elementary Linear Algebra Applications',
 					href: '/books/elementary_linear_algebra_applications.pdf'
 				},
